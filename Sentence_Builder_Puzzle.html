@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Sentence Builder - Madia</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 950px;
+            width: 100%;
+        }
+
+        /* Control Panel */
+        .controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+        }
+        .control-group {
+            text-align: center;
+        }
+        .control-label {
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .control-btn {
+            background: linear-gradient(145deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.2s;
+            min-width: 120px;
+        }
+        .control-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        .control-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Sentence Blocks */
+        .blocks {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+        .block {
+            background: linear-gradient(145deg, #f8f8f8, #ffffff);
+            border: 3px solid #667eea;
+            border-radius: 12px;
+            padding: 15px 18px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            min-width: 110px;
+            user-select: none;
+        }
+        .block:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+            border-color: #764ba2;
+        }
+        .block:active {
+            transform: scale(0.95);
+        }
+        .block.disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+        .block.hidden {
+            display: none;
+        }
+        .korean {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .romanization {
+            font-size: 12px;
+            color: #667eea;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 3px;
+        }
+        .english {
+            font-size: 11px;
+            color: #888;
+        }
+
+        /* Result */
+        .result {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+        }
+        .result-korean {
+            font-size: 28px;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        .result-romanization {
+            font-size: 14px;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        .result-english {
+            font-size: 16px;
+            color: rgba(255,255,255,0.9);
+        }
+
+        /* Labels */
+        .section-label {
+            text-align: center;
+            color: #aaa;
+            font-size: 11px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Tips */
+        .tip {
+            background: #e8f4e8;
+            border-left: 4px solid #4caf50;
+            padding: 12px 15px;
+            margin-top: 20px;
+            border-radius: 0 10px 10px 0;
+            font-size: 13px;
+            color: #2e7d32;
+        }
+        .tip.warning {
+            background: #fff3e0;
+            border-left-color: #ff9800;
+            color: #e65100;
+        }
+
+        /* Particle indicator */
+        .particle-note {
+            text-align: center;
+            font-size: 12px;
+            color: #667eea;
+            margin-top: 10px;
+            padding: 8px;
+            background: #f0f4ff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Korean Sentence Builder</h1>
+    <p class="subtitle">Build correct Korean sentences!</p>
+
+    <div class="container">
+        <!-- Control Panel -->
+        <div class="controls">
+            <div class="control-group">
+                <div class="control-label">Action Type</div>
+                <button class="control-btn" id="verb-type-btn" onclick="cycleVerbType()">
+                    eat (먹다)
+                </button>
+            </div>
+            <div class="control-group">
+                <div class="control-label">Tense</div>
+                <button class="control-btn" id="tense-btn" onclick="cycleTense()">
+                    Past (했어요)
+                </button>
+            </div>
+        </div>
+
+        <p class="section-label">Click blocks to change words</p>
+
+        <!-- Sentence Blocks -->
+        <div class="blocks">
+            <div class="block" onclick="cycleSubject()">
+                <div class="korean" id="subject-kr">저는</div>
+                <div class="romanization" id="subject-rom">JOU-NUN</div>
+                <div class="english" id="subject-en">I</div>
+            </div>
+
+            <div class="block" onclick="cycleTime()">
+                <div class="korean" id="time-kr">어제</div>
+                <div class="romanization" id="time-rom">OU-JE</div>
+                <div class="english" id="time-en">yesterday</div>
+            </div>
+
+            <div class="block" onclick="cyclePlace()">
+                <div class="korean" id="place-kr">카페에서</div>
+                <div class="romanization" id="place-rom">KA-PE-E-SOU</div>
+                <div class="english" id="place-en">at the cafe</div>
+            </div>
+
+            <div class="block" id="object-block" onclick="cycleObject()">
+                <div class="korean" id="object-kr">피자</div>
+                <div class="romanization" id="object-rom">PI-JA</div>
+                <div class="english" id="object-en">pizza</div>
+            </div>
+
+            <div class="block">
+                <div class="korean" id="verb-kr">먹었어요</div>
+                <div class="romanization" id="verb-rom">MOU-GOU-SSO-YO</div>
+                <div class="english" id="verb-en">ate</div>
+            </div>
+        </div>
+
+        <div class="particle-note" id="particle-note">
+            에서 = "at" (doing action at a place)
+        </div>
+
+        <!-- Result -->
+        <div class="result">
+            <div class="result-korean" id="full-korean">저는 어제 카페에서 피자 먹었어요</div>
+            <div class="result-romanization" id="full-rom">JOU-NUN OU-JE KA-PE-E-SOU PI-JA MOU-GOU-SSO-YO</div>
+            <div class="result-english" id="full-english">"Yesterday, I ate pizza at the cafe"</div>
+        </div>
+
+        <div class="tip warning">
+            <strong>Pronunciation:</strong> For past tense (-었어요/-았어요), say "SSO-YO" clearly.
+            Wrong sound = sounds like "poop"!
+        </div>
+    </div>
+
+    <script>
+        // ============ DATA ============
+
+        const verbTypes = [
+            {
+                id: 'eat',
+                label: 'eat (먹다)',
+                objectType: 'food',
+                usesEseo: true,
+                tenses: {
+                    past: { kr: '먹었어요', rom: 'MOU-GOU-SSO-YO', en: 'ate' },
+                    present: { kr: '먹어요', rom: 'MOU-GOU-YO', en: 'eat' },
+                    future: { kr: '먹을 거예요', rom: 'MOU-GUL GOU-YE-YO', en: 'will eat' }
+                }
+            },
+            {
+                id: 'drink',
+                label: 'drink (마시다)',
+                objectType: 'drink',
+                usesEseo: true,
+                tenses: {
+                    past: { kr: '마셨어요', rom: 'MA-SYOU-SSO-YO', en: 'drank' },
+                    present: { kr: '마셔요', rom: 'MA-SYOU-YO', en: 'drink' },
+                    future: { kr: '마실 거예요', rom: 'MA-SHIL GOU-YE-YO', en: 'will drink' }
+                }
+            },
+            {
+                id: 'meet',
+                label: 'meet (만나다)',
+                objectType: 'person',
+                usesEseo: true,
+                tenses: {
+                    past: { kr: '만났어요', rom: 'MAN-NA-SSO-YO', en: 'met' },
+                    present: { kr: '만나요', rom: 'MAN-NA-YO', en: 'meet' },
+                    future: { kr: '만날 거예요', rom: 'MAN-NAL GOU-YE-YO', en: 'will meet' }
+                }
+            },
+            {
+                id: 'buy',
+                label: 'buy (사다)',
+                objectType: 'thing',
+                usesEseo: true,
+                tenses: {
+                    past: { kr: '샀어요', rom: 'SA-SSO-YO', en: 'bought' },
+                    present: { kr: '사요', rom: 'SA-YO', en: 'buy' },
+                    future: { kr: '살 거예요', rom: 'SAL GOU-YE-YO', en: 'will buy' }
+                }
+            },
+            {
+                id: 'go',
+                label: 'go (가다)',
+                objectType: 'none',
+                usesEseo: false,
+                tenses: {
+                    past: { kr: '갔어요', rom: 'GA-SSO-YO', en: 'went' },
+                    present: { kr: '가요', rom: 'GA-YO', en: 'go' },
+                    future: { kr: '갈 거예요', rom: 'GAL GOU-YE-YO', en: 'will go' }
+                }
+            }
+        ];
+
+        const tenses = [
+            { id: 'past', label: 'Past (했어요)', times: ['yesterday', 'today'] },
+            { id: 'present', label: 'Present (해요)', times: ['today', 'now'] },
+            { id: 'future', label: 'Future (할 거예요)', times: ['today', 'tomorrow'] }
+        ];
+
+        const times = {
+            yesterday: { kr: '어제', rom: 'OU-JE', en: 'yesterday' },
+            today: { kr: '오늘', rom: 'O-NUL', en: 'today' },
+            tomorrow: { kr: '내일', rom: 'NAE-IL', en: 'tomorrow' },
+            now: { kr: '지금', rom: 'JI-GUM', en: 'now' }
+        };
+
+        const places = [
+            { kr: '카페', rom: 'KA-PE', en: 'cafe' },
+            { kr: '식당', rom: 'SHIK-DANG', en: 'restaurant' },
+            { kr: '공원', rom: 'GONG-WON', en: 'park' },
+            { kr: '백화점', rom: 'BAEK-HWA-JOUM', en: 'department store' },
+            { kr: '학교', rom: 'HAK-GYO', en: 'school' }
+        ];
+
+        const objects = {
+            food: [
+                { kr: '피자', rom: 'PI-JA', en: 'pizza' },
+                { kr: '치킨', rom: 'CHI-KIN', en: 'chicken' },
+                { kr: '케이크', rom: 'KE-I-KEU', en: 'cake' },
+                { kr: '비빔밥', rom: 'BI-BIM-BAP', en: 'bibimbap' },
+                { kr: '김치', rom: 'KIM-CHI', en: 'kimchi' }
+            ],
+            drink: [
+                { kr: '커피', rom: 'KO-PI', en: 'coffee' },
+                { kr: '차', rom: 'CHA', en: 'tea' },
+                { kr: '물', rom: 'MUL', en: 'water' },
+                { kr: '주스', rom: 'JU-SEU', en: 'juice' }
+            ],
+            person: [
+                { kr: '친구', rom: 'CHIN-GU', en: 'friend' },
+                { kr: '선생님', rom: 'SON-SENG-NIM', en: 'teacher' }
+            ],
+            thing: [
+                { kr: '피자', rom: 'PI-JA', en: 'pizza' },
+                { kr: '치킨', rom: 'CHI-KIN', en: 'chicken' },
+                { kr: '케이크', rom: 'KE-I-KEU', en: 'cake' },
+                { kr: '커피', rom: 'KO-PI', en: 'coffee' },
+                { kr: '차', rom: 'CHA', en: 'tea' },
+                { kr: '옷', rom: 'OT', en: 'clothes' },
+                { kr: '신발', rom: 'SHIN-BAL', en: 'shoes' },
+                { kr: '가방', rom: 'GA-BANG', en: 'bag' }
+            ]
+        };
+
+        // ============ STATE ============
+
+        let currentVerbTypeIndex = 0;
+        let currentTenseIndex = 0;
+        let currentTimeIndex = 0;
+        let currentPlaceIndex = 0;
+        let currentObjectIndex = 0;
+
+        // ============ FUNCTIONS ============
+
+        function getCurrentVerbType() {
+            return verbTypes[currentVerbTypeIndex];
+        }
+
+        function getCurrentTense() {
+            return tenses[currentTenseIndex];
+        }
+
+        function getAvailableTimes() {
+            const tense = getCurrentTense();
+            return tense.times.map(t => times[t]);
+        }
+
+        function getAvailableObjects() {
+            const verbType = getCurrentVerbType();
+            if (verbType.objectType === 'none') return [];
+            return objects[verbType.objectType];
+        }
+
+        function cycleVerbType() {
+            currentVerbTypeIndex = (currentVerbTypeIndex + 1) % verbTypes.length;
+            currentObjectIndex = 0; // Reset object when verb changes
+            updateAll();
+        }
+
+        function cycleTense() {
+            currentTenseIndex = (currentTenseIndex + 1) % tenses.length;
+            currentTimeIndex = 0; // Reset time when tense changes
+            updateAll();
+        }
+
+        function cycleSubject() {
+            // Only one subject for now
+        }
+
+        function cycleTime() {
+            const availableTimes = getAvailableTimes();
+            currentTimeIndex = (currentTimeIndex + 1) % availableTimes.length;
+            updateAll();
+        }
+
+        function cyclePlace() {
+            currentPlaceIndex = (currentPlaceIndex + 1) % places.length;
+            updateAll();
+        }
+
+        function cycleObject() {
+            const availableObjects = getAvailableObjects();
+            if (availableObjects.length > 0) {
+                currentObjectIndex = (currentObjectIndex + 1) % availableObjects.length;
+                updateAll();
+            }
+        }
+
+        function updateAll() {
+            const verbType = getCurrentVerbType();
+            const tense = getCurrentTense();
+            const availableTimes = getAvailableTimes();
+            const availableObjects = getAvailableObjects();
+            const place = places[currentPlaceIndex];
+            const time = availableTimes[currentTimeIndex % availableTimes.length];
+            const verb = verbType.tenses[tense.id];
+
+            // Update control buttons
+            document.getElementById('verb-type-btn').textContent = verbType.label;
+            document.getElementById('tense-btn').textContent = tense.label;
+
+            // Update time block
+            document.getElementById('time-kr').textContent = time.kr;
+            document.getElementById('time-rom').textContent = time.rom;
+            document.getElementById('time-en').textContent = time.en;
+
+            // Update place block with correct particle
+            const particle = verbType.usesEseo ? '에서' : '에';
+            const particleRom = verbType.usesEseo ? 'E-SOU' : 'E';
+            const particleEn = verbType.usesEseo ? 'at the' : 'to the';
+
+            document.getElementById('place-kr').textContent = place.kr + particle;
+            document.getElementById('place-rom').textContent = place.rom + '-' + particleRom;
+            document.getElementById('place-en').textContent = particleEn + ' ' + place.en;
+
+            // Update particle note
+            const particleNote = document.getElementById('particle-note');
+            if (verbType.usesEseo) {
+                particleNote.textContent = '에서 = "at" (doing action at a place)';
+            } else {
+                particleNote.textContent = '에 = "to" (going to a place)';
+            }
+
+            // Update object block
+            const objectBlock = document.getElementById('object-block');
+            if (verbType.objectType === 'none') {
+                objectBlock.classList.add('hidden');
+            } else {
+                objectBlock.classList.remove('hidden');
+                const obj = availableObjects[currentObjectIndex % availableObjects.length];
+                document.getElementById('object-kr').textContent = obj.kr;
+                document.getElementById('object-rom').textContent = obj.rom;
+                document.getElementById('object-en').textContent = obj.en;
+            }
+
+            // Update verb block
+            document.getElementById('verb-kr').textContent = verb.kr;
+            document.getElementById('verb-rom').textContent = verb.rom;
+            document.getElementById('verb-en').textContent = verb.en;
+
+            // Build full sentence
+            buildFullSentence();
+        }
+
+        function buildFullSentence() {
+            const verbType = getCurrentVerbType();
+            const tense = getCurrentTense();
+            const availableTimes = getAvailableTimes();
+            const availableObjects = getAvailableObjects();
+            const place = places[currentPlaceIndex];
+            const time = availableTimes[currentTimeIndex % availableTimes.length];
+            const verb = verbType.tenses[tense.id];
+            const particle = verbType.usesEseo ? '에서' : '에';
+            const particleRom = verbType.usesEseo ? 'E-SOU' : 'E';
+
+            let koreanParts = ['저는', time.kr, place.kr + particle];
+            let romParts = ['JOU-NUN', time.rom, place.rom + '-' + particleRom];
+            let englishParts = [];
+
+            if (verbType.objectType !== 'none') {
+                const obj = availableObjects[currentObjectIndex % availableObjects.length];
+                koreanParts.push(obj.kr);
+                romParts.push(obj.rom);
+            }
+
+            koreanParts.push(verb.kr);
+            romParts.push(verb.rom);
+
+            // Build English sentence
+            let timeEn = time.en === 'now' ? '' : (time.en.charAt(0).toUpperCase() + time.en.slice(1) + ',');
+            let placeEn = verbType.usesEseo ? 'at the ' + place.en : 'to the ' + place.en;
+
+            if (verbType.objectType === 'none') {
+                // "go" type: Yesterday, I went to the cafe
+                englishParts = [timeEn, 'I', verb.en, placeEn].filter(x => x);
+            } else {
+                // Other verbs: Yesterday, I ate pizza at the cafe
+                const obj = availableObjects[currentObjectIndex % availableObjects.length];
+                if (verbType.id === 'meet') {
+                    englishParts = [timeEn, 'I', verb.en, obj.en, placeEn].filter(x => x);
+                } else {
+                    englishParts = [timeEn, 'I', verb.en, obj.en, placeEn].filter(x => x);
+                }
+            }
+
+            document.getElementById('full-korean').textContent = koreanParts.join(' ');
+            document.getElementById('full-rom').textContent = romParts.join(' ');
+            document.getElementById('full-english').textContent = '"' + englishParts.join(' ') + '"';
+        }
+
+        // Initialize
+        updateAll();
+    </script>
+</body>
+</html>
