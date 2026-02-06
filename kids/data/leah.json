@@ -1,0 +1,236 @@
+{
+  "id": "leah",
+  "name": "Leah",
+  "nameKr": "리아",
+  "age": 5,
+  "emoji": "👧",
+  "theme": "#FF6B9D",
+
+  "review": [
+    { "kr": "안녕하세요!", "rom": "an-nyeong-ha-se-yo", "en": "Hello!", "emoji": "👋", "category": "greeting" },
+    { "kr": "감사합니다!", "rom": "gam-sa-ham-ni-da", "en": "Thank you!", "emoji": "🙏", "category": "greeting" },
+    { "kr": "저는 리아입니다.", "rom": "jeo-neun ri-a-im-ni-da", "en": "I am Leah.", "emoji": "👧", "category": "intro" },
+    { "kr": "저는 다섯 살입니다.", "rom": "jeo-neun da-seot sal-im-ni-da", "en": "I am 5 years old.", "emoji": "🎂5️⃣", "category": "intro" },
+    { "kr": "맛있어요!", "rom": "ma-si-sseo-yo", "en": "Delicious!", "emoji": "😋", "category": "expression" },
+    { "kr": "좋아요!", "rom": "jo-a-yo", "en": "Good! / I like it!", "emoji": "👍", "category": "expression" },
+    { "kr": "너무 좋아요!", "rom": "neo-mu jo-a-yo", "en": "So good!", "emoji": "👍✨", "category": "expression" },
+    { "kr": "너무 귀여워요!", "rom": "neo-mu gwi-yeo-wo-yo", "en": "So cute!", "emoji": "🥰", "category": "expression" },
+    { "kr": "잘했어요!", "rom": "jal-hae-sseo-yo", "en": "Well done!", "emoji": "⭐", "category": "expression" },
+    { "kr": "사랑해요!", "rom": "sa-rang-hae-yo", "en": "I love you!", "emoji": "❤️", "category": "expression" },
+    { "kr": "주세요!", "rom": "ju-se-yo", "en": "Please give me!", "emoji": "🙏🍽️", "category": "request" }
+  ],
+
+  "numbers": [
+    { "num": 1, "kr": "하나", "rom": "ha-na", "emoji": "1️⃣" },
+    { "num": 2, "kr": "둘", "rom": "dul", "emoji": "2️⃣" },
+    { "num": 3, "kr": "셋", "rom": "set", "emoji": "3️⃣" },
+    { "num": 4, "kr": "넷", "rom": "net", "emoji": "4️⃣" },
+    { "num": 5, "kr": "다섯", "rom": "da-seot", "emoji": "5️⃣" }
+  ],
+
+  "verbs": [
+    { "kr": "먹다", "rom": "meok-da", "en": "to eat", "emoji": "🍽️", "polite": "먹어요", "politeRom": "meo-geo-yo" },
+    { "kr": "마시다", "rom": "ma-si-da", "en": "to drink", "emoji": "🥤", "polite": "마셔요", "politeRom": "ma-syeo-yo" },
+    { "kr": "가다", "rom": "ga-da", "en": "to go", "emoji": "🚶", "polite": "가요", "politeRom": "ga-yo" },
+    { "kr": "오다", "rom": "o-da", "en": "to come", "emoji": "🏃", "polite": "와요", "politeRom": "wa-yo" },
+    { "kr": "보다", "rom": "bo-da", "en": "to see / watch", "emoji": "👀", "polite": "봐요", "politeRom": "bwa-yo" },
+    { "kr": "좋아하다", "rom": "jo-a-ha-da", "en": "to like", "emoji": "💖", "polite": "좋아해요", "politeRom": "jo-a-hae-yo" },
+    { "kr": "하다", "rom": "ha-da", "en": "to do", "emoji": "💪", "polite": "해요", "politeRom": "hae-yo" },
+    { "kr": "놀다", "rom": "nol-da", "en": "to play", "emoji": "🎮", "polite": "놀아요", "politeRom": "no-ra-yo" },
+    { "kr": "자다", "rom": "ja-da", "en": "to sleep", "emoji": "😴", "polite": "자요", "politeRom": "ja-yo" },
+    { "kr": "노래하다", "rom": "no-rae-ha-da", "en": "to sing", "emoji": "🎤", "polite": "노래해요", "politeRom": "no-rae-hae-yo" }
+  ],
+
+  "nouns": [
+    { "kr": "밥", "rom": "bap", "en": "rice / meal", "emoji": "🍚" },
+    { "kr": "물", "rom": "mul", "en": "water", "emoji": "💧" },
+    { "kr": "우유", "rom": "u-yu", "en": "milk", "emoji": "🥛" },
+    { "kr": "집", "rom": "jip", "en": "home / house", "emoji": "🏠" },
+    { "kr": "노래", "rom": "no-rae", "en": "song", "emoji": "🎤" },
+    { "kr": "친구", "rom": "chin-gu", "en": "friend", "emoji": "🤝" },
+    { "kr": "엄마", "rom": "eom-ma", "en": "mom", "emoji": "👩" },
+    { "kr": "과자", "rom": "gwa-ja", "en": "snack / cookie", "emoji": "🍪" },
+    { "kr": "고양이", "rom": "go-yang-i", "en": "cat", "emoji": "🐱" },
+    { "kr": "강아지", "rom": "gang-a-ji", "en": "puppy", "emoji": "🐶" }
+  ],
+
+  "sentences": [
+    {
+      "kr": "밥 먹어요.",
+      "rom": "bap meo-geo-yo",
+      "en": "I eat rice.",
+      "emoji": "🍚🍽️",
+      "blocks": ["밥", "먹어요"],
+      "hint": "rice + eat"
+    },
+    {
+      "kr": "물 마셔요.",
+      "rom": "mul ma-syeo-yo",
+      "en": "I drink water.",
+      "emoji": "💧🥤",
+      "blocks": ["물", "마셔요"],
+      "hint": "water + drink"
+    },
+    {
+      "kr": "우유 마셔요.",
+      "rom": "u-yu ma-syeo-yo",
+      "en": "I drink milk.",
+      "emoji": "🥛🥤",
+      "blocks": ["우유", "마셔요"],
+      "hint": "milk + drink"
+    },
+    {
+      "kr": "집에 가요.",
+      "rom": "ji-be ga-yo",
+      "en": "I go home.",
+      "emoji": "🏠🚶",
+      "blocks": ["집에", "가요"],
+      "hint": "home + go"
+    },
+    {
+      "kr": "엄마 와요.",
+      "rom": "eom-ma wa-yo",
+      "en": "Mom comes.",
+      "emoji": "👩🏃",
+      "blocks": ["엄마", "와요"],
+      "hint": "mom + come"
+    },
+    {
+      "kr": "노래해요.",
+      "rom": "no-rae-hae-yo",
+      "en": "I sing.",
+      "emoji": "🎤🎶",
+      "blocks": ["노래", "해요"],
+      "hint": "song + do"
+    },
+    {
+      "kr": "친구 좋아해요.",
+      "rom": "chin-gu jo-a-hae-yo",
+      "en": "I like my friend.",
+      "emoji": "🤝💖",
+      "blocks": ["친구", "좋아해요"],
+      "hint": "friend + like"
+    },
+    {
+      "kr": "과자 먹어요.",
+      "rom": "gwa-ja meo-geo-yo",
+      "en": "I eat a snack.",
+      "emoji": "🍪🍽️",
+      "blocks": ["과자", "먹어요"],
+      "hint": "snack + eat"
+    },
+    {
+      "kr": "고양이 봐요.",
+      "rom": "go-yang-i bwa-yo",
+      "en": "I see a cat.",
+      "emoji": "🐱👀",
+      "blocks": ["고양이", "봐요"],
+      "hint": "cat + see"
+    },
+    {
+      "kr": "강아지 좋아해요.",
+      "rom": "gang-a-ji jo-a-hae-yo",
+      "en": "I like puppies.",
+      "emoji": "🐶💖",
+      "blocks": ["강아지", "좋아해요"],
+      "hint": "puppy + like"
+    },
+    {
+      "kr": "친구하고 놀아요.",
+      "rom": "chin-gu-ha-go no-ra-yo",
+      "en": "I play with a friend.",
+      "emoji": "🤝🎮",
+      "blocks": ["친구하고", "놀아요"],
+      "hint": "with friend + play"
+    },
+    {
+      "kr": "엄마 사랑해요.",
+      "rom": "eom-ma sa-rang-hae-yo",
+      "en": "I love mom.",
+      "emoji": "👩❤️",
+      "blocks": ["엄마", "사랑해요"],
+      "hint": "mom + love"
+    }
+  ],
+
+  "pictureQuiz": [
+    {
+      "sentence": { "kr": "밥 먹어요.", "rom": "bap meo-geo-yo", "en": "I eat rice." },
+      "correctEmoji": "🍚🍽️",
+      "options": ["🍚🍽️", "💧🥤", "🎤🎶"],
+      "level": 1
+    },
+    {
+      "sentence": { "kr": "물 마셔요.", "rom": "mul ma-syeo-yo", "en": "I drink water." },
+      "correctEmoji": "💧🥤",
+      "options": ["💧🥤", "🍚🍽️", "🏠🚶"],
+      "level": 1
+    },
+    {
+      "sentence": { "kr": "맛있어요!", "rom": "ma-si-sseo-yo", "en": "Delicious!" },
+      "correctEmoji": "😋🍽️",
+      "options": ["😋🍽️", "😴🌙", "👋😊"],
+      "level": 1
+    },
+    {
+      "sentence": { "kr": "너무 귀여워요!", "rom": "neo-mu gwi-yeo-wo-yo", "en": "So cute!" },
+      "correctEmoji": "🥰✨",
+      "options": ["🥰✨", "😋🍽️", "👍⭐"],
+      "level": 1
+    },
+    {
+      "sentence": { "kr": "사랑해요!", "rom": "sa-rang-hae-yo", "en": "I love you!" },
+      "correctEmoji": "❤️😍",
+      "options": ["❤️😍", "👋😊", "😴🌙"],
+      "level": 1
+    },
+    {
+      "sentence": { "kr": "집에 가요.", "rom": "ji-be ga-yo", "en": "I go home." },
+      "correctEmoji": "🏠🚶",
+      "options": ["🏠🚶", "💧🥤", "🎤🎶"],
+      "level": 1
+    },
+    {
+      "sentence": { "kr": "노래해요.", "rom": "no-rae-hae-yo", "en": "I sing." },
+      "correctEmoji": "🎤🎶",
+      "options": ["🎤🎶", "🍚🍽️", "🐱👀"],
+      "level": 2
+    },
+    {
+      "sentence": { "kr": "친구 좋아해요.", "rom": "chin-gu jo-a-hae-yo", "en": "I like my friend." },
+      "correctEmoji": "🤝💖",
+      "options": ["🤝💖", "🐶💖", "👩❤️"],
+      "level": 2
+    },
+    {
+      "sentence": { "kr": "고양이 봐요.", "rom": "go-yang-i bwa-yo", "en": "I see a cat." },
+      "correctEmoji": "🐱👀",
+      "options": ["🐱👀", "🐶💖", "🍪🍽️"],
+      "level": 2
+    },
+    {
+      "sentence": { "kr": "과자 먹어요.", "rom": "gwa-ja meo-geo-yo", "en": "I eat a snack." },
+      "correctEmoji": "🍪🍽️",
+      "options": ["🍪🍽️", "🍚🍽️", "🥛🥤"],
+      "level": 2
+    },
+    {
+      "sentence": { "kr": "강아지 좋아해요.", "rom": "gang-a-ji jo-a-hae-yo", "en": "I like puppies." },
+      "correctEmoji": "🐶💖",
+      "options": ["🐶💖", "🐱👀", "🤝🎮"],
+      "level": 2
+    },
+    {
+      "sentence": { "kr": "엄마 사랑해요.", "rom": "eom-ma sa-rang-hae-yo", "en": "I love mom." },
+      "correctEmoji": "👩❤️",
+      "options": ["👩❤️", "🤝💖", "❤️😍"],
+      "level": 2
+    },
+    {
+      "sentence": { "kr": "친구하고 놀아요.", "rom": "chin-gu-ha-go no-ra-yo", "en": "I play with a friend." },
+      "correctEmoji": "🤝🎮",
+      "options": ["🤝🎮", "🐱👀", "🏠🚶"],
+      "level": 2
+    }
+  ]
+}

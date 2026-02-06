@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Learning Tools</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="app-page">
+    <!-- Header -->
+    <header class="app-header">
+        <div class="header-content">
+            <div class="header-left">
+                <h1>Korean Learning Tools</h1>
+                <p class="student-name">Welcome, <span id="student-display-name">Student</span>!</p>
+            </div>
+            <div class="header-right">
+                <button class="header-btn logout-btn" onclick="logout()">Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+        <div class="tabs-container">
+            <button class="tab-btn active" data-tab="sentence-builder">Sentence Builder</button>
+            <button class="tab-btn" data-tab="flashcards">Flashcards</button>
+            <button class="tab-btn" data-tab="settings">Settings</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="app-main">
+        <div class="content-container">
+            <!-- Sentence Builder Tab -->
+            <div id="sentence-builder" class="tab-content active">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Sentence Builder</h2>
+                        <p>Click blocks to change words and build Korean sentences!</p>
+                    </div>
+
+                    <!-- Control Panel -->
+                    <div class="sentence-controls">
+                        <div class="control-group">
+                            <div class="control-label">Action Type</div>
+                            <button class="control-btn" id="verb-type-btn" onclick="cycleVerbType()">
+                                eat (먹다)
+                            </button>
+                        </div>
+                        <div class="control-group">
+                            <div class="control-label">Tense</div>
+                            <button class="control-btn" id="tense-btn" onclick="cycleTense()">
+                                Past (했어요)
+                            </button>
+                        </div>
+                    </div>
+
+                    <p class="section-label">Click blocks to change words</p>
+
+                    <!-- Sentence Blocks -->
+                    <div class="sentence-blocks" id="sentence-blocks">
+                        <div class="block" onclick="cycleSubject()">
+                            <div class="korean" id="subject-kr">저는</div>
+                            <div class="romanization" id="subject-rom">JOU-NUN</div>
+                            <div class="english" id="subject-en">I</div>
+                        </div>
+
+                        <div class="block" onclick="cycleTime()">
+                            <div class="korean" id="time-kr">어제</div>
+                            <div class="romanization" id="time-rom">OU-JE</div>
+                            <div class="english" id="time-en">yesterday</div>
+                        </div>
+
+                        <div class="block" onclick="cyclePlace()">
+                            <div class="korean" id="place-kr">카페에서</div>
+                            <div class="romanization" id="place-rom">KA-PE-E-SOU</div>
+                            <div class="english" id="place-en">at the cafe</div>
+                        </div>
+
+                        <div class="block" id="object-block" onclick="cycleObject()">
+                            <div class="korean" id="object-kr">피자</div>
+                            <div class="romanization" id="object-rom">PI-JA</div>
+                            <div class="english" id="object-en">pizza</div>
+                        </div>
+
+                        <div class="block">
+                            <div class="korean" id="verb-kr">먹었어요</div>
+                            <div class="romanization" id="verb-rom">MOU-GOU-SSO-YO</div>
+                            <div class="english" id="verb-en">ate</div>
+                        </div>
+                    </div>
+
+                    <div class="particle-note" id="particle-note">
+                        에서 = "at" (doing action at a place)
+                    </div>
+
+                    <!-- Result -->
+                    <div class="sentence-result">
+                        <div class="result-korean" id="full-korean">저는 어제 카페에서 피자 먹었어요</div>
+                        <div class="result-romanization" id="full-rom">JOU-NUN OU-JE KA-PE-E-SOU PI-JA MOU-GOU-SSO-YO</div>
+                        <div class="result-english" id="full-english">"Yesterday, I ate pizza at the cafe"</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flashcards Tab -->
+            <div id="flashcards" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Vocabulary Flashcards</h2>
+                        <p>Practice your assigned vocabulary words</p>
+                    </div>
+
+                    <div class="flashcard-container">
+                        <div class="flashcard-stats">
+                            <div class="stat-item">
+                                <div class="stat-value" id="known-count">0</div>
+                                <div class="stat-label">Known</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value" id="learning-count">0</div>
+                                <div class="stat-label">Learning</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value" id="streak-count">0</div>
+                                <div class="stat-label">Current Streak</div>
+                            </div>
+                        </div>
+
+                        <div class="flashcard-wrapper" id="flashcard-wrapper">
+                            <div class="flashcard" id="flashcard" onclick="flipCard()">
+                                <div class="flashcard-face flashcard-front">
+                                    <div class="word" id="card-front-word">coffee</div>
+                                    <div class="hint-text">Click to reveal</div>
+                                </div>
+                                <div class="flashcard-face flashcard-back">
+                                    <div class="korean-word" id="card-back-korean">커피</div>
+                                    <div class="romanization" id="card-back-rom">KO-PI</div>
+                                    <div class="example-sentence" id="card-back-example">커피를 마셔요.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flashcard-buttons" id="flashcard-buttons">
+                            <button class="flashcard-btn btn-dont-know" onclick="markDontKnow()">
+                                Don't Know
+                            </button>
+                            <button class="flashcard-btn btn-know" onclick="markKnow()">
+                                I Know This!
+                            </button>
+                        </div>
+
+                        <div class="flashcard-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+                            </div>
+                            <div class="progress-text" id="progress-text">0 of 0 reviewed</div>
+                        </div>
+                    </div>
+
+                    <div class="empty-state hidden" id="flashcard-empty">
+                        <div class="empty-state-icon">🎉</div>
+                        <p>Great job! You've reviewed all cards for today!</p>
+                        <button class="action-btn primary" onclick="resetFlashcards()" style="margin-top: 15px;">
+                            Practice Again
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Settings Tab -->
+            <div id="settings" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Settings</h2>
+                        <p>Customize your learning experience</p>
+                    </div>
+
+                    <div class="settings-group">
+                        <h3>Display Options</h3>
+
+                        <div class="setting-item">
+                            <div class="setting-info">
+                                <h4>Show Romanization</h4>
+                                <p>Display pronunciation guide below Korean text</p>
+                            </div>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="romanization-toggle" checked onchange="toggleRomanization()">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+
+                        <div class="setting-item">
+                            <div class="setting-info">
+                                <h4>Auto-Flip Cards</h4>
+                                <p>Automatically reveal flashcard after 3 seconds</p>
+                            </div>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="autoflip-toggle" onchange="toggleAutoFlip()">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="settings-group">
+                        <h3>Progress Data</h3>
+
+                        <div class="setting-item">
+                            <div class="setting-info">
+                                <h4>Export Progress</h4>
+                                <p>Download your learning progress as JSON file</p>
+                            </div>
+                            <button class="action-btn primary" onclick="exportProgress()">
+                                Export
+                            </button>
+                        </div>
+
+                        <div class="setting-item">
+                            <div class="setting-info">
+                                <h4>Reset Progress</h4>
+                                <p>Clear all progress data (cannot be undone)</p>
+                            </div>
+                            <button class="action-btn danger" onclick="confirmResetProgress()">
+                                Reset
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="settings-group">
+                        <h3>Account</h3>
+
+                        <div class="setting-item">
+                            <div class="setting-info">
+                                <h4>Student ID</h4>
+                                <p id="settings-student-id">-</p>
+                            </div>
+                        </div>
+
+                        <div class="setting-item">
+                            <div class="setting-info">
+                                <h4>TOPIK Level</h4>
+                                <p id="settings-level">Level 1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+    <script src="js/sentence-builder.js"></script>
+    <script src="js/flashcard.js"></script>
+</body>
+</html>

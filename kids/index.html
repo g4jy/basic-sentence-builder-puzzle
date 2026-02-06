@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Korean Playground</title>
+  <link rel="stylesheet" href="css/kids.css">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <!-- Hero -->
+    <div class="hub-hero">
+      <h1>Korean Playground</h1>
+      <p>Choose your name to start!</p>
+    </div>
+
+    <!-- Student Selection -->
+    <div class="student-select" id="student-select">
+      <div class="student-card" data-student="asa" onclick="selectStudent('asa')">
+        <span class="student-emoji">🧒</span>
+        <div class="student-name">Asa</div>
+        <div class="student-name-kr">에이사</div>
+      </div>
+      <div class="student-card" data-student="leah" onclick="selectStudent('leah')">
+        <span class="student-emoji">👧</span>
+        <div class="student-name">Leah</div>
+        <div class="student-name-kr">리아</div>
+      </div>
+    </div>
+
+    <!-- Game Menu (shown after student selection) -->
+    <div id="game-menu" class="hidden">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+        <h2 style="font-size:1.3rem;font-weight:900;">Pick a Game!</h2>
+        <button class="btn btn-ghost" onclick="changeStudent()" style="font-size:0.9rem;">Switch</button>
+      </div>
+
+      <div class="game-grid">
+        <a href="picture-quiz.html" class="game-card">
+          <div class="game-icon" style="background:#DFFFF8;">🖼️</div>
+          <div class="game-info">
+            <h3>Picture Quiz</h3>
+            <p>Match sentences with pictures!</p>
+          </div>
+        </a>
+
+        <a href="sentence-puzzle.html" class="game-card">
+          <div class="game-icon" style="background:#FFF3E0;">🧩</div>
+          <div class="game-info">
+            <h3>Sentence Puzzle</h3>
+            <p>Build Korean sentences!</p>
+          </div>
+        </a>
+
+        <a href="memory-match.html" class="game-card">
+          <div class="game-icon" style="background:#E8EAF6;">🃏</div>
+          <div class="game-info">
+            <h3>Memory Match</h3>
+            <p>Find the matching pairs!</p>
+          </div>
+        </a>
+
+        <a href="word-explorer.html" class="game-card">
+          <div class="game-icon" style="background:#FCE4EC;">📚</div>
+          <div class="game-info">
+            <h3>Word Explorer</h3>
+            <p>Learn new words & pictures!</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Settings -->
+      <div class="card mt-24" style="padding:16px 20px;">
+        <div class="toggle-row">
+          <span class="toggle-label">Show Romanization (abc)</span>
+          <label class="toggle-switch">
+            <input type="checkbox" id="rom-toggle" onchange="toggleRom(this.checked)">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/kids-common.js"></script>
+  <script>
+    const currentStudent = KidsApp.getStudent();
+    if (currentStudent) {
+      showGameMenu(currentStudent);
+    }
+
+    function selectStudent(id) {
+      KidsApp.setStudent(id);
+      showGameMenu(id);
+      // Highlight selected card
+      document.querySelectorAll('.student-card').forEach(c => c.classList.remove('active'));
+      document.querySelector(`[data-student="${id}"]`).classList.add('active');
+    }
+
+    function showGameMenu(id) {
+      document.getElementById('game-menu').classList.remove('hidden');
+      document.querySelectorAll('.student-card').forEach(c => c.classList.remove('active'));
+      const card = document.querySelector(`[data-student="${id}"]`);
+      if (card) card.classList.add('active');
+      // Load settings
+      const s = KidsApp.getSettings();
+      document.getElementById('rom-toggle').checked = s.showRomanization;
+    }
+
+    function changeStudent() {
+      document.getElementById('game-menu').classList.add('hidden');
+      document.querySelectorAll('.student-card').forEach(c => c.classList.remove('active'));
+    }
+
+    function toggleRom(checked) {
+      const s = KidsApp.getSettings();
+      s.showRomanization = checked;
+      KidsApp.saveSettings(s);
+    }
+  </script>
+</body>
+</html>

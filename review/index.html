@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Korean Review Hub</title>
+  <link rel="stylesheet" href="css/review.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Screen 1: Student Select -->
+    <div id="screen-select" class="screen active">
+      <div style="padding: 24px 0 16px; text-align: center;">
+        <h1 style="font-size: 1.4rem; font-weight: 700;">Korean Review Hub</h1>
+        <p class="text-muted" style="font-size: 0.85rem; margin-top: 4px;">Select your profile to start practicing</p>
+      </div>
+      <div id="student-list" class="student-select">
+        <div class="loading">Loading students...</div>
+      </div>
+    </div>
+
+    <!-- Screen 2: Game Menu -->
+    <div id="screen-menu" class="screen">
+      <div class="header">
+        <button class="header-back" onclick="showSelectScreen()" aria-label="Back">&larr;</button>
+        <div class="header-title" id="menu-title"></div>
+        <button class="btn btn-ghost btn-sm" onclick="changeStudent()">Change</button>
+      </div>
+
+      <!-- Stats Overview -->
+      <div class="stats-bar mb-md" id="menu-stats">
+        <div class="stat">
+          <div class="stat-value" id="stat-seen">0</div>
+          <div class="stat-label">Seen</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-mastered">0</div>
+          <div class="stat-label">Mastered</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-learning">0</div>
+          <div class="stat-label">Learning</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-accuracy">0%</div>
+          <div class="stat-label">Accuracy</div>
+        </div>
+      </div>
+
+      <!-- Tier Badge -->
+      <div id="tier-badge" class="mb-md" style="text-align: center;"></div>
+
+      <!-- Game Cards -->
+      <div class="game-menu" id="game-list"></div>
+    </div>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script>
+    const GAME_INFO = {
+      flashcards: {
+        icon: '🃏',
+        title: 'Flashcards',
+        desc: 'Flip cards to learn vocabulary with spaced repetition',
+        countLabel: 'words'
+      },
+      'quick-quiz': {
+        icon: '❓',
+        title: 'Quick Quiz',
+        desc: 'Test yourself with multiple choice questions',
+        countLabel: 'questions'
+      },
+      'sentence-builder': {
+        icon: '🧩',
+        title: 'Sentence Builder',
+        desc: 'Arrange blocks to build Korean sentences',
+        countLabel: 'sentences'
+      },
+      conjugation: {
+        icon: '🔄',
+        title: 'Conjugation',
+        desc: 'Practice verb conjugation across tenses',
+        countLabel: 'verbs'
+      }
+    };
+
+    async function init() {
+      const ok = await StudentManager.init();
+      if (!ok) {
+        document.getElementById('student-list').innerHTML =
+          '<div class="text-center text-muted">Failed to load student data.</div>';
+        return;
+      }
+
+      if (StudentManager.current) {
+        showMenuScreen();
+      } else {
+        renderStudentList();
+      }
+    }
+
+    function renderStudentList() {
+      const students = StudentManager.getStudents();
+      const tiers = StudentManager.manifest.tiers;
+      const container = document.getElementById('student-list');
+      let html = '';
+
+      // Group students by tier
+      const tierOrder = ['starter', 'builder', 'conversation'];
+      tierOrder.forEach(function(tierKey) {
+        const tierInfo = tiers[tierKey];
+        const tierStudents = students.filter(function(s) { return s.tier === tierKey; });
+        if (tierStudents.length === 0) return;
+
+        html += '<div class="tier-section fade-in">';
+        html += '<div class="tier-header">';
+        html += '<span style="color:' + tierInfo.color + '">' + tierInfo.emoji + ' ' + tierInfo.name + '</span>';
+        html += '<div class="tier-header-line"></div>';
+        html += '<span>' + tierStudents.length + '</span>';
+        html += '</div>';
+        html += '<div class="student-grid">';
+
+        tierStudents.forEach(function(student) {
+          html += '<div class="student-card slide-up" data-tier="' + tierKey + '" onclick="selectStudent(\'' + student.id + '\')">';
+          html += '<div class="student-emoji">' + student.emoji + '</div>';
+          html += '<div class="student-name">' + Utils.escapeHtml(student.name) + '</div>';
+          html += '</div>';
+        });
+
+        html += '</div></div>';
+      });
+
+      container.innerHTML = html;
+    }
+
+    async function selectStudent(id) {
+      const ok = await StudentManager.selectStudent(id);
+      if (ok) {
+        showMenuScreen();
+      }
+    }
+
+    function showSelectScreen() {
+      document.getElementById('screen-select').classList.add('active');
+      document.getElementById('screen-menu').classList.remove('active');
+      renderStudentList();
+    }
+
+    function showMenuScreen() {
+      document.getElementById('screen-select').classList.remove('active');
+      document.getElementById('screen-menu').classList.add('active');
+      renderMenu();
+    }
+
+    function changeStudent() {
+      StudentManager.clearSelection();
+      showSelectScreen();
+    }
+
+    function renderMenu() {
+      const student = StudentManager.current;
+      if (!student) return;
+
+      // Title
+      document.getElementById('menu-title').innerHTML =
+        '<span>' + student.emoji + '</span> ' + Utils.escapeHtml(student.name);
+
+      // Tier badge
+      const tierConfig = student.tierConfig;
+      document.getElementById('tier-badge').innerHTML =
+        '<span class="tense-badge">' + tierConfig.emoji + ' ' + tierConfig.nameKr + '</span>';
+
+      // Stats
+      const stats = SRS.getStats(student.id);
+      document.getElementById('stat-seen').textContent = stats.totalSeen;
+      document.getElementById('stat-mastered').textContent = stats.mastered;
+      document.getElementById('stat-learning').textContent = stats.learning;
+      document.getElementById('stat-accuracy').textContent = stats.accuracy + '%';
+
+      // Games
+      const games = tierConfig.games;
+      const tierData = StudentManager.getCurrentTierData();
+      const items = DataHelper.extractItems(tierData);
+      const gameList = document.getElementById('game-list');
+      let html = '';
+
+      games.forEach(function(gameKey) {
+        const info = GAME_INFO[gameKey];
+        if (!info) return;
+
+        var count = 0;
+        if (gameKey === 'flashcards' || gameKey === 'quick-quiz') {
+          count = items.all.length;
+        } else if (gameKey === 'sentence-builder') {
+          count = items.sentences.length;
+        } else if (gameKey === 'conjugation') {
+          count = items.verbs.length;
+        }
+
+        html += '<div class="game-card slide-up" onclick="Nav.goToGame(\'' + gameKey + '\')">';
+        html += '<div class="game-card-icon">' + info.icon + '</div>';
+        html += '<div class="game-card-info">';
+        html += '<div class="game-card-title">' + info.title + '</div>';
+        html += '<div class="game-card-desc">' + info.desc + '</div>';
+        if (count > 0) {
+          html += '<div class="game-card-count">' + count + ' ' + info.countLabel + '</div>';
+        }
+        html += '</div>';
+        html += '<div class="game-card-arrow">&rsaquo;</div>';
+        html += '</div>';
+      });
+
+      gameList.innerHTML = html;
+    }
+
+    init();
+  </script>
+</body>
+</html>

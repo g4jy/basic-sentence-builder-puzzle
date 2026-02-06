@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Word Explorer - Korean Playground</title>
+  <link rel="stylesheet" href="css/kids.css">
+  <style>
+    .explorer-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 28px 20px;
+      text-align: center;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition);
+      cursor: pointer;
+      animation: slideUp 0.4s ease;
+    }
+    .explorer-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+    .word-list {
+      display: grid;
+      gap: 12px;
+      margin: 16px 0;
+    }
+    .word-item {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: var(--shadow-sm);
+      cursor: pointer;
+      transition: var(--transition);
+      animation: slideUp 0.3s ease backwards;
+    }
+    .word-item:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
+    .word-item .word-emoji { font-size: 2rem; flex-shrink: 0; width: 48px; text-align: center; }
+    .word-item .word-kr { font-size: 1.5rem; font-weight: 900; }
+    .word-item .word-rom { font-size: 0.85rem; color: var(--gray-600); font-style: italic; }
+    .word-item .word-en { font-size: 0.9rem; color: var(--gray-600); }
+    .word-item .word-info { flex: 1; text-align: left; }
+
+    /* Flashcard mode */
+    .flash-container {
+      perspective: 1000px;
+      max-width: 400px;
+      margin: 0 auto;
+      height: 280px;
+    }
+    .flash-inner {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.6s ease;
+      cursor: pointer;
+    }
+    .flash-inner.flipped { transform: rotateY(180deg); }
+    .flash-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: var(--radius-lg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-shadow: var(--shadow-md);
+    }
+    .flash-front {
+      background: var(--white);
+    }
+    .flash-back {
+      background: linear-gradient(135deg, var(--primary), var(--primary-light));
+      color: white;
+      transform: rotateY(180deg);
+    }
+    .flash-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .combo-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      margin: 12px 0;
+      box-shadow: var(--shadow-sm);
+      text-align: center;
+      transition: var(--transition);
+      cursor: pointer;
+      animation: slideUp 0.3s ease backwards;
+    }
+    .combo-card:hover { box-shadow: var(--shadow-md); }
+    .combo-parts {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin: 8px 0;
+      flex-wrap: wrap;
+    }
+    .combo-part {
+      background: var(--bg-tint);
+      border: 2px solid var(--primary-light);
+      border-radius: var(--radius);
+      padding: 6px 12px;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .combo-arrow { color: var(--primary); font-size: 1.2rem; }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="page-header"></div>
+
+    <!-- Category Select -->
+    <div id="category-select">
+      <div class="game-grid">
+        <div class="explorer-card" onclick="showCategory('verbs')">
+          <div style="font-size:3rem;">💪</div>
+          <h3 style="font-size:1.3rem;font-weight:900;margin-top:8px;">Verbs</h3>
+          <p style="color:var(--gray-600);font-size:0.9rem;">Action words!</p>
+          <span id="verb-count" style="font-size:0.85rem;color:var(--primary);font-weight:700;"></span>
+        </div>
+        <div class="explorer-card" onclick="showCategory('nouns')">
+          <div style="font-size:3rem;">📦</div>
+          <h3 style="font-size:1.3rem;font-weight:900;margin-top:8px;">Nouns</h3>
+          <p style="color:var(--gray-600);font-size:0.9rem;">Thing words!</p>
+          <span id="noun-count" style="font-size:0.85rem;color:var(--primary);font-weight:700;"></span>
+        </div>
+        <div class="explorer-card" onclick="showCategory('sentences')">
+          <div style="font-size:3rem;">💬</div>
+          <h3 style="font-size:1.3rem;font-weight:900;margin-top:8px;">Sentences</h3>
+          <p style="color:var(--gray-600);font-size:0.9rem;">Put it all together!</p>
+          <span id="sentence-count" style="font-size:0.85rem;color:var(--primary);font-weight:700;"></span>
+        </div>
+        <div class="explorer-card" onclick="showCategory('flashcards')">
+          <div style="font-size:3rem;">🔄</div>
+          <h3 style="font-size:1.3rem;font-weight:900;margin-top:8px;">Flashcards</h3>
+          <p style="color:var(--gray-600);font-size:0.9rem;">Quick practice!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Word List View -->
+    <div id="list-view" class="hidden">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+        <h2 id="list-title" style="font-size:1.3rem;font-weight:900;"></h2>
+        <button class="btn btn-ghost" onclick="backToCategories()">← Back</button>
+      </div>
+      <div class="word-list" id="word-list"></div>
+    </div>
+
+    <!-- Flashcard View -->
+    <div id="flash-view" class="hidden">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+        <button class="btn btn-ghost" onclick="backToCategories()">← Back</button>
+        <span id="flash-counter" style="font-size:0.9rem;color:var(--gray-600);"></span>
+        <div class="category-tabs" id="flash-source-tabs" style="margin:0;"></div>
+      </div>
+
+      <div class="flash-container" onclick="toggleFlash()">
+        <div class="flash-inner" id="flash-card">
+          <div class="flash-face flash-front">
+            <div id="flash-emoji" style="font-size:4rem;"></div>
+            <div id="flash-en" style="font-size:1.2rem;color:var(--gray-600);margin-top:8px;"></div>
+            <div style="font-size:0.9rem;color:var(--gray-400);margin-top:12px;">Tap to reveal!</div>
+          </div>
+          <div class="flash-face flash-back">
+            <div id="flash-kr" style="font-size:2.5rem;font-weight:900;"></div>
+            <div id="flash-rom" class="romanization" style="font-size:1rem;opacity:0.8;margin-top:4px;"></div>
+            <button class="tts-btn" id="flash-tts" style="margin-top:12px;background:rgba(255,255,255,0.2);" onclick="event.stopPropagation();">🔊</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flash-nav">
+        <button class="btn btn-outline btn-round" onclick="prevFlash()">←</button>
+        <button class="btn btn-primary btn-round" onclick="toggleFlash()">🔄</button>
+        <button class="btn btn-outline btn-round" onclick="nextFlash()">→</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/kids-common.js"></script>
+  <script>
+    let data = null;
+    let flashCards = [];
+    let flashIndex = 0;
+
+    (async () => {
+      const studentId = KidsApp.requireStudent();
+      if (!studentId) return;
+
+      data = await KidsApp.loadStudentData(studentId);
+      if (!data) return;
+
+      KidsApp.renderHeader('Word Explorer');
+
+      // Counts
+      document.getElementById('verb-count').textContent = `${data.verbs.length} words`;
+      document.getElementById('noun-count').textContent = `${data.nouns.length} words`;
+      document.getElementById('sentence-count').textContent = `${data.sentences.length} sentences`;
+    })();
+
+    function showCategory(cat) {
+      document.getElementById('category-select').classList.add('hidden');
+
+      if (cat === 'flashcards') {
+        showFlashcards('all');
+        return;
+      }
+
+      const listView = document.getElementById('list-view');
+      const wordList = document.getElementById('word-list');
+      listView.classList.remove('hidden');
+      wordList.innerHTML = '';
+
+      if (cat === 'verbs') {
+        document.getElementById('list-title').textContent = '💪 Verbs';
+        data.verbs.forEach((v, i) => {
+          const item = createWordItem(v.emoji, v.polite, v.politeRom, v.en, v.polite, i);
+          wordList.appendChild(item);
+        });
+      } else if (cat === 'nouns') {
+        document.getElementById('list-title').textContent = '📦 Nouns';
+        data.nouns.forEach((n, i) => {
+          const item = createWordItem(n.emoji, n.kr, n.rom, n.en, n.kr, i);
+          wordList.appendChild(item);
+        });
+      } else if (cat === 'sentences') {
+        document.getElementById('list-title').textContent = '💬 Sentences';
+        data.sentences.forEach((s, i) => {
+          const card = document.createElement('div');
+          card.className = 'combo-card';
+          card.style.animationDelay = (i * 0.05) + 's';
+          card.innerHTML = `
+            <div style="font-size:2rem;">${s.emoji}</div>
+            <div style="font-size:1.5rem;font-weight:900;margin:8px 0;">${s.kr}</div>
+            <div class="romanization" style="font-size:0.9rem;color:rgba(0,0,0,0.5);">${s.rom}</div>
+            <div style="font-size:0.95rem;color:var(--gray-600);margin-top:4px;">${s.en}</div>
+            <div class="combo-parts">
+              ${s.blocks.map(b => `<span class="combo-part">${b}</span>`).join('<span class="combo-arrow">+</span>')}
+            </div>
+          `;
+          card.addEventListener('click', () => KidsApp.speak(s.kr));
+          wordList.appendChild(card);
+        });
+        KidsApp.applyRomanization();
+        return;
+      }
+
+      KidsApp.applyRomanization();
+    }
+
+    function createWordItem(emoji, kr, rom, en, speakText, i) {
+      const item = document.createElement('div');
+      item.className = 'word-item';
+      item.style.animationDelay = (i * 0.04) + 's';
+      item.innerHTML = `
+        <div class="word-emoji">${emoji}</div>
+        <div class="word-info">
+          <div class="word-kr">${kr}</div>
+          <div class="word-rom romanization">${rom}</div>
+          <div class="word-en">${en}</div>
+        </div>
+      `;
+
+      const ttsBtn = KidsApp.makeTTSButton(speakText);
+      item.appendChild(ttsBtn);
+      item.addEventListener('click', (e) => {
+        if (e.target.closest('.tts-btn')) return;
+        KidsApp.speak(speakText);
+      });
+
+      return item;
+    }
+
+    function showFlashcards(source) {
+      flashCards = [];
+
+      if (source === 'all' || source === 'verbs') {
+        data.verbs.forEach(v => flashCards.push({ emoji: v.emoji, kr: v.polite, rom: v.politeRom, en: v.en }));
+      }
+      if (source === 'all' || source === 'nouns') {
+        data.nouns.forEach(n => flashCards.push({ emoji: n.emoji, kr: n.kr, rom: n.rom, en: n.en }));
+      }
+      if (source === 'all' || source === 'sentences') {
+        data.sentences.forEach(s => flashCards.push({ emoji: s.emoji, kr: s.kr, rom: s.rom, en: s.en }));
+      }
+
+      flashCards = KidsApp.shuffle(flashCards);
+      flashIndex = 0;
+
+      const flashView = document.getElementById('flash-view');
+      flashView.classList.remove('hidden');
+      document.getElementById('list-view').classList.add('hidden');
+
+      // Source tabs
+      const tabs = document.getElementById('flash-source-tabs');
+      tabs.innerHTML = '';
+      ['all', 'verbs', 'nouns', 'sentences'].forEach(s => {
+        const btn = document.createElement('button');
+        btn.className = 'category-tab' + (s === source ? ' active' : '');
+        btn.textContent = s === 'all' ? 'All' : s.charAt(0).toUpperCase() + s.slice(1);
+        btn.addEventListener('click', () => showFlashcards(s));
+        tabs.appendChild(btn);
+      });
+
+      renderFlash();
+    }
+
+    function renderFlash() {
+      if (!flashCards.length) return;
+      const c = flashCards[flashIndex];
+      document.getElementById('flash-emoji').textContent = c.emoji;
+      document.getElementById('flash-en').textContent = c.en;
+      document.getElementById('flash-kr').textContent = c.kr;
+      document.getElementById('flash-rom').textContent = c.rom;
+      document.getElementById('flash-counter').textContent = `${flashIndex + 1} / ${flashCards.length}`;
+      document.getElementById('flash-tts').onclick = (e) => {
+        e.stopPropagation();
+        KidsApp.speak(c.kr);
+      };
+
+      // Reset flip
+      document.getElementById('flash-card').classList.remove('flipped');
+      KidsApp.applyRomanization();
+    }
+
+    function toggleFlash() {
+      const card = document.getElementById('flash-card');
+      card.classList.toggle('flipped');
+      if (card.classList.contains('flipped')) {
+        KidsApp.speak(flashCards[flashIndex].kr);
+      }
+    }
+
+    function nextFlash() {
+      flashIndex = (flashIndex + 1) % flashCards.length;
+      renderFlash();
+    }
+
+    function prevFlash() {
+      flashIndex = (flashIndex - 1 + flashCards.length) % flashCards.length;
+      renderFlash();
+    }
+
+    function backToCategories() {
+      document.getElementById('category-select').classList.remove('hidden');
+      document.getElementById('list-view').classList.add('hidden');
+      document.getElementById('flash-view').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>

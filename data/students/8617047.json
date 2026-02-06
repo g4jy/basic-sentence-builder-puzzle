@@ -1,0 +1,370 @@
+{
+  "id": "8617047",
+  "name": "Danh N",
+  "settings": {
+    "romanization": true,
+    "level": 3
+  },
+  "assignedVocab": {
+    "food": [
+      {
+        "en": "Seasoning",
+        "pos": "Noun",
+        "kr": "간",
+        "example": "간을 보면서 요리해야 맛이 좋아지게 돼요.",
+        "rom": ""
+      },
+      {
+        "en": "Sweet potato",
+        "pos": "Noun",
+        "kr": "고구마",
+        "example": "겨울에 고구마를 먹으면 몸이 따뜻해지기 때문에 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Chili pepper",
+        "pos": "Noun",
+        "kr": "고추",
+        "example": "고추를 따려고 텃밭에 갔는데 이미 다 익어 있었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Red pepper powder",
+        "pos": "Noun",
+        "kr": "고춧가루",
+        "example": "김치를 담그기 위해 고춧가루를 사러 시장에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Broth",
+        "pos": "Noun",
+        "kr": "국물",
+        "example": "국물이 시원해서 속이 풀리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Honey",
+        "pos": "Noun",
+        "kr": "꿀",
+        "example": "목이 아파서 꿀을 넣은 차를 마시게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Carrot",
+        "pos": "Noun",
+        "kr": "당근",
+        "example": "아이가 당근을 싫어하는데 주스로 만들어 주니까 잘 먹더라고요.",
+        "rom": ""
+      },
+      {
+        "en": "Greens",
+        "pos": "Noun",
+        "kr": "나물",
+        "example": "나물을 다듬으면서 어머니와 이야기를 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Garlic",
+        "pos": "Noun",
+        "kr": "마늘",
+        "example": "마늘을 다지려고 했는데 칼이 무뎌서 힘들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Spicy fish stew",
+        "pos": "Noun",
+        "kr": "매운탕",
+        "example": "매운탕을 끓이기 위해 신선한 생선을 샀어요.",
+        "rom": ""
+      }
+    ],
+    "places": [
+      {
+        "en": "Stadium",
+        "pos": "Noun",
+        "kr": "경기장",
+        "example": "경기장에 가려고 일찍 출발했는데 교통이 막혔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Gyeongbokgung",
+        "pos": "Noun",
+        "kr": "경복궁",
+        "example": "경복궁에 가면서 한국의 역사를 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Valley",
+        "pos": "Noun",
+        "kr": "계곡",
+        "example": "계곡에서 놀면서 더위를 식히게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ancient palace",
+        "pos": "Noun",
+        "kr": "고궁",
+        "example": "고궁을 산책하면서 옛날 분위기를 느꼈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Space",
+        "pos": "Noun",
+        "kr": "공간",
+        "example": "공간이 부족해서 새 사무실을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Public place",
+        "pos": "Noun",
+        "kr": "공공장소",
+        "example": "공공장소에서는 조용히 해야 하기 때문에 통화를 자제해요.",
+        "rom": ""
+      },
+      {
+        "en": "Performance hall",
+        "pos": "Noun",
+        "kr": "공연장",
+        "example": "공연장에 가려고 표를 미리 예매했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Suburbs",
+        "pos": "Noun",
+        "kr": "교외",
+        "example": "교외로 나가면서 도시의 복잡함에서 벗어나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "District",
+        "pos": "Noun",
+        "kr": "구역",
+        "example": "금연 구역이기 때문에 담배를 피울 수 없어요.",
+        "rom": ""
+      },
+      {
+        "en": "Alley",
+        "pos": "Noun",
+        "kr": "골목",
+        "example": "좁은 골목을 걸으면서 숨은 맛집을 찾게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "people": [
+      {
+        "en": "Customer",
+        "pos": "Noun",
+        "kr": "고객",
+        "example": "고객을 맞으면서 미소를 지어야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Lecturer",
+        "pos": "Noun",
+        "kr": "강사",
+        "example": "강사로 일하게 되면서 많은 것을 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Individual",
+        "pos": "Noun",
+        "kr": "개인",
+        "example": "개인의 자유를 존중해야 하기 때문에 강요하면 안 돼요.",
+        "rom": ""
+      },
+      {
+        "en": "Police officer",
+        "pos": "Noun",
+        "kr": "경찰관",
+        "example": "경찰관이 되려고 열심히 준비하고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Manager",
+        "pos": "Noun",
+        "kr": "과장",
+        "example": "과장으로 승진하게 되면서 책임이 늘었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Audience",
+        "pos": "Noun",
+        "kr": "관객",
+        "example": "관객이 많아서 공연장이 붐비게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Spectator",
+        "pos": "Noun",
+        "kr": "관람객",
+        "example": "관람객이 몰려서 입장하기 어려웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "She",
+        "pos": "Pronoun",
+        "kr": "그녀",
+        "example": "그녀를 만나게 되면서 인생이 바뀌었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Colleague",
+        "pos": "Noun",
+        "kr": "동료",
+        "example": "동료와 함께 일하면서 많이 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Alumni",
+        "pos": "Noun",
+        "kr": "동창",
+        "example": "동창을 만나려고 동창회에 참석했어요.",
+        "rom": ""
+      }
+    ]
+  },
+  "lessonVerbs": [
+    {
+      "id": "go",
+      "label": "가다 (go)",
+      "objectType": "none",
+      "usesEseo": false,
+      "tenses": {
+        "past": {
+          "kr": "갔어요",
+          "rom": "GA-SSO-YO",
+          "en": "went"
+        },
+        "present": {
+          "kr": "가요",
+          "rom": "GA-YO",
+          "en": "go"
+        },
+        "future": {
+          "kr": "갈 거예요",
+          "rom": "GAL GOU-YE-YO",
+          "en": "will go"
+        }
+      }
+    },
+    {
+      "id": "eat",
+      "label": "먹다 (eat)",
+      "objectType": "food",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "먹었어요",
+          "rom": "MOU-GOU-SSO-YO",
+          "en": "ate"
+        },
+        "present": {
+          "kr": "먹어요",
+          "rom": "MOU-GOU-YO",
+          "en": "eat"
+        },
+        "future": {
+          "kr": "먹을 거예요",
+          "rom": "MOU-GUL GOU-YE-YO",
+          "en": "will eat"
+        }
+      }
+    },
+    {
+      "id": "drink",
+      "label": "마시다 (drink)",
+      "objectType": "drink",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "마셨어요",
+          "rom": "MA-SYOU-SSO-YO",
+          "en": "drank"
+        },
+        "present": {
+          "kr": "마셔요",
+          "rom": "MA-SYOU-YO",
+          "en": "drink"
+        },
+        "future": {
+          "kr": "마실 거예요",
+          "rom": "MA-SHIL GOU-YE-YO",
+          "en": "will drink"
+        }
+      }
+    },
+    {
+      "id": "buy",
+      "label": "사다 (buy)",
+      "objectType": "thing",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "샀어요",
+          "rom": "SA-SSO-YO",
+          "en": "bought"
+        },
+        "present": {
+          "kr": "사요",
+          "rom": "SA-YO",
+          "en": "buy"
+        },
+        "future": {
+          "kr": "살 거예요",
+          "rom": "SAL GOU-YE-YO",
+          "en": "will buy"
+        }
+      }
+    },
+    {
+      "id": "meet",
+      "label": "만나다 (meet)",
+      "objectType": "people",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "만났어요",
+          "rom": "MAN-NA-SSO-YO",
+          "en": "met"
+        },
+        "present": {
+          "kr": "만나요",
+          "rom": "MAN-NA-YO",
+          "en": "meet"
+        },
+        "future": {
+          "kr": "만날 거예요",
+          "rom": "MAN-NAL GOU-YE-YO",
+          "en": "will meet"
+        }
+      }
+    }
+  ],
+  "customVocab": [],
+  "vocabularyWatchlist": [
+    {
+      "kr": "Murky",
+      "error": "-",
+      "correct": "탁해지다",
+      "note": "Pointillism text context."
+    },
+    {
+      "kr": "Densely",
+      "error": "`Wide?`",
+      "correct": "촘촘히",
+      "note": "The key to the exam question."
+    },
+    {
+      "kr": "Headache",
+      "error": "`Meori apayo`",
+      "correct": "머리 터질 것 같아요",
+      "note": "\"Head exploding\" (Idiom)."
+    }
+  ],
+  "lessonContext": {
+    "recentLessons": [],
+    "upcomingTopics": [],
+    "currentFocus": ""
+  },
+  "generated_at": "2026-01-30T19:14:00.699682"
+}

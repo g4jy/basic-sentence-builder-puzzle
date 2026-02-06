@@ -1,0 +1,351 @@
+{
+  "id": "8802368",
+  "name": "Lima",
+  "settings": {
+    "romanization": true,
+    "level": 2
+  },
+  "assignedVocab": {
+    "food": [
+      {
+        "en": "Snack",
+        "pos": "Noun",
+        "kr": "간식",
+        "example": "간식이 먹고 싶으면 냉장고에서 꺼내세요.",
+        "rom": ""
+      },
+      {
+        "en": "Soy sauce",
+        "pos": "Noun",
+        "kr": "간장",
+        "example": "간장이 필요하면 마트에서 사세요.",
+        "rom": ""
+      },
+      {
+        "en": "Potato",
+        "pos": "Noun",
+        "kr": "감자",
+        "example": "감자가 익으면 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Egg",
+        "pos": "Noun",
+        "kr": "계란",
+        "example": "계란이 있으면 오믈렛을 만들어요.",
+        "rom": ""
+      },
+      {
+        "en": "Red chili paste",
+        "pos": "Noun",
+        "kr": "고추장",
+        "example": "고추장이 필요하면 냉장고에서 꺼내세요.",
+        "rom": ""
+      },
+      {
+        "en": "Soup",
+        "pos": "Noun",
+        "kr": "국",
+        "example": "국이 뜨거우면 조금 식혀서 드세요.",
+        "rom": ""
+      },
+      {
+        "en": "Noodles",
+        "pos": "Noun",
+        "kr": "국수",
+        "example": "국수가 먹고 싶으면 끓여 드릴게요.",
+        "rom": ""
+      },
+      {
+        "en": "To grill",
+        "pos": "Verb",
+        "kr": "굽다",
+        "example": "고기를 구우면 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Seaweed (Gim)",
+        "pos": "Noun",
+        "kr": "김",
+        "example": "김이 있으면 김밥을 만들어요.",
+        "rom": ""
+      },
+      {
+        "en": "Soybean paste",
+        "pos": "Noun",
+        "kr": "된장",
+        "example": "된장이 있으면 찌개를 끓여요.",
+        "rom": ""
+      }
+    ],
+    "places": [
+      {
+        "en": "Street",
+        "pos": "Noun",
+        "kr": "거리",
+        "example": "거리에 나가면 사람이 많아요.",
+        "rom": ""
+      },
+      {
+        "en": "Distance",
+        "pos": "Noun",
+        "kr": "거리",
+        "example": "거리가 멀면 택시를 타세요.",
+        "rom": ""
+      },
+      {
+        "en": "Police station",
+        "pos": "Noun",
+        "kr": "경찰서",
+        "example": "경찰서에 가면 신고할 수 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "High school",
+        "pos": "Noun",
+        "kr": "고등학교",
+        "example": "고등학교에 가면 친구를 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Factory",
+        "pos": "Noun",
+        "kr": "공장",
+        "example": "공장에서 일하면 월급을 받아요.",
+        "rom": ""
+      },
+      {
+        "en": "Tourist attraction",
+        "pos": "Noun",
+        "kr": "관광지",
+        "example": "관광지에 가면 사진을 찍어요.",
+        "rom": ""
+      },
+      {
+        "en": "Church",
+        "pos": "Noun",
+        "kr": "교회",
+        "example": "교회에 가면 기도해요.",
+        "rom": ""
+      },
+      {
+        "en": "Gwangju",
+        "pos": "Noun",
+        "kr": "광주",
+        "example": "광주에 가면 맛있는 음식이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Art museum",
+        "pos": "Noun",
+        "kr": "미술관",
+        "example": "미술관에 가면 그림을 봐요.",
+        "rom": ""
+      },
+      {
+        "en": "Building",
+        "pos": "Noun",
+        "kr": "빌딩",
+        "example": "빌딩이 높으면 전망이 좋아요.",
+        "rom": ""
+      }
+    ],
+    "people": [
+      {
+        "en": "Nurse",
+        "pos": "Noun",
+        "kr": "간호사",
+        "example": "간호사가 필요하면 불러 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Puppy",
+        "pos": "Noun",
+        "kr": "강아지",
+        "example": "강아지를 키우면 매일 산책해야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Paternal aunt",
+        "pos": "Noun",
+        "kr": "고모",
+        "example": "고모가 오시면 인사드리세요.",
+        "rom": ""
+      },
+      {
+        "en": "Civil servant",
+        "pos": "Noun",
+        "kr": "공무원",
+        "example": "공무원이 되고 싶으면 시험을 봐야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Tourist",
+        "pos": "Noun",
+        "kr": "관광객",
+        "example": "관광객이 많으면 줄을 서야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Teacher",
+        "pos": "Noun",
+        "kr": "교사",
+        "example": "교사가 되고 싶으면 자격증을 따야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Professor",
+        "pos": "Noun",
+        "kr": "교수",
+        "example": "교수님을 만나고 싶으면 연구실로 가세요.",
+        "rom": ""
+      },
+      {
+        "en": "Soldier",
+        "pos": "Noun",
+        "kr": "군인",
+        "example": "군인이 되면 훈련을 받아야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "High school student",
+        "pos": "Noun",
+        "kr": "고등학생",
+        "example": "고등학생이 되면 공부가 많아져요.",
+        "rom": ""
+      },
+      {
+        "en": "Reporter / Journalist",
+        "pos": "Noun",
+        "kr": "기자",
+        "example": "기자가 되고 싶으면 글을 잘 써야 해요.",
+        "rom": ""
+      }
+    ]
+  },
+  "lessonVerbs": [
+    {
+      "id": "go",
+      "label": "가다 (go)",
+      "objectType": "none",
+      "usesEseo": false,
+      "tenses": {
+        "past": {
+          "kr": "갔어요",
+          "rom": "GA-SSO-YO",
+          "en": "went"
+        },
+        "present": {
+          "kr": "가요",
+          "rom": "GA-YO",
+          "en": "go"
+        },
+        "future": {
+          "kr": "갈 거예요",
+          "rom": "GAL GOU-YE-YO",
+          "en": "will go"
+        }
+      }
+    },
+    {
+      "id": "eat",
+      "label": "먹다 (eat)",
+      "objectType": "food",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "먹었어요",
+          "rom": "MOU-GOU-SSO-YO",
+          "en": "ate"
+        },
+        "present": {
+          "kr": "먹어요",
+          "rom": "MOU-GOU-YO",
+          "en": "eat"
+        },
+        "future": {
+          "kr": "먹을 거예요",
+          "rom": "MOU-GUL GOU-YE-YO",
+          "en": "will eat"
+        }
+      }
+    },
+    {
+      "id": "drink",
+      "label": "마시다 (drink)",
+      "objectType": "drink",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "마셨어요",
+          "rom": "MA-SYOU-SSO-YO",
+          "en": "drank"
+        },
+        "present": {
+          "kr": "마셔요",
+          "rom": "MA-SYOU-YO",
+          "en": "drink"
+        },
+        "future": {
+          "kr": "마실 거예요",
+          "rom": "MA-SHIL GOU-YE-YO",
+          "en": "will drink"
+        }
+      }
+    },
+    {
+      "id": "buy",
+      "label": "사다 (buy)",
+      "objectType": "thing",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "샀어요",
+          "rom": "SA-SSO-YO",
+          "en": "bought"
+        },
+        "present": {
+          "kr": "사요",
+          "rom": "SA-YO",
+          "en": "buy"
+        },
+        "future": {
+          "kr": "살 거예요",
+          "rom": "SAL GOU-YE-YO",
+          "en": "will buy"
+        }
+      }
+    },
+    {
+      "id": "meet",
+      "label": "만나다 (meet)",
+      "objectType": "people",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "만났어요",
+          "rom": "MAN-NA-SSO-YO",
+          "en": "met"
+        },
+        "present": {
+          "kr": "만나요",
+          "rom": "MAN-NA-YO",
+          "en": "meet"
+        },
+        "future": {
+          "kr": "만날 거예요",
+          "rom": "MAN-NAL GOU-YE-YO",
+          "en": "will meet"
+        }
+      }
+    }
+  ],
+  "customVocab": [],
+  "vocabularyWatchlist": [],
+  "lessonContext": {
+    "recentLessons": [],
+    "upcomingTopics": [],
+    "currentFocus": ""
+  },
+  "generated_at": "2026-01-30T19:14:53.350606"
+}

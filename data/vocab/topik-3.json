@@ -1,0 +1,8247 @@
+{
+  "level": 3,
+  "categories": {
+    "actions": [
+      {
+        "en": "To cultivate",
+        "pos": "Verb",
+        "kr": "가꾸다",
+        "example": "정원을 가꾸면서 마음이 편안해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To cover",
+        "pos": "Verb",
+        "kr": "가리다",
+        "example": "얼굴을 가리면서 부끄러워했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To replace",
+        "pos": "Verb",
+        "kr": "갈다",
+        "example": "전구를 갈려고 사다리를 가져왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "To wind",
+        "pos": "Verb",
+        "kr": "감다",
+        "example": "붕대를 감으면서 상처를 치료하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To clear up",
+        "pos": "Verb",
+        "kr": "개다",
+        "example": "날씨가 개면서 기분이 좋아졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To search",
+        "pos": "Verb",
+        "kr": "검색",
+        "example": "인터넷에서 검색하면서 정보를 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To multiply",
+        "pos": "Verb",
+        "kr": "곱하다",
+        "example": "수를 곱하면서 계산을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To seek",
+        "pos": "Verb",
+        "kr": "구하다",
+        "example": "일자리를 구하려고 여러 회사에 지원했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To starve",
+        "pos": "Verb",
+        "kr": "굶다",
+        "example": "밥을 굶으면서 다이어트를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To recommend",
+        "pos": "Verb",
+        "kr": "권하다",
+        "example": "입원을 권해서 병원에 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To draw line",
+        "pos": "Verb",
+        "kr": "긋다",
+        "example": "선을 그으면서 밑줄을 치게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To crawl",
+        "pos": "Verb",
+        "kr": "기다",
+        "example": "아기가 기면서 돌아다니게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To lean",
+        "pos": "Verb",
+        "kr": "기대다",
+        "example": "벽에 기대면서 쉬게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To break",
+        "pos": "Verb",
+        "kr": "깨지다",
+        "example": "유리가 깨지면서 다칠 뻔했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To go out",
+        "pos": "Verb",
+        "kr": "꺼지다",
+        "example": "불이 꺼지면서 어두워졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To insert",
+        "pos": "Verb",
+        "kr": "꽂다",
+        "example": "열쇠를 꽂으면서 문을 열게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be cut off",
+        "pos": "Verb",
+        "kr": "끊기다",
+        "example": "도로가 끊기면서 우회해야 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To drag",
+        "pos": "Verb",
+        "kr": "끌다",
+        "example": "신발을 끌면서 걸으니까 소리가 나요.",
+        "rom": ""
+      },
+      {
+        "en": "To get worse",
+        "pos": "Verb",
+        "kr": "나빠지다",
+        "example": "건강이 나빠지면서 병원에 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To get better",
+        "pos": "Verb",
+        "kr": "나아지다",
+        "example": "건강이 나아지면서 운동을 다시 시작했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To show",
+        "pos": "Verb",
+        "kr": "나타내다",
+        "example": "모습을 나타내면서 등장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To carry",
+        "pos": "Verb",
+        "kr": "나르다",
+        "example": "이삿짐을 나르면서 힘들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "To hang out",
+        "pos": "Verb",
+        "kr": "널다",
+        "example": "빨래를 널면서 날씨가 좋다고 생각했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To fall over",
+        "pos": "Verb",
+        "kr": "넘어가다",
+        "example": "나무가 넘어가면서 길이 막히게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To cross over",
+        "pos": "Verb",
+        "kr": "넘어서다",
+        "example": "산을 넘어서면서 새로운 풍경을 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To melt",
+        "pos": "Verb",
+        "kr": "녹다",
+        "example": "얼음이 녹으면서 물이 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be placed",
+        "pos": "Verb",
+        "kr": "놓이다",
+        "example": "마음이 놓이면서 안심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To miss",
+        "pos": "Verb",
+        "kr": "놓치다",
+        "example": "버스를 놓치면서 지각하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To increase",
+        "pos": "Verb",
+        "kr": "늘리다",
+        "example": "규모를 늘리면서 사업이 커지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To grow",
+        "pos": "Verb",
+        "kr": "늘어나다",
+        "example": "인구가 늘어나면서 도시가 복잡해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be closed",
+        "pos": "Verb",
+        "kr": "닫히다",
+        "example": "창문이 닫히면서 바람이 들어오지 않게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To attach",
+        "pos": "Verb",
+        "kr": "달다",
+        "example": "단추를 달면서 옷을 수선하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To change",
+        "pos": "Verb",
+        "kr": "달라지다",
+        "example": "장소가 달라지면서 분위기도 바뀌게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To reach",
+        "pos": "Verb",
+        "kr": "닿다",
+        "example": "손에 닿으면서 물건을 잡게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be great",
+        "pos": "Adjective",
+        "kr": "대단하다",
+        "example": "추위가 대단해서 외출을 자제하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To burn",
+        "pos": "Verb",
+        "kr": "데다",
+        "example": "불에 데면서 상처가 생겼어요.",
+        "rom": ""
+      },
+      {
+        "en": "To take along",
+        "pos": "Verb",
+        "kr": "데리다",
+        "example": "아이를 데리고 가면서 공원에 산책하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To return",
+        "pos": "Verb",
+        "kr": "되돌아오다",
+        "example": "편지가 되돌아오면서 주소가 틀렸다는 걸 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To regain",
+        "pos": "Verb",
+        "kr": "되찾다",
+        "example": "안정을 되찾으면서 마음이 편해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To look around",
+        "pos": "Verb",
+        "kr": "돌아다니다",
+        "example": "거리를 돌아다니면서 구경하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To jump down",
+        "pos": "Verb",
+        "kr": "뛰어내리다",
+        "example": "아래로 뛰어내리면서 무릎이 아팠어요.",
+        "rom": ""
+      },
+      {
+        "en": "To jump over",
+        "pos": "Verb",
+        "kr": "뛰어넘다",
+        "example": "담을 뛰어넘으면서 탈출하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To pierce",
+        "pos": "Verb",
+        "kr": "뚫다",
+        "example": "구멍을 뚫으면서 나사를 넣게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To drop",
+        "pos": "Verb",
+        "kr": "떨어뜨리다",
+        "example": "바닥에 떨어뜨리면서 그릇이 깨졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To disappear",
+        "pos": "Verb",
+        "kr": "사라지다",
+        "example": "사람들이 사라지면서 조용해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To look around",
+        "pos": "Verb",
+        "kr": "살펴보다",
+        "example": "주위를 살펴보면서 조심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To block",
+        "pos": "Verb",
+        "kr": "막다",
+        "example": "귀를 막으면서 소리를 듣지 않으려고 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To greet",
+        "pos": "Verb",
+        "kr": "맞다",
+        "example": "손님을 맞으면서 인사를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To entrust",
+        "pos": "Verb",
+        "kr": "맡기다",
+        "example": "수리를 맡기면서 기다리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To take charge",
+        "pos": "Verb",
+        "kr": "맡다",
+        "example": "임무를 맡으면서 책임감이 생겼어요.",
+        "rom": ""
+      },
+      {
+        "en": "To smell",
+        "pos": "Verb",
+        "kr": "맡다",
+        "example": "냄새를 맡으면서 맛있는 음식이라는 걸 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To hang",
+        "pos": "Verb",
+        "kr": "매달다",
+        "example": "문에 매달면서 장식을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To shake off",
+        "pos": "Verb",
+        "kr": "털다",
+        "example": "이불을 털면서 청소하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To dig",
+        "pos": "Verb",
+        "kr": "파다",
+        "example": "구멍을 파면서 땅을 고르게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To tear",
+        "pos": "Verb",
+        "kr": "찢다",
+        "example": "종이를 찢으면서 버리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To prick",
+        "pos": "Verb",
+        "kr": "찌르다",
+        "example": "바늘로 찌르면서 아프게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To stir",
+        "pos": "Verb",
+        "kr": "젓다",
+        "example": "커피를 저으면서 설탕을 녹이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To fill",
+        "pos": "Verb",
+        "kr": "채우다",
+        "example": "자리를 채우면서 공석을 없앴어요.",
+        "rom": ""
+      },
+      {
+        "en": "To pack",
+        "pos": "Verb",
+        "kr": "챙기다",
+        "example": "가방을 챙기면서 출발 준비를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To get bigger",
+        "pos": "Verb",
+        "kr": "커지다",
+        "example": "문제가 커지면서 심각해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To vomit",
+        "pos": "Verb",
+        "kr": "토하다",
+        "example": "음식을 토하면서 고생했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To communicate",
+        "pos": "Verb",
+        "kr": "통하다",
+        "example": "바람이 통하면서 시원해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To pop",
+        "pos": "Verb",
+        "kr": "터뜨리다",
+        "example": "풍선을 터뜨리면서 소리가 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "To give a ride",
+        "pos": "Verb",
+        "kr": "태우다",
+        "example": "차에 태우면서 함께 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To flow away",
+        "pos": "Verb",
+        "kr": "흘러가다",
+        "example": "시냇물이 흘러가면서 시원한 소리가 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "To head for",
+        "pos": "Verb",
+        "kr": "향하다",
+        "example": "목적지를 향하면서 출발하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To avoid",
+        "pos": "Verb",
+        "kr": "피하다",
+        "example": "책임을 피하면서 문제가 생겼어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be loosened",
+        "pos": "Verb",
+        "kr": "풀리다",
+        "example": "나사가 풀리면서 고장이 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be torn",
+        "pos": "Verb",
+        "kr": "찢어지다",
+        "example": "종이가 찢어지면서 내용을 못 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To pay a price",
+        "pos": "Verb",
+        "kr": "치르다",
+        "example": "값을 치르면서 교훈을 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To tidy up",
+        "pos": "Verb",
+        "kr": "치우다",
+        "example": "물건들을 치우면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To measure",
+        "pos": "Verb",
+        "kr": "재다",
+        "example": "무게를 재면서 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To knit",
+        "pos": "Verb",
+        "kr": "짜다",
+        "example": "목도리를 짜면서 선물을 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To squeeze",
+        "pos": "Verb",
+        "kr": "짜다",
+        "example": "치약을 짜면서 양치 준비를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To pick up",
+        "pos": "Verb",
+        "kr": "집다",
+        "example": "연필을 집으면서 글을 쓰게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be used",
+        "pos": "Verb",
+        "kr": "쓰이다",
+        "example": "재료가 쓰이면서 요리가 완성됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To sweep",
+        "pos": "Verb",
+        "kr": "쓸다",
+        "example": "낙엽을 쓸면서 청소하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be piled up",
+        "pos": "Verb",
+        "kr": "쌓이다",
+        "example": "책들이 쌓이면서 정리가 필요하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To rot",
+        "pos": "Verb",
+        "kr": "썩다",
+        "example": "고기가 썩으면서 냄새가 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "To pour",
+        "pos": "Verb",
+        "kr": "쏟다",
+        "example": "기름을 쏟으면서 더러워지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To pour down",
+        "pos": "Verb",
+        "kr": "쏟아지다",
+        "example": "물이 쏟아지면서 젖게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be written",
+        "pos": "Verb",
+        "kr": "적히다",
+        "example": "이름이 적히면서 등록됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To lead",
+        "pos": "Verb",
+        "kr": "이끌다",
+        "example": "단체를 이끌면서 리더가 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be fulfilled",
+        "pos": "Verb",
+        "kr": "이루어지다",
+        "example": "소원이 이루어지면서 행복해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To achieve",
+        "pos": "Verb",
+        "kr": "이루다",
+        "example": "꿈을 이루면서 성공하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To master",
+        "pos": "Verb",
+        "kr": "익히다",
+        "example": "기술을 익히면서 전문가가 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To become known",
+        "pos": "Verb",
+        "kr": "알려지다",
+        "example": "사실이 알려지면서 유명해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To find out",
+        "pos": "Verb",
+        "kr": "알아내다",
+        "example": "사실을 알아내면서 진실을 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To understand",
+        "pos": "Verb",
+        "kr": "알아듣다",
+        "example": "말귀를 알아들으면서 이해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To cherish",
+        "pos": "Verb",
+        "kr": "아끼다",
+        "example": "돈을 아끼면서 저축하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To remove",
+        "pos": "Verb",
+        "kr": "없애다",
+        "example": "근심을 없애면서 편해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To disappear",
+        "pos": "Verb",
+        "kr": "없어지다",
+        "example": "말이 없어지면서 조용해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To carry on back",
+        "pos": "Verb",
+        "kr": "업다",
+        "example": "아이를 업으면서 재우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To break a promise",
+        "pos": "Verb",
+        "kr": "어기다",
+        "example": "약속을 어기면서 신뢰를 잃게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To consider",
+        "pos": "Verb",
+        "kr": "여기다",
+        "example": "친구로 여기면서 친해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To connect",
+        "pos": "Verb",
+        "kr": "잇다",
+        "example": "끈을 이으면서 연결하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To lock",
+        "pos": "Verb",
+        "kr": "잠그다",
+        "example": "문을 잠그면서 외출하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be locked",
+        "pos": "Verb",
+        "kr": "잠기다",
+        "example": "문이 잠기면서 못 들어가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be caught",
+        "pos": "Verb",
+        "kr": "잡히다",
+        "example": "도둑이 잡히면서 사건이 해결됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To have indigestion",
+        "pos": "Verb",
+        "kr": "체하다",
+        "example": "과식으로 체하면서 고생했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To ring",
+        "pos": "Verb",
+        "kr": "울리다",
+        "example": "전화기가 울리면서 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To make someone cry",
+        "pos": "Verb",
+        "kr": "울리다",
+        "example": "아이를 울리면서 미안해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To move",
+        "pos": "Verb",
+        "kr": "옮기다",
+        "example": "숙소를 옮기면서 새로운 곳에 적응하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To step up",
+        "pos": "Verb",
+        "kr": "올라서다",
+        "example": "계단에 올라서면서 위로 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To put on",
+        "pos": "Verb",
+        "kr": "올려놓다",
+        "example": "책을 올려놓으면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To set the sun",
+        "pos": "Verb",
+        "kr": "지다",
+        "example": "해가 지면서 어두워지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be sleepy",
+        "pos": "Verb",
+        "kr": "졸리다",
+        "example": "졸린 눈으로 공부하면서 힘들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "To exchange",
+        "pos": "Verb",
+        "kr": "주고받다",
+        "example": "인사를 주고받으면서 인사하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To kill",
+        "pos": "Verb",
+        "kr": "죽이다",
+        "example": "곤충을 죽이면서 미안해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To combine",
+        "pos": "Verb",
+        "kr": "합치다",
+        "example": "하나로 합치면서 완성하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To have a hard time",
+        "pos": "Verb",
+        "kr": "혼나다",
+        "example": "아파서 혼나면서 고생했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be drunk",
+        "pos": "Verb",
+        "kr": "취하다",
+        "example": "술에 취하면서 정신이 없어지게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "connect": [
+      {
+        "en": "Each",
+        "pos": "Determiner",
+        "kr": "각",
+        "example": "각 개인의 의견을 존중하면서 회의를 진행하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Each person",
+        "pos": "Noun",
+        "kr": "각자",
+        "example": "각자가 맡으면서 일을 분담하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Case",
+        "pos": "Noun",
+        "kr": "경우",
+        "example": "그런 경우에는 조심하면서 행동해야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Commonality",
+        "pos": "Noun",
+        "kr": "공통점",
+        "example": "공통점을 찾으면서 친해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Common",
+        "pos": "Noun",
+        "kr": "공통",
+        "example": "공통 화제가 있어서 대화가 잘 되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Relation",
+        "pos": "Noun",
+        "kr": "관련",
+        "example": "관련이 있어서 함께 처리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Unrelated",
+        "pos": "Adjective",
+        "kr": "관계없다",
+        "example": "관계없는 일이라서 신경 쓰지 않게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Regardless",
+        "pos": "Adverb",
+        "kr": "관계없이",
+        "example": "시간에 관계없이 연락하면서 소통하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Related",
+        "pos": "Adjective",
+        "kr": "관계있다",
+        "example": "주제와 관련 있어서 참고하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Finally",
+        "pos": "Adverb",
+        "kr": "결국",
+        "example": "결국 해내면서 성취감을 느끼게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Among them",
+        "pos": "Noun",
+        "kr": "그중",
+        "example": "그중에서 제일 좋은 것을 고르게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Day before yesterday",
+        "pos": "Noun",
+        "kr": "그제",
+        "example": "그제 만나면서 오랜만에 이야기를 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Therefore",
+        "pos": "Adverb",
+        "kr": "따라서",
+        "example": "따라서 준비를 하면서 대비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "On the other hand",
+        "pos": "Noun",
+        "kr": "반면",
+        "example": "반면에 다른 의견도 있어서 고민하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Right now",
+        "pos": "Noun",
+        "kr": "당장",
+        "example": "지금 당장 시작하면서 서두르게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Generally",
+        "pos": "Adverb",
+        "kr": "대체로",
+        "example": "대체로 만족하면서 좋은 평가를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Instead",
+        "pos": "Noun",
+        "kr": "대신",
+        "example": "나 대신 가면서 부탁을 들어줬어요.",
+        "rom": ""
+      },
+      {
+        "en": "-sense",
+        "pos": "Affix",
+        "kr": "-감",
+        "example": "책임감을 느끼면서 더 열심히 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Subject",
+        "pos": "Noun",
+        "kr": "과목",
+        "example": "시험 과목을 공부하면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Process",
+        "pos": "Noun",
+        "kr": "과정",
+        "example": "과정을 겪으면서 많이 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Observation",
+        "pos": "Noun",
+        "kr": "관찰",
+        "example": "식물 관찰을 하면서 자연을 이해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Viewing",
+        "pos": "Noun",
+        "kr": "관람",
+        "example": "연극 관람을 하면서 문화생활을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Standard",
+        "pos": "Noun",
+        "kr": "기준",
+        "example": "기준을 세우면서 판단하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Foundation",
+        "pos": "Noun",
+        "kr": "기초",
+        "example": "기초를 다지면서 실력이 늘게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Etc",
+        "pos": "Noun",
+        "kr": "기타",
+        "example": "기타 등등을 포함하면서 전체를 파악하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Weakness",
+        "pos": "Noun",
+        "kr": "단점",
+        "example": "단점을 극복하면서 더 나아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Unit",
+        "pos": "Noun",
+        "kr": "단위",
+        "example": "화폐 단위를 확인하면서 계산하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Group",
+        "pos": "Noun",
+        "kr": "단체",
+        "example": "단체에 가입하면서 활동을 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Subject",
+        "pos": "Noun",
+        "kr": "대상",
+        "example": "연구 대상을 선정하면서 연구를 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Public",
+        "pos": "Noun",
+        "kr": "대중",
+        "example": "대중과 소통하면서 인기를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Repetition",
+        "pos": "Noun",
+        "kr": "반복",
+        "example": "반복 연습을 하면서 실력이 늘게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Antonym",
+        "pos": "Noun",
+        "kr": "반대말",
+        "example": "반대말을 찾으면서 어휘력이 늘게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Informal speech",
+        "pos": "Noun",
+        "kr": "반말",
+        "example": "반말을 쓰면서 친해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Item",
+        "pos": "Noun",
+        "kr": "사항",
+        "example": "주의 사항을 확인하면서 조심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Private",
+        "pos": "Adj Noun",
+        "kr": "사적",
+        "example": "사적인 생활을 보호하면서 경계를 지키게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Prior",
+        "pos": "Noun",
+        "kr": "사전",
+        "example": "사전 준비를 하면서 당황하지 않게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dictionary",
+        "pos": "Noun",
+        "kr": "사전",
+        "example": "사전을 찾으면서 단어 뜻을 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Consultation",
+        "pos": "Noun",
+        "kr": "상담",
+        "example": "상담을 받으면서 문제를 해결하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Common sense",
+        "pos": "Noun",
+        "kr": "상식",
+        "example": "상식에 어긋나면 비판을 받게 되기 때문에 조심해야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "State",
+        "pos": "Noun",
+        "kr": "상태",
+        "example": "건강 상태를 확인하면서 관리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Situation",
+        "pos": "Noun",
+        "kr": "상황",
+        "example": "주변 상황을 파악하면서 대처하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Description",
+        "pos": "Noun",
+        "kr": "묘사",
+        "example": "상황 묘사를 하면서 설명하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "List",
+        "pos": "Noun",
+        "kr": "목록",
+        "example": "단어 목록을 만들면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Goal",
+        "pos": "Noun",
+        "kr": "목표",
+        "example": "목표를 세우면서 방향을 정하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sentence",
+        "pos": "Noun",
+        "kr": "문장",
+        "example": "문장을 만들면서 글쓰기 연습을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Grammar",
+        "pos": "Noun",
+        "kr": "문법",
+        "example": "문법을 배우면서 정확하게 말하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Literature",
+        "pos": "Noun",
+        "kr": "문학",
+        "example": "문학 작품을 읽으면서 감동을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Question",
+        "pos": "Noun",
+        "kr": "물음",
+        "example": "물음에 답하면서 이해를 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Example",
+        "pos": "Noun",
+        "kr": "보기",
+        "example": "보기를 들면서 설명하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Report",
+        "pos": "Noun",
+        "kr": "보고서",
+        "example": "보고서를 작성하면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Provision",
+        "pos": "Noun",
+        "kr": "제공",
+        "example": "자료 제공을 받으면서 도움이 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Proposal",
+        "pos": "Noun",
+        "kr": "제안",
+        "example": "제안을 받으면서 고려하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Submission",
+        "pos": "Noun",
+        "kr": "제출",
+        "example": "보고서 제출을 하면서 마무리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Product",
+        "pos": "Noun",
+        "kr": "제품",
+        "example": "가죽 제품을 사면서 쇼핑하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Condition",
+        "pos": "Noun",
+        "kr": "조건",
+        "example": "성공 조건을 갖추면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Investigation",
+        "pos": "Noun",
+        "kr": "조사",
+        "example": "조사 결과를 발표하면서 알리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Advice",
+        "pos": "Noun",
+        "kr": "조언",
+        "example": "조언을 구하면서 도움을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Synthesis",
+        "pos": "Noun",
+        "kr": "종합",
+        "example": "종합 검사를 받으면서 건강을 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Religion",
+        "pos": "Noun",
+        "kr": "종교",
+        "example": "종교를 믿으면서 마음의 평화를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Topic",
+        "pos": "Noun",
+        "kr": "주제",
+        "example": "대화 주제를 정하면서 이야기하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Attention",
+        "pos": "Noun",
+        "kr": "주의",
+        "example": "주의가 산만해서 집중하기 어렵게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Main",
+        "pos": "Noun",
+        "kr": "주요",
+        "example": "주요 인물이 되면서 주목받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Increase",
+        "pos": "Noun",
+        "kr": "증가",
+        "example": "인구 증가가 있으면서 도시가 커지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Certificate",
+        "pos": "Noun",
+        "kr": "증명서",
+        "example": "증명서를 발급받으면서 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Symptom",
+        "pos": "Noun",
+        "kr": "증상",
+        "example": "감기 증상이 있어서 약을 먹게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Information",
+        "pos": "Noun",
+        "kr": "정보",
+        "example": "여행 정보를 얻으면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Progress",
+        "pos": "Noun",
+        "kr": "진행",
+        "example": "진행이 순조로워서 끝나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Agreement",
+        "pos": "Noun",
+        "kr": "찬성",
+        "example": "찬성과 반대를 나누면서 토론하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Reference",
+        "pos": "Noun",
+        "kr": "참고",
+        "example": "참고 자료를 보면서 공부하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Difference",
+        "pos": "Noun",
+        "kr": "차이",
+        "example": "나이 차이가 있어서 이해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Point of difference",
+        "pos": "Noun",
+        "kr": "차이점",
+        "example": "공통점과 차이점을 찾으면서 비교하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Specialty",
+        "pos": "Noun",
+        "kr": "특기",
+        "example": "취미와 특기를 말하면서 소개하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Characteristic",
+        "pos": "Noun",
+        "kr": "특성",
+        "example": "신체적 특성을 파악하면서 이해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Feature",
+        "pos": "Noun",
+        "kr": "특징",
+        "example": "독특한 특징을 발견하면서 흥미롭게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Evaluation",
+        "pos": "Noun",
+        "kr": "평가",
+        "example": "평가 기준을 정하면서 판단하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Inclusion",
+        "pos": "Noun",
+        "kr": "포함",
+        "example": "세금 포함 가격을 확인하면서 계산하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Expression",
+        "pos": "Noun",
+        "kr": "표현",
+        "example": "감정 표현을 하면서 소통하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Indication",
+        "pos": "Noun",
+        "kr": "표시",
+        "example": "가격 표시를 확인하면서 선택하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Influence",
+        "pos": "Noun",
+        "kr": "영향",
+        "example": "영향을 미치면서 변화가 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Expectation",
+        "pos": "Noun",
+        "kr": "예상",
+        "example": "예상과 다르면서 놀라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Prediction",
+        "pos": "Noun",
+        "kr": "예측",
+        "example": "예측이 어긋나면서 당황하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Plan",
+        "pos": "Noun",
+        "kr": "예정",
+        "example": "예정 시간에 맞추면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Prevention",
+        "pos": "Noun",
+        "kr": "예방",
+        "example": "산불 예방을 하면서 조심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Forecast",
+        "pos": "Noun",
+        "kr": "예보",
+        "example": "날씨 예보를 확인하면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Etiquette",
+        "pos": "Noun",
+        "kr": "예절",
+        "example": "예절을 지키면서 예의 바르게 되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Manners",
+        "pos": "Noun",
+        "kr": "예의",
+        "example": "예의가 바르면서 칭찬받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Opinion",
+        "pos": "Noun",
+        "kr": "의견",
+        "example": "의견을 나누면서 소통하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Discussion",
+        "pos": "Noun",
+        "kr": "의논",
+        "example": "의논 주제를 정하면서 대화하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Industry",
+        "pos": "Noun",
+        "kr": "산업",
+        "example": "자동차 산업이 발전하면서 경제가 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Politics",
+        "pos": "Noun",
+        "kr": "정치",
+        "example": "정치 활동을 하면서 사회에 기여하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "War",
+        "pos": "Noun",
+        "kr": "전쟁",
+        "example": "한국 전쟁을 배우면서 역사를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Tradition",
+        "pos": "Noun",
+        "kr": "전통",
+        "example": "전통 의상을 입으면서 문화를 경험하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Unification",
+        "pos": "Noun",
+        "kr": "통일",
+        "example": "남북의 통일을 바라면서 희망하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "View",
+        "pos": "Noun",
+        "kr": "전망",
+        "example": "아파트 전망이 좋아서 만족하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Specialty",
+        "pos": "Noun",
+        "kr": "전문",
+        "example": "전문 분야에서 일하면서 전문가가 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Protection",
+        "pos": "Noun",
+        "kr": "보호",
+        "example": "자연 보호를 하면서 환경을 지키게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Report",
+        "pos": "Noun",
+        "kr": "보고",
+        "example": "업무 보고를 하면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Service",
+        "pos": "Noun",
+        "kr": "봉사",
+        "example": "봉사 활동을 하면서 보람을 느끼게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Separation",
+        "pos": "Noun",
+        "kr": "분리",
+        "example": "공간 분리를 하면서 효율적으로 되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Loss",
+        "pos": "Noun",
+        "kr": "분실",
+        "example": "분실 사고가 나면서 조심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Investigation",
+        "pos": "Noun",
+        "kr": "수사",
+        "example": "경찰 수사가 진행되면서 범인을 잡게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Revision",
+        "pos": "Noun",
+        "kr": "수정",
+        "example": "계획의 수정을 하면서 바꾸게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Collection",
+        "pos": "Noun",
+        "kr": "수집",
+        "example": "우표 수집을 하면서 취미가 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Export",
+        "pos": "Noun",
+        "kr": "수출",
+        "example": "해외 수출을 하면서 판매가 늘어나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Import",
+        "pos": "Noun",
+        "kr": "수입",
+        "example": "수입을 허용하면서 물건이 들어오게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Adaptation",
+        "pos": "Noun",
+        "kr": "적응",
+        "example": "시차 적응을 하면서 익숙해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Crime",
+        "pos": "Noun",
+        "kr": "범죄",
+        "example": "범죄를 저지르면서 처벌받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Law",
+        "pos": "Noun",
+        "kr": "법",
+        "example": "법을 지키면서 올바르게 살게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Missing",
+        "pos": "Noun",
+        "kr": "실종",
+        "example": "실종 사건이 발생하면서 수사하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Incident",
+        "pos": "Noun",
+        "kr": "사건",
+        "example": "사건이 발생하면서 뉴스가 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Society",
+        "pos": "Noun",
+        "kr": "사회",
+        "example": "상류 사회에 들어가면서 경험하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Private life",
+        "pos": "Noun",
+        "kr": "사생활",
+        "example": "사생활 간섭을 받으면서 불편해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Usage",
+        "pos": "Noun",
+        "kr": "사용법",
+        "example": "사용법을 설명하면서 알려주게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Object",
+        "pos": "Noun",
+        "kr": "사물",
+        "example": "사물을 그리면서 미술을 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Office work",
+        "pos": "Noun",
+        "kr": "사무",
+        "example": "사무 담당이 되면서 일하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Apology",
+        "pos": "Noun",
+        "kr": "사과",
+        "example": "잘못을 사과하면서 용서받게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "daily": [
+      {
+        "en": "Subscription",
+        "pos": "Noun",
+        "kr": "가입",
+        "example": "회원 가입을 하면서 혜택을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Home appliances",
+        "pos": "Noun",
+        "kr": "가전제품",
+        "example": "가전제품을 구매하면서 집을 꾸미게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Home",
+        "pos": "Noun",
+        "kr": "가정",
+        "example": "가정을 이루면서 책임감이 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Leather",
+        "pos": "Noun",
+        "kr": "가죽",
+        "example": "가죽 가방을 사면서 기분이 좋아졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Signboard",
+        "pos": "Noun",
+        "kr": "간판",
+        "example": "간판을 걸면서 가게를 열게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Nursing",
+        "pos": "Noun",
+        "kr": "간호",
+        "example": "간호를 받으면서 건강이 회복되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rag",
+        "pos": "Noun",
+        "kr": "걸레",
+        "example": "걸레로 닦으면서 청소를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Outerwear",
+        "pos": "Noun",
+        "kr": "겉옷",
+        "example": "겉옷을 벗으면서 집에 들어왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Change",
+        "pos": "Noun",
+        "kr": "거스름돈",
+        "example": "거스름돈을 받으면서 계산을 마쳤어요.",
+        "rom": ""
+      },
+      {
+        "en": "Contract",
+        "pos": "Noun",
+        "kr": "계약",
+        "example": "계약을 맺으면서 일을 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Deposit",
+        "pos": "Noun",
+        "kr": "계약금",
+        "example": "계약금을 내면서 계약을 확정하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Account",
+        "pos": "Noun",
+        "kr": "계좌",
+        "example": "계좌를 개설하면서 저축을 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Payment",
+        "pos": "Noun",
+        "kr": "결제",
+        "example": "카드 결제를 하면서 쇼핑을 마쳤어요.",
+        "rom": ""
+      },
+      {
+        "en": "Utility bills",
+        "pos": "Noun",
+        "kr": "공과금",
+        "example": "공과금을 내면서 생활비를 관리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Construction",
+        "pos": "Noun",
+        "kr": "공사",
+        "example": "공사가 끝나면서 이사할 수 있게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Purchase",
+        "pos": "Noun",
+        "kr": "구입",
+        "example": "물품을 구입하면서 필요한 것을 갖추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Humidifier",
+        "pos": "Noun",
+        "kr": "가습기",
+        "example": "가습기를 켜면서 실내 습도를 높이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Gas stove",
+        "pos": "Noun",
+        "kr": "가스레인지",
+        "example": "가스레인지를 켜면서 요리를 시작했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Gas",
+        "pos": "Noun",
+        "kr": "가스",
+        "example": "가스 요금이 나와서 납부하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fees",
+        "pos": "Noun",
+        "kr": "경비",
+        "example": "여행 경비를 계산하면서 예산을 세우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "String",
+        "pos": "Noun",
+        "kr": "끈",
+        "example": "끈을 묶으면서 상자를 포장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cleaning tool",
+        "pos": "Noun",
+        "kr": "도구",
+        "example": "청소 도구를 준비하면서 청소를 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Management",
+        "pos": "Noun",
+        "kr": "관리",
+        "example": "학생 관리를 하면서 교육에 힘쓰게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Recording",
+        "pos": "Noun",
+        "kr": "녹음",
+        "example": "녹음을 하면서 목소리를 저장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Laptop",
+        "pos": "Noun",
+        "kr": "노트북",
+        "example": "노트북 컴퓨터로 일하면서 효율이 좋아졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Iron",
+        "pos": "Noun",
+        "kr": "다리미",
+        "example": "다리미로 옷을 다리면서 주름을 펴게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ironing",
+        "pos": "Noun",
+        "kr": "다림질",
+        "example": "다림질을 하면서 옷이 깔끔해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Download",
+        "pos": "Noun",
+        "kr": "다운로드",
+        "example": "다운로드를 받으면서 파일을 저장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Login",
+        "pos": "Noun",
+        "kr": "로그인",
+        "example": "로그인을 하면서 사이트에 접속하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Microphone",
+        "pos": "Noun",
+        "kr": "마이크",
+        "example": "마이크를 잡으면서 노래를 부르게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Mouse",
+        "pos": "Noun",
+        "kr": "마우스",
+        "example": "마우스를 클릭하면서 파일을 열게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Last train",
+        "pos": "Noun",
+        "kr": "막차",
+        "example": "막차를 놓치면서 택시를 타게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Meeting",
+        "pos": "Noun",
+        "kr": "만남",
+        "example": "만남이 있으면서 인연이 시작됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Business card",
+        "pos": "Noun",
+        "kr": "명함",
+        "example": "명함을 교환하면서 인사를 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Monitor",
+        "pos": "Noun",
+        "kr": "모니터",
+        "example": "컴퓨터 모니터를 보면서 일을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Recruitment",
+        "pos": "Noun",
+        "kr": "모집",
+        "example": "학생 모집을 하면서 신입생을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Weight",
+        "pos": "Noun",
+        "kr": "몸무게",
+        "example": "몸무게를 재면서 다이어트 성과를 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Inquiry",
+        "pos": "Noun",
+        "kr": "문의",
+        "example": "문의 전화를 하면서 정보를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Text",
+        "pos": "Noun",
+        "kr": "문자",
+        "example": "문자 메시지를 보내면서 연락을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Password",
+        "pos": "Noun",
+        "kr": "비밀번호",
+        "example": "비밀번호를 누르면서 계정에 접속하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cost",
+        "pos": "Noun",
+        "kr": "비용",
+        "example": "비용을 지불하면서 서비스를 이용하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Visa",
+        "pos": "Noun",
+        "kr": "비자",
+        "example": "비자를 연장하면서 체류 기간이 늘어났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Return",
+        "pos": "Noun",
+        "kr": "반납",
+        "example": "책을 반납하면서 새 책을 빌리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Battery",
+        "pos": "Noun",
+        "kr": "배터리",
+        "example": "배터리를 갈면서 기기가 다시 작동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Issuance",
+        "pos": "Noun",
+        "kr": "발급",
+        "example": "카드 발급을 받으면서 사용할 수 있게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Band-aid",
+        "pos": "Noun",
+        "kr": "반창고",
+        "example": "반창고를 붙이면서 상처를 보호하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Brush",
+        "pos": "Verb",
+        "kr": "빗다",
+        "example": "머리를 빗으면서 단정하게 꾸미게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Copy",
+        "pos": "Noun",
+        "kr": "복사",
+        "example": "문서 복사를 하면서 자료를 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Copier",
+        "pos": "Noun",
+        "kr": "복사기",
+        "example": "복사기를 사용하면서 인쇄를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Storage",
+        "pos": "Noun",
+        "kr": "보관",
+        "example": "냉장 보관을 하면서 음식을 신선하게 유지했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Insurance",
+        "pos": "Noun",
+        "kr": "보험",
+        "example": "보험에 가입하면서 안전을 대비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cleaning",
+        "pos": "Noun",
+        "kr": "대청소",
+        "example": "대청소를 하면서 집이 깨끗해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Search",
+        "pos": "Noun",
+        "kr": "검색",
+        "example": "인터넷 검색을 하면서 정보를 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Review",
+        "pos": "Noun",
+        "kr": "검토",
+        "example": "서류 검토를 하면서 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Posting",
+        "pos": "Noun",
+        "kr": "게시",
+        "example": "안내문 게시를 하면서 알리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Commemoration",
+        "pos": "Noun",
+        "kr": "기념",
+        "example": "결혼 기념을 하면서 축하하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Prayer",
+        "pos": "Noun",
+        "kr": "기도",
+        "example": "기도를 드리면서 마음이 편해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Memory",
+        "pos": "Noun",
+        "kr": "기억력",
+        "example": "기억력이 좋아서 잘 기억하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Final exam",
+        "pos": "Noun",
+        "kr": "기말시험",
+        "example": "기말시험을 보면서 긴장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Company dinner",
+        "pos": "Noun",
+        "kr": "회식",
+        "example": "부서 회식을 하면서 친해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Refund",
+        "pos": "Noun",
+        "kr": "환불",
+        "example": "요금 환불을 받으면서 돈을 돌려받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Confirmation",
+        "pos": "Noun",
+        "kr": "확인",
+        "example": "사실 확인을 하면서 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Activity",
+        "pos": "Noun",
+        "kr": "활동",
+        "example": "야외 활동을 하면서 건강해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Effect",
+        "pos": "Noun",
+        "kr": "효과",
+        "example": "약 효과가 있어서 나아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rest",
+        "pos": "Noun",
+        "kr": "휴식",
+        "example": "휴식 시간에 쉬면서 피로를 풀게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Leave of absence",
+        "pos": "Noun",
+        "kr": "휴학",
+        "example": "휴학 신청을 하면서 학교를 쉬게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Permission",
+        "pos": "Noun",
+        "kr": "허락",
+        "example": "결혼 허락을 받으면서 기뻐지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Shampoo",
+        "pos": "Noun",
+        "kr": "샴푸",
+        "example": "샴푸로 머리를 감으면서 깨끗해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Signature",
+        "pos": "Noun",
+        "kr": "서명",
+        "example": "서명을 하면서 계약을 완료하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Prior engagement",
+        "pos": "Noun",
+        "kr": "선약",
+        "example": "선약이 있어서 약속을 못 잡게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Survey",
+        "pos": "Noun",
+        "kr": "설문",
+        "example": "설문에 답하면서 의견을 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Manual",
+        "pos": "Noun",
+        "kr": "설명서",
+        "example": "제품 설명서를 읽으면서 사용법을 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Translation",
+        "pos": "Noun",
+        "kr": "번역",
+        "example": "한국어 번역을 하면서 연습하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Punishment",
+        "pos": "Noun",
+        "kr": "벌",
+        "example": "벌을 받으면서 반성하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fine",
+        "pos": "Noun",
+        "kr": "벌금",
+        "example": "벌금을 부과받으면서 조심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Competition",
+        "pos": "Noun",
+        "kr": "대회",
+        "example": "전국 대회에 나가면서 실력을 겨루게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Delivery",
+        "pos": "Noun",
+        "kr": "전달",
+        "example": "물건 전달을 하면서 심부름을 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Exhibition",
+        "pos": "Noun",
+        "kr": "전시",
+        "example": "전시 상품을 보면서 구경하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Presentation",
+        "pos": "Noun",
+        "kr": "발표",
+        "example": "결과 발표를 하면서 알리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pronunciation",
+        "pos": "Noun",
+        "kr": "발음",
+        "example": "발음 연습을 하면서 정확하게 말하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Participation",
+        "pos": "Noun",
+        "kr": "참가",
+        "example": "대회 참가를 하면서 경험을 쌓게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Attendance",
+        "pos": "Noun",
+        "kr": "참석",
+        "example": "회의 참석을 하면서 의견을 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Filming",
+        "pos": "Noun",
+        "kr": "촬영",
+        "example": "사진 촬영을 하면서 추억을 남기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Recommendation",
+        "pos": "Noun",
+        "kr": "추천",
+        "example": "추천 도서를 읽으면서 공부하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Boarding",
+        "pos": "Noun",
+        "kr": "탑승",
+        "example": "비행기 탑승을 하면서 여행을 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Discussion",
+        "pos": "Noun",
+        "kr": "토론",
+        "example": "찬반 토론을 하면서 의견을 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Communication",
+        "pos": "Noun",
+        "kr": "통신",
+        "example": "통신 상태가 좋아서 연락이 잘 되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Interpretation",
+        "pos": "Noun",
+        "kr": "통역",
+        "example": "영어 통역을 하면서 소통하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Festival",
+        "pos": "Noun",
+        "kr": "축제",
+        "example": "불꽃 축제를 보면서 즐거운 시간을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Departure",
+        "pos": "Noun",
+        "kr": "출국",
+        "example": "출국 수속을 하면서 여행을 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Promotion",
+        "pos": "Noun",
+        "kr": "승진",
+        "example": "승진 시험을 보면서 올라가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Boarding",
+        "pos": "Noun",
+        "kr": "승차",
+        "example": "승차 거부를 당하면서 화가 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ticket",
+        "pos": "Noun",
+        "kr": "승차권",
+        "example": "승차권을 끊으면서 표를 사게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Application",
+        "pos": "Noun",
+        "kr": "신청서",
+        "example": "신청서를 접수하면서 지원하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Newlywed",
+        "pos": "Noun",
+        "kr": "신혼",
+        "example": "신혼 생활을 하면서 행복해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Printing",
+        "pos": "Noun",
+        "kr": "인쇄",
+        "example": "인쇄가 선명해서 잘 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Interview",
+        "pos": "Noun",
+        "kr": "인터뷰",
+        "example": "인터뷰 기사를 읽으면서 정보를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Daily life",
+        "pos": "Noun",
+        "kr": "일상생활",
+        "example": "일상생활에서 사용하면서 익숙해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Schedule",
+        "pos": "Noun",
+        "kr": "일정",
+        "example": "여행 일정을 짜면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Entry",
+        "pos": "Noun",
+        "kr": "입국",
+        "example": "입국 수속을 하면서 도착하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Entrance exam",
+        "pos": "Noun",
+        "kr": "입학시험",
+        "example": "입학시험에 합격하면서 입학하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Entrance ceremony",
+        "pos": "Noun",
+        "kr": "입학식",
+        "example": "입학식을 치르면서 학교를 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Passing exam",
+        "pos": "Noun",
+        "kr": "합격",
+        "example": "시험 합격을 하면서 기뻐지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Solution",
+        "pos": "Noun",
+        "kr": "해결",
+        "example": "문제 해결을 하면서 편해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Savings",
+        "pos": "Noun",
+        "kr": "저축",
+        "example": "저축 예금을 하면서 돈을 모으게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Saving",
+        "pos": "Noun",
+        "kr": "절약",
+        "example": "시간 절약을 하면서 효율적으로 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Concentration",
+        "pos": "Noun",
+        "kr": "집중",
+        "example": "정신 집중을 하면서 공부하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Recycling",
+        "pos": "Noun",
+        "kr": "재활용",
+        "example": "재활용 쓰레기를 분리하면서 환경을 보호하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Qualification",
+        "pos": "Noun",
+        "kr": "자격",
+        "example": "보호자 자격을 갖추면서 인정받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Data",
+        "pos": "Noun",
+        "kr": "자료",
+        "example": "자료를 찾으면서 공부하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Writing",
+        "pos": "Noun",
+        "kr": "작성",
+        "example": "보고서 작성을 하면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Enrollment",
+        "pos": "Noun",
+        "kr": "재학",
+        "example": "재학 증명서를 발급받으면서 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Future",
+        "pos": "Noun",
+        "kr": "장래",
+        "example": "장래 희망을 말하면서 꿈을 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Funeral",
+        "pos": "Noun",
+        "kr": "장례식",
+        "example": "장례식을 치르면서 슬퍼하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Decoration",
+        "pos": "Noun",
+        "kr": "장식",
+        "example": "장식을 하면서 예쁘게 꾸미게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Advantage",
+        "pos": "Noun",
+        "kr": "장점",
+        "example": "장점과 단점을 파악하면서 이해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Correct answer",
+        "pos": "Noun",
+        "kr": "정답",
+        "example": "정답을 고르면서 문제를 풀게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Treatment",
+        "pos": "Noun",
+        "kr": "처방",
+        "example": "처방을 내리면서 치료하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Prescription",
+        "pos": "Noun",
+        "kr": "처방전",
+        "example": "병원 처방전을 받으면서 약을 사게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Physical strength",
+        "pos": "Noun",
+        "kr": "체력",
+        "example": "체력을 단련하면서 건강해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Experience",
+        "pos": "Noun",
+        "kr": "체험",
+        "example": "문화 체험을 하면서 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Compress",
+        "pos": "Noun",
+        "kr": "찜질",
+        "example": "얼음찜질을 하면서 붓기를 빼게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Consultation",
+        "pos": "Noun",
+        "kr": "상담",
+        "example": "상담을 받으면서 도움을 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Medical exam",
+        "pos": "Noun",
+        "kr": "진찰",
+        "example": "진찰을 받으면서 건강을 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Painkiller",
+        "pos": "Noun",
+        "kr": "진통제",
+        "example": "소염 진통제를 먹으면서 통증을 줄이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Entering school",
+        "pos": "Noun",
+        "kr": "진학",
+        "example": "진학 상담을 받으면서 진로를 정하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Medical cert",
+        "pos": "Noun",
+        "kr": "진단서",
+        "example": "진단서를 떼면서 증명하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Learning",
+        "pos": "Noun",
+        "kr": "학습",
+        "example": "외국어 학습을 하면서 실력이 늘게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Makeup",
+        "pos": "Noun",
+        "kr": "화장",
+        "example": "화장이 진해서 고치게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fire",
+        "pos": "Noun",
+        "kr": "화재",
+        "example": "화재 신고를 하면서 대피하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Reconciliation",
+        "pos": "Noun",
+        "kr": "화해",
+        "example": "화해를 청하면서 관계가 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Welcome party",
+        "pos": "Noun",
+        "kr": "환영회",
+        "example": "신입생 환영회를 열면서 환영하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Exchange rate",
+        "pos": "Noun",
+        "kr": "환율",
+        "example": "환율이 올라서 환전하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Website",
+        "pos": "Noun",
+        "kr": "홈페이지",
+        "example": "홈페이지에 접속하면서 정보를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dressing table",
+        "pos": "Noun",
+        "kr": "화장대",
+        "example": "화장대에 앉으면서 화장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Screen",
+        "pos": "Noun",
+        "kr": "화면",
+        "example": "텔레비전 화면을 보면서 시청하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Application",
+        "pos": "Noun",
+        "kr": "지원",
+        "example": "입사 지원을 하면서 취직 준비를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Preparation",
+        "pos": "Noun",
+        "kr": "준비물",
+        "example": "준비물을 챙기면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pros and cons",
+        "pos": "Noun",
+        "kr": "장단점",
+        "example": "성격의 장단점을 파악하면서 이해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Scene",
+        "pos": "Noun",
+        "kr": "장면",
+        "example": "경기 장면을 보면서 흥분하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Longevity",
+        "pos": "Noun",
+        "kr": "장수",
+        "example": "장수 마을을 방문하면서 비결을 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Guidance",
+        "pos": "Noun",
+        "kr": "지도",
+        "example": "지도를 받으면서 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Reading",
+        "pos": "Noun",
+        "kr": "읽기",
+        "example": "읽기를 잘하면서 실력이 늘게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Writing",
+        "pos": "Noun",
+        "kr": "쓰기",
+        "example": "쓰기 평가를 보면서 연습하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Listening",
+        "pos": "Noun",
+        "kr": "듣기",
+        "example": "듣기 평가를 보면서 긴장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Speaking",
+        "pos": "Noun",
+        "kr": "말하기",
+        "example": "말하기 평가를 보면서 연습하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Exam paper",
+        "pos": "Noun",
+        "kr": "시험지",
+        "example": "시험지를 채점하면서 결과를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Era",
+        "pos": "Noun",
+        "kr": "시대",
+        "example": "조선 시대를 배우면서 역사를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Time",
+        "pos": "Noun",
+        "kr": "시각",
+        "example": "일출 시각을 확인하면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Period",
+        "pos": "Noun",
+        "kr": "시기",
+        "example": "등록 시기를 확인하면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Facility",
+        "pos": "Noun",
+        "kr": "시설",
+        "example": "교육 시설을 이용하면서 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Role",
+        "pos": "Noun",
+        "kr": "역할",
+        "example": "역할을 맡으면서 책임감이 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Postponement",
+        "pos": "Noun",
+        "kr": "연기",
+        "example": "무기한 연기를 하면서 기다리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Acting",
+        "pos": "Noun",
+        "kr": "연기",
+        "example": "배우의 연기를 보면서 감동받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Research",
+        "pos": "Noun",
+        "kr": "연구",
+        "example": "연구 성과를 발표하면서 인정받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Extension",
+        "pos": "Noun",
+        "kr": "연장",
+        "example": "연장 근무를 하면서 늦게 퇴근하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Performance",
+        "pos": "Noun",
+        "kr": "연주",
+        "example": "피아노 연주를 듣면서 감동받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Concert",
+        "pos": "Noun",
+        "kr": "연주회",
+        "example": "피아노 연주회에 가면서 문화생활을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ointment",
+        "pos": "Noun",
+        "kr": "연고",
+        "example": "연고를 바르면서 치료하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Deposit",
+        "pos": "Noun",
+        "kr": "예금",
+        "example": "예금을 인출하면서 돈을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wedding hall",
+        "pos": "Noun",
+        "kr": "예식장",
+        "example": "예식장을 예약하면서 결혼 준비를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Vacuum cleaner",
+        "pos": "Noun",
+        "kr": "청소기",
+        "example": "청소기를 돌리면서 청소하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Marriage proposal",
+        "pos": "Noun",
+        "kr": "청혼",
+        "example": "청혼을 받으면서 기뻐지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Best",
+        "pos": "Noun",
+        "kr": "최선",
+        "example": "최선을 다하면서 노력하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lowest",
+        "pos": "Noun",
+        "kr": "최저",
+        "example": "최저 임금을 받으면서 일하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Top quality",
+        "pos": "Noun",
+        "kr": "최고급",
+        "example": "최고급 호텔에 묵으면서 편안하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Guess",
+        "pos": "Noun",
+        "kr": "추측",
+        "example": "추측이 맞으면서 놀라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Summer retreat",
+        "pos": "Noun",
+        "kr": "피서",
+        "example": "여름 피서를 떠나면서 휴가를 보내게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Acne",
+        "pos": "Noun",
+        "kr": "여드름",
+        "example": "여드름이 나면서 고민하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Leisure",
+        "pos": "Noun",
+        "kr": "여가",
+        "example": "여가를 즐기면서 휴식을 취하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Leisure",
+        "pos": "Noun",
+        "kr": "여유",
+        "example": "여유가 넘치면서 편안해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Summer vacation",
+        "pos": "Noun",
+        "kr": "여름휴가",
+        "example": "여름휴가를 떠나면서 쉬게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Summer season",
+        "pos": "Noun",
+        "kr": "여름철",
+        "example": "여름철 날씨가 더워서 에어컨을 틀게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Vacation season",
+        "pos": "Noun",
+        "kr": "휴가철",
+        "example": "휴가철이 시작되면서 여행객이 늘어나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Night view",
+        "pos": "Noun",
+        "kr": "야경",
+        "example": "야경을 감상하면서 분위기에 젖게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Night shift",
+        "pos": "Noun",
+        "kr": "야근",
+        "example": "야근이 잦아서 피곤해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Outdoors",
+        "pos": "Noun",
+        "kr": "야외",
+        "example": "야외로 나가면서 바깥 공기를 마시게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rough map",
+        "pos": "Noun",
+        "kr": "약도",
+        "example": "약도를 그리면서 길을 알려줬어요.",
+        "rom": ""
+      },
+      {
+        "en": "Medicine",
+        "pos": "Noun",
+        "kr": "약품",
+        "example": "약품 개발을 하면서 연구하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Old story",
+        "pos": "Noun",
+        "kr": "옛날이야기",
+        "example": "옛날이야기를 들으면서 추억에 잠기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sunrise",
+        "pos": "Noun",
+        "kr": "해돋이",
+        "example": "해돋이를 감상하면서 새해를 맞이하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Opera",
+        "pos": "Noun",
+        "kr": "오페라",
+        "example": "오페라를 감상하면서 문화생활을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Officetel",
+        "pos": "Noun",
+        "kr": "오피스텔",
+        "example": "오피스텔을 분양하면서 사게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Misunderstanding",
+        "pos": "Noun",
+        "kr": "오해",
+        "example": "오해를 풀면서 관계가 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Whole body",
+        "pos": "Noun",
+        "kr": "온몸",
+        "example": "온몸이 나른해서 쉬게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Attire",
+        "pos": "Noun",
+        "kr": "옷차림",
+        "example": "옷차림이 가벼워서 춥게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Musical",
+        "pos": "Noun",
+        "kr": "뮤지컬",
+        "example": "뮤지컬 공연을 보면서 감동받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Concert",
+        "pos": "Noun",
+        "kr": "음악회",
+        "example": "음악회에 가면서 음악을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Drinking",
+        "pos": "Noun",
+        "kr": "음주",
+        "example": "음주 운전은 위험하기 때문에 하면 안 돼요.",
+        "rom": ""
+      },
+      {
+        "en": "Voice",
+        "pos": "Noun",
+        "kr": "음성",
+        "example": "음성을 들으면서 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cheering",
+        "pos": "Noun",
+        "kr": "응원",
+        "example": "응원 소리를 들으면서 힘이 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sauna",
+        "pos": "Noun",
+        "kr": "사우나",
+        "example": "사우나로 땀을 내면서 피로를 풀게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Website",
+        "pos": "Noun",
+        "kr": "사이트",
+        "example": "사이트에 접속하면서 정보를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Blind date",
+        "pos": "Noun",
+        "kr": "소개팅",
+        "example": "소개팅을 나가면서 인연을 만나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Work",
+        "pos": "Noun",
+        "kr": "업무",
+        "example": "업무를 끝내면서 퇴근하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Proverb",
+        "pos": "Noun",
+        "kr": "속담",
+        "example": "속담을 인용하면서 설명하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Farewell party",
+        "pos": "Noun",
+        "kr": "송별회",
+        "example": "송별회를 열면서 작별 인사를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Chatter",
+        "pos": "Noun",
+        "kr": "수다",
+        "example": "수다를 떨면서 즐거운 시간을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Means",
+        "pos": "Noun",
+        "kr": "수단",
+        "example": "결제 수단을 확인하면서 계산하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Repair",
+        "pos": "Noun",
+        "kr": "수리",
+        "example": "수리를 맡기면서 고치게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sleep",
+        "pos": "Noun",
+        "kr": "수면",
+        "example": "수면을 취하면서 피로를 풀게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sleeping pill",
+        "pos": "Noun",
+        "kr": "수면제",
+        "example": "수면제를 복용하면서 잠을 자게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Repair",
+        "pos": "Noun",
+        "kr": "수선",
+        "example": "수선을 맡기면서 옷을 고치게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Email",
+        "pos": "Noun",
+        "kr": "이메일",
+        "example": "이메일을 보내면서 연락하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Resume",
+        "pos": "Noun",
+        "kr": "이력서",
+        "example": "이력서를 내면서 지원하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Name tag",
+        "pos": "Noun",
+        "kr": "이름표",
+        "example": "이름표를 달면서 소개하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Image",
+        "pos": "Noun",
+        "kr": "이미지",
+        "example": "청각적 이미지를 떠올리면서 상상하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Instant",
+        "pos": "Noun",
+        "kr": "인스턴트",
+        "example": "인스턴트 음식을 먹으면서 간단히 해결하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Number of people",
+        "pos": "Noun",
+        "kr": "인원",
+        "example": "인원이 부족해서 더 모집하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Life",
+        "pos": "Noun",
+        "kr": "인생",
+        "example": "인생을 바치면서 헌신하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Population",
+        "pos": "Noun",
+        "kr": "인구",
+        "example": "수도권 인구가 많아서 복잡하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Job",
+        "pos": "Noun",
+        "kr": "일자리",
+        "example": "일자리를 구하면서 취직 준비를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Party",
+        "pos": "Noun",
+        "kr": "일행",
+        "example": "일행과 헤어지면서 작별 인사를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sunrise",
+        "pos": "Noun",
+        "kr": "일출",
+        "example": "일출을 보면서 새해를 맞이하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sunglasses",
+        "pos": "Noun",
+        "kr": "선글라스",
+        "example": "선글라스를 끼면서 눈을 보호하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Shirt",
+        "pos": "Noun",
+        "kr": "셔츠",
+        "example": "셔츠를 입으면서 출근 준비를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Slippers",
+        "pos": "Noun",
+        "kr": "슬리퍼",
+        "example": "슬리퍼를 신으면서 집에서 편하게 지냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Skirt",
+        "pos": "Noun",
+        "kr": "스커트",
+        "example": "스커트를 입으면서 예쁘게 입게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Stockings",
+        "pos": "Noun",
+        "kr": "스타킹",
+        "example": "스타킹을 신으면서 옷을 갖추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sandals",
+        "pos": "Noun",
+        "kr": "샌들",
+        "example": "샌들을 신으면서 여름을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Thread",
+        "pos": "Noun",
+        "kr": "실",
+        "example": "실로 묶으면서 연결하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Accessory",
+        "pos": "Noun",
+        "kr": "액세서리",
+        "example": "액세서리를 걸치면서 꾸미게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Frame",
+        "pos": "Noun",
+        "kr": "액자",
+        "example": "액자를 걸면서 장식하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Eye drops",
+        "pos": "Noun",
+        "kr": "안약",
+        "example": "안약을 넣으면서 눈을 치료하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Seat belt",
+        "pos": "Noun",
+        "kr": "안전띠",
+        "example": "안전띠를 매면서 안전하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wristwatch",
+        "pos": "Noun",
+        "kr": "손목시계",
+        "example": "손목시계를 차면서 시간을 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Handbag",
+        "pos": "Noun",
+        "kr": "손가방",
+        "example": "손가방을 들면서 외출하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Handbag",
+        "pos": "Noun",
+        "kr": "핸드백",
+        "example": "핸드백을 메면서 쇼핑하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "School bag",
+        "pos": "Noun",
+        "kr": "책가방",
+        "example": "책가방을 메면서 학교에 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pajamas",
+        "pos": "Noun",
+        "kr": "잠옷",
+        "example": "잠옷을 입으면서 잠자리에 들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Jacket",
+        "pos": "Noun",
+        "kr": "재킷",
+        "example": "재킷을 입으면서 옷을 갖추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Formal suit",
+        "pos": "Noun",
+        "kr": "정장",
+        "example": "정장을 입으면서 격식을 갖추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Water purifier",
+        "pos": "Noun",
+        "kr": "정수기",
+        "example": "정수기를 설치하면서 물을 마시게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Zipper",
+        "pos": "Noun",
+        "kr": "지퍼",
+        "example": "지퍼를 잠그면서 옷을 입게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Vest",
+        "pos": "Noun",
+        "kr": "조끼",
+        "example": "조끼를 입으면서 따뜻하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Jumper",
+        "pos": "Noun",
+        "kr": "점퍼",
+        "example": "점퍼를 입으면서 추위를 막게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Curtain",
+        "pos": "Noun",
+        "kr": "커튼",
+        "example": "커튼을 달면서 장식하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Coat",
+        "pos": "Noun",
+        "kr": "코트",
+        "example": "코트를 입으면서 따뜻하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Belt",
+        "pos": "Noun",
+        "kr": "벨트",
+        "example": "벨트를 매면서 옷을 갖추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Belt",
+        "pos": "Noun",
+        "kr": "허리띠",
+        "example": "허리띠를 매면서 바지를 입게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Boots",
+        "pos": "Noun",
+        "kr": "부츠",
+        "example": "부츠를 신으면서 겨울 옷을 갖추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Underwear",
+        "pos": "Noun",
+        "kr": "팬티",
+        "example": "팬티를 입으면서 옷을 입게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Perm",
+        "pos": "Noun",
+        "kr": "파마",
+        "example": "파마머리를 하면서 스타일을 바꾸게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Perfume",
+        "pos": "Noun",
+        "kr": "향수",
+        "example": "향수를 뿌리면서 좋은 냄새가 나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Checkered pattern",
+        "pos": "Noun",
+        "kr": "체크무늬",
+        "example": "체크무늬 남방을 입으면서 멋있어 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Straight hair",
+        "pos": "Noun",
+        "kr": "생머리",
+        "example": "생머리를 가지면서 자연스러워 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bob haircut",
+        "pos": "Noun",
+        "kr": "단발머리",
+        "example": "단발머리로 자르면서 시원해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Short sleeves",
+        "pos": "Noun",
+        "kr": "반팔",
+        "example": "반팔을 입으면서 시원해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Long sleeves",
+        "pos": "Noun",
+        "kr": "긴팔",
+        "example": "긴팔을 입으면서 따뜻해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Tape",
+        "pos": "Noun",
+        "kr": "테이프",
+        "example": "테이프를 끊으면서 열게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Printer",
+        "pos": "Noun",
+        "kr": "프린터",
+        "example": "프린터로 출력하면서 인쇄하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Plastic",
+        "pos": "Noun",
+        "kr": "플라스틱",
+        "example": "플라스틱 용기를 사용하면서 편리해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "File",
+        "pos": "Noun",
+        "kr": "파일",
+        "example": "파일로 묶으면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Glue",
+        "pos": "Noun",
+        "kr": "풀",
+        "example": "풀로 붙이면서 붙이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ruler",
+        "pos": "Noun",
+        "kr": "자",
+        "example": "자로 재면서 길이를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Scale",
+        "pos": "Noun",
+        "kr": "저울",
+        "example": "저울에 달면서 무게를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Digital",
+        "pos": "Noun",
+        "kr": "디지털",
+        "example": "디지털 방송을 보면서 화면이 선명해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "CD",
+        "pos": "Noun",
+        "kr": "시디",
+        "example": "시디를 굽면서 음악을 저장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Microwave",
+        "pos": "Noun",
+        "kr": "전자레인지",
+        "example": "전자레인지에 데우면서 요리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Electronic dictionary",
+        "pos": "Noun",
+        "kr": "전자사전",
+        "example": "전자사전을 찾으면서 단어를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Electronics",
+        "pos": "Noun",
+        "kr": "전자",
+        "example": "전자 제품을 사면서 편리해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Power supply",
+        "pos": "Noun",
+        "kr": "전원",
+        "example": "전원을 끄면서 절전하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Keychain",
+        "pos": "Noun",
+        "kr": "열쇠고리",
+        "example": "열쇠고리를 사오면서 선물하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Classical music",
+        "pos": "Noun",
+        "kr": "클래식",
+        "example": "클래식 음악을 듣면서 편안해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Comedy",
+        "pos": "Noun",
+        "kr": "코미디",
+        "example": "코미디 영화를 보면서 웃게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Show",
+        "pos": "Noun",
+        "kr": "쇼",
+        "example": "쇼를 보면서 즐거운 시간을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fashion",
+        "pos": "Noun",
+        "kr": "패션",
+        "example": "패션 잡지를 읽으면서 트렌드를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fork",
+        "pos": "Noun",
+        "kr": "포크",
+        "example": "포크로 찍으면서 먹게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Menu",
+        "pos": "Noun",
+        "kr": "차림표",
+        "example": "차림표를 보면서 주문하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Needle",
+        "pos": "Noun",
+        "kr": "바늘",
+        "example": "실과 바늘로 꿰매면서 옷을 수선하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Basket",
+        "pos": "Noun",
+        "kr": "바구니",
+        "example": "과일 바구니를 들면서 장보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Foundation",
+        "pos": "Noun",
+        "kr": "바탕",
+        "example": "바탕을 이루면서 기초를 다지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bag",
+        "pos": "Noun",
+        "kr": "봉지",
+        "example": "봉지에 넣으면서 담게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Table",
+        "pos": "Noun",
+        "kr": "탁자",
+        "example": "탁자에 두면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Mattress",
+        "pos": "Noun",
+        "kr": "요",
+        "example": "요를 깔면서 잠자리를 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wallpaper",
+        "pos": "Noun",
+        "kr": "벽지",
+        "example": "벽지로 도배하면서 집을 꾸미게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wall clock",
+        "pos": "Noun",
+        "kr": "벽시계",
+        "example": "벽시계를 걸면서 시간을 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Detergent",
+        "pos": "Noun",
+        "kr": "세제",
+        "example": "세제로 닦아내면서 청소하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Car wash",
+        "pos": "Noun",
+        "kr": "세차",
+        "example": "세차를 받으면서 차를 깨끗하게 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Laundry",
+        "pos": "Noun",
+        "kr": "세탁물",
+        "example": "세탁물을 맡기면서 빨래를 해결하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hair dryer",
+        "pos": "Noun",
+        "kr": "드라이어",
+        "example": "드라이어로 말리면서 머리를 말리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Brush",
+        "pos": "Noun",
+        "kr": "빗",
+        "example": "머리를 빗으면서 단정하게 꾸미게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Recorder",
+        "pos": "Noun",
+        "kr": "녹음기",
+        "example": "녹음기로 녹음하면서 기록하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Memo pad",
+        "pos": "Noun",
+        "kr": "메모지",
+        "example": "메모지에 쓰면서 기록하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Menu",
+        "pos": "Noun",
+        "kr": "메뉴판",
+        "example": "메뉴판을 찾으면서 주문 준비를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Diarrhea",
+        "pos": "Noun",
+        "kr": "설사",
+        "example": "설사 증상이 있어서 약을 먹게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Stomachache",
+        "pos": "Noun",
+        "kr": "복통",
+        "example": "복통이 심해서 병원에 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Motion sickness",
+        "pos": "Noun",
+        "kr": "멀미",
+        "example": "멀미가 나서 힘들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Body ache",
+        "pos": "Noun",
+        "kr": "몸살",
+        "example": "몸살이 나서 쉬게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Oversleeping",
+        "pos": "Noun",
+        "kr": "늦잠",
+        "example": "늦잠을 자서 지각하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Nosebleed",
+        "pos": "Noun",
+        "kr": "코피",
+        "example": "코피를 흘리면서 놀라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Yawn",
+        "pos": "Noun",
+        "kr": "하품",
+        "example": "하품이 나오면서 졸리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sigh",
+        "pos": "Noun",
+        "kr": "한숨",
+        "example": "한숨을 쉬면서 걱정하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Allergy",
+        "pos": "Noun",
+        "kr": "알레르기",
+        "example": "알레르기 증상이 있어서 조심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Digestion",
+        "pos": "Noun",
+        "kr": "소화",
+        "example": "소화를 돕기 위해 약을 먹게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Constipation",
+        "pos": "Noun",
+        "kr": "변비",
+        "example": "변비에 걸려서 고생하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Flu",
+        "pos": "Noun",
+        "kr": "독감",
+        "example": "독감 증세가 있어서 쉬게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cancer",
+        "pos": "Noun",
+        "kr": "암",
+        "example": "암에 걸리면서 치료하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wish",
+        "pos": "Noun",
+        "kr": "소원",
+        "example": "소원을 빌면서 바라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rumor",
+        "pos": "Noun",
+        "kr": "소문",
+        "example": "소문이 퍼지면서 알려지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Kiss",
+        "pos": "Noun",
+        "kr": "키스",
+        "example": "첫 키스를 하면서 설레게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Kiss",
+        "pos": "Noun",
+        "kr": "뽀뽀",
+        "example": "볼에 뽀뽀하면서 인사하게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "describe": [
+      {
+        "en": "Full",
+        "pos": "Adjective",
+        "kr": "가득하다",
+        "example": "물이 가득해서 더 넣을 수 없게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Itchy",
+        "pos": "Adjective",
+        "kr": "가렵다",
+        "example": "몸이 가려워서 병원에 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Black",
+        "pos": "Adjective",
+        "kr": "검다",
+        "example": "색깔이 검어서 눈에 띄지 않게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beautiful",
+        "pos": "Adjective",
+        "kr": "곱다",
+        "example": "고운 얼굴을 보면서 감탄하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Very",
+        "pos": "Adverb",
+        "kr": "굉장히",
+        "example": "굉장히 좋아해서 자주 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Regular",
+        "pos": "Adj Noun",
+        "kr": "규칙적",
+        "example": "규칙적인 생활을 하면서 건강해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Neat",
+        "pos": "Adjective",
+        "kr": "깔끔하다",
+        "example": "방이 깔끔해서 기분이 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Quite",
+        "pos": "Adverb",
+        "kr": "꽤",
+        "example": "꽤 멀어서 차를 타고 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hard",
+        "pos": "Adjective",
+        "kr": "단단하다",
+        "example": "뼈가 단단해서 부러지지 않았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Neat",
+        "pos": "Adjective",
+        "kr": "단정하다",
+        "example": "옷차림이 단정해서 인상이 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Less",
+        "pos": "Adverb",
+        "kr": "덜",
+        "example": "덜 익어서 더 익히게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Round",
+        "pos": "Adjective",
+        "kr": "동그랗다",
+        "example": "얼굴이 동그래서 귀여워 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Round",
+        "pos": "Adjective",
+        "kr": "둥글다",
+        "example": "지구가 둥글다는 것을 배우면서 신기해했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dazzling",
+        "pos": "Adjective",
+        "kr": "눈부시다",
+        "example": "조명이 눈부셔서 눈을 가리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hungry",
+        "pos": "Adjective",
+        "kr": "배고프다",
+        "example": "배고파서 빨리 먹게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cool",
+        "pos": "Adjective",
+        "kr": "멋지다",
+        "example": "경치가 멋져서 사진을 많이 찍게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Clear",
+        "pos": "Adverb",
+        "kr": "분명히",
+        "example": "분명히 기억해서 확신을 가지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hard",
+        "pos": "Adjective",
+        "kr": "딱딱하다",
+        "example": "껍질이 딱딱해서 깨기 어려웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Exactly",
+        "pos": "Adverb",
+        "kr": "딱",
+        "example": "딱 알맞아서 만족하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Widely",
+        "pos": "Adverb",
+        "kr": "널리",
+        "example": "널리 알려지면서 유명해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Clearly",
+        "pos": "Adverb",
+        "kr": "똑똑히",
+        "example": "똑똑히 기억하면서 잊지 않게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Thick",
+        "pos": "Noun",
+        "kr": "두께",
+        "example": "두께가 얇아서 쉽게 구부러지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Width",
+        "pos": "Noun",
+        "kr": "가로",
+        "example": "가로와 세로를 재면서 크기를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Vertical",
+        "pos": "Noun",
+        "kr": "세로",
+        "example": "세로로 세우면서 공간을 절약하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Area",
+        "pos": "Noun",
+        "kr": "면적",
+        "example": "면적이 넓어서 여유 공간이 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Area",
+        "pos": "Noun",
+        "kr": "넓이",
+        "example": "넓이를 재면서 방 크기를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Thickness",
+        "pos": "Noun",
+        "kr": "두께",
+        "example": "두께가 있어서 튼튼하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Late at night",
+        "pos": "Adjective",
+        "kr": "밤늦다",
+        "example": "밤늦은 시각까지 일하면서 피곤해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Under",
+        "pos": "Noun",
+        "kr": "미만",
+        "example": "19세 미만이라서 입장하지 못하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Just now",
+        "pos": "Adverb",
+        "kr": "막",
+        "example": "막 들어와서 상황을 모르게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Recklessly",
+        "pos": "Adverb",
+        "kr": "막",
+        "example": "막 쓰면서 돈이 부족해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "As one wishes",
+        "pos": "Adverb",
+        "kr": "마음대로",
+        "example": "마음대로 되면서 기분이 좋아졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Just",
+        "pos": "Adverb",
+        "kr": "그저",
+        "example": "그저 웃기만 하면서 대답을 피했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Nevertheless",
+        "pos": "Adverb",
+        "kr": "그래도",
+        "example": "그래도 포기하지 않으면서 노력했어요.",
+        "rom": ""
+      },
+      {
+        "en": "But",
+        "pos": "Adverb",
+        "kr": "근데",
+        "example": "근데 생각해 보면서 다르게 느끼게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Upside down",
+        "pos": "Adverb",
+        "kr": "거꾸로",
+        "example": "거꾸로 뒤집히면서 내용물이 쏟아졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Barely",
+        "pos": "Adverb",
+        "kr": "겨우",
+        "example": "겨우 몇 개밖에 없어서 부족하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Evenly",
+        "pos": "Adverb",
+        "kr": "골고루",
+        "example": "골고루 먹으면서 영양을 챙기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Straight",
+        "pos": "Adverb",
+        "kr": "곧장",
+        "example": "곧장 가면서 빨리 도착하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Soon after",
+        "pos": "Adverb",
+        "kr": "곧이어",
+        "example": "곧이어 시작하면서 지루할 틈이 없었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Steadily",
+        "pos": "Adverb",
+        "kr": "꾸준히",
+        "example": "꾸준히 노력하면서 실력이 늘게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Tightly",
+        "pos": "Adverb",
+        "kr": "꽉",
+        "example": "꽉 누르면서 단단히 고정하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Blink",
+        "pos": "Adverb",
+        "kr": "깜빡",
+        "example": "깜빡 켜지면서 신호를 보내게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Budge",
+        "pos": "Adverb",
+        "kr": "꼼짝",
+        "example": "꼼짝 못 하면서 움직이지 못하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Finally",
+        "pos": "Adverb",
+        "kr": "끝내",
+        "example": "끝내 모르면서 포기하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Within",
+        "pos": "Noun",
+        "kr": "내",
+        "example": "기간 내에 완료하면서 시간을 지키게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Throughout",
+        "pos": "Adverb",
+        "kr": "내내",
+        "example": "일 년 내내 열심히 하면서 성과를 내게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Slightly",
+        "pos": "Adverb",
+        "kr": "살짝",
+        "example": "살짝 움직이면서 조심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Secretly",
+        "pos": "Adverb",
+        "kr": "몰래",
+        "example": "몰래 도망가면서 들키지 않았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Also",
+        "pos": "Adverb",
+        "kr": "또한",
+        "example": "나 또한 참여하면서 함께하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Refined",
+        "pos": "Adjective",
+        "kr": "세련되다",
+        "example": "옷차림이 세련돼서 멋있어 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Detailed",
+        "pos": "Adjective",
+        "kr": "자세하다",
+        "example": "자세한 설명을 들으면서 이해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Free",
+        "pos": "Adjective",
+        "kr": "자유롭다",
+        "example": "자유로운 생각을 하면서 창의적이 되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Inexpensive",
+        "pos": "Adjective",
+        "kr": "저렴하다",
+        "example": "저렴한 물건을 사면서 절약하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dirty",
+        "pos": "Adjective",
+        "kr": "지저분하다",
+        "example": "길이 지저분해서 청소하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Excessive",
+        "pos": "Adjective",
+        "kr": "지나치다",
+        "example": "지나친 운동을 해서 다치게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Plump",
+        "pos": "Adjective",
+        "kr": "통통하다",
+        "example": "몸매가 통통해서 귀여워 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Unfashionable",
+        "pos": "Adjective",
+        "kr": "촌스럽다",
+        "example": "옷차림이 촌스러워서 바꾸게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Tender",
+        "pos": "Adjective",
+        "kr": "연하다",
+        "example": "고기가 연해서 먹기 좋게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Clumsy",
+        "pos": "Adjective",
+        "kr": "서투르다",
+        "example": "서투른 운전을 하면서 조심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Relaxed",
+        "pos": "Adjective",
+        "kr": "여유롭다",
+        "example": "여유로운 삶을 살면서 행복해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Active",
+        "pos": "Adjective",
+        "kr": "활발하다",
+        "example": "교류가 활발해서 많이 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Correct",
+        "pos": "Adjective",
+        "kr": "올바르다",
+        "example": "올바른 태도를 가지면서 신뢰받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hectic",
+        "pos": "Adjective",
+        "kr": "정신없다",
+        "example": "구경에 정신없어서 시간 가는 줄 몰랐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dizzy",
+        "pos": "Adjective",
+        "kr": "어지럽다",
+        "example": "머리가 어지러워서 앉게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bright",
+        "pos": "Adjective",
+        "kr": "환하다",
+        "example": "불빛이 환해서 잘 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wide open",
+        "pos": "Adverb",
+        "kr": "활짝",
+        "example": "활짝 열면서 바람을 들이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Quickly",
+        "pos": "Adverb",
+        "kr": "얼른",
+        "example": "얼른 일어나면서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "At least",
+        "pos": "Adverb",
+        "kr": "적어도",
+        "example": "적어도 하나는 해야 해서 노력하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Gradually",
+        "pos": "Adverb",
+        "kr": "점차",
+        "example": "점차 좋아지면서 나아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Properly",
+        "pos": "Adverb",
+        "kr": "제대로",
+        "example": "제대로 갖추면서 완성하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Really",
+        "pos": "Adverb",
+        "kr": "정말로",
+        "example": "정말로 믿으면서 확신하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Accurately",
+        "pos": "Adverb",
+        "kr": "정확히",
+        "example": "정확히 계산하면서 맞추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Without fail",
+        "pos": "Adverb",
+        "kr": "틀림없이",
+        "example": "틀림없이 맞으면서 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "In spare time",
+        "pos": "Adverb",
+        "kr": "틈틈이",
+        "example": "틈틈이 하면서 시간을 활용하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Straight",
+        "pos": "Adverb",
+        "kr": "쭉",
+        "example": "선을 쭉 그으면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Immediately",
+        "pos": "Noun",
+        "kr": "즉시",
+        "example": "즉시 통과하면서 빨리 끝나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Namely",
+        "pos": "Adverb",
+        "kr": "즉",
+        "example": "즉 그 말은 다른 뜻이 있어서 이해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Enough",
+        "pos": "Adverb",
+        "kr": "충분히",
+        "example": "충분히 쉬면서 회복하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "On purpose",
+        "pos": "Adverb",
+        "kr": "일부러",
+        "example": "일부러 안 하면서 피하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Forever",
+        "pos": "Adverb",
+        "kr": "영원히",
+        "example": "영원히 사랑하면서 약속하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "In reality",
+        "pos": "Adverb",
+        "kr": "실제로",
+        "example": "실제로 일어나면서 놀라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Separately",
+        "pos": "Adverb",
+        "kr": "따로따로",
+        "example": "따로따로 움직이면서 각자 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Before one knows it",
+        "pos": "Adverb",
+        "kr": "어느새",
+        "example": "어느새 다 자라면서 놀라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "For example",
+        "pos": "Adverb",
+        "kr": "예컨대",
+        "example": "예컨대 이런 식으로 하면서 설명하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Or",
+        "pos": "Adverb",
+        "kr": "혹은",
+        "example": "아들 혹은 딸이 있으면서 자녀가 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "By chance",
+        "pos": "Adverb",
+        "kr": "우연히",
+        "example": "우연히 발견하면서 놀라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "For a while",
+        "pos": "Noun",
+        "kr": "한동안",
+        "example": "한동안 계속되면서 오래가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "One by one",
+        "pos": "Adverb",
+        "kr": "하나하나",
+        "example": "하나하나 세면서 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "All day",
+        "pos": "Adverb",
+        "kr": "종일",
+        "example": "종일 일하면서 피곤해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To one's content",
+        "pos": "Adverb",
+        "kr": "실컷",
+        "example": "실컷 놀면서 즐거워지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Frantically",
+        "pos": "Adverb",
+        "kr": "정신없이",
+        "example": "정신없이 찾으면서 헤매게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "For a long time",
+        "pos": "Adverb",
+        "kr": "오래오래",
+        "example": "오래오래 살면서 건강하시길 바라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "This and that",
+        "pos": "Determiner",
+        "kr": "이런저런",
+        "example": "이런저런 문제가 있어서 해결하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "About",
+        "pos": "Suffix",
+        "kr": "쯤",
+        "example": "이쯤 되면서 끝나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Poverty",
+        "pos": "Noun",
+        "kr": "가난",
+        "example": "가난을 겪으면서 힘든 시간을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Possibility",
+        "pos": "Noun",
+        "kr": "가능",
+        "example": "주차 가능한 곳을 찾으면서 주차하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sensation",
+        "pos": "Noun",
+        "kr": "감각",
+        "example": "감각이 없어서 느끼지 못하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Director",
+        "pos": "Noun",
+        "kr": "감독",
+        "example": "감독을 강화하면서 관리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fear",
+        "pos": "Noun",
+        "kr": "겁",
+        "example": "겁이 많아서 무서워하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Thirst",
+        "pos": "Noun",
+        "kr": "갈증",
+        "example": "갈증이 나서 물을 마시게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bubble",
+        "pos": "Noun",
+        "kr": "거품",
+        "example": "거품이 나면서 세척하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sight",
+        "pos": "Noun",
+        "kr": "광경",
+        "example": "광경을 보면서 감탄하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Overwork",
+        "pos": "Noun",
+        "kr": "과로",
+        "example": "과로로 쓰러지면서 쉬게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Exaggeration",
+        "pos": "Noun",
+        "kr": "과장",
+        "example": "과장이 심해서 믿기 어렵게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Science",
+        "pos": "Noun",
+        "kr": "과학",
+        "example": "과학 기술이 발전하면서 편리해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Public",
+        "pos": "Noun",
+        "kr": "공공",
+        "example": "공공 기관을 이용하면서 서비스를 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Joint",
+        "pos": "Noun",
+        "kr": "공동",
+        "example": "공동 개최를 하면서 협력하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Official",
+        "pos": "Noun",
+        "kr": "공식",
+        "example": "공식 발표를 하면서 알리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Performance",
+        "pos": "Noun",
+        "kr": "공연",
+        "example": "공연을 보면서 감동받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Emergency",
+        "pos": "Noun",
+        "kr": "긴급",
+        "example": "긴급 구조를 하면서 구하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Machine",
+        "pos": "Noun",
+        "kr": "기계",
+        "example": "기계가 작동하면서 일이 쉬워지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Institution",
+        "pos": "Noun",
+        "kr": "기관",
+        "example": "공공 기관을 방문하면서 도움을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Apparatus",
+        "pos": "Noun",
+        "kr": "기구",
+        "example": "운동 기구를 사용하면서 운동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Souvenir",
+        "pos": "Noun",
+        "kr": "기념품",
+        "example": "기념품을 사면서 추억을 만들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Enterprise",
+        "pos": "Noun",
+        "kr": "기업",
+        "example": "기업을 운영하면서 사업하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Article",
+        "pos": "Noun",
+        "kr": "기사",
+        "example": "신문 기사를 읽으면서 정보를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Style",
+        "pos": "Noun",
+        "kr": "스타일",
+        "example": "독특한 스타일을 가지면서 개성이 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Skill",
+        "pos": "Noun",
+        "kr": "실력",
+        "example": "실력이 뛰어나서 인정받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Taste",
+        "pos": "Noun",
+        "kr": "취향",
+        "example": "개인 취향이 달라서 선택이 다르게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dollar",
+        "pos": "Noun",
+        "kr": "달러",
+        "example": "달러를 환전하면서 외화를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pattern",
+        "pos": "Noun",
+        "kr": "무늬",
+        "example": "나무의 무늬가 예뻐서 고르게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Model",
+        "pos": "Noun",
+        "kr": "모범",
+        "example": "모범이 되면서 칭찬받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Meaning",
+        "pos": "Noun",
+        "kr": "뜻",
+        "example": "뜻을 이해하면서 공부하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Movement",
+        "pos": "Noun",
+        "kr": "동작",
+        "example": "동작이 느려서 빨리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Difficulty",
+        "pos": "Noun",
+        "kr": "어려움",
+        "example": "어려움을 겪으면서 성장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Vocabulary",
+        "pos": "Noun",
+        "kr": "어휘",
+        "example": "풍부한 어휘를 가지면서 표현력이 늘게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Nutrition",
+        "pos": "Noun",
+        "kr": "영양",
+        "example": "영양 상태를 확인하면서 건강을 챙기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Video",
+        "pos": "Noun",
+        "kr": "영상",
+        "example": "영상에 담으면서 기록하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Modern times",
+        "pos": "Noun",
+        "kr": "현대",
+        "example": "현대 문명을 살면서 편리해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Form",
+        "pos": "Noun",
+        "kr": "형태",
+        "example": "건물의 형태를 보면서 감탄하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Excellence",
+        "pos": "Noun",
+        "kr": "우수",
+        "example": "우수 학생이 되면서 칭찬받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Supplement",
+        "pos": "Noun",
+        "kr": "영양제",
+        "example": "영양제를 챙기면서 건강을 관리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Credit",
+        "pos": "Noun",
+        "kr": "신용",
+        "example": "신용을 잃으면서 후회하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Body",
+        "pos": "Noun",
+        "kr": "신체",
+        "example": "신체가 튼튼해서 건강하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Spirit",
+        "pos": "Noun",
+        "kr": "정신",
+        "example": "절약 정신을 갖추면서 저축하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sincerity",
+        "pos": "Noun",
+        "kr": "진심",
+        "example": "진심을 전하면서 마음을 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Complexion",
+        "pos": "Noun",
+        "kr": "안색",
+        "example": "안색이 나빠서 걱정되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Status",
+        "pos": "Noun",
+        "kr": "신분",
+        "example": "사회적 신분이 높아서 존경받게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "emotions": [
+      {
+        "en": "Emotion",
+        "pos": "Noun",
+        "kr": "감동",
+        "example": "영화를 보면서 감동을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Emotion",
+        "pos": "Noun",
+        "kr": "감정",
+        "example": "감정이 풍부해서 눈물이 자주 나게 돼요.",
+        "rom": ""
+      },
+      {
+        "en": "Touching",
+        "pos": "Adj Noun",
+        "kr": "감동적",
+        "example": "감동적인 이야기를 읽으면서 울게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Appreciation",
+        "pos": "Noun",
+        "kr": "감상",
+        "example": "음악 감상을 하면서 마음이 편안해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fear",
+        "pos": "Noun",
+        "kr": "공포",
+        "example": "공포를 느끼면서 영화를 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Difficulty",
+        "pos": "Noun",
+        "kr": "곤란",
+        "example": "곤란한 상황이 생기면서 어떻게 해야 할지 몰랐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Positive",
+        "pos": "Adj Noun",
+        "kr": "긍정적",
+        "example": "긍정적인 태도를 가지면서 인생이 달라지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Expectation",
+        "pos": "Noun",
+        "kr": "기대",
+        "example": "기대를 받으면서 부담이 생기기도 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Relief",
+        "pos": "Noun",
+        "kr": "다행",
+        "example": "다행히 찾게 되어서 안심했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Embarrassment",
+        "pos": "Noun",
+        "kr": "당황",
+        "example": "당황해서 말을 못 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Satisfaction",
+        "pos": "Noun",
+        "kr": "만족",
+        "example": "결과에 만족하면서 뿌듯함을 느꼈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Satisfactory",
+        "pos": "Adjective",
+        "kr": "만족스럽다",
+        "example": "결과가 만족스러워서 기분이 좋아졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hateful",
+        "pos": "Adjective",
+        "kr": "밉다",
+        "example": "처음에는 미웠는데 나중에 이해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fortune",
+        "pos": "Noun",
+        "kr": "복",
+        "example": "복을 받으면서 좋은 일이 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Reward",
+        "pos": "Noun",
+        "kr": "보람",
+        "example": "일에 보람을 느끼면서 더 열심히 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Burden",
+        "pos": "Noun",
+        "kr": "부담",
+        "example": "부담이 커지면서 스트레스를 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dissatisfaction",
+        "pos": "Noun",
+        "kr": "불만",
+        "example": "불만을 말하면서 관계가 나빠지기도 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Complaint",
+        "pos": "Noun",
+        "kr": "불평",
+        "example": "불평만 하면 해결이 안 되기 때문에 노력해야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Love",
+        "pos": "Noun",
+        "kr": "사랑",
+        "example": "사랑하게 되면서 세상이 아름답게 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Life",
+        "pos": "Noun",
+        "kr": "삶",
+        "example": "삶을 누리면서 행복을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Heart",
+        "pos": "Noun",
+        "kr": "마음씨",
+        "example": "마음씨가 고와서 모두에게 사랑받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Impression",
+        "pos": "Noun",
+        "kr": "소감",
+        "example": "소감을 말하면서 경험을 나누게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Smile",
+        "pos": "Noun",
+        "kr": "미소",
+        "example": "미소를 지으면서 상대방의 마음을 열게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Natural",
+        "pos": "Adjective",
+        "kr": "당연하다",
+        "example": "노력하면 당연히 좋은 결과가 나오기 때문에 포기하지 마세요.",
+        "rom": ""
+      },
+      {
+        "en": "Great",
+        "pos": "Adjective",
+        "kr": "대단하다",
+        "example": "성과가 대단해서 모두가 놀라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Excellent",
+        "pos": "Adjective",
+        "kr": "뛰어나다",
+        "example": "솜씨가 뛰어나서 칭찬을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Introverted",
+        "pos": "Adj Noun",
+        "kr": "내성적",
+        "example": "내성적인 성격이라서 사람들 앞에서 긴장하게 돼요.",
+        "rom": ""
+      },
+      {
+        "en": "Cold",
+        "pos": "Adjective",
+        "kr": "냉정하다",
+        "example": "냉정하게 말해서 상대방이 상처를 받았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Affection",
+        "pos": "Noun",
+        "kr": "다정",
+        "example": "다정한 연인이 되면서 행복을 느끼게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Be afraid of",
+        "pos": "Verb",
+        "kr": "무서워하다",
+        "example": "물을 무서워해서 수영을 못 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Envy",
+        "pos": "Verb",
+        "kr": "부러워하다",
+        "example": "성공을 부러워하면서 나도 노력하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To recall",
+        "pos": "Verb",
+        "kr": "떠올리다",
+        "example": "추억을 떠올리면서 미소를 짓게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To tremble",
+        "pos": "Verb",
+        "kr": "떨다",
+        "example": "무서움에 떨면서 영화를 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To rise",
+        "pos": "Verb",
+        "kr": "떠오르다",
+        "example": "좋은 아이디어가 떠오르면서 문제를 해결하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To shake",
+        "pos": "Verb",
+        "kr": "떨리다",
+        "example": "긴장해서 온몸이 떨리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fall for",
+        "pos": "Verb",
+        "kr": "반하다",
+        "example": "첫눈에 반하면서 사랑에 빠지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sociable",
+        "pos": "Adj Noun",
+        "kr": "사교적",
+        "example": "사교적인 성격이라서 친구가 많아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sincerity",
+        "pos": "Noun",
+        "kr": "성실",
+        "example": "성실한 사람이 되면서 신뢰를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Upset",
+        "pos": "Adjective",
+        "kr": "속상하다",
+        "example": "속상한 마음이 있어서 눈물이 나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sorry",
+        "pos": "Adjective",
+        "kr": "아쉽다",
+        "example": "작별이 아쉬워서 눈물이 나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Amazing",
+        "pos": "Adjective",
+        "kr": "신기하다",
+        "example": "신기한 일이 생기면서 놀라게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Excited",
+        "pos": "Verb",
+        "kr": "신나다",
+        "example": "신난 아이들이 뛰어다니면서 즐거워했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Disappointment",
+        "pos": "Noun",
+        "kr": "실망",
+        "example": "실망이 커서 우울해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Boredom",
+        "pos": "Noun",
+        "kr": "싫증",
+        "example": "싫증이 나면서 새로운 것을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Serious",
+        "pos": "Adjective",
+        "kr": "심각하다",
+        "example": "문제가 심각해서 걱정되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Handshake",
+        "pos": "Noun",
+        "kr": "악수",
+        "example": "화해의 악수를 나누면서 화해하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pain",
+        "pos": "Noun",
+        "kr": "아픔",
+        "example": "육신의 아픔을 느끼면서 고통스러웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Impression",
+        "pos": "Noun",
+        "kr": "인상",
+        "example": "인상에 남으면서 기억하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Joy",
+        "pos": "Noun",
+        "kr": "즐거움",
+        "example": "즐거움을 느끼면서 행복해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Affection",
+        "pos": "Noun",
+        "kr": "정",
+        "example": "정이 들면서 헤어지기 싫어지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Memory",
+        "pos": "Noun",
+        "kr": "추억",
+        "example": "추억으로 남으면서 잊지 못하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Friendship",
+        "pos": "Noun",
+        "kr": "우정",
+        "example": "우정을 나누면서 친구가 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Depression",
+        "pos": "Noun",
+        "kr": "우울",
+        "example": "우울에 빠지면서 힘들어지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Courage",
+        "pos": "Noun",
+        "kr": "용기",
+        "example": "용기를 내면서 도전하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Regret",
+        "pos": "Noun",
+        "kr": "후회",
+        "example": "늦은 후회를 하면서 반성하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Luck",
+        "pos": "Noun",
+        "kr": "운",
+        "example": "운이 좋아서 성공하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Good luck",
+        "pos": "Noun",
+        "kr": "행운",
+        "example": "행운이 오면서 기회를 잡게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fate",
+        "pos": "Noun",
+        "kr": "운명",
+        "example": "운명을 믿으면서 받아들이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Respect",
+        "pos": "Noun",
+        "kr": "존경",
+        "example": "존경을 받으면서 자부심이 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Shame",
+        "pos": "Noun",
+        "kr": "창피",
+        "example": "창피를 당하면서 부끄러워지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Smart",
+        "pos": "Adjective",
+        "kr": "영리하다",
+        "example": "영리한 학생이 되면서 칭찬을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Relief",
+        "pos": "Noun",
+        "kr": "안심",
+        "example": "안심하면서 걱정을 놓게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Stability",
+        "pos": "Noun",
+        "kr": "안정",
+        "example": "안정을 유지하면서 평화로워지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lonely",
+        "pos": "Adjective",
+        "kr": "외롭다",
+        "example": "외로워서 친구를 만나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Generous",
+        "pos": "Noun",
+        "kr": "인심",
+        "example": "인심이 넉넉해서 모두에게 사랑받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Love",
+        "pos": "Noun",
+        "kr": "사랑",
+        "example": "사랑하면서 행복해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sacrifice",
+        "pos": "Noun",
+        "kr": "희생",
+        "example": "희생을 감수하면서 남을 도왔어요.",
+        "rom": ""
+      }
+    ],
+    "food": [
+      {
+        "en": "Seasoning",
+        "pos": "Noun",
+        "kr": "간",
+        "example": "간을 보면서 요리해야 맛이 좋아지게 돼요.",
+        "rom": ""
+      },
+      {
+        "en": "Sweet potato",
+        "pos": "Noun",
+        "kr": "고구마",
+        "example": "겨울에 고구마를 먹으면 몸이 따뜻해지기 때문에 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Chili pepper",
+        "pos": "Noun",
+        "kr": "고추",
+        "example": "고추를 따려고 텃밭에 갔는데 이미 다 익어 있었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Red pepper powder",
+        "pos": "Noun",
+        "kr": "고춧가루",
+        "example": "김치를 담그기 위해 고춧가루를 사러 시장에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Broth",
+        "pos": "Noun",
+        "kr": "국물",
+        "example": "국물이 시원해서 속이 풀리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Honey",
+        "pos": "Noun",
+        "kr": "꿀",
+        "example": "목이 아파서 꿀을 넣은 차를 마시게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Carrot",
+        "pos": "Noun",
+        "kr": "당근",
+        "example": "아이가 당근을 싫어하는데 주스로 만들어 주니까 잘 먹더라고요.",
+        "rom": ""
+      },
+      {
+        "en": "Greens",
+        "pos": "Noun",
+        "kr": "나물",
+        "example": "나물을 다듬으면서 어머니와 이야기를 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Garlic",
+        "pos": "Noun",
+        "kr": "마늘",
+        "example": "마늘을 다지려고 했는데 칼이 무뎌서 힘들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Spicy fish stew",
+        "pos": "Noun",
+        "kr": "매운탕",
+        "example": "매운탕을 끓이기 위해 신선한 생선을 샀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Anchovy",
+        "pos": "Noun",
+        "kr": "멸치",
+        "example": "멸치를 볶으면서 반찬을 준비했는데 생각보다 쉬웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sand",
+        "pos": "Noun",
+        "kr": "모래",
+        "example": "조개에 모래가 들어 있어서 잘 씻어야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Shrimp",
+        "pos": "Noun",
+        "kr": "새우",
+        "example": "새우를 튀기려고 기름을 달궜는데 불이 너무 셌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Barley",
+        "pos": "Noun",
+        "kr": "보리",
+        "example": "여름에 보리차를 마시면 갈증이 해소되기 때문에 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Peach",
+        "pos": "Noun",
+        "kr": "복숭아",
+        "example": "복숭아가 달콤해서 자꾸 먹게 돼요.",
+        "rom": ""
+      },
+      {
+        "en": "Butter",
+        "pos": "Noun",
+        "kr": "버터",
+        "example": "빵에 버터를 바르면서 아침 식사를 준비했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Mushroom",
+        "pos": "Noun",
+        "kr": "버섯",
+        "example": "버섯 요리를 하려고 했는데 재료가 부족했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dough",
+        "pos": "Noun",
+        "kr": "반죽",
+        "example": "반죽을 치대면서 빵 만들기를 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Chestnut",
+        "pos": "Noun",
+        "kr": "밤",
+        "example": "가을에 밤을 먹으면 추억이 생각나기 때문에 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Rice bowl",
+        "pos": "Noun",
+        "kr": "밥그릇",
+        "example": "밥그릇에 담으면서 가족에게 저녁을 차려 줬어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rice cooker",
+        "pos": "Noun",
+        "kr": "밥솥",
+        "example": "밥솥이 고장 나서 새로 사게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sweetness",
+        "pos": "Noun",
+        "kr": "단맛",
+        "example": "단맛을 좋아하는데 건강을 위해 줄이려고 노력해요.",
+        "rom": ""
+      },
+      {
+        "en": "Sweet",
+        "pos": "Adjective",
+        "kr": "달콤하다",
+        "example": "케이크가 달콤해서 자꾸 먹고 싶어져요.",
+        "rom": ""
+      },
+      {
+        "en": "Savory",
+        "pos": "Adjective",
+        "kr": "구수하다",
+        "example": "된장찌개가 구수해서 밥을 두 공기나 먹게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Spicy taste",
+        "pos": "Noun",
+        "kr": "매운맛",
+        "example": "매운맛을 좋아하기 때문에 고추장을 많이 넣어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lemon",
+        "pos": "Noun",
+        "kr": "레몬",
+        "example": "레몬을 넣으면서 음료를 만들었는데 상큼해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To mince",
+        "pos": "Verb",
+        "kr": "다지다",
+        "example": "마늘을 다지려고 칼을 꺼냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "To soak",
+        "pos": "Verb",
+        "kr": "담그다",
+        "example": "배추를 소금물에 담그면서 김치 준비를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To put in",
+        "pos": "Verb",
+        "kr": "담다",
+        "example": "반찬을 그릇에 담으면서 도시락을 싸게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To blanch",
+        "pos": "Verb",
+        "kr": "데치다",
+        "example": "채소를 데쳐서 나물을 만들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To roll",
+        "pos": "Verb",
+        "kr": "말다",
+        "example": "김밥을 말면서 소풍 준비를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To dry",
+        "pos": "Verb",
+        "kr": "말리다",
+        "example": "빨래를 말리면서 날씨가 좋다고 생각했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To bite",
+        "pos": "Verb",
+        "kr": "물다",
+        "example": "사과를 물면서 맛이 달다고 느꼈어요.",
+        "rom": ""
+      },
+      {
+        "en": "To sprinkle",
+        "pos": "Verb",
+        "kr": "뿌리다",
+        "example": "깨를 뿌리면서 비빔밥을 완성했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To boil",
+        "pos": "Verb",
+        "kr": "삶다",
+        "example": "국수를 삶으면서 저녁 준비를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "To get spoiled",
+        "pos": "Verb",
+        "kr": "상하다",
+        "example": "음식이 상해서 버리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To pour",
+        "pos": "Verb",
+        "kr": "붓다",
+        "example": "물을 부으면서 라면을 끓이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To swell",
+        "pos": "Verb",
+        "kr": "붓다",
+        "example": "너무 많이 먹어서 배가 붓게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fruit peel",
+        "pos": "Noun",
+        "kr": "껍질",
+        "example": "과일 껍질을 까면서 손이 베였어요.",
+        "rom": ""
+      },
+      {
+        "en": "To peel",
+        "pos": "Verb",
+        "kr": "까다",
+        "example": "달걀 껍질을 까려고 했는데 생각보다 어려웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Material",
+        "pos": "Noun",
+        "kr": "재료",
+        "example": "요리 재료를 준비하면서 레시피를 확인했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Powder",
+        "pos": "Noun",
+        "kr": "가루",
+        "example": "가루로 만들면서 빻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Seasoning",
+        "pos": "Noun",
+        "kr": "양념",
+        "example": "양념을 뿌리면서 맛을 더하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Onion",
+        "pos": "Noun",
+        "kr": "양파",
+        "example": "양파 냄새가 나면서 눈물이 나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cabbage",
+        "pos": "Noun",
+        "kr": "양배추",
+        "example": "양배추를 썰면서 샐러드를 만들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Squid",
+        "pos": "Noun",
+        "kr": "오징어",
+        "example": "오징어 요리를 하면서 맛있는 저녁을 먹게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wine",
+        "pos": "Noun",
+        "kr": "와인",
+        "example": "와인을 마시면서 분위기 있는 저녁을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Yogurt",
+        "pos": "Noun",
+        "kr": "요구르트",
+        "example": "요구르트를 마시면서 건강을 챙기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Recipe",
+        "pos": "Noun",
+        "kr": "요리법",
+        "example": "요리법을 개발하면서 새로운 메뉴를 만들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Walnut",
+        "pos": "Noun",
+        "kr": "호두",
+        "example": "호두 파이를 먹으면서 달콤한 맛을 느꼈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pumpkin",
+        "pos": "Noun",
+        "kr": "호박",
+        "example": "호박 농사를 지으면서 수확의 기쁨을 느꼈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Raw fish",
+        "pos": "Noun",
+        "kr": "회",
+        "example": "회를 먹으면서 신선한 맛을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dessert",
+        "pos": "Noun",
+        "kr": "후식",
+        "example": "후식을 먹으면서 식사를 마무리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Black pepper",
+        "pos": "Noun",
+        "kr": "후추",
+        "example": "후추를 뿌리면서 맛을 더하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Seafood",
+        "pos": "Noun",
+        "kr": "해물",
+        "example": "해물 파전을 먹으면서 한국 음식을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sausage",
+        "pos": "Noun",
+        "kr": "소시지",
+        "example": "소시지를 먹으면서 간단한 식사를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Porridge",
+        "pos": "Noun",
+        "kr": "죽",
+        "example": "죽을 쑤면서 환자를 간호하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Jam",
+        "pos": "Noun",
+        "kr": "잼",
+        "example": "잼을 바르면서 빵을 먹게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sesame oil",
+        "pos": "Noun",
+        "kr": "참기름",
+        "example": "참기름을 바르면서 나물 맛을 더하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cheese",
+        "pos": "Noun",
+        "kr": "치즈",
+        "example": "피자 치즈를 넣으면서 요리를 완성하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Green onion",
+        "pos": "Noun",
+        "kr": "파",
+        "example": "파를 썰면서 국 재료를 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Grape wine",
+        "pos": "Noun",
+        "kr": "포도주",
+        "example": "포도주를 담그면서 와인을 만들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Breakfast",
+        "pos": "Noun",
+        "kr": "아침밥",
+        "example": "아침밥을 먹으면서 하루를 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beef",
+        "pos": "Noun",
+        "kr": "쇠고기",
+        "example": "쇠고기를 굽으면서 맛있는 냄새가 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cooking oil",
+        "pos": "Noun",
+        "kr": "식용유",
+        "example": "식용유에 튀기면서 바삭하게 만들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Food poisoning",
+        "pos": "Noun",
+        "kr": "식중독",
+        "example": "식중독에 걸리면서 고생하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ginseng tea",
+        "pos": "Noun",
+        "kr": "인삼차",
+        "example": "인삼차를 마시면서 건강을 챙기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Condiment",
+        "pos": "Noun",
+        "kr": "조미료",
+        "example": "인공 조미료를 피하면서 건강한 음식을 먹게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "nature": [
+      {
+        "en": "River water",
+        "pos": "Noun",
+        "kr": "강물",
+        "example": "강물이 흐르면서 시원한 소리가 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Forsythia",
+        "pos": "Noun",
+        "kr": "개나리",
+        "example": "개나리가 피면서 봄이 왔다는 걸 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Air",
+        "pos": "Noun",
+        "kr": "공기",
+        "example": "공기가 맑아서 기분이 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bear",
+        "pos": "Noun",
+        "kr": "곰",
+        "example": "동물원에서 곰을 보면서 신기해했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Tail",
+        "pos": "Noun",
+        "kr": "꼬리",
+        "example": "강아지가 꼬리를 흔들면서 반가워했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Floral pattern",
+        "pos": "Noun",
+        "kr": "꽃무늬",
+        "example": "꽃무늬 옷을 입으면서 봄 분위기를 냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fallen leaves",
+        "pos": "Noun",
+        "kr": "낙엽",
+        "example": "낙엽을 태우면서 가을 냄새를 맡았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Leaf",
+        "pos": "Noun",
+        "kr": "나뭇잎",
+        "example": "나뭇잎을 따면서 가을을 느꼈어요.",
+        "rom": ""
+      },
+      {
+        "en": "South America",
+        "pos": "Noun",
+        "kr": "남미",
+        "example": "남미 대륙을 여행하면서 다양한 문화를 경험했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Southern part",
+        "pos": "Noun",
+        "kr": "남부",
+        "example": "남부 지방으로 가면서 날씨가 따뜻해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lightning",
+        "pos": "Noun",
+        "kr": "번개",
+        "example": "천둥과 번개가 치면서 무서웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Star",
+        "pos": "Noun",
+        "kr": "별",
+        "example": "별이 빛나면서 밤하늘이 아름다워 보였어요.",
+        "rom": ""
+      },
+      {
+        "en": "Northern part",
+        "pos": "Noun",
+        "kr": "북부",
+        "example": "북부 지방으로 가면서 날씨가 추워졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Root",
+        "pos": "Noun",
+        "kr": "뿌리",
+        "example": "나무의 뿌리가 깊으면서 튼튼해 보였어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rain shower",
+        "pos": "Noun",
+        "kr": "소나기",
+        "example": "소나기가 내리면서 갑자기 비를 맞게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sound of water",
+        "pos": "Noun",
+        "kr": "물소리",
+        "example": "물소리가 나면서 시원한 느낌이 들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Seawater",
+        "pos": "Noun",
+        "kr": "바닷물",
+        "example": "바닷물에 발을 담그면서 시원해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rock",
+        "pos": "Noun",
+        "kr": "바위",
+        "example": "바위에 앉으면서 쉬게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sweltering heat",
+        "pos": "Noun",
+        "kr": "무더위",
+        "example": "무더위가 꺾이면서 날씨가 시원해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dust",
+        "pos": "Noun",
+        "kr": "먼지",
+        "example": "먼지를 닦으면서 청소를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sand",
+        "pos": "Noun",
+        "kr": "모래",
+        "example": "모래 장난을 하면서 즐거운 시간을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Half moon",
+        "pos": "Noun",
+        "kr": "반달",
+        "example": "반달이 뜨면서 밤이 밝아졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Full moon",
+        "pos": "Noun",
+        "kr": "보름달",
+        "example": "보름달이 뜨면서 아름다운 밤이 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bone",
+        "pos": "Noun",
+        "kr": "뼈",
+        "example": "동물의 뼈를 발견하면서 신기해했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dryness",
+        "pos": "Noun",
+        "kr": "건조",
+        "example": "건조한 날씨 때문에 피부가 갈라지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Oriental",
+        "pos": "Noun",
+        "kr": "동양",
+        "example": "동양 사상을 공부하면서 새로운 시각을 갖게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Slippery",
+        "pos": "Adjective",
+        "kr": "미끄럽다",
+        "example": "길이 미끄러워서 조심하면서 걸어야 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Old/Worn",
+        "pos": "Adjective",
+        "kr": "낡다",
+        "example": "옷이 낡아서 새로 사게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Unfamiliar",
+        "pos": "Adjective",
+        "kr": "낯설다",
+        "example": "낯선 환경이지만 적응하면서 익숙해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To give birth",
+        "pos": "Verb",
+        "kr": "낳다",
+        "example": "아기를 낳으면서 가족이 늘어나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Everywhere",
+        "pos": "Noun",
+        "kr": "곳곳",
+        "example": "전국 곳곳을 여행하면서 많은 것을 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Light",
+        "pos": "Noun",
+        "kr": "빛",
+        "example": "빛이 들어오면서 방이 환해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "To sprinkle",
+        "pos": "Verb",
+        "kr": "뿌리다",
+        "example": "물을 뿌리면서 화분을 관리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To sprain",
+        "pos": "Verb",
+        "kr": "삐다",
+        "example": "발목을 삐면서 걷기 어려워졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bruise",
+        "pos": "Noun",
+        "kr": "멍",
+        "example": "멍이 들면서 아프게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wave",
+        "pos": "Noun",
+        "kr": "파도",
+        "example": "파도가 치면서 시원한 소리가 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Duck",
+        "pos": "Noun",
+        "kr": "오리",
+        "example": "오리를 잡으면서 농장 생활을 경험하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Monkey",
+        "pos": "Noun",
+        "kr": "원숭이",
+        "example": "수컷 원숭이를 보면서 신기해했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dragon",
+        "pos": "Noun",
+        "kr": "용",
+        "example": "용이 승천하는 모습을 보면서 감탄하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Well",
+        "pos": "Noun",
+        "kr": "우물",
+        "example": "우물을 파면서 물을 구하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Universe",
+        "pos": "Noun",
+        "kr": "우주",
+        "example": "우주 만물을 생각하면서 감동을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Forest",
+        "pos": "Noun",
+        "kr": "숲",
+        "example": "숲이 우거지면서 시원해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lawn",
+        "pos": "Noun",
+        "kr": "잔디밭",
+        "example": "잔디밭에 앉으면서 휴식을 취하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rainy season",
+        "pos": "Noun",
+        "kr": "장마철",
+        "example": "장마철이 다가오면서 비가 많이 오게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Flower",
+        "pos": "Noun",
+        "kr": "장미꽃",
+        "example": "장미꽃을 주면서 고백하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Egg",
+        "pos": "Noun",
+        "kr": "알",
+        "example": "알을 까면서 요리를 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hill",
+        "pos": "Noun",
+        "kr": "언덕",
+        "example": "언덕을 오르면서 경치를 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Thunder",
+        "pos": "Noun",
+        "kr": "천둥",
+        "example": "천둥이 치면서 무서워지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "First snow",
+        "pos": "Noun",
+        "kr": "첫눈",
+        "example": "첫눈이 내리면서 겨울이 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Waterfall",
+        "pos": "Noun",
+        "kr": "폭포",
+        "example": "폭포에 가면서 자연을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Balloon",
+        "pos": "Noun",
+        "kr": "풍선",
+        "example": "풍선을 띄우면서 즐거운 시간을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Custom",
+        "pos": "Noun",
+        "kr": "풍습",
+        "example": "전통 풍습을 따르면서 문화를 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sunlight",
+        "pos": "Noun",
+        "kr": "햇볕",
+        "example": "햇볕을 쬐면서 따뜻해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Flowerpot",
+        "pos": "Noun",
+        "kr": "화분",
+        "example": "화분에 심으면서 식물을 키우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bright",
+        "pos": "Adjective",
+        "kr": "환하다",
+        "example": "불빛이 환해서 잘 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "White",
+        "pos": "Adjective",
+        "kr": "희다",
+        "example": "흰 종이에 쓰면서 글을 적게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Stain",
+        "pos": "Noun",
+        "kr": "얼룩",
+        "example": "옷의 얼룩을 닦으면서 깨끗해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Skin",
+        "pos": "Noun",
+        "kr": "피부",
+        "example": "피부 미용을 하면서 관리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fatigue",
+        "pos": "Noun",
+        "kr": "피로",
+        "example": "피로가 쌓이면서 힘들어지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Damage",
+        "pos": "Noun",
+        "kr": "피해",
+        "example": "피해를 입으면서 손해를 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Quality",
+        "pos": "Noun",
+        "kr": "품질",
+        "example": "품질이 뛰어나서 만족하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hair",
+        "pos": "Noun",
+        "kr": "털",
+        "example": "털이 빠지면서 관리가 필요하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Season",
+        "pos": "Noun",
+        "kr": "철",
+        "example": "철이 바뀌면서 날씨가 달라지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Humidity",
+        "pos": "Noun",
+        "kr": "습도",
+        "example": "습도가 높아서 덥게 느껴지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Moisture",
+        "pos": "Noun",
+        "kr": "습기",
+        "example": "습기가 차면서 눅눅해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Humid",
+        "pos": "Adjective",
+        "kr": "습하다",
+        "example": "습한 공기 때문에 불쾌하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fresh",
+        "pos": "Adjective",
+        "kr": "싱싱하다",
+        "example": "싱싱한 꽃을 보면서 기분이 좋아졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Seed",
+        "pos": "Noun",
+        "kr": "씨",
+        "example": "씨를 뿌리면서 농사를 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Mouse",
+        "pos": "Noun",
+        "kr": "쥐",
+        "example": "쥐를 잡으면서 집을 청소하게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "numbers": [
+      {
+        "en": "Zero",
+        "pos": "Noun",
+        "kr": "공",
+        "example": "공부터 시작하면서 기초를 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Gram",
+        "pos": "Bound Noun",
+        "kr": "그램",
+        "example": "고기 백 그램을 사면서 요리 재료를 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Friday",
+        "pos": "Noun",
+        "kr": "금",
+        "example": "금요일에 만나면서 주말 계획을 세우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Amount",
+        "pos": "Noun",
+        "kr": "금액",
+        "example": "금액을 지불하면서 쇼핑을 마치게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Era",
+        "pos": "Bound Noun",
+        "kr": "년대",
+        "example": "이천 년대에 태어나면서 디지털 시대를 경험하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Five days",
+        "pos": "Noun",
+        "kr": "닷새",
+        "example": "닷새가 걸리면서 완성하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Counter for vehicles",
+        "pos": "Bound Noun",
+        "kr": "대",
+        "example": "자동차 한 대를 사면서 이동이 편해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Generation",
+        "pos": "Noun",
+        "kr": "대",
+        "example": "대가 바뀌면서 문화도 달라지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dollar",
+        "pos": "Bound Noun",
+        "kr": "달러",
+        "example": "일 달러를 환전하면서 외화를 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Thursday",
+        "pos": "Noun",
+        "kr": "목",
+        "example": "목요일에 회의가 있어서 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Counter for nights",
+        "pos": "Bound Noun",
+        "kr": "박",
+        "example": "1박 2일로 여행하면서 휴식을 취하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Half",
+        "pos": "Noun",
+        "kr": "반",
+        "example": "반으로 나누면서 공평하게 분배하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Five or six",
+        "pos": "Determiner",
+        "kr": "대여섯",
+        "example": "대여섯 명이 모이면서 팀을 이루게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Three or four",
+        "pos": "Numeral",
+        "kr": "서넛",
+        "example": "서넛이 필요해서 더 사게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Century",
+        "pos": "Noun",
+        "kr": "세기",
+        "example": "21세기에 살면서 기술 발전을 경험하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Years",
+        "pos": "Noun",
+        "kr": "세월",
+        "example": "세월이 흐르면서 많은 것이 변하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Some",
+        "pos": "Determiner",
+        "kr": "몇몇",
+        "example": "몇몇 사람이 참여하면서 행사가 진행됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Price",
+        "pos": "Noun",
+        "kr": "물가",
+        "example": "물가가 비싸져서 생활비가 늘어나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Full",
+        "pos": "Noun",
+        "kr": "만",
+        "example": "만 3주가 되면서 기간이 끝나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rank",
+        "pos": "Bound Noun",
+        "kr": "등",
+        "example": "일 등을 하면서 상을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Etc",
+        "pos": "Bound Noun",
+        "kr": "등",
+        "example": "딸기",
+        "rom": ""
+      },
+      {
+        "en": "Period",
+        "pos": "Noun",
+        "kr": "교시",
+        "example": "1교시에 수업이 있어서 일찍 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Structure",
+        "pos": "Noun",
+        "kr": "구조",
+        "example": "구조를 바꾸면서 효율적으로 만들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Full moon",
+        "pos": "Noun",
+        "kr": "보름",
+        "example": "정월 보름에 소원을 빌면서 한 해를 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fifteen days",
+        "pos": "Noun",
+        "kr": "보름",
+        "example": "보름 동안 여행하면서 많은 곳을 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To count",
+        "pos": "Verb",
+        "kr": "세다",
+        "example": "수를 세면서 계산하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To multiply",
+        "pos": "Verb",
+        "kr": "곱하다",
+        "example": "수를 곱하면서 답을 구하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To add",
+        "pos": "Verb",
+        "kr": "더하다",
+        "example": "숫자를 더하면서 합계를 내게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Scale",
+        "pos": "Noun",
+        "kr": "규모",
+        "example": "규모를 늘리면서 사업이 커지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Function",
+        "pos": "Noun",
+        "kr": "기능",
+        "example": "기능이 다양해서 편리하게 사용하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Tuition",
+        "pos": "Noun",
+        "kr": "등록금",
+        "example": "등록금을 내면서 학기를 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Registration",
+        "pos": "Noun",
+        "kr": "등록",
+        "example": "등록을 하면서 수업에 참여하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Centimeter",
+        "pos": "Bound Noun",
+        "kr": "센티",
+        "example": "1센티 차이로 아슬아슬하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Set",
+        "pos": "Noun",
+        "kr": "세트",
+        "example": "선물 세트를 사면서 포장하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Total",
+        "pos": "Noun",
+        "kr": "합계",
+        "example": "합계를 구하면서 계산하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Frequency",
+        "pos": "Noun",
+        "kr": "횟수",
+        "example": "횟수를 세면서 기록하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Income",
+        "pos": "Noun",
+        "kr": "수입",
+        "example": "수입이 많아서 저축하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Quantity",
+        "pos": "Noun",
+        "kr": "수량",
+        "example": "수량이 모자라서 더 사게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fee",
+        "pos": "Noun",
+        "kr": "수수료",
+        "example": "수수료가 붙어서 비용이 늘어나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Page",
+        "pos": "Noun",
+        "kr": "페이지",
+        "example": "페이지를 넘기면서 읽게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Page",
+        "pos": "Noun",
+        "kr": "쪽",
+        "example": "쪽 번호를 확인하면서 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Percent",
+        "pos": "Bound Noun",
+        "kr": "퍼센트",
+        "example": "백 퍼센트 맞으면서 확신하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pair",
+        "pos": "Noun",
+        "kr": "쌍",
+        "example": "쌍으로 묶으면서 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Compartment",
+        "pos": "Noun",
+        "kr": "칸",
+        "example": "옆 칸에 앉으면서 이동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Middle of month",
+        "pos": "Noun",
+        "kr": "중순",
+        "example": "내달 중순에 만나면서 약속하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Capacity",
+        "pos": "Noun",
+        "kr": "정원",
+        "example": "정원 미달이라서 모집하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Size",
+        "pos": "Noun",
+        "kr": "치수",
+        "example": "치수를 재면서 맞추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Form",
+        "pos": "Noun",
+        "kr": "양식",
+        "example": "양식에 맞추면서 작성하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Small change",
+        "pos": "Noun",
+        "kr": "잔돈",
+        "example": "잔돈을 모으면서 저축하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "First place",
+        "pos": "Noun",
+        "kr": "위",
+        "example": "1위를 하면서 기뻐하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Entrance fee",
+        "pos": "Noun",
+        "kr": "입장료",
+        "example": "입장료를 내면서 들어가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Below",
+        "pos": "Noun",
+        "kr": "이하",
+        "example": "수준 이하라서 노력하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Interest",
+        "pos": "Noun",
+        "kr": "이자",
+        "example": "은행 이자를 받으면서 저축하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Stripes",
+        "pos": "Noun",
+        "kr": "줄무늬",
+        "example": "줄무늬 옷을 입으면서 멋있어 보이게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Intermediate",
+        "pos": "Noun",
+        "kr": "중급",
+        "example": "중급 수준이 되면서 실력이 늘게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beginner",
+        "pos": "Noun",
+        "kr": "초급",
+        "example": "초급 과정을 마치면서 다음으로 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Scholarship",
+        "pos": "Noun",
+        "kr": "장학금",
+        "example": "장학금을 받으면서 등록금을 해결하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Living expenses",
+        "pos": "Noun",
+        "kr": "생활비",
+        "example": "생활비를 벌면서 독립하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Food expenses",
+        "pos": "Noun",
+        "kr": "식비",
+        "example": "식비가 들어서 예산을 세우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Monthly rent",
+        "pos": "Noun",
+        "kr": "월세",
+        "example": "월세를 내면서 살게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "House rent",
+        "pos": "Noun",
+        "kr": "집세",
+        "example": "집세를 내면서 생활하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Allowance",
+        "pos": "Noun",
+        "kr": "용돈",
+        "example": "용돈을 벌면서 쓰게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Accommodation fee",
+        "pos": "Noun",
+        "kr": "숙박비",
+        "example": "호텔의 숙박비가 비싸서 다른 곳을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Membership fee",
+        "pos": "Noun",
+        "kr": "회비",
+        "example": "회비를 내면서 회원이 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Selling price",
+        "pos": "Noun",
+        "kr": "판매",
+        "example": "판매 가격을 확인하면서 사게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Vacation cost",
+        "pos": "Noun",
+        "kr": "휴가비",
+        "example": "휴가비를 모으면서 여행 준비를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Discount rate",
+        "pos": "Noun",
+        "kr": "할인율",
+        "example": "할인율이 높아서 저렴하게 사게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "people": [
+      {
+        "en": "Customer",
+        "pos": "Noun",
+        "kr": "고객",
+        "example": "고객을 맞으면서 미소를 지어야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Lecturer",
+        "pos": "Noun",
+        "kr": "강사",
+        "example": "강사로 일하게 되면서 많은 것을 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Individual",
+        "pos": "Noun",
+        "kr": "개인",
+        "example": "개인의 자유를 존중해야 하기 때문에 강요하면 안 돼요.",
+        "rom": ""
+      },
+      {
+        "en": "Police officer",
+        "pos": "Noun",
+        "kr": "경찰관",
+        "example": "경찰관이 되려고 열심히 준비하고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Manager",
+        "pos": "Noun",
+        "kr": "과장",
+        "example": "과장으로 승진하게 되면서 책임이 늘었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Audience",
+        "pos": "Noun",
+        "kr": "관객",
+        "example": "관객이 많아서 공연장이 붐비게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Spectator",
+        "pos": "Noun",
+        "kr": "관람객",
+        "example": "관람객이 몰려서 입장하기 어려웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "She",
+        "pos": "Pronoun",
+        "kr": "그녀",
+        "example": "그녀를 만나게 되면서 인생이 바뀌었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Colleague",
+        "pos": "Noun",
+        "kr": "동료",
+        "example": "동료와 함께 일하면서 많이 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Alumni",
+        "pos": "Noun",
+        "kr": "동창",
+        "example": "동창을 만나려고 동창회에 참석했어요.",
+        "rom": ""
+      },
+      {
+        "en": "President",
+        "pos": "Noun",
+        "kr": "대통령",
+        "example": "대통령이 되기 위해 열심히 노력해야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Representative",
+        "pos": "Noun",
+        "kr": "대표",
+        "example": "회사 대표가 되면서 책임감이 생겼어요.",
+        "rom": ""
+      },
+      {
+        "en": "Model",
+        "pos": "Noun",
+        "kr": "모델",
+        "example": "모델이 되려고 오디션을 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Doctor",
+        "pos": "Noun",
+        "kr": "박사",
+        "example": "박사 학위를 받으려고 열심히 연구하고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Parents",
+        "pos": "Noun",
+        "kr": "부모",
+        "example": "부모를 공경해야 하기 때문에 항상 감사의 마음을 갖고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Father",
+        "pos": "Noun",
+        "kr": "부친",
+        "example": "부친이 편찮으셔서 병원에 자주 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hairdresser",
+        "pos": "Noun",
+        "kr": "미용사",
+        "example": "미용사가 되려고 미용 학원에 다니고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beauty",
+        "pos": "Noun",
+        "kr": "미인",
+        "example": "미인 대회에 나가기 위해 열심히 준비했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Businessman",
+        "pos": "Noun",
+        "kr": "사업가",
+        "example": "사업가로 성공하기 위해 경험을 쌓고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Host",
+        "pos": "Noun",
+        "kr": "사회자",
+        "example": "사회자가 되면서 대중 앞에서 말하는 법을 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lion",
+        "pos": "Noun",
+        "kr": "사자",
+        "example": "동물원에서 사자를 보면서 감탄하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cousin",
+        "pos": "Noun",
+        "kr": "사촌",
+        "example": "사촌을 오랜만에 만나게 되면서 추억을 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Adult",
+        "pos": "Noun",
+        "kr": "성인",
+        "example": "성인이 되면서 책임감이 생기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pedestrian",
+        "pos": "Noun",
+        "kr": "보행자",
+        "example": "보행자를 배려해야 하기 때문에 천천히 운전해야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Technician",
+        "pos": "Noun",
+        "kr": "기술자",
+        "example": "기술자가 되려고 기술을 배우고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Citizen",
+        "pos": "Noun",
+        "kr": "국민",
+        "example": "국민으로서 권리와 의무가 있기 때문에 투표해야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Scientist",
+        "pos": "Noun",
+        "kr": "과학자",
+        "example": "과학자가 되기 위해 열심히 공부하고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Farmer",
+        "pos": "Noun",
+        "kr": "농부",
+        "example": "농부가 씨를 뿌리면서 풍년을 기원했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Elderly",
+        "pos": "Noun",
+        "kr": "노약자",
+        "example": "노약자를 보호해야 하기 때문에 자리를 양보했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Youngest",
+        "pos": "Noun",
+        "kr": "막내",
+        "example": "막내로 태어나서 귀여움을 많이 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Subscriber",
+        "pos": "Noun",
+        "kr": "가입자",
+        "example": "신규 가입자가 되면서 혜택을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Oneself",
+        "pos": "Noun",
+        "kr": "본인",
+        "example": "본인이 직접 해야 하기 때문에 대신할 수 없어요.",
+        "rom": ""
+      },
+      {
+        "en": "You",
+        "pos": "Pronoun",
+        "kr": "당신",
+        "example": "당신을 만나게 되면서 행복해졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Other party",
+        "pos": "Noun",
+        "kr": "상대방",
+        "example": "상대방의 입장을 이해하려고 노력해야 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Minor",
+        "pos": "Noun",
+        "kr": "미성년자",
+        "example": "미성년자는 입장할 수 없기 때문에 신분증이 필요해요.",
+        "rom": ""
+      },
+      {
+        "en": "Stepmother",
+        "pos": "Noun",
+        "kr": "새엄마",
+        "example": "새엄마가 들어오면서 가족이 늘었어요.",
+        "rom": ""
+      },
+      {
+        "en": "American",
+        "pos": "Noun",
+        "kr": "미국인",
+        "example": "미국인 친구를 사귀게 되면서 영어 실력이 늘었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fool",
+        "pos": "Noun",
+        "kr": "바보",
+        "example": "바보처럼 행동해서 후회하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Man",
+        "pos": "Noun",
+        "kr": "사나이",
+        "example": "씩씩한 사나이가 되기 위해 운동을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Junior",
+        "pos": "Noun",
+        "kr": "아랫사람",
+        "example": "아랫사람의 도리를 지키면서 예의를 갖추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Superior",
+        "pos": "Noun",
+        "kr": "윗사람",
+        "example": "윗사람을 모시면서 존경하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Elder",
+        "pos": "Noun",
+        "kr": "웃어른",
+        "example": "웃어른을 공경하면서 예의를 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Woman",
+        "pos": "Noun",
+        "kr": "여인",
+        "example": "중년 여인이 되면서 삶의 지혜가 생겼어요.",
+        "rom": ""
+      },
+      {
+        "en": "Children",
+        "pos": "Noun",
+        "kr": "자녀",
+        "example": "자녀를 양육하면서 부모의 마음을 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sisters",
+        "pos": "Noun",
+        "kr": "자매",
+        "example": "쌍둥이 자매가 되면서 항상 함께하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Author",
+        "pos": "Noun",
+        "kr": "저자",
+        "example": "책의 저자가 되면서 글쓰기를 계속하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Clerk",
+        "pos": "Noun",
+        "kr": "점원",
+        "example": "백화점 점원이 되면서 서비스업을 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Youth",
+        "pos": "Noun",
+        "kr": "젊은이",
+        "example": "젊은이의 꿈을 이루면서 성공하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Graduate",
+        "pos": "Noun",
+        "kr": "졸업생",
+        "example": "졸업생이 되면서 사회에 나가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Resident",
+        "pos": "Noun",
+        "kr": "주민",
+        "example": "동네 주민이 되면서 이웃과 친해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Protagonist",
+        "pos": "Noun",
+        "kr": "주인공",
+        "example": "영화 주인공이 되면서 유명해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Twins",
+        "pos": "Noun",
+        "kr": "쌍둥이",
+        "example": "이란성 쌍둥이로 태어나면서 닮은 점을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Expert",
+        "pos": "Noun",
+        "kr": "전문가",
+        "example": "전문가가 되면서 인정받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ancestor",
+        "pos": "Noun",
+        "kr": "조상",
+        "example": "조상을 모시면서 효도하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Scholar",
+        "pos": "Noun",
+        "kr": "학자",
+        "example": "학자가 되면서 연구에 매진하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Korean person",
+        "pos": "Noun",
+        "kr": "한국인",
+        "example": "한국인 친구를 사귀면서 한국어를 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Japanese person",
+        "pos": "Noun",
+        "kr": "일본인",
+        "example": "일본인을 만나면서 일본 문화를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Chinese person",
+        "pos": "Noun",
+        "kr": "중국인",
+        "example": "중국인을 만나면서 중국어에 관심을 갖게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Firefighter",
+        "pos": "Noun",
+        "kr": "소방관",
+        "example": "소방관이 출동하면서 화재를 진압하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Novelist",
+        "pos": "Noun",
+        "kr": "소설가",
+        "example": "소설가의 작품을 읽으면서 감동을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Passenger",
+        "pos": "Noun",
+        "kr": "승객",
+        "example": "승객을 태우면서 버스가 출발하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Crew member",
+        "pos": "Noun",
+        "kr": "승무원",
+        "example": "비행기 승무원이 되면서 여행을 많이 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Maiden",
+        "pos": "Noun",
+        "kr": "처녀",
+        "example": "처녀 시절을 회상하면서 추억에 잠기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Angel",
+        "pos": "Noun",
+        "kr": "천사",
+        "example": "천사 같은 마음씨를 갖고 있어서 모두에게 사랑받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Genius",
+        "pos": "Noun",
+        "kr": "천재",
+        "example": "천재 시인이 되면서 명성을 얻게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Victim",
+        "pos": "Noun",
+        "kr": "피해자",
+        "example": "사고 피해자가 되면서 보상을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hero",
+        "pos": "Noun",
+        "kr": "영웅",
+        "example": "전쟁 영웅이 되면서 존경받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Athlete",
+        "pos": "Noun",
+        "kr": "운동선수",
+        "example": "운동선수가 되면서 체력이 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Historian",
+        "pos": "Noun",
+        "kr": "역사가",
+        "example": "역사가가 연구하면서 새로운 사실을 밝히게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lovers",
+        "pos": "Noun",
+        "kr": "연인",
+        "example": "연인 관계가 되면서 행복해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Newcomer",
+        "pos": "Noun",
+        "kr": "신입",
+        "example": "신입 사원이 되면서 회사 생활을 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "New student",
+        "pos": "Noun",
+        "kr": "신입생",
+        "example": "신입생을 모집하면서 새 학기를 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Baby",
+        "pos": "Noun",
+        "kr": "아가",
+        "example": "아가가 울면서 젖을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Baby",
+        "pos": "Noun",
+        "kr": "애기",
+        "example": "애기를 낳으면서 부모가 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pet",
+        "pos": "Noun",
+        "kr": "애완동물",
+        "example": "애완동물을 기르면서 정이 들게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Grandson",
+        "pos": "Noun",
+        "kr": "손자",
+        "example": "손자와 손녀를 보면서 행복해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Father-in-law",
+        "pos": "Noun",
+        "kr": "시아버지",
+        "example": "시아버지를 모시면서 효도하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Uncle",
+        "pos": "Noun",
+        "kr": "작은아버지",
+        "example": "작은아버지를 만나면서 인사하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Aunt",
+        "pos": "Noun",
+        "kr": "작은어머니",
+        "example": "작은어머니를 뵙면서 안부를 물었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Uncle",
+        "pos": "Noun",
+        "kr": "큰아버지",
+        "example": "큰아버지와 작은아버지를 만나면서 가족 모임을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Aunt",
+        "pos": "Noun",
+        "kr": "큰어머니",
+        "example": "큰어머니와 작은어머니를 뵙면서 인사하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Maternal uncle",
+        "pos": "Noun",
+        "kr": "외삼촌",
+        "example": "외삼촌과 외숙모를 만나면서 가족 행사를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Maternal uncle's wife",
+        "pos": "Noun",
+        "kr": "외숙모",
+        "example": "외숙모와 외삼촌을 뵙면서 명절을 보내게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Maternal grandmother",
+        "pos": "Noun",
+        "kr": "외할머니",
+        "example": "외할머니를 뵙면서 안부를 물었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Maternal grandfather",
+        "pos": "Noun",
+        "kr": "외할아버지",
+        "example": "외할아버지와 외할머니를 뵙면서 인사드리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Diplomat",
+        "pos": "Noun",
+        "kr": "외교관",
+        "example": "외교관을 임명하면서 외교 관계가 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Surgeon",
+        "pos": "Noun",
+        "kr": "외과",
+        "example": "외과 의사가 되면서 수술을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Mayor",
+        "pos": "Noun",
+        "kr": "시장",
+        "example": "시장을 뽑으면서 투표하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Priest",
+        "pos": "Noun",
+        "kr": "신부",
+        "example": "신부와 수녀를 만나면서 종교를 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Gentleman",
+        "pos": "Noun",
+        "kr": "신사",
+        "example": "신사와 숙녀가 되면서 예의를 갖추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "MC",
+        "pos": "Noun",
+        "kr": "진행자",
+        "example": "뉴스 진행자가 되면서 방송하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Chairperson",
+        "pos": "Noun",
+        "kr": "회장",
+        "example": "회장을 뽑으면서 선거하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Boarding house",
+        "pos": "Noun",
+        "kr": "하숙",
+        "example": "하숙을 하면서 독립 생활을 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Orthopedic",
+        "pos": "Noun",
+        "kr": "정형외과",
+        "example": "정형외과 의사를 만나면서 치료받게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "places": [
+      {
+        "en": "Stadium",
+        "pos": "Noun",
+        "kr": "경기장",
+        "example": "경기장에 가려고 일찍 출발했는데 교통이 막혔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Gyeongbokgung",
+        "pos": "Noun",
+        "kr": "경복궁",
+        "example": "경복궁에 가면서 한국의 역사를 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Valley",
+        "pos": "Noun",
+        "kr": "계곡",
+        "example": "계곡에서 놀면서 더위를 식히게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ancient palace",
+        "pos": "Noun",
+        "kr": "고궁",
+        "example": "고궁을 산책하면서 옛날 분위기를 느꼈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Space",
+        "pos": "Noun",
+        "kr": "공간",
+        "example": "공간이 부족해서 새 사무실을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Public place",
+        "pos": "Noun",
+        "kr": "공공장소",
+        "example": "공공장소에서는 조용히 해야 하기 때문에 통화를 자제해요.",
+        "rom": ""
+      },
+      {
+        "en": "Performance hall",
+        "pos": "Noun",
+        "kr": "공연장",
+        "example": "공연장에 가려고 표를 미리 예매했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Suburbs",
+        "pos": "Noun",
+        "kr": "교외",
+        "example": "교외로 나가면서 도시의 복잡함에서 벗어나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "District",
+        "pos": "Noun",
+        "kr": "구역",
+        "example": "금연 구역이기 때문에 담배를 피울 수 없어요.",
+        "rom": ""
+      },
+      {
+        "en": "Alley",
+        "pos": "Noun",
+        "kr": "골목",
+        "example": "좁은 골목을 걸으면서 숨은 맛집을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Alleyway",
+        "pos": "Noun",
+        "kr": "골목길",
+        "example": "골목길을 걸으면서 동네 구경을 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "No smoking zone",
+        "pos": "Noun",
+        "kr": "금연",
+        "example": "금연 구역이 많아져서 흡연자들이 불편해하고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Side",
+        "pos": "Noun",
+        "kr": "곁",
+        "example": "곁에 있으면서 힘이 되어 줄게요.",
+        "rom": ""
+      },
+      {
+        "en": "Security office",
+        "pos": "Noun",
+        "kr": "경비실",
+        "example": "경비실에 가면서 택배를 찾아야 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Crosswalk",
+        "pos": "Noun",
+        "kr": "건널목",
+        "example": "건널목을 건너려고 신호를 기다리고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bulletin board",
+        "pos": "Noun",
+        "kr": "게시판",
+        "example": "게시판에 공지를 붙이면서 안내했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Large city",
+        "pos": "Noun",
+        "kr": "대도시",
+        "example": "대도시에 살면서 편리함과 불편함을 모두 경험하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Main gate",
+        "pos": "Noun",
+        "kr": "대문",
+        "example": "대문을 열면서 손님을 맞이했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Amusement park",
+        "pos": "Noun",
+        "kr": "놀이공원",
+        "example": "놀이공원에 가려고 아침 일찍 출발했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Playground",
+        "pos": "Noun",
+        "kr": "놀이터",
+        "example": "놀이터에서 놀면서 친구들과 즐거운 시간을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "City center",
+        "pos": "Noun",
+        "kr": "도심",
+        "example": "도심에 위치해서 교통이 편리해요.",
+        "rom": ""
+      },
+      {
+        "en": "Building corridor",
+        "pos": "Noun",
+        "kr": "복도",
+        "example": "복도를 걸으면서 교실을 찾았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Stage",
+        "pos": "Noun",
+        "kr": "무대",
+        "example": "무대에 서면서 긴장되기도 하고 설레기도 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Grave",
+        "pos": "Noun",
+        "kr": "무덤",
+        "example": "조상의 무덤을 찾아가면서 성묘를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Stationery store",
+        "pos": "Noun",
+        "kr": "문방구",
+        "example": "문방구에 가려고 학교 앞으로 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Tea room",
+        "pos": "Noun",
+        "kr": "다방",
+        "example": "옛날 다방에 가면서 추억을 떠올리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Housing complex",
+        "pos": "Noun",
+        "kr": "단지",
+        "example": "단지 내에 편의시설이 많아서 살기 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Veranda",
+        "pos": "Noun",
+        "kr": "베란다",
+        "example": "베란다에서 빨래를 말리면서 바깥 경치를 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bench",
+        "pos": "Noun",
+        "kr": "벤치",
+        "example": "벤치에 앉으면서 잠시 쉬게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hospital room",
+        "pos": "Noun",
+        "kr": "병실",
+        "example": "병실을 옮기면서 환경이 좋아졌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Destination",
+        "pos": "Noun",
+        "kr": "목적지",
+        "example": "목적지에 도착하려고 서둘렀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Underground",
+        "pos": "Noun",
+        "kr": "땅속",
+        "example": "땅속에 묻으면서 타임캡슐을 만들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Waterside",
+        "pos": "Noun",
+        "kr": "물가",
+        "example": "물가에서 놀면서 여름을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Mountain top",
+        "pos": "Noun",
+        "kr": "산꼭대기",
+        "example": "산꼭대기에 오르면서 성취감을 느꼈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Store",
+        "pos": "Noun",
+        "kr": "상점",
+        "example": "상점의 주인이 되면서 경영을 배우게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Church",
+        "pos": "Noun",
+        "kr": "성당",
+        "example": "성당에 다니면서 마음의 평화를 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Small theater",
+        "pos": "Noun",
+        "kr": "소극장",
+        "example": "소극장에서 공연을 보면서 감동을 받았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Photo studio",
+        "pos": "Noun",
+        "kr": "사진관",
+        "example": "사진관에서 가족사진을 찍으면서 추억을 만들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beauty salon",
+        "pos": "Noun",
+        "kr": "미장원",
+        "example": "미장원에서 파마를 하면서 기분 전환을 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Canteen",
+        "pos": "Noun",
+        "kr": "매점",
+        "example": "학교 매점에 가면서 간식을 사게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Store",
+        "pos": "Noun",
+        "kr": "매장",
+        "example": "의류 매장에 가면서 옷을 구경하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fire station",
+        "pos": "Noun",
+        "kr": "소방서",
+        "example": "소방서에 신고하면서 화재를 알리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pediatrics",
+        "pos": "Noun",
+        "kr": "소아과",
+        "example": "소아과에서 진찰 받으면서 건강을 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lodging",
+        "pos": "Noun",
+        "kr": "숙소",
+        "example": "숙소에 머물면서 휴식을 취하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Shopping mall",
+        "pos": "Noun",
+        "kr": "쇼핑몰",
+        "example": "쇼핑몰을 운영하면서 사업을 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Indoor",
+        "pos": "Noun",
+        "kr": "실내",
+        "example": "실내 수영장에서 수영하면서 운동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Main bedroom",
+        "pos": "Noun",
+        "kr": "안방",
+        "example": "아늑한 안방에서 쉬면서 편안해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ophthalmology",
+        "pos": "Noun",
+        "kr": "안과",
+        "example": "안과 진료를 받으면서 눈 건강을 확인하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Arcade",
+        "pos": "Noun",
+        "kr": "오락실",
+        "example": "오락실 게임을 하면서 즐거운 시간을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hot spring",
+        "pos": "Noun",
+        "kr": "온천",
+        "example": "온천 관광을 하면서 여행을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Studio apartment",
+        "pos": "Noun",
+        "kr": "원룸",
+        "example": "원룸에 살면서 독립 생활을 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Upper floor",
+        "pos": "Noun",
+        "kr": "위층",
+        "example": "위층으로 올라가면서 전망이 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lower floor",
+        "pos": "Noun",
+        "kr": "아래층",
+        "example": "아래층으로 내려가면서 출구를 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Inn",
+        "pos": "Noun",
+        "kr": "여관",
+        "example": "여관을 잡으면서 숙박 문제를 해결하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Remains",
+        "pos": "Noun",
+        "kr": "유적",
+        "example": "유적이 발견되면서 역사를 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Historic site",
+        "pos": "Noun",
+        "kr": "유적지",
+        "example": "유적지를 조사하면서 연구를 진행하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Emergency room",
+        "pos": "Noun",
+        "kr": "응급실",
+        "example": "병원 응급실로 가면서 치료를 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Counter",
+        "pos": "Noun",
+        "kr": "창구",
+        "example": "예매 창구에서 표를 사면서 예약을 완료하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Warehouse",
+        "pos": "Noun",
+        "kr": "창고",
+        "example": "창고에 보관하면서 물건을 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ceiling",
+        "pos": "Noun",
+        "kr": "천장",
+        "example": "천장이 높아서 시원하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Railway",
+        "pos": "Noun",
+        "kr": "철도",
+        "example": "도시 철도를 타면서 편리하게 이동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Buddhist temple",
+        "pos": "Noun",
+        "kr": "절",
+        "example": "절에 가면서 마음의 평화를 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Gas station",
+        "pos": "Noun",
+        "kr": "주유소",
+        "example": "주유소에서 일하면서 경험을 쌓게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Kitchen",
+        "pos": "Noun",
+        "kr": "주방",
+        "example": "주방에서 요리하면서 실력이 늘게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Region",
+        "pos": "Noun",
+        "kr": "지역",
+        "example": "서울 지역에 살면서 도시 생활에 적응하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Central part",
+        "pos": "Noun",
+        "kr": "중부",
+        "example": "중부 지방으로 가면서 날씨가 달라지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hub",
+        "pos": "Noun",
+        "kr": "중심지",
+        "example": "경제의 중심지가 되면서 발전하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Roof",
+        "pos": "Noun",
+        "kr": "지붕",
+        "example": "지붕에 올라가면서 전망을 보게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Meeting room",
+        "pos": "Noun",
+        "kr": "회의실",
+        "example": "회의실에 모이면서 회의를 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Event venue",
+        "pos": "Noun",
+        "kr": "행사장",
+        "example": "행사장 안내를 받으면서 장소를 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Entrance",
+        "pos": "Noun",
+        "kr": "현관",
+        "example": "집 현관에 도착하면서 안심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beach",
+        "pos": "Noun",
+        "kr": "해변",
+        "example": "해변을 거닐면서 여유로운 시간을 보냈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bathing beach",
+        "pos": "Noun",
+        "kr": "해수욕장",
+        "example": "해수욕장에 가면서 여름을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Window side",
+        "pos": "Noun",
+        "kr": "창가",
+        "example": "창가에 앉으면서 풍경을 감상하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Police substation",
+        "pos": "Noun",
+        "kr": "파출소",
+        "example": "파출소에 신고하면서 도움을 받게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Condo",
+        "pos": "Noun",
+        "kr": "콘도",
+        "example": "콘도에서 묵으면서 휴가를 보내게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Specialty store",
+        "pos": "Noun",
+        "kr": "전문점",
+        "example": "커피 전문점에 가면서 맛있는 커피를 마시게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Butcher shop",
+        "pos": "Noun",
+        "kr": "정육점",
+        "example": "정육점의 고기를 사면서 저녁을 준비하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Transfer station",
+        "pos": "Noun",
+        "kr": "환승역",
+        "example": "지하철 환승역에서 갈아타면서 목적지로 가게 됐어요.",
+        "rom": ""
+      }
+    ],
+    "transport": [
+      {
+        "en": "High speed",
+        "pos": "Noun",
+        "kr": "고속",
+        "example": "고속 도로를 달리면서 목적지에 빨리 도착하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Public transportation",
+        "pos": "Noun",
+        "kr": "대중교통",
+        "example": "대중교통을 타면서 환경 보호에 기여하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Transportation",
+        "pos": "Noun",
+        "kr": "교통수단",
+        "example": "교통수단을 이용하면서 편하게 이동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Transportation means",
+        "pos": "Noun",
+        "kr": "교통편",
+        "example": "교통편을 예약하면서 여행 준비를 마쳤어요.",
+        "rom": ""
+      },
+      {
+        "en": "Domestic line",
+        "pos": "Noun",
+        "kr": "국내선",
+        "example": "국내선으로 갈아타면서 목적지에 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rental car",
+        "pos": "Noun",
+        "kr": "렌터카",
+        "example": "렌터카를 빌리면서 자유롭게 여행하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Route",
+        "pos": "Noun",
+        "kr": "노선",
+        "example": "지하철 노선을 확인하면서 길을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Route map",
+        "pos": "Noun",
+        "kr": "노선도",
+        "example": "버스 노선도를 보면서 목적지를 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Backpack",
+        "pos": "Noun",
+        "kr": "배낭",
+        "example": "배낭을 메면서 등산을 시작하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Backpacking",
+        "pos": "Noun",
+        "kr": "배낭여행",
+        "example": "배낭여행을 떠나면서 세계를 구경하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ship",
+        "pos": "Noun",
+        "kr": "배편",
+        "example": "배편으로 보내면서 물건을 운송하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Number ticket",
+        "pos": "Noun",
+        "kr": "번호표",
+        "example": "번호표를 뽑으면서 차례를 기다리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Flight",
+        "pos": "Noun",
+        "kr": "비행",
+        "example": "비행 스케줄을 확인하면서 출발 시간을 알게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Airfield",
+        "pos": "Noun",
+        "kr": "비행장",
+        "example": "비행장에 도착하면서 비행기를 타게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Emergency exit",
+        "pos": "Noun",
+        "kr": "비상구",
+        "example": "비상구로 대피하면서 안전하게 빠져나왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Empty seat",
+        "pos": "Noun",
+        "kr": "빈자리",
+        "example": "빈자리에 앉으면서 편하게 이동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wheel",
+        "pos": "Noun",
+        "kr": "바퀴",
+        "example": "자동차 바퀴를 갈면서 안전 운전을 준비했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Brake",
+        "pos": "Noun",
+        "kr": "브레이크",
+        "example": "브레이크를 밟으면서 차를 멈추게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Seeing off",
+        "pos": "Noun",
+        "kr": "배웅",
+        "example": "손님을 배웅하면서 인사를 나눴어요.",
+        "rom": ""
+      },
+      {
+        "en": "Run away",
+        "pos": "Verb",
+        "kr": "도망가다",
+        "example": "도둑이 도망가면서 경찰이 쫓아가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Leave",
+        "pos": "Verb",
+        "kr": "떠나가다",
+        "example": "고향을 떠나가면서 눈물이 났어요.",
+        "rom": ""
+      },
+      {
+        "en": "To step on",
+        "pos": "Verb",
+        "kr": "밟다",
+        "example": "브레이크를 밟으면서 급정거를 하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fly away",
+        "pos": "Verb",
+        "kr": "날아가다",
+        "example": "새가 날아가면서 하늘이 넓어 보였어요.",
+        "rom": ""
+      },
+      {
+        "en": "Follow",
+        "pos": "Verb",
+        "kr": "따라가다",
+        "example": "앞사람을 따라가면서 길을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Follow",
+        "pos": "Verb",
+        "kr": "따라오다",
+        "example": "뒤를 따라오면서 함께 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Drive",
+        "pos": "Noun",
+        "kr": "드라이브",
+        "example": "드라이브를 나가면서 스트레스를 풀게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Traffic",
+        "pos": "Noun",
+        "kr": "차",
+        "example": "차가 밀리면서 늦게 도착하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Be backed up",
+        "pos": "Verb",
+        "kr": "밀리다",
+        "example": "차가 밀리면서 예상보다 오래 걸렸어요.",
+        "rom": ""
+      },
+      {
+        "en": "Thief",
+        "pos": "Noun",
+        "kr": "도둑",
+        "example": "도둑을 잡으면서 경찰이 칭찬을 받았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Be crowded",
+        "pos": "Verb",
+        "kr": "붐비다",
+        "example": "사람들로 붐비면서 움직이기 어려웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "License",
+        "pos": "Noun",
+        "kr": "면허증",
+        "example": "면허증을 따면서 운전을 할 수 있게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Marathon",
+        "pos": "Noun",
+        "kr": "마라톤",
+        "example": "마라톤을 완주하면서 성취감을 느꼈어요.",
+        "rom": ""
+      },
+      {
+        "en": "Golf",
+        "pos": "Noun",
+        "kr": "골프",
+        "example": "골프를 치면서 운동을 즐기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Volleyball",
+        "pos": "Noun",
+        "kr": "배구",
+        "example": "배구를 하면서 체력이 좋아지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bowling",
+        "pos": "Noun",
+        "kr": "볼링",
+        "example": "볼링을 치면서 친구들과 재미있게 놀았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Private car",
+        "pos": "Noun",
+        "kr": "자가용",
+        "example": "자가용으로 출근하면서 편하게 이동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Seat",
+        "pos": "Noun",
+        "kr": "좌석",
+        "example": "좌석에 앉으면서 편하게 이동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Left turn",
+        "pos": "Noun",
+        "kr": "좌회전",
+        "example": "좌회전 신호를 보면서 방향을 바꾸게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Right turn",
+        "pos": "Noun",
+        "kr": "우회전",
+        "example": "우회전을 허용해서 쉽게 돌게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Left side",
+        "pos": "Noun",
+        "kr": "좌측",
+        "example": "좌측으로 가면서 길을 찾게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Right side",
+        "pos": "Noun",
+        "kr": "우측",
+        "example": "우측 방향으로 가면서 목적지에 도착하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Vehicle",
+        "pos": "Noun",
+        "kr": "차량",
+        "example": "차량을 통제하면서 교통을 정리하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Lane",
+        "pos": "Noun",
+        "kr": "차로",
+        "example": "차로를 건너면서 조심하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Going straight",
+        "pos": "Noun",
+        "kr": "직진",
+        "example": "직진 신호를 보면서 앞으로 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sidewalk",
+        "pos": "Noun",
+        "kr": "인도",
+        "example": "인도로 걸으면서 안전하게 이동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cruise ship",
+        "pos": "Noun",
+        "kr": "유람선",
+        "example": "유람선을 타면서 경치를 감상하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Escalator",
+        "pos": "Noun",
+        "kr": "에스컬레이터",
+        "example": "에스컬레이터에 오르면서 위로 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Movement",
+        "pos": "Noun",
+        "kr": "이동",
+        "example": "장소 이동을 하면서 옮기게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Driver's license",
+        "pos": "Noun",
+        "kr": "운전면허",
+        "example": "운전면허를 따면서 운전할 수 있게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Amount of exercise",
+        "pos": "Noun",
+        "kr": "운동량",
+        "example": "운동량을 늘리면서 건강해지게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Airfare",
+        "pos": "Noun",
+        "kr": "항공료",
+        "example": "항공료가 올라서 비용이 늘어나게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Round trip",
+        "pos": "Noun",
+        "kr": "왕복",
+        "example": "왕복 열차를 타면서 여행하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "City bus",
+        "pos": "Noun",
+        "kr": "시내버스",
+        "example": "시내버스를 타면서 이동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Intercity bus",
+        "pos": "Noun",
+        "kr": "시외버스",
+        "example": "시외버스를 타면서 다른 도시로 가게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Getting off",
+        "pos": "Noun",
+        "kr": "하차",
+        "example": "하차 벨을 누르면서 내리게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Motorcycle",
+        "pos": "Noun",
+        "kr": "오토바이",
+        "example": "오토바이를 몰면서 빠르게 이동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Parking ticket",
+        "pos": "Noun",
+        "kr": "주차권",
+        "example": "주차권을 사면서 주차하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Parking fee",
+        "pos": "Noun",
+        "kr": "주차료",
+        "example": "주차료가 비싸서 부담이 되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Used car",
+        "pos": "Noun",
+        "kr": "중고차",
+        "example": "중고차를 사면서 경제적으로 되게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Jump rope",
+        "pos": "Noun",
+        "kr": "줄넘기",
+        "example": "줄넘기를 하면서 운동하게 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Jogging",
+        "pos": "Noun",
+        "kr": "조깅",
+        "example": "조깅을 하면서 건강해지게 됐어요.",
+        "rom": ""
+      }
+    ]
+  },
+  "total_words": 1174,
+  "generated_at": "2026-01-27T21:02:07.326859"
+}

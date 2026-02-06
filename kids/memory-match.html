@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Memory Match - Korean Playground</title>
+  <link rel="stylesheet" href="css/kids.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="page-header"></div>
+
+    <!-- Difficulty Select -->
+    <div id="diff-select" class="card text-center" style="animation:slideUp 0.4s ease;">
+      <h2 style="font-size:1.5rem;font-weight:900;margin-bottom:16px;">Choose Difficulty</h2>
+      <div class="difficulty-selector" style="flex-direction:column;gap:12px;">
+        <button class="btn btn-outline btn-big" style="width:100%;" onclick="startGame('easy')">🌱 Easy (3 pairs)</button>
+        <button class="btn btn-outline btn-big" style="width:100%;" onclick="startGame('medium')">🌿 Medium (4 pairs)</button>
+        <button class="btn btn-outline btn-big" style="width:100%;" onclick="startGame('hard')">🌳 Hard (6 pairs)</button>
+      </div>
+
+      <!-- Content Source -->
+      <div class="mt-24">
+        <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:8px;">What to practice?</h3>
+        <div class="category-tabs" id="source-tabs">
+          <button class="category-tab active" data-source="mixed" onclick="setSource('mixed', this)">All Mixed</button>
+          <button class="category-tab" data-source="review" onclick="setSource('review', this)">Review</button>
+          <button class="category-tab" data-source="verbs" onclick="setSource('verbs', this)">Verbs</button>
+          <button class="category-tab" data-source="nouns" onclick="setSource('nouns', this)">Nouns</button>
+          <button class="category-tab" data-source="sentences" onclick="setSource('sentences', this)">Sentences</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Game Area -->
+    <div id="game-area" class="hidden">
+      <!-- Stats -->
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+        <span class="score-display" id="pairs-display">🃏 0 / 0</span>
+        <span id="moves-display" style="font-size:0.9rem;color:var(--gray-600);">Moves: 0</span>
+        <span id="timer-display" style="font-size:0.9rem;color:var(--gray-600);">0:00</span>
+      </div>
+
+      <!-- Grid -->
+      <div class="memory-grid" id="memory-grid"></div>
+    </div>
+
+    <!-- Game Complete -->
+    <div id="complete-area" class="hidden">
+      <div class="card game-complete">
+        <div class="complete-stars">⭐🌟⭐</div>
+        <h2 id="complete-title">Amazing!</h2>
+        <p class="score-text" id="complete-score"></p>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <button class="btn btn-primary btn-big" onclick="restart()">Play Again</button>
+          <a href="index.html" class="btn btn-outline btn-big">Back to Games</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/kids-common.js"></script>
+  <script src="js/memory-match.js"></script>
+</body>
+</html>

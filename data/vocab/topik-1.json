@@ -1,0 +1,5176 @@
+{
+  "level": 1,
+  "categories": {
+    "actions": [
+      {
+        "en": "To go",
+        "pos": "Verb",
+        "kr": "가다",
+        "example": "학교에 가요.",
+        "rom": ""
+      },
+      {
+        "en": "To teach",
+        "pos": "Verb",
+        "kr": "가르치다",
+        "example": "한국어를 가르쳐요.",
+        "rom": ""
+      },
+      {
+        "en": "To have / To possess",
+        "pos": "Verb",
+        "kr": "가지다",
+        "example": "돈을 가지고 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "To transfer (transit)",
+        "pos": "Verb",
+        "kr": "갈아타다",
+        "example": "버스를 갈아타요.",
+        "rom": ""
+      },
+      {
+        "en": "To walk",
+        "pos": "Verb",
+        "kr": "걷다",
+        "example": "길을 걸어요.",
+        "rom": ""
+      },
+      {
+        "en": "To hang",
+        "pos": "Verb",
+        "kr": "걸다",
+        "example": "그림을 걸어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be hung",
+        "pos": "Verb",
+        "kr": "걸리다",
+        "example": "그림이 걸려 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "To stay / To be (Honorific)",
+        "pos": "Verb",
+        "kr": "계시다",
+        "example": "할머니가 계세요.",
+        "rom": ""
+      },
+      {
+        "en": "To choose / To select",
+        "pos": "Verb",
+        "kr": "고르다",
+        "example": "선물을 골라요.",
+        "rom": ""
+      },
+      {
+        "en": "To draw / To paint",
+        "pos": "Verb",
+        "kr": "그리다",
+        "example": "그림을 그려요.",
+        "rom": ""
+      },
+      {
+        "en": "To wait",
+        "pos": "Verb",
+        "kr": "기다리다",
+        "example": "버스를 기다려요.",
+        "rom": ""
+      },
+      {
+        "en": "To turn off",
+        "pos": "Verb",
+        "kr": "끄다",
+        "example": "불을 꺼요.",
+        "rom": ""
+      },
+      {
+        "en": "To end / To finish",
+        "pos": "Verb",
+        "kr": "끝나다",
+        "example": "수업이 끝났어요.",
+        "rom": ""
+      },
+      {
+        "en": "To go out",
+        "pos": "Verb",
+        "kr": "나가다",
+        "example": "밖으로 나가요.",
+        "rom": ""
+      },
+      {
+        "en": "To grow / To appear",
+        "pos": "Verb",
+        "kr": "나다",
+        "example": "꽃이 나요.",
+        "rom": ""
+      },
+      {
+        "en": "To come out",
+        "pos": "Verb",
+        "kr": "나오다",
+        "example": "집에서 나왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "To fall / To get off",
+        "pos": "Verb",
+        "kr": "내리다",
+        "example": "버스에서 내려요.",
+        "rom": ""
+      },
+      {
+        "en": "To put in",
+        "pos": "Verb",
+        "kr": "넣다",
+        "example": "가방에 넣어요.",
+        "rom": ""
+      },
+      {
+        "en": "To play / To hang out",
+        "pos": "Verb",
+        "kr": "놀다",
+        "example": "친구와 놀아요.",
+        "rom": ""
+      },
+      {
+        "en": "To close",
+        "pos": "Verb",
+        "kr": "닫다",
+        "example": "문을 닫아요.",
+        "rom": ""
+      },
+      {
+        "en": "To go and come back",
+        "pos": "Verb",
+        "kr": "다녀오다",
+        "example": "학교에 다녀왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "To attend / To go",
+        "pos": "Verb",
+        "kr": "다니다",
+        "example": "회사에 다녀요.",
+        "rom": ""
+      },
+      {
+        "en": "To give (Honorific)",
+        "pos": "Verb",
+        "kr": "드리다",
+        "example": "선물을 드려요.",
+        "rom": ""
+      },
+      {
+        "en": "To listen / To hear",
+        "pos": "Verb",
+        "kr": "듣다",
+        "example": "음악을 들어요.",
+        "rom": ""
+      },
+      {
+        "en": "To cost / To take",
+        "pos": "Verb",
+        "kr": "들다",
+        "example": "돈이 들어요.",
+        "rom": ""
+      },
+      {
+        "en": "To lift / To carry",
+        "pos": "Verb",
+        "kr": "들다",
+        "example": "가방을 들어요.",
+        "rom": ""
+      },
+      {
+        "en": "To enter / To go in",
+        "pos": "Verb",
+        "kr": "들어가다",
+        "example": "방으로 들어가요.",
+        "rom": ""
+      },
+      {
+        "en": "To come in",
+        "pos": "Verb",
+        "kr": "들어오다",
+        "example": "집에 들어왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "To help",
+        "pos": "Verb",
+        "kr": "도와주다",
+        "example": "친구를 도와줘요.",
+        "rom": ""
+      },
+      {
+        "en": "To go back / To turn",
+        "pos": "Verb",
+        "kr": "돌아가다",
+        "example": "집에 돌아가요.",
+        "rom": ""
+      },
+      {
+        "en": "To come back",
+        "pos": "Verb",
+        "kr": "돌아오다",
+        "example": "학교에서 돌아왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "To help",
+        "pos": "Verb",
+        "kr": "돕다",
+        "example": "친구를 도와요.",
+        "rom": ""
+      },
+      {
+        "en": "To become",
+        "pos": "Verb",
+        "kr": "되다",
+        "example": "선생님이 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "To drink",
+        "pos": "Verb",
+        "kr": "마시다",
+        "example": "물을 마셔요.",
+        "rom": ""
+      },
+      {
+        "en": "To stop / Do not",
+        "pos": "Verb",
+        "kr": "말다",
+        "example": "걱정하지 마세요.",
+        "rom": ""
+      },
+      {
+        "en": "To be correct",
+        "pos": "Verb",
+        "kr": "맞다",
+        "example": "답이 맞아요.",
+        "rom": ""
+      },
+      {
+        "en": "To meet",
+        "pos": "Verb",
+        "kr": "만나다",
+        "example": "친구를 만났어요.",
+        "rom": ""
+      },
+      {
+        "en": "To make",
+        "pos": "Verb",
+        "kr": "만들다",
+        "example": "음식을 만들어요.",
+        "rom": ""
+      },
+      {
+        "en": "To eat",
+        "pos": "Verb",
+        "kr": "먹다",
+        "example": "밥을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "To not know",
+        "pos": "Verb",
+        "kr": "모르다",
+        "example": "모르겠어요.",
+        "rom": ""
+      },
+      {
+        "en": "To ask",
+        "pos": "Verb",
+        "kr": "묻다",
+        "example": "길을 물어요.",
+        "rom": ""
+      },
+      {
+        "en": "To change / To exchange",
+        "pos": "Verb",
+        "kr": "바꾸다",
+        "example": "돈을 바꿨어요.",
+        "rom": ""
+      },
+      {
+        "en": "To receive",
+        "pos": "Verb",
+        "kr": "받다",
+        "example": "선물을 받았어요.",
+        "rom": ""
+      },
+      {
+        "en": "To learn",
+        "pos": "Verb",
+        "kr": "배우다",
+        "example": "한국어를 배워요.",
+        "rom": ""
+      },
+      {
+        "en": "To send",
+        "pos": "Verb",
+        "kr": "보내다",
+        "example": "편지를 보내요.",
+        "rom": ""
+      },
+      {
+        "en": "To see / To look / To watch",
+        "pos": "Verb",
+        "kr": "보다",
+        "example": "영화를 봐요.",
+        "rom": ""
+      },
+      {
+        "en": "To call",
+        "pos": "Verb",
+        "kr": "부르다",
+        "example": "이름을 불러요.",
+        "rom": ""
+      },
+      {
+        "en": "To blow",
+        "pos": "Verb",
+        "kr": "불다",
+        "example": "바람이 불어요.",
+        "rom": ""
+      },
+      {
+        "en": "To borrow / To rent",
+        "pos": "Verb",
+        "kr": "빌리다",
+        "example": "책을 빌렸어요.",
+        "rom": ""
+      },
+      {
+        "en": "To make friends / To date",
+        "pos": "Verb",
+        "kr": "사귀다",
+        "example": "친구를 사귀어요.",
+        "rom": ""
+      },
+      {
+        "en": "To buy",
+        "pos": "Verb",
+        "kr": "사다",
+        "example": "옷을 샀어요.",
+        "rom": ""
+      },
+      {
+        "en": "To live",
+        "pos": "Verb",
+        "kr": "살다",
+        "example": "한국에 살아요.",
+        "rom": ""
+      },
+      {
+        "en": "To rest",
+        "pos": "Verb",
+        "kr": "쉬다",
+        "example": "집에서 쉬어요.",
+        "rom": ""
+      },
+      {
+        "en": "To write",
+        "pos": "Verb",
+        "kr": "쓰다",
+        "example": "편지를 써요.",
+        "rom": ""
+      },
+      {
+        "en": "To use",
+        "pos": "Verb",
+        "kr": "쓰다",
+        "example": "컴퓨터를 써요.",
+        "rom": ""
+      },
+      {
+        "en": "To wash",
+        "pos": "Verb",
+        "kr": "씻다",
+        "example": "손을 씻어요.",
+        "rom": ""
+      },
+      {
+        "en": "To sit",
+        "pos": "Verb",
+        "kr": "앉다",
+        "example": "의자에 앉아요.",
+        "rom": ""
+      },
+      {
+        "en": "To know",
+        "pos": "Verb",
+        "kr": "알다",
+        "example": "알았어요.",
+        "rom": ""
+      },
+      {
+        "en": "To inform / To notify",
+        "pos": "Verb",
+        "kr": "알리다",
+        "example": "소식을 알려요.",
+        "rom": ""
+      },
+      {
+        "en": "To open",
+        "pos": "Verb",
+        "kr": "열다",
+        "example": "문을 열어요.",
+        "rom": ""
+      },
+      {
+        "en": "To come",
+        "pos": "Verb",
+        "kr": "오다",
+        "example": "학교에 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "To go up / To climb",
+        "pos": "Verb",
+        "kr": "올라가다",
+        "example": "산에 올라가요.",
+        "rom": ""
+      },
+      {
+        "en": "To cry",
+        "pos": "Verb",
+        "kr": "울다",
+        "example": "아이가 울어요.",
+        "rom": ""
+      },
+      {
+        "en": "To laugh / To smile",
+        "pos": "Verb",
+        "kr": "웃다",
+        "example": "크게 웃어요.",
+        "rom": ""
+      },
+      {
+        "en": "To read",
+        "pos": "Verb",
+        "kr": "읽다",
+        "example": "책을 읽어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be / To have",
+        "pos": "Verb / Adj.",
+        "kr": "있다",
+        "example": "책이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "To sleep",
+        "pos": "Verb",
+        "kr": "자다",
+        "example": "일찍 자요.",
+        "rom": ""
+      },
+      {
+        "en": "To eat (Honorific)",
+        "pos": "Verb",
+        "kr": "잡수시다",
+        "example": "어머니가 잡수세요.",
+        "rom": ""
+      },
+      {
+        "en": "To do well / To be good at",
+        "pos": "Verb",
+        "kr": "잘하다",
+        "example": "노래를 잘해요.",
+        "rom": ""
+      },
+      {
+        "en": "To find / To look for",
+        "pos": "Verb",
+        "kr": "찾다",
+        "example": "지갑을 찾아요.",
+        "rom": ""
+      },
+      {
+        "en": "To look up / To search",
+        "pos": "Verb",
+        "kr": "찾아보다",
+        "example": "사전을 찾아봐요.",
+        "rom": ""
+      },
+      {
+        "en": "To stamp / To take (photo)",
+        "pos": "Verb",
+        "kr": "찍다",
+        "example": "사진을 찍어요.",
+        "rom": ""
+      },
+      {
+        "en": "To dance",
+        "pos": "Verb",
+        "kr": "추다",
+        "example": "춤을 춰요.",
+        "rom": ""
+      },
+      {
+        "en": "To dance",
+        "pos": "Verb",
+        "kr": "춤추다",
+        "example": "무대에서 춤춰요.",
+        "rom": ""
+      },
+      {
+        "en": "To hit / To strike",
+        "pos": "Verb",
+        "kr": "치다",
+        "example": "피아노를 쳐요.",
+        "rom": ""
+      },
+      {
+        "en": "To burn",
+        "pos": "Verb",
+        "kr": "타다",
+        "example": "불에 타요.",
+        "rom": ""
+      },
+      {
+        "en": "To ride",
+        "pos": "Verb",
+        "kr": "타다",
+        "example": "버스를 타요.",
+        "rom": ""
+      },
+      {
+        "en": "To turn on",
+        "pos": "Verb",
+        "kr": "켜다",
+        "example": "불을 켜요.",
+        "rom": ""
+      },
+      {
+        "en": "To sell",
+        "pos": "Verb",
+        "kr": "팔다",
+        "example": "물건을 팔아요.",
+        "rom": ""
+      },
+      {
+        "en": "To bloom / To smoke",
+        "pos": "Verb",
+        "kr": "피우다",
+        "example": "꽃이 피었어요.",
+        "rom": ""
+      },
+      {
+        "en": "To do",
+        "pos": "Verb",
+        "kr": "하다",
+        "example": "운동을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "To give",
+        "pos": "Verb",
+        "kr": "주다",
+        "example": "선물을 줘요.",
+        "rom": ""
+      },
+      {
+        "en": "To sleep (Honorific)",
+        "pos": "Verb",
+        "kr": "주무시다",
+        "example": "할아버지가 주무세요.",
+        "rom": ""
+      },
+      {
+        "en": "To pass / To elapse",
+        "pos": "Verb",
+        "kr": "지나다",
+        "example": "시간이 지났어요.",
+        "rom": ""
+      },
+      {
+        "en": "To spend time / To live",
+        "pos": "Verb",
+        "kr": "지내다",
+        "example": "잘 지내요.",
+        "rom": ""
+      },
+      {
+        "en": "To wear / To put on",
+        "pos": "Verb",
+        "kr": "입다",
+        "example": "옷을 입어요.",
+        "rom": ""
+      },
+      {
+        "en": "To wear (shoes/socks)",
+        "pos": "Verb",
+        "kr": "신다",
+        "example": "신발을 신어요.",
+        "rom": ""
+      },
+      {
+        "en": "To make / To order",
+        "pos": "Verb",
+        "kr": "시키다",
+        "example": "음식을 시켜요.",
+        "rom": ""
+      },
+      {
+        "en": "To dislike / To hate",
+        "pos": "Verb",
+        "kr": "싫어하다",
+        "example": "채소를 싫어해요.",
+        "rom": ""
+      },
+      {
+        "en": "To like",
+        "pos": "Verb",
+        "kr": "좋아하다",
+        "example": "음악을 좋아해요.",
+        "rom": ""
+      },
+      {
+        "en": "To wake up / To stand up",
+        "pos": "Verb",
+        "kr": "일어나다",
+        "example": "아침에 일어났어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be unable / bad at",
+        "pos": "Verb / Adj.",
+        "kr": "못하다",
+        "example": "운동을 못해요.",
+        "rom": ""
+      }
+    ],
+    "body": [
+      {
+        "en": "Cold / Flu",
+        "pos": "Noun",
+        "kr": "감기",
+        "example": "감기에 걸렸어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ear",
+        "pos": "Noun",
+        "kr": "귀",
+        "example": "귀로 들어요.",
+        "rom": ""
+      },
+      {
+        "en": "Eye",
+        "pos": "Noun",
+        "kr": "눈",
+        "example": "눈이 피곤해요.",
+        "rom": ""
+      },
+      {
+        "en": "Leg",
+        "pos": "Noun",
+        "kr": "다리",
+        "example": "다리가 아파요.",
+        "rom": ""
+      },
+      {
+        "en": "Head / Hair",
+        "pos": "Noun",
+        "kr": "머리",
+        "example": "머리가 아파요.",
+        "rom": ""
+      },
+      {
+        "en": "Body",
+        "pos": "Noun",
+        "kr": "몸",
+        "example": "몸이 건강해요.",
+        "rom": ""
+      },
+      {
+        "en": "Neck / Throat",
+        "pos": "Noun",
+        "kr": "목",
+        "example": "목이 아파요.",
+        "rom": ""
+      },
+      {
+        "en": "Stomach / Belly",
+        "pos": "Noun",
+        "kr": "배",
+        "example": "배가 고파요.",
+        "rom": ""
+      },
+      {
+        "en": "Disease / Illness",
+        "pos": "Noun",
+        "kr": "병",
+        "example": "병에 걸렸어요.",
+        "rom": ""
+      },
+      {
+        "en": "Arm",
+        "pos": "Noun",
+        "kr": "팔",
+        "example": "팔이 아파요.",
+        "rom": ""
+      },
+      {
+        "en": "Hand",
+        "pos": "Noun",
+        "kr": "손",
+        "example": "손을 씻어요.",
+        "rom": ""
+      },
+      {
+        "en": "Foot",
+        "pos": "Noun",
+        "kr": "발",
+        "example": "발이 아파요.",
+        "rom": ""
+      },
+      {
+        "en": "Nose",
+        "pos": "Noun",
+        "kr": "코",
+        "example": "코가 막혔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Mouth",
+        "pos": "Noun",
+        "kr": "입",
+        "example": "입을 벌려요.",
+        "rom": ""
+      },
+      {
+        "en": "Face",
+        "pos": "Noun",
+        "kr": "얼굴",
+        "example": "얼굴이 예뻐요.",
+        "rom": ""
+      },
+      {
+        "en": "Height (stature)",
+        "pos": "Noun",
+        "kr": "키",
+        "example": "키가 커요.",
+        "rom": ""
+      },
+      {
+        "en": "Medicine / Drug",
+        "pos": "Noun",
+        "kr": "약",
+        "example": "약을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "To be sick / painful",
+        "pos": "Adjective",
+        "kr": "아프다",
+        "example": "배가 아파요.",
+        "rom": ""
+      },
+      {
+        "en": "Hungry",
+        "pos": "Adjective",
+        "kr": "고프다",
+        "example": "배가 고파요.",
+        "rom": ""
+      }
+    ],
+    "connect": [
+      {
+        "en": "Most / Best",
+        "pos": "Adverb",
+        "kr": "가장",
+        "example": "가장 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Kind / Sort / Variety",
+        "pos": "Dependent Noun",
+        "kr": "가지",
+        "example": "여러 가지가 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Together",
+        "pos": "Adverb",
+        "kr": "같이",
+        "example": "같이 가요.",
+        "rom": ""
+      },
+      {
+        "en": "Continuously / Always",
+        "pos": "Adverb / Noun",
+        "kr": "계속",
+        "example": "계속 공부해요.",
+        "rom": ""
+      },
+      {
+        "en": "That / He / She",
+        "pos": "Det. / Pronoun",
+        "kr": "그",
+        "example": "그 사람이에요.",
+        "rom": ""
+      },
+      {
+        "en": "That thing",
+        "pos": "Pronoun",
+        "kr": "그것",
+        "example": "그것을 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Yes / Okay (Casual)",
+        "pos": "Interjection",
+        "kr": "그래",
+        "example": "그래 알았어요.",
+        "rom": ""
+      },
+      {
+        "en": "So / Therefore",
+        "pos": "Adverb",
+        "kr": "그래서",
+        "example": "그래서 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "That is why / So",
+        "pos": "Adverb",
+        "kr": "그러니까",
+        "example": "그러니까 공부해요.",
+        "rom": ""
+      },
+      {
+        "en": "Then / If so",
+        "pos": "Adverb",
+        "kr": "그러면",
+        "example": "그러면 가요.",
+        "rom": ""
+      },
+      {
+        "en": "But / However",
+        "pos": "Adverb",
+        "kr": "그런데",
+        "example": "그런데 시간이 없어요.",
+        "rom": ""
+      },
+      {
+        "en": "Then / If so",
+        "pos": "Adverb",
+        "kr": "그럼",
+        "example": "그럼 내일 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Of course",
+        "pos": "Interjection",
+        "kr": "그럼",
+        "example": "그럼요.",
+        "rom": ""
+      },
+      {
+        "en": "But / However",
+        "pos": "Adverb",
+        "kr": "그렇지만",
+        "example": "그렇지만 열심히 해요.",
+        "rom": ""
+      },
+      {
+        "en": "And",
+        "pos": "Adverb",
+        "kr": "그리고",
+        "example": "그리고 커피를 마셨어요.",
+        "rom": ""
+      },
+      {
+        "en": "Well... / I'm not sure",
+        "pos": "Interjection",
+        "kr": "글쎄요",
+        "example": "글쎄요 잘 모르겠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Surely / Exactly",
+        "pos": "Adverb",
+        "kr": "꼭",
+        "example": "꼭 오세요.",
+        "rom": ""
+      },
+      {
+        "en": "Too / So much",
+        "pos": "Adverb",
+        "kr": "너무",
+        "example": "너무 비싸요.",
+        "rom": ""
+      },
+      {
+        "en": "All / Everything",
+        "pos": "Adv. / Noun",
+        "kr": "다",
+        "example": "다 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Again",
+        "pos": "Adverb",
+        "kr": "다시",
+        "example": "다시 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Other / Different",
+        "pos": "Determiner",
+        "kr": "다른",
+        "example": "다른 것을 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "More",
+        "pos": "Adverb",
+        "kr": "더",
+        "example": "더 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Also / Again",
+        "pos": "Adverb",
+        "kr": "또",
+        "example": "또 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "A lot / Much",
+        "pos": "Adverb",
+        "kr": "많이",
+        "example": "많이 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Every day",
+        "pos": "Adverb / Noun",
+        "kr": "매일",
+        "example": "매일 운동해요.",
+        "rom": ""
+      },
+      {
+        "en": "First",
+        "pos": "Adverb / Noun",
+        "kr": "먼저",
+        "example": "먼저 가요.",
+        "rom": ""
+      },
+      {
+        "en": "How many / A few",
+        "pos": "Num. / Det.",
+        "kr": "몇",
+        "example": "몇 개예요?",
+        "rom": ""
+      },
+      {
+        "en": "All / Everyone",
+        "pos": "Noun / Adverb",
+        "kr": "모두",
+        "example": "모두 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cannot",
+        "pos": "Adverb",
+        "kr": "못",
+        "example": "못 가요.",
+        "rom": ""
+      },
+      {
+        "en": "What",
+        "pos": "Pronoun",
+        "kr": "무엇",
+        "example": "무엇이에요?",
+        "rom": ""
+      },
+      {
+        "en": "What / What kind of",
+        "pos": "Determiner",
+        "kr": "무슨",
+        "example": "무슨 요일이에요?",
+        "rom": ""
+      },
+      {
+        "en": "What (shortened)",
+        "pos": "Pronoun",
+        "kr": "뭐",
+        "example": "뭐 먹어요?",
+        "rom": ""
+      },
+      {
+        "en": "Immediately / Directly",
+        "pos": "Adverb",
+        "kr": "바로",
+        "example": "바로 가요.",
+        "rom": ""
+      },
+      {
+        "en": "Not really / Not much",
+        "pos": "Adverb",
+        "kr": "별로",
+        "example": "별로 안 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "More (comparative)",
+        "pos": "Adverb",
+        "kr": "보다",
+        "example": "보다 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Usually / Ordinary",
+        "pos": "Adverb / Noun",
+        "kr": "보통",
+        "example": "보통 7시에 일어나요.",
+        "rom": ""
+      },
+      {
+        "en": "Quickly / Fast",
+        "pos": "Adverb",
+        "kr": "빨리",
+        "example": "빨리 오세요.",
+        "rom": ""
+      },
+      {
+        "en": "Gap / Relation / Between",
+        "pos": "Noun",
+        "kr": "사이",
+        "example": "사이가 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Ah / Oh",
+        "pos": "Interjection",
+        "kr": "아",
+        "example": "아 알겠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Very / Greatly",
+        "pos": "Adverb",
+        "kr": "아주",
+        "example": "아주 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Not",
+        "pos": "Adverb",
+        "kr": "안",
+        "example": "안 가요.",
+        "rom": ""
+      },
+      {
+        "en": "No (Polite)",
+        "pos": "Interjection",
+        "kr": "아니요",
+        "example": "아니요 괜찮아요.",
+        "rom": ""
+      },
+      {
+        "en": "Hello / Goodbye",
+        "pos": "Interjection",
+        "kr": "안녕",
+        "example": "안녕하세요.",
+        "rom": ""
+      },
+      {
+        "en": "Peacefully (in farewell)",
+        "pos": "Adverb",
+        "kr": "안녕히",
+        "example": "안녕히 가세요.",
+        "rom": ""
+      },
+      {
+        "en": "Yet / Still",
+        "pos": "Adverb",
+        "kr": "아직",
+        "example": "아직 안 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "About / Approximately",
+        "pos": "Determiner",
+        "kr": "약",
+        "example": "약 10분 걸려요.",
+        "rom": ""
+      },
+      {
+        "en": "Which / Some",
+        "pos": "Determiner",
+        "kr": "어느",
+        "example": "어느 나라에서 왔어요?",
+        "rom": ""
+      },
+      {
+        "en": "Where",
+        "pos": "Pronoun",
+        "kr": "어디",
+        "example": "어디에 가요?",
+        "rom": ""
+      },
+      {
+        "en": "What kind of / Certain",
+        "pos": "Determiner",
+        "kr": "어떤",
+        "example": "어떤 색이에요?",
+        "rom": ""
+      },
+      {
+        "en": "Quickly / Please",
+        "pos": "Adverb",
+        "kr": "어서",
+        "example": "어서 오세요.",
+        "rom": ""
+      },
+      {
+        "en": "When",
+        "pos": "Pronoun / Adverb",
+        "kr": "언제",
+        "example": "언제 와요?",
+        "rom": ""
+      },
+      {
+        "en": "How much",
+        "pos": "Noun",
+        "kr": "얼마",
+        "example": "얼마예요?",
+        "rom": ""
+      },
+      {
+        "en": "Several / Various",
+        "pos": "Determiner",
+        "kr": "여러",
+        "example": "여러 가지가 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hello (on phone)",
+        "pos": "Interjection",
+        "kr": "여보세요",
+        "example": "여보세요?",
+        "rom": ""
+      },
+      {
+        "en": "Hard / Diligently",
+        "pos": "Adverb",
+        "kr": "열심히",
+        "example": "열심히 공부해요.",
+        "rom": ""
+      },
+      {
+        "en": "Zero",
+        "pos": "Noun",
+        "kr": "영",
+        "example": "영이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Why",
+        "pos": "Adverb",
+        "kr": "왜",
+        "example": "왜 안 가요?",
+        "rom": ""
+      },
+      {
+        "en": "Wow",
+        "pos": "Interjection",
+        "kr": "와",
+        "example": "와 예쁘다!",
+        "rom": ""
+      },
+      {
+        "en": "Well / Um",
+        "pos": "Interjection",
+        "kr": "음",
+        "example": "음 그래요.",
+        "rom": ""
+      },
+      {
+        "en": "This thing",
+        "pos": "Pronoun",
+        "kr": "이것",
+        "example": "이것이에요.",
+        "rom": ""
+      },
+      {
+        "en": "This side / This way",
+        "pos": "Pronoun",
+        "kr": "이쪽",
+        "example": "이쪽으로 오세요.",
+        "rom": ""
+      },
+      {
+        "en": "Early",
+        "pos": "Adverb",
+        "kr": "일찍",
+        "example": "일찍 일어났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Often",
+        "pos": "Adverb",
+        "kr": "자주",
+        "example": "자주 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Well",
+        "pos": "Adverb",
+        "kr": "잘",
+        "example": "잘 지내요.",
+        "rom": ""
+      },
+      {
+        "en": "That (over there)",
+        "pos": "Det. / Pronoun",
+        "kr": "저",
+        "example": "저 사람이에요.",
+        "rom": ""
+      },
+      {
+        "en": "That thing",
+        "pos": "Pronoun",
+        "kr": "저것",
+        "example": "저것을 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Well / Um",
+        "pos": "Interjection",
+        "kr": "저",
+        "example": "저 있잖아요.",
+        "rom": ""
+      },
+      {
+        "en": "A little / A bit",
+        "pos": "Adverb / Noun",
+        "kr": "조금",
+        "example": "조금 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "A little / Please",
+        "pos": "Adverb",
+        "kr": "좀",
+        "example": "좀 도와주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Mainly / Mostly",
+        "pos": "Adverb",
+        "kr": "주로",
+        "example": "주로 집에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Side / Direction",
+        "pos": "Dependent Noun",
+        "kr": "쪽",
+        "example": "이쪽으로 가요.",
+        "rom": ""
+      },
+      {
+        "en": "Very / Really",
+        "pos": "Adverb",
+        "kr": "참",
+        "example": "참 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "First / Most",
+        "pos": "Adverb / Noun",
+        "kr": "제일",
+        "example": "제일 좋아해요.",
+        "rom": ""
+      },
+      {
+        "en": "Slowly",
+        "pos": "Adverb",
+        "kr": "천천히",
+        "example": "천천히 말해 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Especially",
+        "pos": "Adverb",
+        "kr": "특히",
+        "example": "특히 좋아해요.",
+        "rom": ""
+      },
+      {
+        "en": "Together",
+        "pos": "Adverb",
+        "kr": "함께",
+        "example": "함께 가요.",
+        "rom": ""
+      },
+      {
+        "en": "But / However",
+        "pos": "Adverb",
+        "kr": "하지만",
+        "example": "하지만 시간이 없어요.",
+        "rom": ""
+      },
+      {
+        "en": "Alone",
+        "pos": "Noun / Adverb",
+        "kr": "혼자",
+        "example": "혼자 살아요.",
+        "rom": ""
+      },
+      {
+        "en": "Thing / Object",
+        "pos": "Dependent Noun",
+        "kr": "것",
+        "example": "먹을 것이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Time / Number",
+        "pos": "Dependent Noun",
+        "kr": "번",
+        "example": "한 번 더 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Number",
+        "pos": "Noun",
+        "kr": "번호",
+        "example": "번호가 뭐예요?",
+        "rom": ""
+      },
+      {
+        "en": "Issue / Number",
+        "pos": "Dependent Noun",
+        "kr": "호",
+        "example": "101호예요.",
+        "rom": ""
+      },
+      {
+        "en": "Yes (Polite)",
+        "pos": "Interjection",
+        "kr": "네",
+        "example": "네 알겠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Yes (Polite)",
+        "pos": "Interjection",
+        "kr": "예",
+        "example": "예 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Half",
+        "pos": "Noun",
+        "kr": "반",
+        "example": "반만 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Really / Truth",
+        "pos": "Adverb / Noun",
+        "kr": "정말",
+        "example": "정말 좋아요.",
+        "rom": ""
+      }
+    ],
+    "daily": [
+      {
+        "en": "Furniture",
+        "pos": "Noun",
+        "kr": "가구",
+        "example": "가구를 샀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bag / Backpack",
+        "pos": "Noun",
+        "kr": "가방",
+        "example": "가방을 들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Song / Pop song",
+        "pos": "Noun",
+        "kr": "가요",
+        "example": "가요를 불러요.",
+        "rom": ""
+      },
+      {
+        "en": "Thank / Gratitude",
+        "pos": "Noun",
+        "kr": "감사",
+        "example": "감사를 드려요.",
+        "rom": ""
+      },
+      {
+        "en": "Value / Price",
+        "pos": "Noun",
+        "kr": "값",
+        "example": "값이 싸요.",
+        "rom": ""
+      },
+      {
+        "en": "Health",
+        "pos": "Noun",
+        "kr": "건강",
+        "example": "건강이 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Game",
+        "pos": "Noun",
+        "kr": "게임",
+        "example": "게임을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Plan",
+        "pos": "Noun",
+        "kr": "계획",
+        "example": "계획을 세웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Study",
+        "pos": "Noun",
+        "kr": "공부",
+        "example": "공부를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Notebook",
+        "pos": "Noun",
+        "kr": "공책",
+        "example": "공책에 썼어요.",
+        "rom": ""
+      },
+      {
+        "en": "Traffic / Transportation",
+        "pos": "Noun",
+        "kr": "교통",
+        "example": "교통이 편해요.",
+        "rom": ""
+      },
+      {
+        "en": "Sightseeing / Watching",
+        "pos": "Noun",
+        "kr": "구경",
+        "example": "구경을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Dress shoes",
+        "pos": "Noun",
+        "kr": "구두",
+        "example": "구두를 신었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Nationality",
+        "pos": "Noun",
+        "kr": "국적",
+        "example": "국적이 어디예요?",
+        "rom": ""
+      },
+      {
+        "en": "Writing / Text",
+        "pos": "Noun",
+        "kr": "글",
+        "example": "글을 썼어요.",
+        "rom": ""
+      },
+      {
+        "en": "Feeling / Mood",
+        "pos": "Noun",
+        "kr": "기분",
+        "example": "기분이 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Song",
+        "pos": "Noun",
+        "kr": "노래",
+        "example": "노래를 불러요.",
+        "rom": ""
+      },
+      {
+        "en": "Basketball",
+        "pos": "Noun",
+        "kr": "농구",
+        "example": "농구를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "News",
+        "pos": "Noun",
+        "kr": "뉴스",
+        "example": "뉴스를 봐요.",
+        "rom": ""
+      },
+      {
+        "en": "Word",
+        "pos": "Noun",
+        "kr": "단어",
+        "example": "단어를 외워요.",
+        "rom": ""
+      },
+      {
+        "en": "Cigarette / Tobacco",
+        "pos": "Noun",
+        "kr": "담배",
+        "example": "담배를 피워요.",
+        "rom": ""
+      },
+      {
+        "en": "Answer / Reply",
+        "pos": "Noun",
+        "kr": "대답",
+        "example": "대답을 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Conversation",
+        "pos": "Noun",
+        "kr": "대화",
+        "example": "대화를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Money",
+        "pos": "Noun",
+        "kr": "돈",
+        "example": "돈을 벌어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hiking / Climbing",
+        "pos": "Noun",
+        "kr": "등산",
+        "example": "등산을 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Drama / TV show",
+        "pos": "Noun",
+        "kr": "드라마",
+        "example": "드라마를 봤어요.",
+        "rom": ""
+      },
+      {
+        "en": "Word / Speech / Language",
+        "pos": "Noun",
+        "kr": "말",
+        "example": "말을 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Word / Speech (Hon.)",
+        "pos": "Noun",
+        "kr": "말씀",
+        "example": "말씀을 드렸어요.",
+        "rom": ""
+      },
+      {
+        "en": "Mind / Heart",
+        "pos": "Noun",
+        "kr": "마음",
+        "example": "마음이 따뜻해요.",
+        "rom": ""
+      },
+      {
+        "en": "Sorry / Regret",
+        "pos": "Noun",
+        "kr": "미안",
+        "example": "미안해요.",
+        "rom": ""
+      },
+      {
+        "en": "Object / Thing",
+        "pos": "Noun",
+        "kr": "물건",
+        "example": "물건을 샀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hat / Cap",
+        "pos": "Noun",
+        "kr": "모자",
+        "example": "모자를 썼어요.",
+        "rom": ""
+      },
+      {
+        "en": "Culture",
+        "pos": "Noun",
+        "kr": "문화",
+        "example": "문화가 달라요.",
+        "rom": ""
+      },
+      {
+        "en": "Door",
+        "pos": "Noun",
+        "kr": "문",
+        "example": "문을 열었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pocketbook / Memo pad",
+        "pos": "Noun",
+        "kr": "수첩",
+        "example": "수첩에 적었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Homework",
+        "pos": "Noun",
+        "kr": "숙제",
+        "example": "숙제를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Shower",
+        "pos": "Noun",
+        "kr": "샤워",
+        "example": "샤워를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Gift / Present",
+        "pos": "Noun",
+        "kr": "선물",
+        "example": "선물을 받았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Washing one's face",
+        "pos": "Noun",
+        "kr": "세수",
+        "example": "세수를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Introduction",
+        "pos": "Noun",
+        "kr": "소개",
+        "example": "소개를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Shopping",
+        "pos": "Noun",
+        "kr": "쇼핑",
+        "example": "쇼핑을 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Class / Lesson",
+        "pos": "Noun",
+        "kr": "수업",
+        "example": "수업을 들어요.",
+        "rom": ""
+      },
+      {
+        "en": "Swimming",
+        "pos": "Noun",
+        "kr": "수영",
+        "example": "수영을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Skiing",
+        "pos": "Noun",
+        "kr": "스키",
+        "example": "스키를 타요.",
+        "rom": ""
+      },
+      {
+        "en": "Exam / Test",
+        "pos": "Noun",
+        "kr": "시험",
+        "example": "시험을 봤어요.",
+        "rom": ""
+      },
+      {
+        "en": "Practice",
+        "pos": "Noun",
+        "kr": "연습",
+        "example": "연습을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Movie / Film",
+        "pos": "Noun",
+        "kr": "영화",
+        "example": "영화를 봤어요.",
+        "rom": ""
+      },
+      {
+        "en": "English",
+        "pos": "Noun",
+        "kr": "영어",
+        "example": "영어를 배워요.",
+        "rom": ""
+      },
+      {
+        "en": "Foreign language",
+        "pos": "Noun",
+        "kr": "외국어",
+        "example": "외국어를 배워요.",
+        "rom": ""
+      },
+      {
+        "en": "Use / Usage",
+        "pos": "Noun",
+        "kr": "사용",
+        "example": "사용을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Dictionary",
+        "pos": "Noun",
+        "kr": "사전",
+        "example": "사전을 찾아봐요.",
+        "rom": ""
+      },
+      {
+        "en": "Photo / Picture",
+        "pos": "Noun",
+        "kr": "사진",
+        "example": "사진을 찍었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Walk / Stroll",
+        "pos": "Noun",
+        "kr": "산책",
+        "example": "산책을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Love",
+        "pos": "Noun",
+        "kr": "사랑",
+        "example": "사랑을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Thought / Idea",
+        "pos": "Noun",
+        "kr": "생각",
+        "example": "생각을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Life / Living",
+        "pos": "Noun",
+        "kr": "생활",
+        "example": "생활이 바빠요.",
+        "rom": ""
+      },
+      {
+        "en": "Play / Drama",
+        "pos": "Noun",
+        "kr": "연극",
+        "example": "연극을 봤어요.",
+        "rom": ""
+      },
+      {
+        "en": "Travel / Trip",
+        "pos": "Noun",
+        "kr": "여행",
+        "example": "여행을 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Passport",
+        "pos": "Noun",
+        "kr": "여권",
+        "example": "여권을 받았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Promise / Appointment",
+        "pos": "Noun",
+        "kr": "약속",
+        "example": "약속이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Greeting",
+        "pos": "Noun",
+        "kr": "인사",
+        "example": "인사를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Work / Task",
+        "pos": "Noun",
+        "kr": "일",
+        "example": "일을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Request / Favor",
+        "pos": "Noun",
+        "kr": "부탁",
+        "example": "부탁을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Part-time job",
+        "pos": "Noun",
+        "kr": "아르바이트",
+        "example": "아르바이트를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Guidance / Information",
+        "pos": "Noun",
+        "kr": "안내",
+        "example": "안내를 받았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Glasses / Eyeglasses",
+        "pos": "Noun",
+        "kr": "안경",
+        "example": "안경을 써요.",
+        "rom": ""
+      },
+      {
+        "en": "Explanation",
+        "pos": "Noun",
+        "kr": "설명",
+        "example": "설명을 들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Exercise / Sports",
+        "pos": "Noun",
+        "kr": "운동",
+        "example": "운동을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Sneakers / Sports shoes",
+        "pos": "Noun",
+        "kr": "운동화",
+        "example": "운동화를 신었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Driving",
+        "pos": "Noun",
+        "kr": "운전",
+        "example": "운전을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Music",
+        "pos": "Noun",
+        "kr": "음악",
+        "example": "음악을 들어요.",
+        "rom": ""
+      },
+      {
+        "en": "Chair",
+        "pos": "Noun",
+        "kr": "의자",
+        "example": "의자에 앉았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Story / Talk",
+        "pos": "Noun",
+        "kr": "이야기",
+        "example": "이야기를 들어요.",
+        "rom": ""
+      },
+      {
+        "en": "Reason",
+        "pos": "Noun",
+        "kr": "이유",
+        "example": "이유를 말해요.",
+        "rom": ""
+      },
+      {
+        "en": "Internet",
+        "pos": "Noun",
+        "kr": "인터넷",
+        "example": "인터넷을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Wallet",
+        "pos": "Noun",
+        "kr": "지갑",
+        "example": "지갑을 찾았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Job / Occupation",
+        "pos": "Noun",
+        "kr": "직업",
+        "example": "직업을 구해요.",
+        "rom": ""
+      },
+      {
+        "en": "Clothes",
+        "pos": "Noun",
+        "kr": "옷",
+        "example": "옷을 입어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pants / Trousers",
+        "pos": "Noun",
+        "kr": "바지",
+        "example": "바지를 입었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Umbrella",
+        "pos": "Noun",
+        "kr": "우산",
+        "example": "우산을 써요.",
+        "rom": ""
+      },
+      {
+        "en": "Telephone / Call",
+        "pos": "Noun",
+        "kr": "전화",
+        "example": "전화를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Phone number",
+        "pos": "Noun",
+        "kr": "전화번호",
+        "example": "전화번호를 알려요.",
+        "rom": ""
+      },
+      {
+        "en": "Address",
+        "pos": "Noun",
+        "kr": "주소",
+        "example": "주소를 알려요.",
+        "rom": ""
+      },
+      {
+        "en": "Preparation",
+        "pos": "Noun",
+        "kr": "준비",
+        "example": "준비를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Question",
+        "pos": "Noun",
+        "kr": "질문",
+        "example": "질문을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Skirt",
+        "pos": "Noun",
+        "kr": "치마",
+        "example": "치마를 입었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Card",
+        "pos": "Noun",
+        "kr": "카드",
+        "example": "카드를 써요.",
+        "rom": ""
+      },
+      {
+        "en": "Camera",
+        "pos": "Noun",
+        "kr": "카메라",
+        "example": "카메라로 찍었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Computer",
+        "pos": "Noun",
+        "kr": "컴퓨터",
+        "example": "컴퓨터를 써요.",
+        "rom": ""
+      },
+      {
+        "en": "Picture / Painting",
+        "pos": "Noun",
+        "kr": "그림",
+        "example": "그림을 그렸어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ballpoint pen",
+        "pos": "Noun",
+        "kr": "볼펜",
+        "example": "볼펜으로 썼어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pencil",
+        "pos": "Noun",
+        "kr": "연필",
+        "example": "연필로 썼어요.",
+        "rom": ""
+      },
+      {
+        "en": "Key",
+        "pos": "Noun",
+        "kr": "열쇠",
+        "example": "열쇠를 찾았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Window",
+        "pos": "Noun",
+        "kr": "창문",
+        "example": "창문을 열었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Book",
+        "pos": "Noun",
+        "kr": "책",
+        "example": "책을 읽었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Desk",
+        "pos": "Noun",
+        "kr": "책상",
+        "example": "책상을 정리해요.",
+        "rom": ""
+      },
+      {
+        "en": "Television",
+        "pos": "Noun",
+        "kr": "텔레비전",
+        "example": "텔레비전을 봐요.",
+        "rom": ""
+      },
+      {
+        "en": "Letter",
+        "pos": "Noun",
+        "kr": "편지",
+        "example": "편지를 썼어요.",
+        "rom": ""
+      },
+      {
+        "en": "Piano",
+        "pos": "Noun",
+        "kr": "피아노",
+        "example": "피아노를 쳐요.",
+        "rom": ""
+      },
+      {
+        "en": "Pencil case",
+        "pos": "Noun",
+        "kr": "필통",
+        "example": "필통에 넣었어요.",
+        "rom": ""
+      },
+      {
+        "en": "T-shirt",
+        "pos": "Noun",
+        "kr": "티셔츠",
+        "example": "티셔츠를 입었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ticket",
+        "pos": "Noun",
+        "kr": "표",
+        "example": "표를 샀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Program",
+        "pos": "Noun",
+        "kr": "프로그램",
+        "example": "프로그램을 봐요.",
+        "rom": ""
+      },
+      {
+        "en": "Cleaning",
+        "pos": "Noun",
+        "kr": "청소",
+        "example": "청소를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Air conditioner",
+        "pos": "Noun",
+        "kr": "에어컨",
+        "example": "에어컨을 켜요.",
+        "rom": ""
+      },
+      {
+        "en": "Shoes / Footwear",
+        "pos": "Noun",
+        "kr": "신발",
+        "example": "신발을 신어요.",
+        "rom": ""
+      },
+      {
+        "en": "Newspaper",
+        "pos": "Noun",
+        "kr": "신문",
+        "example": "신문을 읽어요.",
+        "rom": ""
+      },
+      {
+        "en": "Eraser",
+        "pos": "Noun",
+        "kr": "지우개",
+        "example": "지우개로 지웠어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bed",
+        "pos": "Noun",
+        "kr": "침대",
+        "example": "침대에서 자요.",
+        "rom": ""
+      },
+      {
+        "en": "Sleep",
+        "pos": "Noun",
+        "kr": "잠",
+        "example": "잠을 자요.",
+        "rom": ""
+      },
+      {
+        "en": "Dance",
+        "pos": "Noun",
+        "kr": "춤",
+        "example": "춤을 춰요.",
+        "rom": ""
+      },
+      {
+        "en": "Blackboard",
+        "pos": "Noun",
+        "kr": "칠판",
+        "example": "칠판에 썼어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fire / Light",
+        "pos": "Noun",
+        "kr": "불",
+        "example": "불을 켜요.",
+        "rom": ""
+      },
+      {
+        "en": "Bottle",
+        "pos": "Noun",
+        "kr": "병",
+        "example": "병에 넣었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Student ID card",
+        "pos": "Noun",
+        "kr": "학생증",
+        "example": "학생증을 받았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hanbok",
+        "pos": "Noun",
+        "kr": "한복",
+        "example": "한복을 입었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Major",
+        "pos": "Noun",
+        "kr": "전공",
+        "example": "전공이 뭐예요?",
+        "rom": ""
+      },
+      {
+        "en": "Graduation",
+        "pos": "Noun",
+        "kr": "졸업",
+        "example": "졸업을 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Stamp",
+        "pos": "Noun",
+        "kr": "우표",
+        "example": "우표를 붙였어요.",
+        "rom": ""
+      },
+      {
+        "en": "Concert",
+        "pos": "Noun",
+        "kr": "콘서트",
+        "example": "콘서트를 봤어요.",
+        "rom": ""
+      },
+      {
+        "en": "Party",
+        "pos": "Noun",
+        "kr": "파티",
+        "example": "파티에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Invitation",
+        "pos": "Noun",
+        "kr": "초대",
+        "example": "초대를 받았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Celebration",
+        "pos": "Noun",
+        "kr": "축하",
+        "example": "축하를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Hobby",
+        "pos": "Noun",
+        "kr": "취미",
+        "example": "취미가 뭐예요?",
+        "rom": ""
+      },
+      {
+        "en": "Kindness",
+        "pos": "Noun",
+        "kr": "친절",
+        "example": "친절해요.",
+        "rom": ""
+      },
+      {
+        "en": "Discourtesy / Rudeness",
+        "pos": "Noun",
+        "kr": "실례",
+        "example": "실례가 됐어요.",
+        "rom": ""
+      },
+      {
+        "en": "Soccer",
+        "pos": "Noun",
+        "kr": "축구",
+        "example": "축구를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Baseball",
+        "pos": "Noun",
+        "kr": "야구",
+        "example": "야구를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Taekwondo",
+        "pos": "Noun",
+        "kr": "태권도",
+        "example": "태권도를 배워요.",
+        "rom": ""
+      },
+      {
+        "en": "Table tennis",
+        "pos": "Noun",
+        "kr": "탁구",
+        "example": "탁구를 쳐요.",
+        "rom": ""
+      },
+      {
+        "en": "Tennis",
+        "pos": "Noun",
+        "kr": "테니스",
+        "example": "테니스를 쳐요.",
+        "rom": ""
+      },
+      {
+        "en": "Tree",
+        "pos": "Noun",
+        "kr": "나무",
+        "example": "나무가 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Flower",
+        "pos": "Noun",
+        "kr": "꽃",
+        "example": "꽃이 예뻐요.",
+        "rom": ""
+      },
+      {
+        "en": "Need / Necessity",
+        "pos": "Noun",
+        "kr": "필요",
+        "example": "필요해요.",
+        "rom": ""
+      },
+      {
+        "en": "Tiredness / Fatigue",
+        "pos": "Noun",
+        "kr": "피곤",
+        "example": "피곤해요.",
+        "rom": ""
+      },
+      {
+        "en": "Start / Beginning",
+        "pos": "Noun",
+        "kr": "시작",
+        "example": "시작을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Arrival",
+        "pos": "Noun",
+        "kr": "도착",
+        "example": "도착을 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Departure",
+        "pos": "Noun",
+        "kr": "출발",
+        "example": "출발을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Leaving work",
+        "pos": "Noun",
+        "kr": "퇴근",
+        "example": "퇴근을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Meeting / Conference",
+        "pos": "Noun",
+        "kr": "회의",
+        "example": "회의를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Mistake / Wrongly",
+        "pos": "Noun / Adverb",
+        "kr": "잘못",
+        "example": "잘못을 했어요.",
+        "rom": ""
+      }
+    ],
+    "describe": [
+      {
+        "en": "Close / Near",
+        "pos": "Adjective",
+        "kr": "가깝다",
+        "example": "학교가 가까워요.",
+        "rom": ""
+      },
+      {
+        "en": "Light (weight)",
+        "pos": "Adjective",
+        "kr": "가볍다",
+        "example": "가방이 가벼워요.",
+        "rom": ""
+      },
+      {
+        "en": "Same / Like",
+        "pos": "Adjective",
+        "kr": "같다",
+        "example": "나이가 같아요.",
+        "rom": ""
+      },
+      {
+        "en": "Grateful / Thankful",
+        "pos": "Adjective",
+        "kr": "고맙다",
+        "example": "고마워요.",
+        "rom": ""
+      },
+      {
+        "en": "Okay / All right",
+        "pos": "Adjective",
+        "kr": "괜찮다",
+        "example": "괜찮아요.",
+        "rom": ""
+      },
+      {
+        "en": "Happy / Glad",
+        "pos": "Adjective",
+        "kr": "기쁘다",
+        "example": "기분이 기뻐요.",
+        "rom": ""
+      },
+      {
+        "en": "Long",
+        "pos": "Adjective",
+        "kr": "길다",
+        "example": "머리가 길어요.",
+        "rom": ""
+      },
+      {
+        "en": "Clean",
+        "pos": "Adjective",
+        "kr": "깨끗하다",
+        "example": "방이 깨끗해요.",
+        "rom": ""
+      },
+      {
+        "en": "Bad",
+        "pos": "Adjective",
+        "kr": "나쁘다",
+        "example": "날씨가 나빠요.",
+        "rom": ""
+      },
+      {
+        "en": "Wide / Spacious",
+        "pos": "Adjective",
+        "kr": "넓다",
+        "example": "방이 넓어요.",
+        "rom": ""
+      },
+      {
+        "en": "High / Tall",
+        "pos": "Adjective",
+        "kr": "높다",
+        "example": "건물이 높아요.",
+        "rom": ""
+      },
+      {
+        "en": "Low",
+        "pos": "Adjective",
+        "kr": "낮다",
+        "example": "산이 낮아요.",
+        "rom": ""
+      },
+      {
+        "en": "To be late",
+        "pos": "Adj. / Verb",
+        "kr": "늦다",
+        "example": "약속에 늦었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Different",
+        "pos": "Adjective",
+        "kr": "다르다",
+        "example": "모양이 달라요.",
+        "rom": ""
+      },
+      {
+        "en": "Warm",
+        "pos": "Adjective",
+        "kr": "따뜻하다",
+        "example": "날씨가 따뜻해요.",
+        "rom": ""
+      },
+      {
+        "en": "Hot (weather)",
+        "pos": "Adjective",
+        "kr": "덥다",
+        "example": "날씨가 더워요.",
+        "rom": ""
+      },
+      {
+        "en": "Far",
+        "pos": "Adjective",
+        "kr": "멀다",
+        "example": "학교가 멀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cool / Stylish",
+        "pos": "Adjective",
+        "kr": "멋있다",
+        "example": "남자가 멋있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Heavy",
+        "pos": "Adjective",
+        "kr": "무겁다",
+        "example": "가방이 무거워요.",
+        "rom": ""
+      },
+      {
+        "en": "Clear / Pure",
+        "pos": "Adjective",
+        "kr": "맑다",
+        "example": "하늘이 맑아요.",
+        "rom": ""
+      },
+      {
+        "en": "Many / Much",
+        "pos": "Adjective",
+        "kr": "많다",
+        "example": "사람이 많아요.",
+        "rom": ""
+      },
+      {
+        "en": "To not be / No",
+        "pos": "Adjective",
+        "kr": "아니다",
+        "example": "학생이 아니에요.",
+        "rom": ""
+      },
+      {
+        "en": "Beautiful",
+        "pos": "Adjective",
+        "kr": "아름답다",
+        "example": "경치가 아름다워요.",
+        "rom": ""
+      },
+      {
+        "en": "To not have / not exist",
+        "pos": "Adjective",
+        "kr": "없다",
+        "example": "돈이 없어요.",
+        "rom": ""
+      },
+      {
+        "en": "Difficult / Hard",
+        "pos": "Adjective",
+        "kr": "어렵다",
+        "example": "한국어가 어려워요.",
+        "rom": ""
+      },
+      {
+        "en": "How / What kind",
+        "pos": "Adjective",
+        "kr": "어떻다",
+        "example": "기분이 어때요?",
+        "rom": ""
+      },
+      {
+        "en": "Pretty / Beautiful",
+        "pos": "Adjective",
+        "kr": "예쁘다",
+        "example": "꽃이 예뻐요.",
+        "rom": ""
+      },
+      {
+        "en": "Good / Nice",
+        "pos": "Adjective",
+        "kr": "좋다",
+        "example": "날씨가 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Easy",
+        "pos": "Adjective",
+        "kr": "쉽다",
+        "example": "문제가 쉬워요.",
+        "rom": ""
+      },
+      {
+        "en": "To hate / dislike",
+        "pos": "Adjective",
+        "kr": "싫다",
+        "example": "더운 날씨가 싫어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cool / Refreshing",
+        "pos": "Adjective",
+        "kr": "시원하다",
+        "example": "바람이 시원해요.",
+        "rom": ""
+      },
+      {
+        "en": "Sad",
+        "pos": "Adjective",
+        "kr": "슬프다",
+        "example": "영화가 슬퍼요.",
+        "rom": ""
+      },
+      {
+        "en": "Fast / Quick",
+        "pos": "Adjective",
+        "kr": "빠르다",
+        "example": "차가 빨라요.",
+        "rom": ""
+      },
+      {
+        "en": "Busy",
+        "pos": "Adjective",
+        "kr": "바쁘다",
+        "example": "요즘 바빠요.",
+        "rom": ""
+      },
+      {
+        "en": "To be glad / Happy",
+        "pos": "Adjective",
+        "kr": "반갑다",
+        "example": "만나서 반가워요.",
+        "rom": ""
+      },
+      {
+        "en": "Few / Little",
+        "pos": "Adjective",
+        "kr": "적다",
+        "example": "돈이 적어요.",
+        "rom": ""
+      },
+      {
+        "en": "Quiet",
+        "pos": "Adjective",
+        "kr": "조용하다",
+        "example": "도서관이 조용해요.",
+        "rom": ""
+      },
+      {
+        "en": "To be sorry",
+        "pos": "Adjective",
+        "kr": "죄송하다",
+        "example": "죄송해요.",
+        "rom": ""
+      },
+      {
+        "en": "To be so / Like that",
+        "pos": "Adjective",
+        "kr": "그렇다",
+        "example": "그래요.",
+        "rom": ""
+      },
+      {
+        "en": "Cold (weather)",
+        "pos": "Adjective",
+        "kr": "춥다",
+        "example": "날씨가 추워요.",
+        "rom": ""
+      },
+      {
+        "en": "Close (relation)",
+        "pos": "Adjective",
+        "kr": "친하다",
+        "example": "친구와 친해요.",
+        "rom": ""
+      },
+      {
+        "en": "Big",
+        "pos": "Adjective",
+        "kr": "크다",
+        "example": "방이 커요.",
+        "rom": ""
+      },
+      {
+        "en": "Small / Little",
+        "pos": "Adjective",
+        "kr": "작다",
+        "example": "가방이 작아요.",
+        "rom": ""
+      },
+      {
+        "en": "Special",
+        "pos": "Adjective",
+        "kr": "특별하다",
+        "example": "특별한 날이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Difficult / Hard",
+        "pos": "Adjective",
+        "kr": "힘들다",
+        "example": "일이 힘들어요.",
+        "rom": ""
+      },
+      {
+        "en": "Free / Idle",
+        "pos": "Adjective",
+        "kr": "한가하다",
+        "example": "주말에 한가해요.",
+        "rom": ""
+      },
+      {
+        "en": "Cloudy / Blurry",
+        "pos": "Adjective",
+        "kr": "흐리다",
+        "example": "날씨가 흐려요.",
+        "rom": ""
+      },
+      {
+        "en": "Famous",
+        "pos": "Noun",
+        "kr": "유명",
+        "example": "유명한 가수예요.",
+        "rom": ""
+      },
+      {
+        "en": "Fun / Interesting",
+        "pos": "Adjective",
+        "kr": "재미있다",
+        "example": "드라마가 재미있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Boring / Uninteresting",
+        "pos": "Adjective",
+        "kr": "재미없다",
+        "example": "영화가 재미없어요.",
+        "rom": ""
+      }
+    ],
+    "food": [
+      {
+        "en": "Store / Shop",
+        "pos": "Noun",
+        "kr": "가게",
+        "example": "가게에서 과일을 샀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Price",
+        "pos": "Noun",
+        "kr": "가격",
+        "example": "가격이 비싸요.",
+        "rom": ""
+      },
+      {
+        "en": "Ribs (Galbi)",
+        "pos": "Noun",
+        "kr": "갈비",
+        "example": "갈비를 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beef rib soup",
+        "pos": "Noun",
+        "kr": "갈비탕",
+        "example": "갈비탕이 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Persimmon",
+        "pos": "Noun",
+        "kr": "감",
+        "example": "감을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Meat",
+        "pos": "Noun",
+        "kr": "고기",
+        "example": "고기를 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fruit",
+        "pos": "Noun",
+        "kr": "과일",
+        "example": "과일을 좋아해요.",
+        "rom": ""
+      },
+      {
+        "en": "Tangerine",
+        "pos": "Noun",
+        "kr": "귤",
+        "example": "귤을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bowl / Dish",
+        "pos": "Noun",
+        "kr": "그릇",
+        "example": "그릇에 밥을 담아요.",
+        "rom": ""
+      },
+      {
+        "en": "Gimbap",
+        "pos": "Noun",
+        "kr": "김밥",
+        "example": "김밥을 싸요.",
+        "rom": ""
+      },
+      {
+        "en": "Kimchi",
+        "pos": "Noun",
+        "kr": "김치",
+        "example": "김치가 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Kimchi stew",
+        "pos": "Noun",
+        "kr": "김치찌개",
+        "example": "김치찌개를 끓여요.",
+        "rom": ""
+      },
+      {
+        "en": "Cold noodles",
+        "pos": "Noun",
+        "kr": "냉면",
+        "example": "냉면을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sweet",
+        "pos": "Adjective",
+        "kr": "달다",
+        "example": "과일이 달아요.",
+        "rom": ""
+      },
+      {
+        "en": "Soybean paste stew",
+        "pos": "Noun",
+        "kr": "된장찌개",
+        "example": "된장찌개를 먹었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Strawberry",
+        "pos": "Noun",
+        "kr": "딸기",
+        "example": "딸기를 좋아해요.",
+        "rom": ""
+      },
+      {
+        "en": "Tteokbokki",
+        "pos": "Noun",
+        "kr": "떡볶이",
+        "example": "떡볶이를 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ramen",
+        "pos": "Noun",
+        "kr": "라면",
+        "example": "라면을 끓여요.",
+        "rom": ""
+      },
+      {
+        "en": "Taste / Flavor",
+        "pos": "Noun",
+        "kr": "맛",
+        "example": "맛이 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "To taste bad",
+        "pos": "Adjective",
+        "kr": "맛없다",
+        "example": "음식이 맛없어요.",
+        "rom": ""
+      },
+      {
+        "en": "Delicious",
+        "pos": "Adjective",
+        "kr": "맛있다",
+        "example": "음식이 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Spicy",
+        "pos": "Adjective",
+        "kr": "맵다",
+        "example": "김치가 매워요.",
+        "rom": ""
+      },
+      {
+        "en": "Menu",
+        "pos": "Noun",
+        "kr": "메뉴",
+        "example": "메뉴를 봐요.",
+        "rom": ""
+      },
+      {
+        "en": "Water",
+        "pos": "Noun",
+        "kr": "물",
+        "example": "물을 마셔요.",
+        "rom": ""
+      },
+      {
+        "en": "Banana",
+        "pos": "Noun",
+        "kr": "바나나",
+        "example": "바나나를 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Rice (cooked) / Meal",
+        "pos": "Noun",
+        "kr": "밥",
+        "example": "밥을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pear",
+        "pos": "Noun",
+        "kr": "배",
+        "example": "배가 달아요.",
+        "rom": ""
+      },
+      {
+        "en": "Bread",
+        "pos": "Noun",
+        "kr": "빵",
+        "example": "빵을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Apple",
+        "pos": "Noun",
+        "kr": "사과",
+        "example": "사과를 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cider (Lemon-lime soda)",
+        "pos": "Noun",
+        "kr": "사이다",
+        "example": "사이다를 마셨어요.",
+        "rom": ""
+      },
+      {
+        "en": "Ginseng chicken soup",
+        "pos": "Noun",
+        "kr": "삼계탕",
+        "example": "삼계탕이 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bland / Insipid",
+        "pos": "Adjective",
+        "kr": "싱겁다",
+        "example": "국이 싱거워요.",
+        "rom": ""
+      },
+      {
+        "en": "Salt",
+        "pos": "Noun",
+        "kr": "소금",
+        "example": "소금을 넣어요.",
+        "rom": ""
+      },
+      {
+        "en": "Watermelon",
+        "pos": "Noun",
+        "kr": "수박",
+        "example": "수박을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Alcohol / Liquor",
+        "pos": "Noun",
+        "kr": "술",
+        "example": "술을 마셨어요.",
+        "rom": ""
+      },
+      {
+        "en": "Sour",
+        "pos": "Adjective",
+        "kr": "시다",
+        "example": "귤이 셔요.",
+        "rom": ""
+      },
+      {
+        "en": "Market",
+        "pos": "Noun",
+        "kr": "시장",
+        "example": "시장에서 과일을 샀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Restaurant",
+        "pos": "Noun",
+        "kr": "식당",
+        "example": "식당에서 먹었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Meal",
+        "pos": "Noun",
+        "kr": "식사",
+        "example": "식사를 했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cheap / Inexpensive",
+        "pos": "Adjective",
+        "kr": "싸다",
+        "example": "가격이 싸요.",
+        "rom": ""
+      },
+      {
+        "en": "Bitter",
+        "pos": "Adjective",
+        "kr": "쓰다",
+        "example": "커피가 써요.",
+        "rom": ""
+      },
+      {
+        "en": "Ice cream",
+        "pos": "Noun",
+        "kr": "아이스크림",
+        "example": "아이스크림을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beverage / Drink",
+        "pos": "Noun",
+        "kr": "음료수",
+        "example": "음료수를 마셔요.",
+        "rom": ""
+      },
+      {
+        "en": "Food",
+        "pos": "Noun",
+        "kr": "음식",
+        "example": "음식이 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Milk",
+        "pos": "Noun",
+        "kr": "우유",
+        "example": "우유를 마셔요.",
+        "rom": ""
+      },
+      {
+        "en": "Orange",
+        "pos": "Noun",
+        "kr": "오렌지",
+        "example": "오렌지가 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cooking / Dish",
+        "pos": "Noun",
+        "kr": "요리",
+        "example": "요리를 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Japchae",
+        "pos": "Noun",
+        "kr": "잡채",
+        "example": "잡채를 먹었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Salty",
+        "pos": "Adjective",
+        "kr": "짜다",
+        "example": "음식이 짜요.",
+        "rom": ""
+      },
+      {
+        "en": "Korean melon",
+        "pos": "Noun",
+        "kr": "참외",
+        "example": "참외가 달아요.",
+        "rom": ""
+      },
+      {
+        "en": "Chocolate",
+        "pos": "Noun",
+        "kr": "초콜릿",
+        "example": "초콜릿을 좋아해요.",
+        "rom": ""
+      },
+      {
+        "en": "Coffee",
+        "pos": "Noun",
+        "kr": "커피",
+        "example": "커피를 마셔요.",
+        "rom": ""
+      },
+      {
+        "en": "Cup",
+        "pos": "Noun",
+        "kr": "컵",
+        "example": "컵에 물을 부어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cake",
+        "pos": "Noun",
+        "kr": "케이크",
+        "example": "케이크를 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Cola / Soda",
+        "pos": "Noun",
+        "kr": "콜라",
+        "example": "콜라를 마셨어요.",
+        "rom": ""
+      },
+      {
+        "en": "Grape",
+        "pos": "Noun",
+        "kr": "포도",
+        "example": "포도가 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bulgogi (Grilled beef)",
+        "pos": "Noun",
+        "kr": "불고기",
+        "example": "불고기를 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bibimbap",
+        "pos": "Noun",
+        "kr": "비빔밥",
+        "example": "비빔밥을 먹었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Expensive",
+        "pos": "Adjective",
+        "kr": "비싸다",
+        "example": "음식이 비싸요.",
+        "rom": ""
+      },
+      {
+        "en": "Juice",
+        "pos": "Noun",
+        "kr": "주스",
+        "example": "주스를 마셔요.",
+        "rom": ""
+      },
+      {
+        "en": "Supermarket",
+        "pos": "Noun",
+        "kr": "슈퍼마켓",
+        "example": "슈퍼마켓에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Convenience store",
+        "pos": "Noun",
+        "kr": "편의점",
+        "example": "편의점에서 샀어요.",
+        "rom": ""
+      }
+    ],
+    "nature": [
+      {
+        "en": "Weather",
+        "pos": "Noun",
+        "kr": "날씨",
+        "example": "날씨가 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Rain",
+        "pos": "Noun",
+        "kr": "비",
+        "example": "비가 와요.",
+        "rom": ""
+      },
+      {
+        "en": "Snow",
+        "pos": "Noun",
+        "kr": "눈",
+        "example": "눈이 와요.",
+        "rom": ""
+      },
+      {
+        "en": "Wind",
+        "pos": "Noun",
+        "kr": "바람",
+        "example": "바람이 불어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dog",
+        "pos": "Noun",
+        "kr": "개",
+        "example": "개를 좋아해요.",
+        "rom": ""
+      },
+      {
+        "en": "Cat",
+        "pos": "Noun",
+        "kr": "고양이",
+        "example": "고양이를 좋아해요.",
+        "rom": ""
+      },
+      {
+        "en": "Counter for animals",
+        "pos": "Dependent Noun",
+        "kr": "마리",
+        "example": "강아지 두 마리가 있어요.",
+        "rom": ""
+      }
+    ],
+    "numbers": [
+      {
+        "en": "Nine",
+        "pos": "Numeral / Determiner",
+        "kr": "구",
+        "example": "구월이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Ninety",
+        "pos": "Numeral / Determiner",
+        "kr": "구십",
+        "example": "구십 점이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Counter for books",
+        "pos": "Dependent Noun",
+        "kr": "권",
+        "example": "책 두 권이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Four (Determiner)",
+        "pos": "Determiner",
+        "kr": "네",
+        "example": "네 시에 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Four (Numeral)",
+        "pos": "Numeral",
+        "kr": "넷",
+        "example": "넷이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Five",
+        "pos": "Numeral / Determiner",
+        "kr": "다섯",
+        "example": "다섯 개예요.",
+        "rom": ""
+      },
+      {
+        "en": "Two (Determiner)",
+        "pos": "Determiner",
+        "kr": "두",
+        "example": "두 개 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Two (Numeral)",
+        "pos": "Numeral",
+        "kr": "둘",
+        "example": "둘이서 가요.",
+        "rom": ""
+      },
+      {
+        "en": "Forty (Native)",
+        "pos": "Numeral / Determiner",
+        "kr": "마흔",
+        "example": "마흔 살이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Ten thousand",
+        "pos": "Numeral / Determiner",
+        "kr": "만",
+        "example": "만 원이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Counter for people",
+        "pos": "Dependent Noun",
+        "kr": "명",
+        "example": "다섯 명이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Hundred",
+        "pos": "Numeral / Determiner",
+        "kr": "백",
+        "example": "백 원이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Million",
+        "pos": "Numeral / Determiner",
+        "kr": "백만",
+        "example": "백만 원이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Four (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "사",
+        "example": "사월이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Forty (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "사십",
+        "example": "사십 분이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Years old (Age)",
+        "pos": "Dependent Noun",
+        "kr": "살",
+        "example": "스무 살이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Three (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "삼",
+        "example": "삼월이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Thirty (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "삼십",
+        "example": "삼십 분이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Three (Determiner)",
+        "pos": "Determiner",
+        "kr": "세",
+        "example": "세 시에 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Three (Numeral)",
+        "pos": "Numeral",
+        "kr": "셋",
+        "example": "셋이서 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Thirty (Native)",
+        "pos": "Numeral / Determiner",
+        "kr": "서른",
+        "example": "서른 살이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Twenty (Native)",
+        "pos": "Numeral",
+        "kr": "스물",
+        "example": "스물이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Ten (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "십",
+        "example": "십 분이에요.",
+        "rom": ""
+      },
+      {
+        "en": "One hundred thousand",
+        "pos": "Numeral / Determiner",
+        "kr": "십만",
+        "example": "십만 원이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Eight",
+        "pos": "Numeral / Determiner",
+        "kr": "아홉",
+        "example": "아홉 시예요.",
+        "rom": ""
+      },
+      {
+        "en": "Ninety (Native)",
+        "pos": "Numeral / Determiner",
+        "kr": "아흔",
+        "example": "아흔 살이에요.",
+        "rom": ""
+      },
+      {
+        "en": "One hundred million",
+        "pos": "Numeral / Determiner",
+        "kr": "억",
+        "example": "일 억 원이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Six (Native)",
+        "pos": "Numeral / Determiner",
+        "kr": "여섯",
+        "example": "여섯 시예요.",
+        "rom": ""
+      },
+      {
+        "en": "Eighty (Native)",
+        "pos": "Numeral / Determiner",
+        "kr": "여든",
+        "example": "여든 살이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Eight (Native)",
+        "pos": "Numeral / Determiner",
+        "kr": "여덟",
+        "example": "여덟 개예요.",
+        "rom": ""
+      },
+      {
+        "en": "Five (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "오",
+        "example": "오월이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Fifty (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "오십",
+        "example": "오십 분이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Won (currency)",
+        "pos": "Dependent Noun",
+        "kr": "원",
+        "example": "천 원이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Six (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "육",
+        "example": "유월이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Sixty (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "육십",
+        "example": "육십 분이에요.",
+        "rom": ""
+      },
+      {
+        "en": "One (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "일",
+        "example": "일월이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Seven (Native)",
+        "pos": "Numeral / Determiner",
+        "kr": "일곱",
+        "example": "일곱 시예요.",
+        "rom": ""
+      },
+      {
+        "en": "Seventy (Native)",
+        "pos": "Numeral / Determiner",
+        "kr": "일흔",
+        "example": "일흔 살이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Serving (of food)",
+        "pos": "Dependent Noun",
+        "kr": "인분",
+        "example": "이 인분 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Two (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "이",
+        "example": "이월이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Twenty (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "이십",
+        "example": "이십 분이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Cup / Glass",
+        "pos": "Dependent Noun",
+        "kr": "잔",
+        "example": "커피 한 잔 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Counter for things",
+        "pos": "Dependent Noun",
+        "kr": "개",
+        "example": "사과 세 개예요.",
+        "rom": ""
+      },
+      {
+        "en": "Seven (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "칠",
+        "example": "칠월이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Seventy (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "칠십",
+        "example": "칠십 점이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Thousand",
+        "pos": "Numeral / Determiner",
+        "kr": "천",
+        "example": "천 원이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Ten million",
+        "pos": "Numeral / Determiner",
+        "kr": "천만",
+        "example": "천만 원이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Eight (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "팔",
+        "example": "팔월이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Eighty (Sino)",
+        "pos": "Numeral / Determiner",
+        "kr": "팔십",
+        "example": "팔십 점이에요.",
+        "rom": ""
+      },
+      {
+        "en": "One (Native)",
+        "pos": "Numeral",
+        "kr": "하나",
+        "example": "하나예요.",
+        "rom": ""
+      },
+      {
+        "en": "One (Determiner)",
+        "pos": "Determiner",
+        "kr": "한",
+        "example": "한 개 주세요.",
+        "rom": ""
+      },
+      {
+        "en": "Ten (Native)",
+        "pos": "Numeral / Determiner",
+        "kr": "열",
+        "example": "열 개예요.",
+        "rom": ""
+      }
+    ],
+    "people": [
+      {
+        "en": "Singer",
+        "pos": "Noun",
+        "kr": "가수",
+        "example": "가수가 노래해요.",
+        "rom": ""
+      },
+      {
+        "en": "Family",
+        "pos": "Noun",
+        "kr": "가족",
+        "example": "가족이 많아요.",
+        "rom": ""
+      },
+      {
+        "en": "I / Me",
+        "pos": "Pronoun",
+        "kr": "나",
+        "example": "나는 학생이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Younger brother",
+        "pos": "Noun",
+        "kr": "남동생",
+        "example": "남동생이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Man / Male",
+        "pos": "Noun",
+        "kr": "남자",
+        "example": "남자가 키가 커요.",
+        "rom": ""
+      },
+      {
+        "en": "Husband",
+        "pos": "Noun",
+        "kr": "남편",
+        "example": "남편이 일해요.",
+        "rom": ""
+      },
+      {
+        "en": "My",
+        "pos": "Pronoun",
+        "kr": "내",
+        "example": "내 책이에요.",
+        "rom": ""
+      },
+      {
+        "en": "You (Casual)",
+        "pos": "Pronoun",
+        "kr": "너",
+        "example": "너는 학생이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Who",
+        "pos": "Pronoun",
+        "kr": "누구",
+        "example": "누구예요?",
+        "rom": ""
+      },
+      {
+        "en": "Older sister (for male)",
+        "pos": "Noun",
+        "kr": "누나",
+        "example": "누나가 요리해요.",
+        "rom": ""
+      },
+      {
+        "en": "Younger sibling",
+        "pos": "Noun",
+        "kr": "동생",
+        "example": "동생이 공부해요.",
+        "rom": ""
+      },
+      {
+        "en": "Daughter",
+        "pos": "Noun",
+        "kr": "딸",
+        "example": "딸이 예뻐요.",
+        "rom": ""
+      },
+      {
+        "en": "Actor / Actress",
+        "pos": "Noun",
+        "kr": "배우",
+        "example": "배우가 연기해요.",
+        "rom": ""
+      },
+      {
+        "en": "Parents",
+        "pos": "Noun",
+        "kr": "부모님",
+        "example": "부모님이 계세요.",
+        "rom": ""
+      },
+      {
+        "en": "Person / Human",
+        "pos": "Noun",
+        "kr": "사람",
+        "example": "사람이 많아요.",
+        "rom": ""
+      },
+      {
+        "en": "Teacher",
+        "pos": "Noun",
+        "kr": "선생님",
+        "example": "선생님이 가르쳐요.",
+        "rom": ""
+      },
+      {
+        "en": "Mr./Ms. (Polite suffix)",
+        "pos": "Dependent Noun",
+        "kr": "씨",
+        "example": "김 씨가 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Baby",
+        "pos": "Noun",
+        "kr": "아기",
+        "example": "아기가 울어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wife",
+        "pos": "Noun",
+        "kr": "아내",
+        "example": "아내가 요리해요.",
+        "rom": ""
+      },
+      {
+        "en": "Father",
+        "pos": "Noun",
+        "kr": "아버지",
+        "example": "아버지가 일해요.",
+        "rom": ""
+      },
+      {
+        "en": "Child / Kid",
+        "pos": "Noun",
+        "kr": "아이",
+        "example": "아이가 놀아요.",
+        "rom": ""
+      },
+      {
+        "en": "Middle-aged man",
+        "pos": "Noun",
+        "kr": "아저씨",
+        "example": "아저씨가 친절해요.",
+        "rom": ""
+      },
+      {
+        "en": "Middle-aged woman",
+        "pos": "Noun",
+        "kr": "아주머니",
+        "example": "아주머니가 맛있게 만들었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Older sister (for female)",
+        "pos": "Noun",
+        "kr": "언니",
+        "example": "언니가 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Younger sister",
+        "pos": "Noun",
+        "kr": "여동생",
+        "example": "여동생이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Woman / Female",
+        "pos": "Noun",
+        "kr": "여자",
+        "example": "여자가 예뻐요.",
+        "rom": ""
+      },
+      {
+        "en": "You (plural/formal)",
+        "pos": "Pronoun",
+        "kr": "여러분",
+        "example": "여러분 안녕하세요.",
+        "rom": ""
+      },
+      {
+        "en": "Movie actor/actress",
+        "pos": "Noun",
+        "kr": "영화배우",
+        "example": "영화배우가 멋있어요.",
+        "rom": ""
+      },
+      {
+        "en": "We / Our",
+        "pos": "Pronoun",
+        "kr": "우리",
+        "example": "우리 가족이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Doctor",
+        "pos": "Noun",
+        "kr": "의사",
+        "example": "의사가 친절해요.",
+        "rom": ""
+      },
+      {
+        "en": "This / This person",
+        "pos": "Det. / Pronoun",
+        "kr": "이",
+        "example": "이 사람이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Name",
+        "pos": "Noun",
+        "kr": "이름",
+        "example": "이름이 뭐예요?",
+        "rom": ""
+      },
+      {
+        "en": "Person (Honorific)",
+        "pos": "Dependent Noun",
+        "kr": "분",
+        "example": "그분이 선생님이에요.",
+        "rom": ""
+      },
+      {
+        "en": "I / Me (Humble)",
+        "pos": "Pronoun",
+        "kr": "저",
+        "example": "저는 학생이에요.",
+        "rom": ""
+      },
+      {
+        "en": "I / My (Humble)",
+        "pos": "Pronoun",
+        "kr": "제",
+        "example": "제 이름은 민수예요.",
+        "rom": ""
+      },
+      {
+        "en": "Employee / Waiter",
+        "pos": "Noun",
+        "kr": "종업원",
+        "example": "종업원이 친절해요.",
+        "rom": ""
+      },
+      {
+        "en": "Housewife",
+        "pos": "Noun",
+        "kr": "주부",
+        "example": "주부가 요리해요.",
+        "rom": ""
+      },
+      {
+        "en": "Owner",
+        "pos": "Noun",
+        "kr": "주인",
+        "example": "주인이 친절해요.",
+        "rom": ""
+      },
+      {
+        "en": "Friend",
+        "pos": "Noun",
+        "kr": "친구",
+        "example": "친구를 만났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Older brother (for male)",
+        "pos": "Noun",
+        "kr": "형",
+        "example": "형이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Grandmother",
+        "pos": "Noun",
+        "kr": "할머니",
+        "example": "할머니가 계세요.",
+        "rom": ""
+      },
+      {
+        "en": "Grandfather",
+        "pos": "Noun",
+        "kr": "할아버지",
+        "example": "할아버지가 계세요.",
+        "rom": ""
+      },
+      {
+        "en": "Student",
+        "pos": "Noun",
+        "kr": "학생",
+        "example": "학생이 공부해요.",
+        "rom": ""
+      },
+      {
+        "en": "Older brother (for female)",
+        "pos": "Noun",
+        "kr": "오빠",
+        "example": "오빠가 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Guest / Customer",
+        "pos": "Noun",
+        "kr": "손님",
+        "example": "손님이 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Employee / Staff",
+        "pos": "Noun",
+        "kr": "직원",
+        "example": "직원이 도와줬어요.",
+        "rom": ""
+      },
+      {
+        "en": "Office worker",
+        "pos": "Noun",
+        "kr": "회사원",
+        "example": "회사원이 일해요.",
+        "rom": ""
+      },
+      {
+        "en": "Foreigner",
+        "pos": "Noun",
+        "kr": "외국인",
+        "example": "외국인이 많아요.",
+        "rom": ""
+      },
+      {
+        "en": "Mother",
+        "pos": "Noun",
+        "kr": "어머니",
+        "example": "어머니가 요리해요.",
+        "rom": ""
+      },
+      {
+        "en": "College student",
+        "pos": "Noun",
+        "kr": "대학생",
+        "example": "대학생이 됐어요.",
+        "rom": ""
+      }
+    ],
+    "places": [
+      {
+        "en": "Middle / Center",
+        "pos": "Noun",
+        "kr": "가운데",
+        "example": "가운데에 앉았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Living room",
+        "pos": "Noun",
+        "kr": "거실",
+        "example": "거실에서 쉬어요.",
+        "rom": ""
+      },
+      {
+        "en": "There",
+        "pos": "Pronoun",
+        "kr": "거기",
+        "example": "거기에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Opposite side",
+        "pos": "Noun",
+        "kr": "건너편",
+        "example": "건너편에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Building",
+        "pos": "Noun",
+        "kr": "건물",
+        "example": "건물이 높아요.",
+        "rom": ""
+      },
+      {
+        "en": "Place / Location",
+        "pos": "Noun",
+        "kr": "곳",
+        "example": "좋은 곳이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Park",
+        "pos": "Noun",
+        "kr": "공원",
+        "example": "공원에서 산책해요.",
+        "rom": ""
+      },
+      {
+        "en": "Airport",
+        "pos": "Noun",
+        "kr": "공항",
+        "example": "공항에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Classroom",
+        "pos": "Noun",
+        "kr": "교실",
+        "example": "교실에서 공부해요.",
+        "rom": ""
+      },
+      {
+        "en": "Theater / Cinema",
+        "pos": "Noun",
+        "kr": "극장",
+        "example": "극장에서 영화를 봤어요.",
+        "rom": ""
+      },
+      {
+        "en": "Nearby / Neighborhood",
+        "pos": "Noun",
+        "kr": "근처",
+        "example": "집 근처에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Road / Street",
+        "pos": "Noun",
+        "kr": "길",
+        "example": "길이 넓어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dormitory",
+        "pos": "Noun",
+        "kr": "기숙사",
+        "example": "기숙사에서 살아요.",
+        "rom": ""
+      },
+      {
+        "en": "Namdaemun Gate",
+        "pos": "Noun",
+        "kr": "남대문",
+        "example": "남대문에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Namsan Mountain",
+        "pos": "Noun",
+        "kr": "남산",
+        "example": "남산에 올라갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Germany",
+        "pos": "Noun",
+        "kr": "독일",
+        "example": "독일에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Library",
+        "pos": "Noun",
+        "kr": "도서관",
+        "example": "도서관에서 책을 읽어요.",
+        "rom": ""
+      },
+      {
+        "en": "Dongdaemun",
+        "pos": "Noun",
+        "kr": "동대문",
+        "example": "동대문에서 쇼핑했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Back / Behind",
+        "pos": "Noun",
+        "kr": "뒤",
+        "example": "뒤에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Russia",
+        "pos": "Noun",
+        "kr": "러시아",
+        "example": "러시아에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Malaysia",
+        "pos": "Noun",
+        "kr": "말레이시아",
+        "example": "말레이시아에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "USA",
+        "pos": "Noun",
+        "kr": "미국",
+        "example": "미국에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hair salon",
+        "pos": "Noun",
+        "kr": "미용실",
+        "example": "미용실에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bottom / Under",
+        "pos": "Noun",
+        "kr": "밑",
+        "example": "책상 밑에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Museum",
+        "pos": "Noun",
+        "kr": "박물관",
+        "example": "박물관에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Outside",
+        "pos": "Noun",
+        "kr": "밖",
+        "example": "밖에 나갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Class",
+        "pos": "Noun",
+        "kr": "반",
+        "example": "우리 반이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Room",
+        "pos": "Noun",
+        "kr": "방",
+        "example": "방이 깨끗해요.",
+        "rom": ""
+      },
+      {
+        "en": "Vietnam",
+        "pos": "Noun",
+        "kr": "베트남",
+        "example": "베트남에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Department store",
+        "pos": "Noun",
+        "kr": "백화점",
+        "example": "백화점에서 쇼핑했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Hospital",
+        "pos": "Noun",
+        "kr": "병원",
+        "example": "병원에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Busan",
+        "pos": "Noun",
+        "kr": "부산",
+        "example": "부산에 여행 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Kitchen",
+        "pos": "Noun",
+        "kr": "부엌",
+        "example": "부엌에서 요리해요.",
+        "rom": ""
+      },
+      {
+        "en": "Office",
+        "pos": "Noun",
+        "kr": "사무실",
+        "example": "사무실에서 일해요.",
+        "rom": ""
+      },
+      {
+        "en": "Bookstore",
+        "pos": "Noun",
+        "kr": "서점",
+        "example": "서점에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Seoul",
+        "pos": "Noun",
+        "kr": "서울",
+        "example": "서울에 살아요.",
+        "rom": ""
+      },
+      {
+        "en": "Swimming pool",
+        "pos": "Noun",
+        "kr": "수영장",
+        "example": "수영장에서 수영해요.",
+        "rom": ""
+      },
+      {
+        "en": "City Hall",
+        "pos": "Noun",
+        "kr": "시청",
+        "example": "시청 앞에서 만났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Below / Under",
+        "pos": "Noun",
+        "kr": "아래",
+        "example": "아래에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Apartment",
+        "pos": "Noun",
+        "kr": "아파트",
+        "example": "아파트에서 살아요.",
+        "rom": ""
+      },
+      {
+        "en": "Inside",
+        "pos": "Noun",
+        "kr": "안",
+        "example": "안에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Pharmacy / Drugstore",
+        "pos": "Noun",
+        "kr": "약국",
+        "example": "약국에서 약을 샀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Side / Beside",
+        "pos": "Noun",
+        "kr": "옆",
+        "example": "옆에 앉았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Front",
+        "pos": "Noun",
+        "kr": "앞",
+        "example": "학교 앞에서 만났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Station",
+        "pos": "Noun",
+        "kr": "역",
+        "example": "역에서 내렸어요.",
+        "rom": ""
+      },
+      {
+        "en": "United Kingdom",
+        "pos": "Noun",
+        "kr": "영국",
+        "example": "영국에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Movie theater",
+        "pos": "Noun",
+        "kr": "영화관",
+        "example": "영화관에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Right side",
+        "pos": "Noun",
+        "kr": "오른쪽",
+        "example": "오른쪽으로 가세요.",
+        "rom": ""
+      },
+      {
+        "en": "Foreign country",
+        "pos": "Noun",
+        "kr": "외국",
+        "example": "외국에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Left side",
+        "pos": "Noun",
+        "kr": "왼쪽",
+        "example": "왼쪽에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Post office",
+        "pos": "Noun",
+        "kr": "우체국",
+        "example": "우체국에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Playground / Stadium",
+        "pos": "Noun",
+        "kr": "운동장",
+        "example": "운동장에서 뛰었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bank",
+        "pos": "Noun",
+        "kr": "은행",
+        "example": "은행에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Up / Top / Above",
+        "pos": "Noun",
+        "kr": "위",
+        "example": "위에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Indonesia",
+        "pos": "Noun",
+        "kr": "인도네시아",
+        "example": "인도네시아에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Incheon",
+        "pos": "Noun",
+        "kr": "인천",
+        "example": "인천에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Japan",
+        "pos": "Noun",
+        "kr": "일본",
+        "example": "일본에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Place / Location",
+        "pos": "Noun",
+        "kr": "장소",
+        "example": "장소를 정했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Here",
+        "pos": "Pronoun",
+        "kr": "여기",
+        "example": "여기에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Travel agency",
+        "pos": "Noun",
+        "kr": "여행사",
+        "example": "여행사에서 예약했어요.",
+        "rom": ""
+      },
+      {
+        "en": "House / Home",
+        "pos": "Noun",
+        "kr": "집",
+        "example": "집에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Stop / Station",
+        "pos": "Noun",
+        "kr": "정류장",
+        "example": "정류장에서 기다렸어요.",
+        "rom": ""
+      },
+      {
+        "en": "Subway station",
+        "pos": "Noun",
+        "kr": "지하철역",
+        "example": "지하철역에서 내렸어요.",
+        "rom": ""
+      },
+      {
+        "en": "China",
+        "pos": "Noun",
+        "kr": "중국",
+        "example": "중국에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "That side",
+        "pos": "Pronoun",
+        "kr": "그쪽",
+        "example": "그쪽에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Over there",
+        "pos": "Pronoun",
+        "kr": "저기",
+        "example": "저기에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "That side over there",
+        "pos": "Pronoun",
+        "kr": "저쪽",
+        "example": "저쪽으로 가세요.",
+        "rom": ""
+      },
+      {
+        "en": "Floor / Layer",
+        "pos": "Noun",
+        "kr": "층",
+        "example": "5층에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Canada",
+        "pos": "Noun",
+        "kr": "캐나다",
+        "example": "캐나다에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Coffee shop",
+        "pos": "Noun",
+        "kr": "커피숍",
+        "example": "커피숍에서 만났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Thailand",
+        "pos": "Noun",
+        "kr": "태국",
+        "example": "태국에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "France",
+        "pos": "Noun",
+        "kr": "프랑스",
+        "example": "프랑스에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Korea",
+        "pos": "Noun",
+        "kr": "한국",
+        "example": "한국에 살아요.",
+        "rom": ""
+      },
+      {
+        "en": "Boarding house",
+        "pos": "Noun",
+        "kr": "하숙집",
+        "example": "하숙집에서 살아요.",
+        "rom": ""
+      },
+      {
+        "en": "Hotel",
+        "pos": "Noun",
+        "kr": "호텔",
+        "example": "호텔에서 묵었어요.",
+        "rom": ""
+      },
+      {
+        "en": "Restroom / Bathroom",
+        "pos": "Noun",
+        "kr": "화장실",
+        "example": "화장실에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Company",
+        "pos": "Noun",
+        "kr": "회사",
+        "example": "회사에 다녀요.",
+        "rom": ""
+      },
+      {
+        "en": "School",
+        "pos": "Noun",
+        "kr": "학교",
+        "example": "학교에 가요.",
+        "rom": ""
+      },
+      {
+        "en": "Hometown",
+        "pos": "Noun",
+        "kr": "고향",
+        "example": "고향에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Public bathhouse",
+        "pos": "Noun",
+        "kr": "목욕탕",
+        "example": "목욕탕에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Karaoke (Noraebang)",
+        "pos": "Noun",
+        "kr": "노래방",
+        "example": "노래방에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Embassy",
+        "pos": "Noun",
+        "kr": "대사관",
+        "example": "대사관에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "College / University",
+        "pos": "Noun",
+        "kr": "대학",
+        "example": "대학에서 공부해요.",
+        "rom": ""
+      },
+      {
+        "en": "University",
+        "pos": "Noun",
+        "kr": "대학교",
+        "example": "대학교에 다녀요.",
+        "rom": ""
+      },
+      {
+        "en": "Jeju Island",
+        "pos": "Noun",
+        "kr": "제주도",
+        "example": "제주도에 여행 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Mongolia",
+        "pos": "Noun",
+        "kr": "몽골",
+        "example": "몽골에서 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Country / Nation",
+        "pos": "Noun",
+        "kr": "나라",
+        "example": "나라가 커요.",
+        "rom": ""
+      }
+    ],
+    "time": [
+      {
+        "en": "Autumn / Fall",
+        "pos": "Noun",
+        "kr": "가을",
+        "example": "가을에 단풍이 예뻐요.",
+        "rom": ""
+      },
+      {
+        "en": "Winter",
+        "pos": "Noun",
+        "kr": "겨울",
+        "example": "겨울에 눈이 와요.",
+        "rom": ""
+      },
+      {
+        "en": "Season",
+        "pos": "Noun",
+        "kr": "계절",
+        "example": "계절이 바뀌었어요.",
+        "rom": ""
+      },
+      {
+        "en": "The day before yesterday",
+        "pos": "Adverb / Noun",
+        "kr": "그저께",
+        "example": "그저께 친구를 만났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Friday",
+        "pos": "Noun",
+        "kr": "금요일",
+        "example": "금요일에 영화를 봐요.",
+        "rom": ""
+      },
+      {
+        "en": "Period / Term",
+        "pos": "Noun",
+        "kr": "기간",
+        "example": "기간이 끝났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Day",
+        "pos": "Noun / Dep. Noun",
+        "kr": "날",
+        "example": "오늘은 좋은 날이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Date",
+        "pos": "Noun",
+        "kr": "날짜",
+        "example": "날짜를 정했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Daytime",
+        "pos": "Noun",
+        "kr": "낮",
+        "example": "낮에 일해요.",
+        "rom": ""
+      },
+      {
+        "en": "Next year",
+        "pos": "Noun",
+        "kr": "내년",
+        "example": "내년에 한국에 갈 거예요.",
+        "rom": ""
+      },
+      {
+        "en": "Tomorrow",
+        "pos": "Noun / Adverb",
+        "kr": "내일",
+        "example": "내일 아침에 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Year",
+        "pos": "Dependent Noun",
+        "kr": "년",
+        "example": "2년이 지났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Day of the week",
+        "pos": "Noun",
+        "kr": "요일",
+        "example": "무슨 요일이에요?",
+        "rom": ""
+      },
+      {
+        "en": "This time",
+        "pos": "Noun",
+        "kr": "이번",
+        "example": "이번 주말에 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Next",
+        "pos": "Noun",
+        "kr": "다음",
+        "example": "다음 주에 시험이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Later / After",
+        "pos": "Noun",
+        "kr": "나중",
+        "example": "나중에 전화할게요.",
+        "rom": ""
+      },
+      {
+        "en": "During / For",
+        "pos": "Noun",
+        "kr": "동안",
+        "example": "방학 동안 여행을 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Time / When",
+        "pos": "Dependent Noun",
+        "kr": "때",
+        "example": "어릴 때 공부했어요.",
+        "rom": ""
+      },
+      {
+        "en": "The day after tomorrow",
+        "pos": "Adverb / Noun",
+        "kr": "모레",
+        "example": "모레 서울에 가요.",
+        "rom": ""
+      },
+      {
+        "en": "Monday",
+        "pos": "Noun",
+        "kr": "월요일",
+        "example": "월요일에 회사에 가요.",
+        "rom": ""
+      },
+      {
+        "en": "Tuesday",
+        "pos": "Noun",
+        "kr": "화요일",
+        "example": "화요일에 수업이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Wednesday",
+        "pos": "Noun",
+        "kr": "수요일",
+        "example": "수요일에 친구를 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Thursday",
+        "pos": "Noun",
+        "kr": "목요일",
+        "example": "목요일에 운동을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Saturday",
+        "pos": "Noun",
+        "kr": "토요일",
+        "example": "토요일에 쇼핑을 해요.",
+        "rom": ""
+      },
+      {
+        "en": "Sunday",
+        "pos": "Noun",
+        "kr": "일요일",
+        "example": "일요일에 쉬어요.",
+        "rom": ""
+      },
+      {
+        "en": "Spring",
+        "pos": "Noun",
+        "kr": "봄",
+        "example": "봄에 꽃이 피어요.",
+        "rom": ""
+      },
+      {
+        "en": "Summer",
+        "pos": "Noun",
+        "kr": "여름",
+        "example": "여름에 바다에 가요.",
+        "rom": ""
+      },
+      {
+        "en": "Night",
+        "pos": "Noun",
+        "kr": "밤",
+        "example": "밤에 별이 보여요.",
+        "rom": ""
+      },
+      {
+        "en": "School vacation",
+        "pos": "Noun",
+        "kr": "방학",
+        "example": "방학에 고향에 가요.",
+        "rom": ""
+      },
+      {
+        "en": "Birthday",
+        "pos": "Noun",
+        "kr": "생일",
+        "example": "생일이 언제예요?",
+        "rom": ""
+      },
+      {
+        "en": "Birthday (Honorific)",
+        "pos": "Noun",
+        "kr": "생신",
+        "example": "할아버지 생신이에요.",
+        "rom": ""
+      },
+      {
+        "en": "O'clock / Time",
+        "pos": "Noun / Dep. N.",
+        "kr": "시",
+        "example": "지금 몇 시예요?",
+        "rom": ""
+      },
+      {
+        "en": "Time / Hour",
+        "pos": "Noun / Dep. N.",
+        "kr": "시간",
+        "example": "시간이 없어요.",
+        "rom": ""
+      },
+      {
+        "en": "October",
+        "pos": "Noun",
+        "kr": "시월",
+        "example": "시월에 단풍이 예뻐요.",
+        "rom": ""
+      },
+      {
+        "en": "December",
+        "pos": "Noun",
+        "kr": "십이월",
+        "example": "십이월에 크리스마스가 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "November",
+        "pos": "Noun",
+        "kr": "십일월",
+        "example": "십일월에 날씨가 추워요.",
+        "rom": ""
+      },
+      {
+        "en": "Morning",
+        "pos": "Noun",
+        "kr": "아침",
+        "example": "아침에 일찍 일어나요.",
+        "rom": ""
+      },
+      {
+        "en": "Yesterday",
+        "pos": "Adverb / Noun",
+        "kr": "어제",
+        "example": "어제 친구를 만났어요.",
+        "rom": ""
+      },
+      {
+        "en": "How much (time)",
+        "pos": "Adverb",
+        "kr": "얼마나",
+        "example": "얼마나 걸려요?",
+        "rom": ""
+      },
+      {
+        "en": "Today",
+        "pos": "Adverb / Noun",
+        "kr": "오늘",
+        "example": "오늘 날씨가 좋아요.",
+        "rom": ""
+      },
+      {
+        "en": "Afternoon / PM",
+        "pos": "Noun",
+        "kr": "오후",
+        "example": "오후에 수업이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Morning / AM",
+        "pos": "Noun",
+        "kr": "오전",
+        "example": "오전에 회의가 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "May",
+        "pos": "Noun",
+        "kr": "오월",
+        "example": "오월에 어린이날이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "This year",
+        "pos": "Noun",
+        "kr": "올해",
+        "example": "올해 한국어를 공부해요.",
+        "rom": ""
+      },
+      {
+        "en": "Month",
+        "pos": "Dependent Noun",
+        "kr": "월",
+        "example": "지금 몇 월이에요?",
+        "rom": ""
+      },
+      {
+        "en": "June",
+        "pos": "Noun",
+        "kr": "유월",
+        "example": "유월에 비가 많이 와요.",
+        "rom": ""
+      },
+      {
+        "en": "January",
+        "pos": "Noun",
+        "kr": "일월",
+        "example": "일월은 첫 달이에요.",
+        "rom": ""
+      },
+      {
+        "en": "One week",
+        "pos": "Noun",
+        "kr": "일주일",
+        "example": "일주일에 세 번 운동해요.",
+        "rom": ""
+      },
+      {
+        "en": "February",
+        "pos": "Noun",
+        "kr": "이월",
+        "example": "이월에 설날이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Later",
+        "pos": "Adverb",
+        "kr": "이따가",
+        "example": "이따가 전화해요.",
+        "rom": ""
+      },
+      {
+        "en": "Day",
+        "pos": "Dep. Noun / Noun",
+        "kr": "일",
+        "example": "3일 후에 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Last year",
+        "pos": "Noun",
+        "kr": "작년",
+        "example": "작년에 한국에 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "A moment",
+        "pos": "Adverb / Noun",
+        "kr": "잠깐",
+        "example": "잠깐 기다리세요.",
+        "rom": ""
+      },
+      {
+        "en": "A short while",
+        "pos": "Adverb / Noun",
+        "kr": "잠시",
+        "example": "잠시 쉬세요.",
+        "rom": ""
+      },
+      {
+        "en": "Before / Former",
+        "pos": "Noun / Det.",
+        "kr": "전",
+        "example": "3년 전에 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beginning / First time",
+        "pos": "Noun",
+        "kr": "처음",
+        "example": "처음 한국에 왔어요.",
+        "rom": ""
+      },
+      {
+        "en": "July",
+        "pos": "Noun",
+        "kr": "칠월",
+        "example": "칠월에 방학이에요.",
+        "rom": ""
+      },
+      {
+        "en": "August",
+        "pos": "Noun",
+        "kr": "팔월",
+        "example": "팔월에 가장 더워요.",
+        "rom": ""
+      },
+      {
+        "en": "After",
+        "pos": "Noun",
+        "kr": "후",
+        "example": "식사 후에 커피를 마셔요.",
+        "rom": ""
+      },
+      {
+        "en": "Vacation / Holiday",
+        "pos": "Noun",
+        "kr": "휴가",
+        "example": "휴가 때 여행을 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "A few days / What date",
+        "pos": "Noun",
+        "kr": "며칠",
+        "example": "며칠 동안 여행을 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "These days / Nowadays",
+        "pos": "Noun",
+        "kr": "요즘",
+        "example": "요즘 바빠요.",
+        "rom": ""
+      },
+      {
+        "en": "Now",
+        "pos": "Adverb / Noun",
+        "kr": "지금",
+        "example": "지금 몇 시예요?",
+        "rom": ""
+      },
+      {
+        "en": "Last month",
+        "pos": "Noun",
+        "kr": "지난달",
+        "example": "지난달에 이사했어요.",
+        "rom": ""
+      },
+      {
+        "en": "Last week",
+        "pos": "Noun",
+        "kr": "지난주",
+        "example": "지난주에 영화를 봤어요.",
+        "rom": ""
+      },
+      {
+        "en": "Last year",
+        "pos": "Noun",
+        "kr": "지난해",
+        "example": "지난해에 졸업했어요.",
+        "rom": ""
+      },
+      {
+        "en": "One day",
+        "pos": "Noun",
+        "kr": "하루",
+        "example": "하루가 지났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Evening / Dinner",
+        "pos": "Noun",
+        "kr": "저녁",
+        "example": "저녁에 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Weekend",
+        "pos": "Noun",
+        "kr": "주말",
+        "example": "주말에 쉬어요.",
+        "rom": ""
+      },
+      {
+        "en": "Week",
+        "pos": "Dependent Noun",
+        "kr": "주",
+        "example": "이번 주에 바빠요.",
+        "rom": ""
+      },
+      {
+        "en": "Week / Lord's Day",
+        "pos": "Dep. N. / Noun",
+        "kr": "주일",
+        "example": "1주일이 지났어요.",
+        "rom": ""
+      },
+      {
+        "en": "Minute",
+        "pos": "Dependent Noun",
+        "kr": "분",
+        "example": "10분 후에 출발해요.",
+        "rom": ""
+      },
+      {
+        "en": "March",
+        "pos": "Noun",
+        "kr": "삼월",
+        "example": "삼월에 봄이 와요.",
+        "rom": ""
+      },
+      {
+        "en": "April",
+        "pos": "Noun",
+        "kr": "사월",
+        "example": "사월에 벚꽃이 피어요.",
+        "rom": ""
+      },
+      {
+        "en": "September",
+        "pos": "Noun",
+        "kr": "구월",
+        "example": "구월에 가을이 와요.",
+        "rom": ""
+      },
+      {
+        "en": "During / Middle",
+        "pos": "Dependent Noun",
+        "kr": "중",
+        "example": "회의 중이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Moon / Month",
+        "pos": "Noun / Dep. N.",
+        "kr": "달",
+        "example": "다음 달에 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Lunch",
+        "pos": "Noun",
+        "kr": "점심",
+        "example": "점심을 먹어요.",
+        "rom": ""
+      }
+    ],
+    "transport": [
+      {
+        "en": "Train",
+        "pos": "Noun",
+        "kr": "기차",
+        "example": "기차를 타요.",
+        "rom": ""
+      },
+      {
+        "en": "Bus",
+        "pos": "Noun",
+        "kr": "버스",
+        "example": "버스를 타요.",
+        "rom": ""
+      },
+      {
+        "en": "Subway",
+        "pos": "Noun",
+        "kr": "지하철",
+        "example": "지하철을 타요.",
+        "rom": ""
+      },
+      {
+        "en": "Airplane",
+        "pos": "Noun",
+        "kr": "비행기",
+        "example": "비행기를 타요.",
+        "rom": ""
+      },
+      {
+        "en": "Car / Automobile",
+        "pos": "Noun",
+        "kr": "자동차",
+        "example": "자동차를 운전해요.",
+        "rom": ""
+      },
+      {
+        "en": "Bicycle",
+        "pos": "Noun",
+        "kr": "자전거",
+        "example": "자전거를 타요.",
+        "rom": ""
+      },
+      {
+        "en": "Taxi",
+        "pos": "Noun",
+        "kr": "택시",
+        "example": "택시를 타요.",
+        "rom": ""
+      },
+      {
+        "en": "Boat / Ship",
+        "pos": "Noun",
+        "kr": "배",
+        "example": "배를 타요.",
+        "rom": ""
+      },
+      {
+        "en": "Terminal",
+        "pos": "Noun",
+        "kr": "터미널",
+        "example": "터미널에서 만나요.",
+        "rom": ""
+      },
+      {
+        "en": "Sea / Ocean",
+        "pos": "Noun",
+        "kr": "바다",
+        "example": "바다에서 수영해요.",
+        "rom": ""
+      },
+      {
+        "en": "Mountain",
+        "pos": "Noun",
+        "kr": "산",
+        "example": "산에 올라가요.",
+        "rom": ""
+      }
+    ]
+  },
+  "total_words": 735,
+  "generated_at": "2026-01-27T21:02:06.926602"
+}

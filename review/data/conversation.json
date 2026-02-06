@@ -1,0 +1,1001 @@
+{
+  "meta": { "tier": "conversation", "version": 1, "totalItems": 256 },
+  "vocabulary": [
+    { "id": "v001", "kr": "생각", "rom": "saenggak", "en": "thought/idea", "emoji": "💭", "cat": "abstract", "tags": ["conversation", "opinion"] },
+    { "id": "v002", "kr": "경험", "rom": "gyeongheom", "en": "experience", "emoji": "🌟", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v003", "kr": "계획", "rom": "gyehoek", "en": "plan", "emoji": "📋", "cat": "abstract", "tags": ["conversation", "business"] },
+    { "id": "v004", "kr": "이유", "rom": "iyu", "en": "reason", "emoji": "❓", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v005", "kr": "문제", "rom": "munje", "en": "problem", "emoji": "⚠️", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v006", "kr": "기회", "rom": "gihoe", "en": "opportunity", "emoji": "🔓", "cat": "abstract", "tags": ["conversation", "business"] },
+    { "id": "v007", "kr": "관심", "rom": "gwansim", "en": "interest", "emoji": "👀", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v008", "kr": "의견", "rom": "uigyeon", "en": "opinion", "emoji": "🗣️", "cat": "abstract", "tags": ["conversation", "opinion"] },
+    { "id": "v009", "kr": "목표", "rom": "mokpyo", "en": "goal", "emoji": "🎯", "cat": "abstract", "tags": ["conversation", "business"] },
+    { "id": "v010", "kr": "결과", "rom": "gyeolgwa", "en": "result", "emoji": "📊", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v011", "kr": "방법", "rom": "bangbeop", "en": "method/way", "emoji": "🔧", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v012", "kr": "상황", "rom": "sanghwang", "en": "situation", "emoji": "📍", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v013", "kr": "실수", "rom": "silsu", "en": "mistake", "emoji": "😬", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v014", "kr": "습관", "rom": "seupgwan", "en": "habit", "emoji": "🔄", "cat": "abstract", "tags": ["daily life"] },
+    { "id": "v015", "kr": "노력", "rom": "noryeok", "en": "effort", "emoji": "💪", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v016", "kr": "차이", "rom": "chai", "en": "difference", "emoji": "↔️", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v017", "kr": "비밀", "rom": "bimil", "en": "secret", "emoji": "🤫", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v018", "kr": "기억", "rom": "gieok", "en": "memory", "emoji": "🧠", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v019", "kr": "약속", "rom": "yaksok", "en": "promise/appointment", "emoji": "🤝", "cat": "abstract", "tags": ["conversation", "daily life"] },
+    { "id": "v020", "kr": "준비", "rom": "junbi", "en": "preparation", "emoji": "📦", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v021", "kr": "연습", "rom": "yeonseup", "en": "practice", "emoji": "🏋️", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v022", "kr": "대화", "rom": "daehwa", "en": "conversation", "emoji": "💬", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v023", "kr": "질문", "rom": "jilmun", "en": "question", "emoji": "❔", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v024", "kr": "대답", "rom": "daedap", "en": "answer/reply", "emoji": "💡", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v025", "kr": "설명", "rom": "seolmyeong", "en": "explanation", "emoji": "📖", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v026", "kr": "소개", "rom": "sogae", "en": "introduction", "emoji": "👋", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v027", "kr": "부탁", "rom": "butak", "en": "request/favor", "emoji": "🙏", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v028", "kr": "걱정", "rom": "geokjeong", "en": "worry", "emoji": "😟", "cat": "abstract", "tags": ["conversation", "emotion"] },
+    { "id": "v029", "kr": "기분", "rom": "gibun", "en": "mood/feeling", "emoji": "🎭", "cat": "abstract", "tags": ["conversation", "emotion"] },
+    { "id": "v030", "kr": "인상", "rom": "insang", "en": "impression", "emoji": "✨", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v031", "kr": "기쁨", "rom": "gippeum", "en": "joy", "emoji": "😄", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v032", "kr": "슬픔", "rom": "seulpeum", "en": "sadness", "emoji": "😢", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v033", "kr": "화", "rom": "hwa", "en": "anger", "emoji": "😠", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v034", "kr": "스트레스", "rom": "seuteuleseu", "en": "stress", "emoji": "😩", "cat": "emotion", "tags": ["emotion", "daily life"] },
+    { "id": "v035", "kr": "자신감", "rom": "jasingam", "en": "confidence", "emoji": "💎", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v036", "kr": "실망", "rom": "silmang", "en": "disappointment", "emoji": "😞", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v037", "kr": "후회", "rom": "huhoe", "en": "regret", "emoji": "😔", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v038", "kr": "감동", "rom": "gamdong", "en": "being moved/touched", "emoji": "🥹", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v039", "kr": "놀라움", "rom": "nollaum", "en": "surprise", "emoji": "😲", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v040", "kr": "외로움", "rom": "oeroum", "en": "loneliness", "emoji": "🌙", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v041", "kr": "부끄러움", "rom": "bukkeureoun", "en": "embarrassment", "emoji": "😳", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v042", "kr": "긴장", "rom": "ginjang", "en": "nervousness/tension", "emoji": "😰", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v043", "kr": "편안함", "rom": "pyeonanham", "en": "comfort", "emoji": "😌", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v044", "kr": "행복", "rom": "haengbok", "en": "happiness", "emoji": "😊", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v045", "kr": "만족", "rom": "manjok", "en": "satisfaction", "emoji": "😃", "cat": "emotion", "tags": ["emotion"] },
+    { "id": "v046", "kr": "회의", "rom": "hoeui", "en": "meeting", "emoji": "🏢", "cat": "work", "tags": ["business"] },
+    { "id": "v047", "kr": "프로젝트", "rom": "peurojekteu", "en": "project", "emoji": "📁", "cat": "work", "tags": ["business"] },
+    { "id": "v048", "kr": "보고서", "rom": "bogoseo", "en": "report", "emoji": "📝", "cat": "work", "tags": ["business"] },
+    { "id": "v049", "kr": "이메일", "rom": "imeil", "en": "email", "emoji": "📧", "cat": "work", "tags": ["business"] },
+    { "id": "v050", "kr": "동료", "rom": "dongnyo", "en": "colleague", "emoji": "🧑‍💼", "cat": "work", "tags": ["business"] },
+    { "id": "v051", "kr": "상사", "rom": "sangsa", "en": "boss/superior", "emoji": "👔", "cat": "work", "tags": ["business"] },
+    { "id": "v052", "kr": "부하", "rom": "buha", "en": "subordinate", "emoji": "👤", "cat": "work", "tags": ["business"] },
+    { "id": "v053", "kr": "고객", "rom": "gogaek", "en": "customer/client", "emoji": "🤵", "cat": "work", "tags": ["business"] },
+    { "id": "v054", "kr": "마감", "rom": "magam", "en": "deadline", "emoji": "⏰", "cat": "work", "tags": ["business"] },
+    { "id": "v055", "kr": "출장", "rom": "chuljang", "en": "business trip", "emoji": "🧳", "cat": "work", "tags": ["business", "travel"] },
+    { "id": "v056", "kr": "연봉", "rom": "yeonbong", "en": "annual salary", "emoji": "💰", "cat": "work", "tags": ["business"] },
+    { "id": "v057", "kr": "승진", "rom": "seungjin", "en": "promotion", "emoji": "📈", "cat": "work", "tags": ["business"] },
+    { "id": "v058", "kr": "면접", "rom": "myeonjeop", "en": "interview", "emoji": "🎤", "cat": "work", "tags": ["business"] },
+    { "id": "v059", "kr": "퇴근", "rom": "toegeun", "en": "leaving work", "emoji": "🏠", "cat": "work", "tags": ["business", "daily life"] },
+    { "id": "v060", "kr": "출근", "rom": "chulgeun", "en": "going to work", "emoji": "🚶‍♂️", "cat": "work", "tags": ["business", "daily life"] },
+    { "id": "v061", "kr": "뉴스", "rom": "nyuseu", "en": "news", "emoji": "📰", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v062", "kr": "건강", "rom": "geongang", "en": "health", "emoji": "❤️", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v063", "kr": "운동", "rom": "undong", "en": "exercise", "emoji": "🏃", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v064", "kr": "취미", "rom": "chwimi", "en": "hobby", "emoji": "🎨", "cat": "daily life", "tags": ["daily life", "conversation"] },
+    { "id": "v065", "kr": "여행", "rom": "yeohaeng", "en": "travel", "emoji": "✈️", "cat": "daily life", "tags": ["daily life", "travel"] },
+    { "id": "v066", "kr": "문화", "rom": "munhwa", "en": "culture", "emoji": "🎎", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v067", "kr": "역사", "rom": "yeoksa", "en": "history", "emoji": "📜", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v068", "kr": "교통", "rom": "gyotong", "en": "transportation", "emoji": "🚌", "cat": "daily life", "tags": ["daily life", "travel"] },
+    { "id": "v069", "kr": "환경", "rom": "hwangyeong", "en": "environment", "emoji": "🌍", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v070", "kr": "사회", "rom": "sahoe", "en": "society", "emoji": "🏙️", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v071", "kr": "교육", "rom": "gyoyuk", "en": "education", "emoji": "🎓", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v072", "kr": "경제", "rom": "gyeongje", "en": "economy", "emoji": "💹", "cat": "daily life", "tags": ["daily life", "business"] },
+    { "id": "v073", "kr": "정치", "rom": "jeongchi", "en": "politics", "emoji": "🏛️", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v074", "kr": "기술", "rom": "gisul", "en": "technology", "emoji": "💻", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v075", "kr": "예술", "rom": "yesul", "en": "art", "emoji": "🖼️", "cat": "daily life", "tags": ["daily life"] },
+    { "id": "v076", "kr": "성격", "rom": "seonggyeok", "en": "personality", "emoji": "🧩", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v077", "kr": "관계", "rom": "gwangye", "en": "relationship", "emoji": "🔗", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v078", "kr": "선물", "rom": "seonmul", "en": "gift/present", "emoji": "🎁", "cat": "daily life", "tags": ["daily life", "conversation"] },
+    { "id": "v079", "kr": "분위기", "rom": "bunwigi", "en": "atmosphere/mood", "emoji": "🌅", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v080", "kr": "자유", "rom": "jayu", "en": "freedom", "emoji": "🕊️", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v081", "kr": "미래", "rom": "mirae", "en": "future", "emoji": "🔮", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v082", "kr": "과거", "rom": "gwageo", "en": "past", "emoji": "⏪", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v083", "kr": "현재", "rom": "hyeonjae", "en": "present/now", "emoji": "⏺️", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v084", "kr": "희망", "rom": "huimang", "en": "hope", "emoji": "🌈", "cat": "emotion", "tags": ["emotion", "conversation"] },
+    { "id": "v085", "kr": "용기", "rom": "yonggi", "en": "courage", "emoji": "🦁", "cat": "emotion", "tags": ["emotion", "conversation"] },
+    { "id": "v086", "kr": "태도", "rom": "taedo", "en": "attitude", "emoji": "🧭", "cat": "abstract", "tags": ["conversation", "business"] },
+    { "id": "v087", "kr": "조건", "rom": "jogeon", "en": "condition/requirement", "emoji": "📑", "cat": "abstract", "tags": ["business", "conversation"] },
+    { "id": "v088", "kr": "장점", "rom": "jangjeom", "en": "strength/advantage", "emoji": "👍", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v089", "kr": "단점", "rom": "danjeom", "en": "weakness/disadvantage", "emoji": "👎", "cat": "abstract", "tags": ["conversation"] },
+    { "id": "v090", "kr": "추억", "rom": "chueok", "en": "memories/recollection", "emoji": "📸", "cat": "abstract", "tags": ["conversation", "emotion"] }
+  ],
+  "verbs": [
+    {
+      "id": "vb001", "base": "생각하다", "baseRom": "saenggakada", "en": "to think", "emoji": "💭",
+      "polite": "생각해요", "politeRom": "saenggakaeyo",
+      "past": "생각했어요", "pastRom": "saenggakaesseoyo",
+      "future": "생각할 거예요", "futureRom": "saenggakal geoyeyo",
+      "negative": "안 생각해요", "negativeRom": "an saenggakaeyo"
+    },
+    {
+      "id": "vb002", "base": "느끼다", "baseRom": "neukkida", "en": "to feel", "emoji": "💓",
+      "polite": "느껴요", "politeRom": "neukkyeoyo",
+      "past": "느꼈어요", "pastRom": "neukkyeosseoyo",
+      "future": "느낄 거예요", "futureRom": "neukkilgeoyeyo",
+      "negative": "안 느껴요", "negativeRom": "an neukkyeoyo"
+    },
+    {
+      "id": "vb003", "base": "믿다", "baseRom": "mitda", "en": "to believe", "emoji": "🙏",
+      "polite": "믿어요", "politeRom": "mideoyo",
+      "past": "믿었어요", "pastRom": "mideosseoyo",
+      "future": "믿을 거예요", "futureRom": "mideul geoyeyo",
+      "negative": "안 믿어요", "negativeRom": "an mideoyo"
+    },
+    {
+      "id": "vb004", "base": "이해하다", "baseRom": "ihaehada", "en": "to understand", "emoji": "🤓",
+      "polite": "이해해요", "politeRom": "ihaehaeyo",
+      "past": "이해했어요", "pastRom": "ihaehaesseoyo",
+      "future": "이해할 거예요", "futureRom": "ihaehal geoyeyo",
+      "negative": "안 이해해요", "negativeRom": "an ihaehaeyo"
+    },
+    {
+      "id": "vb005", "base": "설명하다", "baseRom": "seolmyeonghada", "en": "to explain", "emoji": "📖",
+      "polite": "설명해요", "politeRom": "seolmyeonghaeyo",
+      "past": "설명했어요", "pastRom": "seolmyeonghaesseoyo",
+      "future": "설명할 거예요", "futureRom": "seolmyeonghal geoyeyo",
+      "negative": "안 설명해요", "negativeRom": "an seolmyeonghaeyo"
+    },
+    {
+      "id": "vb006", "base": "비교하다", "baseRom": "bigyohada", "en": "to compare", "emoji": "⚖️",
+      "polite": "비교해요", "politeRom": "bigyohaeyo",
+      "past": "비교했어요", "pastRom": "bigyohaesseoyo",
+      "future": "비교할 거예요", "futureRom": "bigyohal geoyeyo",
+      "negative": "안 비교해요", "negativeRom": "an bigyohaeyo"
+    },
+    {
+      "id": "vb007", "base": "선택하다", "baseRom": "seontaekada", "en": "to choose", "emoji": "👆",
+      "polite": "선택해요", "politeRom": "seontaekaeyo",
+      "past": "선택했어요", "pastRom": "seontaekaesseoyo",
+      "future": "선택할 거예요", "futureRom": "seontaekal geoyeyo",
+      "negative": "안 선택해요", "negativeRom": "an seontaekaeyo"
+    },
+    {
+      "id": "vb008", "base": "결정하다", "baseRom": "gyeoljeonghada", "en": "to decide", "emoji": "✅",
+      "polite": "결정해요", "politeRom": "gyeoljeonghaeyo",
+      "past": "결정했어요", "pastRom": "gyeoljeonghaesseoyo",
+      "future": "결정할 거예요", "futureRom": "gyeoljeonghal geoyeyo",
+      "negative": "안 결정해요", "negativeRom": "an gyeoljeonghaeyo"
+    },
+    {
+      "id": "vb009", "base": "준비하다", "baseRom": "junbihada", "en": "to prepare", "emoji": "📦",
+      "polite": "준비해요", "politeRom": "junbihaeyo",
+      "past": "준비했어요", "pastRom": "junbihaesseoyo",
+      "future": "준비할 거예요", "futureRom": "junbihal geoyeyo",
+      "negative": "안 준비해요", "negativeRom": "an junbihaeyo"
+    },
+    {
+      "id": "vb010", "base": "경험하다", "baseRom": "gyeonghyeomhada", "en": "to experience", "emoji": "🌟",
+      "polite": "경험해요", "politeRom": "gyeonghyeomhaeyo",
+      "past": "경험했어요", "pastRom": "gyeonghyeomhaesseoyo",
+      "future": "경험할 거예요", "futureRom": "gyeonghyeomhal geoyeyo",
+      "negative": "안 경험해요", "negativeRom": "an gyeonghyeomhaeyo"
+    },
+    {
+      "id": "vb011", "base": "도전하다", "baseRom": "dojeonhada", "en": "to challenge/attempt", "emoji": "🔥",
+      "polite": "도전해요", "politeRom": "dojeonhaeyo",
+      "past": "도전했어요", "pastRom": "dojeonhaesseoyo",
+      "future": "도전할 거예요", "futureRom": "dojeonhal geoyeyo",
+      "negative": "안 도전해요", "negativeRom": "an dojeonhaeyo"
+    },
+    {
+      "id": "vb012", "base": "노력하다", "baseRom": "noryeokada", "en": "to try hard/make effort", "emoji": "💪",
+      "polite": "노력해요", "politeRom": "noryeokaeyo",
+      "past": "노력했어요", "pastRom": "noryeokaesseoyo",
+      "future": "노력할 거예요", "futureRom": "noryeokal geoyeyo",
+      "negative": "안 노력해요", "negativeRom": "an noryeokaeyo"
+    },
+    {
+      "id": "vb013", "base": "계획하다", "baseRom": "gyehoekada", "en": "to plan", "emoji": "📋",
+      "polite": "계획해요", "politeRom": "gyehoekaeyo",
+      "past": "계획했어요", "pastRom": "gyehoekaesseoyo",
+      "future": "계획할 거예요", "futureRom": "gyehoekal geoyeyo",
+      "negative": "안 계획해요", "negativeRom": "an gyehoekaeyo"
+    },
+    {
+      "id": "vb014", "base": "약속하다", "baseRom": "yaksokada", "en": "to promise", "emoji": "🤝",
+      "polite": "약속해요", "politeRom": "yaksokaeyo",
+      "past": "약속했어요", "pastRom": "yaksokaesseoyo",
+      "future": "약속할 거예요", "futureRom": "yaksokal geoyeyo",
+      "negative": "안 약속해요", "negativeRom": "an yaksokaeyo"
+    },
+    {
+      "id": "vb015", "base": "소개하다", "baseRom": "sogaehada", "en": "to introduce", "emoji": "👋",
+      "polite": "소개해요", "politeRom": "sogaehaeyo",
+      "past": "소개했어요", "pastRom": "sogaehaesseoyo",
+      "future": "소개할 거예요", "futureRom": "sogaehal geoyeyo",
+      "negative": "안 소개해요", "negativeRom": "an sogaehaeyo"
+    },
+    {
+      "id": "vb016", "base": "추천하다", "baseRom": "chucheonhada", "en": "to recommend", "emoji": "👍",
+      "polite": "추천해요", "politeRom": "chucheonhaeyo",
+      "past": "추천했어요", "pastRom": "chucheonhaesseoyo",
+      "future": "추천할 거예요", "futureRom": "chucheonhal geoyeyo",
+      "negative": "안 추천해요", "negativeRom": "an chucheonhaeyo"
+    },
+    {
+      "id": "vb017", "base": "걱정하다", "baseRom": "geokjeonghada", "en": "to worry", "emoji": "😟",
+      "polite": "걱정해요", "politeRom": "geokjeonghaeyo",
+      "past": "걱정했어요", "pastRom": "geokjeonghaesseoyo",
+      "future": "걱정할 거예요", "futureRom": "geokjeonghal geoyeyo",
+      "negative": "안 걱정해요", "negativeRom": "an geokjeonghaeyo"
+    },
+    {
+      "id": "vb018", "base": "후회하다", "baseRom": "huhoehada", "en": "to regret", "emoji": "😔",
+      "polite": "후회해요", "politeRom": "huhoehaeyo",
+      "past": "후회했어요", "pastRom": "huhoehaesseoyo",
+      "future": "후회할 거예요", "futureRom": "huhoehal geoyeyo",
+      "negative": "안 후회해요", "negativeRom": "an huhoehaeyo"
+    },
+    {
+      "id": "vb019", "base": "포기하다", "baseRom": "pogihada", "en": "to give up", "emoji": "🏳️",
+      "polite": "포기해요", "politeRom": "pogihaeyo",
+      "past": "포기했어요", "pastRom": "pogihaesseoyo",
+      "future": "포기할 거예요", "futureRom": "pogihal geoyeyo",
+      "negative": "안 포기해요", "negativeRom": "an pogihaeyo"
+    },
+    {
+      "id": "vb020", "base": "참다", "baseRom": "chamda", "en": "to endure/hold back", "emoji": "😤",
+      "polite": "참아요", "politeRom": "chamayo",
+      "past": "참았어요", "pastRom": "chamasseoyo",
+      "future": "참을 거예요", "futureRom": "chameul geoyeyo",
+      "negative": "안 참아요", "negativeRom": "an chamayo"
+    },
+    {
+      "id": "vb021", "base": "익숙하다", "baseRom": "iksukada", "en": "to be familiar/used to", "emoji": "🔁",
+      "polite": "익숙해요", "politeRom": "iksukaeyo",
+      "past": "익숙했어요", "pastRom": "iksukaesseoyo",
+      "future": "익숙할 거예요", "futureRom": "iksukal geoyeyo",
+      "negative": "안 익숙해요", "negativeRom": "an iksukaeyo"
+    },
+    {
+      "id": "vb022", "base": "확인하다", "baseRom": "hwaginhada", "en": "to confirm/check", "emoji": "🔍",
+      "polite": "확인해요", "politeRom": "hwaginhaeyo",
+      "past": "확인했어요", "pastRom": "hwaginhaesseoyo",
+      "future": "확인할 거예요", "futureRom": "hwaginhal geoyeyo",
+      "negative": "안 확인해요", "negativeRom": "an hwaginhaeyo"
+    },
+    {
+      "id": "vb023", "base": "연락하다", "baseRom": "yeollakada", "en": "to contact", "emoji": "📞",
+      "polite": "연락해요", "politeRom": "yeollakaeyo",
+      "past": "연락했어요", "pastRom": "yeollakaesseoyo",
+      "future": "연락할 거예요", "futureRom": "yeollakal geoyeyo",
+      "negative": "안 연락해요", "negativeRom": "an yeollakaeyo"
+    },
+    {
+      "id": "vb024", "base": "부탁하다", "baseRom": "butakada", "en": "to ask a favor", "emoji": "🙏",
+      "polite": "부탁해요", "politeRom": "butakaeyo",
+      "past": "부탁했어요", "pastRom": "butakaesseoyo",
+      "future": "부탁할 거예요", "futureRom": "butakal geoyeyo",
+      "negative": "안 부탁해요", "negativeRom": "an butakaeyo"
+    },
+    {
+      "id": "vb025", "base": "초대하다", "baseRom": "chodaehada", "en": "to invite", "emoji": "💌",
+      "polite": "초대해요", "politeRom": "chodaehaeyo",
+      "past": "초대했어요", "pastRom": "chodaehaesseoyo",
+      "future": "초대할 거예요", "futureRom": "chodaehal geoyeyo",
+      "negative": "안 초대해요", "negativeRom": "an chodaehaeyo"
+    },
+    {
+      "id": "vb026", "base": "축하하다", "baseRom": "chukahada", "en": "to congratulate", "emoji": "🎉",
+      "polite": "축하해요", "politeRom": "chukahaeyo",
+      "past": "축하했어요", "pastRom": "chukahaesseoyo",
+      "future": "축하할 거예요", "futureRom": "chukahal geoyeyo",
+      "negative": "안 축하해요", "negativeRom": "an chukahaeyo"
+    },
+    {
+      "id": "vb027", "base": "사과하다", "baseRom": "sagwahada", "en": "to apologize", "emoji": "🙇",
+      "polite": "사과해요", "politeRom": "sagwahaeyo",
+      "past": "사과했어요", "pastRom": "sagwahaesseoyo",
+      "future": "사과할 거예요", "futureRom": "sagwahal geoyeyo",
+      "negative": "안 사과해요", "negativeRom": "an sagwahaeyo"
+    },
+    {
+      "id": "vb028", "base": "거절하다", "baseRom": "geojeorhada", "en": "to refuse/reject", "emoji": "🚫",
+      "polite": "거절해요", "politeRom": "geojeorhaeyo",
+      "past": "거절했어요", "pastRom": "geojeorhaesseoyo",
+      "future": "거절할 거예요", "futureRom": "geojeorhal geoyeyo",
+      "negative": "안 거절해요", "negativeRom": "an geojeorhaeyo"
+    },
+    {
+      "id": "vb029", "base": "동의하다", "baseRom": "donguihada", "en": "to agree", "emoji": "🤝",
+      "polite": "동의해요", "politeRom": "donguihaeyo",
+      "past": "동의했어요", "pastRom": "donguihaesseoyo",
+      "future": "동의할 거예요", "futureRom": "donguihal geoyeyo",
+      "negative": "안 동의해요", "negativeRom": "an donguihaeyo"
+    },
+    {
+      "id": "vb030", "base": "반대하다", "baseRom": "bandaehada", "en": "to oppose", "emoji": "✋",
+      "polite": "반대해요", "politeRom": "bandaehaeyo",
+      "past": "반대했어요", "pastRom": "bandaehaesseoyo",
+      "future": "반대할 거예요", "futureRom": "bandaehal geoyeyo",
+      "negative": "안 반대해요", "negativeRom": "an bandaehaeyo"
+    }
+  ],
+  "adjectives": [
+    { "id": "adj001", "kr": "행복하다", "rom": "haengbokada", "en": "happy", "emoji": "😊", "polite": "행복해요", "politeRom": "haengbokaeyo" },
+    { "id": "adj002", "kr": "슬프다", "rom": "seulpeuda", "en": "sad", "emoji": "😢", "polite": "슬퍼요", "politeRom": "seulpeoyo" },
+    { "id": "adj003", "kr": "화나다", "rom": "hwanada", "en": "angry/upset", "emoji": "😠", "polite": "화나요", "politeRom": "hwanayo" },
+    { "id": "adj004", "kr": "걱정되다", "rom": "geokjeongdoeda", "en": "worried", "emoji": "😟", "polite": "걱정돼요", "politeRom": "geokjeongdwaeyo" },
+    { "id": "adj005", "kr": "긴장되다", "rom": "ginjangdoeda", "en": "nervous", "emoji": "😰", "polite": "긴장돼요", "politeRom": "ginjangdwaeyo" },
+    { "id": "adj006", "kr": "편하다", "rom": "pyeonhada", "en": "comfortable/easy", "emoji": "😌", "polite": "편해요", "politeRom": "pyeonhaeyo" },
+    { "id": "adj007", "kr": "불편하다", "rom": "bulpyeonhada", "en": "uncomfortable", "emoji": "😣", "polite": "불편해요", "politeRom": "bulpyeonhaeyo" },
+    { "id": "adj008", "kr": "복잡하다", "rom": "bokjapada", "en": "complicated/complex", "emoji": "🌀", "polite": "복잡해요", "politeRom": "bokjapaeyo" },
+    { "id": "adj009", "kr": "간단하다", "rom": "gandanhada", "en": "simple", "emoji": "✨", "polite": "간단해요", "politeRom": "gandanhaeyo" },
+    { "id": "adj010", "kr": "중요하다", "rom": "jungyohada", "en": "important", "emoji": "⭐", "polite": "중요해요", "politeRom": "jungyohaeyo" },
+    { "id": "adj011", "kr": "필요하다", "rom": "piryohada", "en": "necessary/needed", "emoji": "📌", "polite": "필요해요", "politeRom": "piryohaeyo" },
+    { "id": "adj012", "kr": "가능하다", "rom": "ganeunghada", "en": "possible", "emoji": "🟢", "polite": "가능해요", "politeRom": "ganeunghaeyo" },
+    { "id": "adj013", "kr": "불가능하다", "rom": "bulganeunghada", "en": "impossible", "emoji": "🔴", "polite": "불가능해요", "politeRom": "bulganeunghaeyo" },
+    { "id": "adj014", "kr": "특별하다", "rom": "teukbyeolhada", "en": "special", "emoji": "🌟", "polite": "특별해요", "politeRom": "teukbyeolhaeyo" },
+    { "id": "adj015", "kr": "유명하다", "rom": "yumyeonghada", "en": "famous", "emoji": "🏆", "polite": "유명해요", "politeRom": "yumyeonghaeyo" },
+    { "id": "adj016", "kr": "비슷하다", "rom": "biseutada", "en": "similar", "emoji": "🔄", "polite": "비슷해요", "politeRom": "biseutaeyo" },
+    { "id": "adj017", "kr": "다르다", "rom": "dareuda", "en": "different", "emoji": "↔️", "polite": "달라요", "politeRom": "dallayo" },
+    { "id": "adj018", "kr": "위험하다", "rom": "wiheomhada", "en": "dangerous", "emoji": "⚠️", "polite": "위험해요", "politeRom": "wiheomhaeyo" },
+    { "id": "adj019", "kr": "안전하다", "rom": "anjeonhada", "en": "safe", "emoji": "🛡️", "polite": "안전해요", "politeRom": "anjeonhaeyo" },
+    { "id": "adj020", "kr": "자연스럽다", "rom": "jayeonseureopda", "en": "natural", "emoji": "🌿", "polite": "자연스러워요", "politeRom": "jayeonseureoweoyo" },
+    { "id": "adj021", "kr": "어색하다", "rom": "eosaekhada", "en": "awkward", "emoji": "😅", "polite": "어색해요", "politeRom": "eosaekhaeyo" },
+    { "id": "adj022", "kr": "심심하다", "rom": "simsimhada", "en": "bored", "emoji": "😑", "polite": "심심해요", "politeRom": "simsimhaeyo" },
+    { "id": "adj023", "kr": "신기하다", "rom": "singihada", "en": "amazing/novel", "emoji": "😮", "polite": "신기해요", "politeRom": "singihaeyo" },
+    { "id": "adj024", "kr": "귀찮다", "rom": "gwichanta", "en": "bothersome/annoying", "emoji": "😮‍💨", "polite": "귀찮아요", "politeRom": "gwichanayo" },
+    { "id": "adj025", "kr": "아쉽다", "rom": "aswipda", "en": "regrettable/what a shame", "emoji": "😢", "polite": "아쉬워요", "politeRom": "aswiweoyo" }
+  ],
+  "phrases": [
+    { "id": "ph001", "kr": "그래요?", "rom": "geuraeyo?", "en": "Really? / Is that so?", "emoji": "🤔", "cat": "reaction" },
+    { "id": "ph002", "kr": "정말요?", "rom": "jeongmalyo?", "en": "Seriously? / Really?", "emoji": "😲", "cat": "reaction" },
+    { "id": "ph003", "kr": "저도요", "rom": "jeodoyo", "en": "Me too", "emoji": "🙋", "cat": "reaction" },
+    { "id": "ph004", "kr": "글쎄요", "rom": "geulsseyo", "en": "Well... / Hmm...", "emoji": "🤷", "cat": "filler" },
+    { "id": "ph005", "kr": "아마", "rom": "ama", "en": "Maybe / Probably", "emoji": "🤔", "cat": "filler" },
+    { "id": "ph006", "kr": "그럴 수 있어요", "rom": "geureol su isseoyo", "en": "That can happen", "emoji": "😊", "cat": "reaction" },
+    { "id": "ph007", "kr": "맞아요", "rom": "majayo", "en": "That's right / Correct", "emoji": "👍", "cat": "reaction" },
+    { "id": "ph008", "kr": "그렇군요", "rom": "geureokunyeo", "en": "I see / Oh, is that so", "emoji": "💡", "cat": "reaction" },
+    { "id": "ph009", "kr": "혹시...", "rom": "hoksi...", "en": "By any chance...", "emoji": "🧐", "cat": "opener" },
+    { "id": "ph010", "kr": "죄송한데요...", "rom": "joesongandeyo...", "en": "I'm sorry but...", "emoji": "🙇", "cat": "opener" },
+    { "id": "ph011", "kr": "실례지만...", "rom": "sillyejiman...", "en": "Excuse me but...", "emoji": "🙏", "cat": "opener" },
+    { "id": "ph012", "kr": "~것 같아요", "rom": "~geot gatayo", "en": "I think~ / It seems~", "emoji": "💭", "cat": "opinion" },
+    { "id": "ph013", "kr": "~거든요", "rom": "~geodeunyo", "en": "You see, it's because~", "emoji": "☝️", "cat": "explanation" },
+    { "id": "ph014", "kr": "~잖아요", "rom": "~janayo", "en": "You know~ / As you know~", "emoji": "😏", "cat": "explanation" },
+    { "id": "ph015", "kr": "~네요", "rom": "~neyo", "en": "Oh, I see/notice that~", "emoji": "😯", "cat": "reaction" },
+    { "id": "ph016", "kr": "어떻게 생각해요?", "rom": "eotteoke saenggakaeyo?", "en": "What do you think?", "emoji": "🗣️", "cat": "question" },
+    { "id": "ph017", "kr": "왜 그래요?", "rom": "wae geuraeyo?", "en": "What's wrong? / Why is that?", "emoji": "😟", "cat": "question" },
+    { "id": "ph018", "kr": "무슨 뜻이에요?", "rom": "museun tteusieyo?", "en": "What does it mean?", "emoji": "❓", "cat": "question" },
+    { "id": "ph019", "kr": "다시 한번 말해 주세요", "rom": "dasi hanbeon malhae juseyo", "en": "Please say it one more time", "emoji": "🔁", "cat": "request" },
+    { "id": "ph020", "kr": "좀 더 천천히 말해 주세요", "rom": "jom deo cheoncheonhi malhae juseyo", "en": "Please speak a bit more slowly", "emoji": "🐢", "cat": "request" },
+    { "id": "ph021", "kr": "그건 좋은 생각이에요", "rom": "geugeon joeun saenggagieyo", "en": "That's a good idea", "emoji": "💡", "cat": "opinion" },
+    { "id": "ph022", "kr": "저는 반대예요", "rom": "jeoneun bandaeyeyo", "en": "I'm against it / I disagree", "emoji": "✋", "cat": "opinion" },
+    { "id": "ph023", "kr": "동감이에요", "rom": "donggamieyo", "en": "I agree / I feel the same", "emoji": "🤝", "cat": "opinion" },
+    { "id": "ph024", "kr": "오랜만이에요", "rom": "oraenmanieyo", "en": "Long time no see", "emoji": "👋", "cat": "greeting" },
+    { "id": "ph025", "kr": "덕분에요", "rom": "deokbuneyo", "en": "Thanks to you", "emoji": "🙏", "cat": "reaction" },
+    { "id": "ph026", "kr": "가시다", "rom": "gasida", "en": "to go (honorific)", "emoji": "🚶", "cat": "formal" },
+    { "id": "ph027", "kr": "드시다", "rom": "deusida", "en": "to eat (honorific)", "emoji": "🍽️", "cat": "formal" },
+    { "id": "ph028", "kr": "주무시다", "rom": "jumusida", "en": "to sleep (honorific)", "emoji": "😴", "cat": "formal" },
+    { "id": "ph029", "kr": "계시다", "rom": "gyesida", "en": "to be/exist (honorific)", "emoji": "🏛️", "cat": "formal" },
+    { "id": "ph030", "kr": "~습니다 / ~ㅂ니다", "rom": "~seumnida / ~mnida", "en": "Formal declarative ending", "emoji": "📜", "cat": "formal" },
+    { "id": "ph031", "kr": "~(으)세요", "rom": "~(eu)seyo", "en": "Polite request/honorific ending", "emoji": "🙏", "cat": "formal" },
+    { "id": "ph032", "kr": "~해 주시겠어요?", "rom": "~hae jusigesseoyo?", "en": "Could you please~?", "emoji": "🙇", "cat": "formal" },
+    { "id": "ph033", "kr": "~해도 될까요?", "rom": "~haedo doelkkayo?", "en": "Would it be okay if I~?", "emoji": "🤲", "cat": "formal" },
+    { "id": "ph034", "kr": "감사드립니다", "rom": "gamsadeurimnida", "en": "Thank you (very formal)", "emoji": "🙇‍♂️", "cat": "formal" },
+    { "id": "ph035", "kr": "죄송합니다만", "rom": "joesonghamnidaman", "en": "I'm sorry, but (formal)", "emoji": "🙇‍♀️", "cat": "formal" },
+    { "id": "ph036", "kr": "말씀해 주세요", "rom": "malsseumhae juseyo", "en": "Please tell me (honorific)", "emoji": "🗣️", "cat": "formal" },
+    { "id": "ph037", "kr": "확인해 주시겠어요?", "rom": "hwaginhae jusigesseoyo?", "en": "Could you check/confirm?", "emoji": "🔍", "cat": "formal" },
+    { "id": "ph038", "kr": "실례합니다", "rom": "sillyehamnida", "en": "Excuse me (formal)", "emoji": "🎩", "cat": "formal" },
+    { "id": "ph039", "kr": "괜찮으시면", "rom": "gwaenchaneusamyeon", "en": "If it's okay with you (honorific)", "emoji": "😊", "cat": "formal" },
+    { "id": "ph040", "kr": "말씀드리겠습니다", "rom": "malsseumdeurigesseumnida", "en": "I would like to tell you (humble formal)", "emoji": "📋", "cat": "formal" },
+    { "id": "ph041", "kr": "잠시만요", "rom": "jamsimanyo", "en": "Just a moment", "emoji": "⏳", "cat": "filler" }
+  ],
+  "sentences": [
+    {
+      "id": "s001",
+      "kr": "시간이 있으면 같이 영화 볼까요?",
+      "rom": "sigani isseumyeon gachi yeonghwa bolkkayo?",
+      "en": "If you have time, shall we watch a movie together?",
+      "emoji": "🎬",
+      "blocks": ["시간이", "있으면", "같이", "영화", "볼까요?"],
+      "distractors": ["없으면", "혼자"],
+      "grammar": "V~(으)면, V~(으)ㄹ까요?"
+    },
+    {
+      "id": "s002",
+      "kr": "어제 친구를 만나서 같이 밥 먹었어요",
+      "rom": "eoje chingureul mannaseo gachi bap meogeosseoyo",
+      "en": "Yesterday I met a friend and we ate together",
+      "emoji": "🍚",
+      "blocks": ["어제", "친구를", "만나서", "같이", "밥", "먹었어요"],
+      "distractors": ["오늘", "혼자서"],
+      "grammar": "V~아/어서"
+    },
+    {
+      "id": "s003",
+      "kr": "한국어를 배운 지 6개월 됐어요",
+      "rom": "hangugoreul baeun ji yukgaewol dwaesseoyo",
+      "en": "It's been 6 months since I started learning Korean",
+      "emoji": "📅",
+      "blocks": ["한국어를", "배운 지", "6개월", "됐어요"],
+      "distractors": ["공부하면", "될 거예요"],
+      "grammar": "V~(으)ㄴ 지"
+    },
+    {
+      "id": "s004",
+      "kr": "비가 올 것 같아서 우산 가져왔어요",
+      "rom": "biga ol geot gataseo usan gajyeowasseoyo",
+      "en": "I brought an umbrella because it seems like it will rain",
+      "emoji": "☂️",
+      "blocks": ["비가", "올 것 같아서", "우산", "가져왔어요"],
+      "distractors": ["올 거예요", "놓고 왔어요"],
+      "grammar": "V~(으)ㄹ 것 같다"
+    },
+    {
+      "id": "s005",
+      "kr": "한국 음식을 먹어 본 적이 있어요",
+      "rom": "hanguk eumsigeul meogeo bon jeogi isseoyo",
+      "en": "I have tried Korean food before",
+      "emoji": "🍜",
+      "blocks": ["한국 음식을", "먹어 본", "적이", "있어요"],
+      "distractors": ["만들어 본", "없어요"],
+      "grammar": "V~아/어 보다"
+    },
+    {
+      "id": "s006",
+      "kr": "내일 회의가 있어서 일찍 자야 해요",
+      "rom": "naeil hoeuiga isseoseo iljjik jaya haeyo",
+      "en": "I have a meeting tomorrow so I have to sleep early",
+      "emoji": "💤",
+      "blocks": ["내일", "회의가", "있어서", "일찍", "자야 해요"],
+      "distractors": ["없어서", "늦게"],
+      "grammar": "V~아/어야 하다"
+    },
+    {
+      "id": "s007",
+      "kr": "이 식당은 유명해서 사람이 많아요",
+      "rom": "i sikdangeun yumyeonghaeseo sarami manayo",
+      "en": "This restaurant is famous so there are many people",
+      "emoji": "🍽️",
+      "blocks": ["이 식당은", "유명해서", "사람이", "많아요"],
+      "distractors": ["조용해서", "적어요"],
+      "grammar": "A~아/어서"
+    },
+    {
+      "id": "s008",
+      "kr": "운동하면서 음악을 들어요",
+      "rom": "undonghamyeonseo eumageul deureoyo",
+      "en": "I listen to music while exercising",
+      "emoji": "🎧",
+      "blocks": ["운동하면서", "음악을", "들어요"],
+      "distractors": ["운동한 후에", "안 들어요"],
+      "grammar": "V~(으)면서"
+    },
+    {
+      "id": "s009",
+      "kr": "여행 가기 전에 호텔을 예약했어요",
+      "rom": "yeohaeng gagi jeone hotereul yeyakaesseoyo",
+      "en": "I booked a hotel before going on the trip",
+      "emoji": "🏨",
+      "blocks": ["여행", "가기 전에", "호텔을", "예약했어요"],
+      "distractors": ["간 후에", "취소했어요"],
+      "grammar": "V~기 전에"
+    },
+    {
+      "id": "s010",
+      "kr": "밥을 먹은 후에 커피를 마셨어요",
+      "rom": "babeul meogeun hue keopireul masyeosseoyo",
+      "en": "I drank coffee after eating",
+      "emoji": "☕",
+      "blocks": ["밥을", "먹은 후에", "커피를", "마셨어요"],
+      "distractors": ["먹기 전에", "안 마셨어요"],
+      "grammar": "V~(으)ㄴ 후에"
+    },
+    {
+      "id": "s011",
+      "kr": "저는 언니만큼 요리를 잘 못해요",
+      "rom": "jeoneun eonnimankeom yorireul jal mothaeyo",
+      "en": "I can't cook as well as my older sister",
+      "emoji": "👩‍🍳",
+      "blocks": ["저는", "언니만큼", "요리를", "잘", "못해요"],
+      "distractors": ["오빠만큼", "잘해요"],
+      "grammar": "N만큼"
+    },
+    {
+      "id": "s012",
+      "kr": "방학 동안 여행을 갈 거예요",
+      "rom": "banghak dongan yeohaengeul gal geoyeyo",
+      "en": "I'm going to travel during vacation",
+      "emoji": "✈️",
+      "blocks": ["방학", "동안", "여행을", "갈 거예요"],
+      "distractors": ["방학 전에", "안 갈 거예요"],
+      "grammar": "N 동안"
+    },
+    {
+      "id": "s013",
+      "kr": "친구가 언제 오는지 몰라요",
+      "rom": "chinguga eonje oneunji mollayo",
+      "en": "I don't know when my friend is coming",
+      "emoji": "🤷",
+      "blocks": ["친구가", "언제", "오는지", "몰라요"],
+      "distractors": ["왔는지", "알아요"],
+      "grammar": "V~는지"
+    },
+    {
+      "id": "s014",
+      "kr": "피곤할 때 커피를 마셔요",
+      "rom": "pigonhal ttae keopireul masyeoyo",
+      "en": "I drink coffee when I'm tired",
+      "emoji": "☕",
+      "blocks": ["피곤할 때", "커피를", "마셔요"],
+      "distractors": ["피곤하면", "안 마셔요"],
+      "grammar": "A/V~(으)ㄹ 때"
+    },
+    {
+      "id": "s015",
+      "kr": "내일 비가 올 것 같아요",
+      "rom": "naeil biga ol geot gatayo",
+      "en": "I think it will rain tomorrow",
+      "emoji": "🌧️",
+      "blocks": ["내일", "비가", "올 것", "같아요"],
+      "distractors": ["온 것", "달라요"],
+      "grammar": "V~(으)ㄹ 것 같다"
+    },
+    {
+      "id": "s016",
+      "kr": "한국 드라마를 좋아하거든요",
+      "rom": "hanguk deuramareul joahageodeunyo",
+      "en": "You see, I like Korean dramas",
+      "emoji": "📺",
+      "blocks": ["한국", "드라마를", "좋아하거든요"],
+      "distractors": ["싫어하거든요", "좋아해요"],
+      "grammar": "V~거든요"
+    },
+    {
+      "id": "s017",
+      "kr": "그 영화 재미있잖아요",
+      "rom": "geu yeonghwa jaemiitjanayo",
+      "en": "You know that movie is fun, right?",
+      "emoji": "🎥",
+      "blocks": ["그", "영화", "재미있잖아요"],
+      "distractors": ["재미없잖아요", "재미있어요"],
+      "grammar": "A/V~잖아요"
+    },
+    {
+      "id": "s018",
+      "kr": "서울이 생각보다 크네요",
+      "rom": "seouli saenggakboda keuneyo",
+      "en": "Oh, Seoul is bigger than I thought",
+      "emoji": "🏙️",
+      "blocks": ["서울이", "생각보다", "크네요"],
+      "distractors": ["작네요", "클 거예요"],
+      "grammar": "A/V~네요"
+    },
+    {
+      "id": "s019",
+      "kr": "같이 점심 먹을까요?",
+      "rom": "gachi jeomsim meogeulkkayo?",
+      "en": "Shall we eat lunch together?",
+      "emoji": "🍱",
+      "blocks": ["같이", "점심", "먹을까요?"],
+      "distractors": ["혼자", "먹었어요"],
+      "grammar": "V~(으)ㄹ까요?"
+    },
+    {
+      "id": "s020",
+      "kr": "이 옷 한번 입어 보세요",
+      "rom": "i ot hanbeon ibeo boseyo",
+      "en": "Please try wearing these clothes",
+      "emoji": "👗",
+      "blocks": ["이 옷", "한번", "입어 보세요"],
+      "distractors": ["벗어 보세요", "입었어요"],
+      "grammar": "V~아/어 보다"
+    },
+    {
+      "id": "s021",
+      "kr": "한국어로 말할 수 있어요",
+      "rom": "hangugeoro malhal su isseoyo",
+      "en": "I can speak in Korean",
+      "emoji": "🗣️",
+      "blocks": ["한국어로", "말할 수", "있어요"],
+      "distractors": ["없어요", "했어요"],
+      "grammar": "V~(으)ㄹ 수 있다"
+    },
+    {
+      "id": "s022",
+      "kr": "숙제를 해야 하는데 하기 싫어요",
+      "rom": "sukjereul haeya haneunde hagi sireoyo",
+      "en": "I have to do homework but I don't want to",
+      "emoji": "📝",
+      "blocks": ["숙제를", "해야 하는데", "하기", "싫어요"],
+      "distractors": ["안 해도", "좋아요"],
+      "grammar": "V~아/어야 하다"
+    },
+    {
+      "id": "s023",
+      "kr": "오늘은 바빠서 못 가요",
+      "rom": "oneureun bappaseo mot gayo",
+      "en": "I can't go today because I'm busy",
+      "emoji": "🙅",
+      "blocks": ["오늘은", "바빠서", "못", "가요"],
+      "distractors": ["안", "갈 거예요"],
+      "grammar": "A~아/어서"
+    },
+    {
+      "id": "s024",
+      "kr": "주말에 친구랑 쇼핑하려고 해요",
+      "rom": "jumare chingurang syopingaryeogo haeyo",
+      "en": "I'm planning to go shopping with my friend on the weekend",
+      "emoji": "🛍️",
+      "blocks": ["주말에", "친구랑", "쇼핑하려고", "해요"],
+      "distractors": ["친구한테", "했어요"],
+      "grammar": "V~(으)려고 하다, N(이)랑"
+    },
+    {
+      "id": "s025",
+      "kr": "커피나 차 중에서 뭐가 좋아요?",
+      "rom": "keopina cha jungeseo mwoga joayo?",
+      "en": "Which do you prefer, coffee or tea?",
+      "emoji": "🍵",
+      "blocks": ["커피나", "차", "중에서", "뭐가", "좋아요?"],
+      "distractors": ["커피랑", "싫어요?"],
+      "grammar": "N(이)나"
+    },
+    {
+      "id": "s026",
+      "kr": "한국에 가면 꼭 경복궁에 가 보세요",
+      "rom": "hanguge gamyeon kkok gyeongbokgunge ga boseyo",
+      "en": "If you go to Korea, definitely visit Gyeongbokgung",
+      "emoji": "🏯",
+      "blocks": ["한국에", "가면", "꼭", "경복궁에", "가 보세요"],
+      "distractors": ["가서", "안 가도 돼요"],
+      "grammar": "V~(으)면, V~아/어 보다"
+    },
+    {
+      "id": "s027",
+      "kr": "이 문제는 너무 복잡해서 이해하지 못했어요",
+      "rom": "i muneneun neomu bokjapaeseo ihaehaji motaesseoyo",
+      "en": "This problem was too complicated so I couldn't understand it",
+      "emoji": "😵",
+      "blocks": ["이 문제는", "너무", "복잡해서", "이해하지", "못했어요"],
+      "distractors": ["간단해서", "이해했어요"],
+      "grammar": "V~지 않다/못하다"
+    },
+    {
+      "id": "s028",
+      "kr": "요즘 한국 문화에 관심이 많아요",
+      "rom": "yojeum hanguk munhwae gwansimi manayo",
+      "en": "These days I have a lot of interest in Korean culture",
+      "emoji": "🎎",
+      "blocks": ["요즘", "한국 문화에", "관심이", "많아요"],
+      "distractors": ["관심이 없어요", "적어요"],
+      "grammar": "N에 관심이 있다"
+    },
+    {
+      "id": "s029",
+      "kr": "스트레스를 받을 때 운동을 해요",
+      "rom": "seutreseureul badeul ttae undongeul haeyo",
+      "en": "I exercise when I'm stressed",
+      "emoji": "🏋️",
+      "blocks": ["스트레스를", "받을 때", "운동을", "해요"],
+      "distractors": ["받으면", "안 해요"],
+      "grammar": "V~(으)ㄹ 때"
+    },
+    {
+      "id": "s030",
+      "kr": "제 생각에는 이게 더 좋은 것 같아요",
+      "rom": "je saenggageneun ige deo joeun geot gatayo",
+      "en": "In my opinion, I think this one is better",
+      "emoji": "💭",
+      "blocks": ["제 생각에는", "이게", "더", "좋은 것", "같아요"],
+      "distractors": ["나쁜 것", "달라요"],
+      "grammar": "A~(으)ㄴ 것 같다"
+    },
+    {
+      "id": "s031",
+      "kr": "그 사람은 일을 열심히 하는 것 같아요",
+      "rom": "geu sarameun ireul yeolsimhi haneun geot gatayo",
+      "en": "That person seems to work hard",
+      "emoji": "💼",
+      "blocks": ["그 사람은", "일을", "열심히", "하는 것", "같아요"],
+      "distractors": ["안 하는 것", "했어요"],
+      "grammar": "V~는 것 같다"
+    },
+    {
+      "id": "s032",
+      "kr": "한국어 공부가 어려운데 재미있어요",
+      "rom": "hangugeo gongbuga eoryeounde jaemiisseoyo",
+      "en": "Studying Korean is difficult but fun",
+      "emoji": "📚",
+      "blocks": ["한국어 공부가", "어려운데", "재미있어요"],
+      "distractors": ["쉬운데", "재미없어요"],
+      "grammar": "A~(으)ㄴ데"
+    },
+    {
+      "id": "s033",
+      "kr": "매일 30분씩 한국어를 공부하는 습관이 있어요",
+      "rom": "maeil samsipbunssik hangugoreul gongbuhaneun seupgwani isseoyo",
+      "en": "I have a habit of studying Korean for 30 minutes every day",
+      "emoji": "🔄",
+      "blocks": ["매일", "30분씩", "한국어를", "공부하는", "습관이 있어요"],
+      "distractors": ["공부한", "습관이 없어요"],
+      "grammar": "V~는 N"
+    },
+    {
+      "id": "s034",
+      "kr": "실수해도 괜찮아요, 연습이 중요해요",
+      "rom": "silsuhaedo gwaenchanayo, yeonseubi jungyohaeyo",
+      "en": "It's okay to make mistakes, practice is important",
+      "emoji": "💪",
+      "blocks": ["실수해도", "괜찮아요", "연습이", "중요해요"],
+      "distractors": ["실수하면", "안 돼요"],
+      "grammar": "V~아/어도"
+    },
+    {
+      "id": "s035",
+      "kr": "이번 주말에 뭐 할 건지 아직 결정 못 했어요",
+      "rom": "ibeon jumare mwo hal geonji ajik gyeoljeong mot haesseoyo",
+      "en": "I haven't decided yet what I'll do this weekend",
+      "emoji": "🤔",
+      "blocks": ["이번 주말에", "뭐", "할 건지", "아직", "결정 못 했어요"],
+      "distractors": ["했는지", "결정했어요"],
+      "grammar": "V~(으)ㄹ 건지"
+    },
+    {
+      "id": "s036",
+      "kr": "동료한테 점심을 추천해 달라고 했어요",
+      "rom": "dongnyohante jeomsimeul chucheonhae dallago haesseoyo",
+      "en": "I asked my colleague to recommend me lunch",
+      "emoji": "🍱",
+      "blocks": ["동료한테", "점심을", "추천해 달라고", "했어요"],
+      "distractors": ["추천해 줬어요", "상사한테"],
+      "grammar": "V~아/어 달라고 하다"
+    },
+    {
+      "id": "s037",
+      "kr": "퇴근한 후에 운동하려고 해요",
+      "rom": "toegeunhan hue undongaryeogo haeyo",
+      "en": "I'm planning to exercise after leaving work",
+      "emoji": "🏃",
+      "blocks": ["퇴근한 후에", "운동하려고", "해요"],
+      "distractors": ["퇴근하기 전에", "안 하려고"],
+      "grammar": "V~(으)ㄴ 후에, V~(으)려고 하다"
+    },
+    {
+      "id": "s038",
+      "kr": "혹시 이 근처에 좋은 카페 아세요?",
+      "rom": "hoksi i geuncheo-e joeun kape aseyo?",
+      "en": "By any chance, do you know a good cafe nearby?",
+      "emoji": "☕",
+      "blocks": ["혹시", "이 근처에", "좋은", "카페", "아세요?"],
+      "distractors": ["저 근처에", "몰라요?"],
+      "grammar": "혹시"
+    },
+    {
+      "id": "s039",
+      "kr": "죄송한데요, 자리가 있는지 확인해 주시겠어요?",
+      "rom": "joesongandeyo, jariga inneunji hwaginhae jusigesseoyo?",
+      "en": "Excuse me, could you check if there are seats available?",
+      "emoji": "💺",
+      "blocks": ["죄송한데요", "자리가", "있는지", "확인해", "주시겠어요?"],
+      "distractors": ["없는지", "알려 주세요"],
+      "grammar": "V~는지, V~아/어 주시겠어요?"
+    },
+    {
+      "id": "s040",
+      "kr": "한국어를 잘하지 않지만 노력하고 있어요",
+      "rom": "hangugoreul jalhaji anjiman noryeokago isseoyo",
+      "en": "I'm not good at Korean but I'm making an effort",
+      "emoji": "💪",
+      "blocks": ["한국어를", "잘하지", "않지만", "노력하고", "있어요"],
+      "distractors": ["잘하지만", "안 하고"],
+      "grammar": "V~지 않다, V~고 있다"
+    },
+    {
+      "id": "s041",
+      "kr": "이 책은 그 책만큼 재미있어요",
+      "rom": "i chaekeun geu chaekmankeom jaemiisseoyo",
+      "en": "This book is as interesting as that book",
+      "emoji": "📖",
+      "blocks": ["이 책은", "그 책만큼", "재미있어요"],
+      "distractors": ["그 책보다", "재미없어요"],
+      "grammar": "N만큼"
+    },
+    {
+      "id": "s042",
+      "kr": "두 시간 동안 기다렸는데 안 왔어요",
+      "rom": "du sigan dongan gidaryeonneunde an wasseoyo",
+      "en": "I waited for two hours but they didn't come",
+      "emoji": "⏰",
+      "blocks": ["두 시간", "동안", "기다렸는데", "안", "왔어요"],
+      "distractors": ["기다리면", "올 거예요"],
+      "grammar": "N 동안, A/V~(으)ㄴ/는데"
+    },
+    {
+      "id": "s043",
+      "kr": "이 일이 가능한지 확인해 볼게요",
+      "rom": "i iri ganeunganji hwaginhae bolgeyo",
+      "en": "I'll check whether this is possible",
+      "emoji": "🔍",
+      "blocks": ["이 일이", "가능한지", "확인해", "볼게요"],
+      "distractors": ["불가능한지", "할게요"],
+      "grammar": "A~(으)ㄴ지, V~아/어 보다"
+    },
+    {
+      "id": "s044",
+      "kr": "출장 가기 전에 보고서를 끝내야 해요",
+      "rom": "chuljang gagi jeone bogoseoreul kkeunnaeyahaeyo",
+      "en": "I have to finish the report before going on a business trip",
+      "emoji": "📝",
+      "blocks": ["출장", "가기 전에", "보고서를", "끝내야 해요"],
+      "distractors": ["간 후에", "안 끝내도 돼요"],
+      "grammar": "V~기 전에, V~아/어야 하다"
+    },
+    {
+      "id": "s045",
+      "kr": "면접이 긴장되지만 최선을 다할 거예요",
+      "rom": "myeonjeogi ginjangdoejiman choesoneul dahal geoyeyo",
+      "en": "The interview makes me nervous but I'll do my best",
+      "emoji": "🎤",
+      "blocks": ["면접이", "긴장되지만", "최선을", "다할 거예요"],
+      "distractors": ["편하지만", "안 할 거예요"],
+      "grammar": "A~지만"
+    },
+    {
+      "id": "s046",
+      "kr": "한국에 가면 꼭 한복을 입어 보고 싶어요",
+      "rom": "hanguge gamyeon kkok hanbeogeul ibeo bogo sipeoyo",
+      "en": "If I go to Korea, I definitely want to try wearing hanbok",
+      "emoji": "👘",
+      "blocks": ["한국에", "가면", "꼭", "한복을", "입어 보고 싶어요"],
+      "distractors": ["가서", "안 입어 봐도"],
+      "grammar": "V~(으)면, V~아/어 보고 싶다"
+    },
+    {
+      "id": "s047",
+      "kr": "어제 본 영화가 감동적이었어요",
+      "rom": "eoje bon yeonghwaga gamdongjeogiesseoyo",
+      "en": "The movie I watched yesterday was touching",
+      "emoji": "🥹",
+      "blocks": ["어제", "본", "영화가", "감동적이었어요"],
+      "distractors": ["볼", "재미없었어요"],
+      "grammar": "V~(으)ㄴ N"
+    },
+    {
+      "id": "s048",
+      "kr": "상사한테 이메일을 보내야 하는데 뭐라고 쓸지 모르겠어요",
+      "rom": "sangsahante imeireul bonaeyahaneunde mworago sseulli moreugesseoyo",
+      "en": "I have to send an email to my boss but I don't know what to write",
+      "emoji": "📧",
+      "blocks": ["상사한테", "이메일을", "보내야 하는데", "뭐라고 쓸지", "모르겠어요"],
+      "distractors": ["동료한테", "알겠어요"],
+      "grammar": "V~아/어야 하다, V~(으)ㄹ지"
+    },
+    {
+      "id": "s049",
+      "kr": "건강을 위해서 매일 운동을 시작했어요",
+      "rom": "geongangeul wihaeseo maeil undongeul sijakaesseoyo",
+      "en": "I started exercising every day for my health",
+      "emoji": "❤️",
+      "blocks": ["건강을", "위해서", "매일", "운동을", "시작했어요"],
+      "distractors": ["위해서가 아니라", "그만뒀어요"],
+      "grammar": "N을/를 위해서"
+    },
+    {
+      "id": "s050",
+      "kr": "요즘 바빠서 취미 생활을 못 하고 있어요",
+      "rom": "yojeum bappaseo chwimi saenghwareul mot hago isseoyo",
+      "en": "I've been too busy lately to enjoy my hobbies",
+      "emoji": "😩",
+      "blocks": ["요즘", "바빠서", "취미 생활을", "못 하고", "있어요"],
+      "distractors": ["한가해서", "하고 있어요"],
+      "grammar": "A~아/어서, V~고 있다"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g001",
+      "pattern": "V~(으)면",
+      "en": "If V / When V",
+      "examples": ["시간이 있으면 같이 가요", "비가 오면 우산을 가져가세요"]
+    },
+    {
+      "id": "g002",
+      "pattern": "V~(으)면서",
+      "en": "While V-ing (simultaneous actions)",
+      "examples": ["음악을 들으면서 공부해요", "운동하면서 팟캐스트를 들어요"]
+    },
+    {
+      "id": "g003",
+      "pattern": "V~기 전에",
+      "en": "Before V-ing",
+      "examples": ["자기 전에 책을 읽어요", "출발하기 전에 확인하세요"]
+    },
+    {
+      "id": "g004",
+      "pattern": "V~(으)ㄴ 후에",
+      "en": "After V-ing",
+      "examples": ["밥을 먹은 후에 산책해요", "수업이 끝난 후에 만나요"]
+    },
+    {
+      "id": "g005",
+      "pattern": "N만큼",
+      "en": "As much as N / To the extent of N",
+      "examples": ["형만큼 키가 커요", "기대만큼 좋았어요"]
+    },
+    {
+      "id": "g006",
+      "pattern": "N 동안",
+      "en": "During N / For (duration of) N",
+      "examples": ["두 시간 동안 공부했어요", "방학 동안 여행할 거예요"]
+    },
+    {
+      "id": "g007",
+      "pattern": "V~는지/은지",
+      "en": "Whether V / If V (indirect question)",
+      "examples": ["뭐 먹고 싶은지 물어봤어요", "언제 오는지 몰라요"]
+    },
+    {
+      "id": "g008",
+      "pattern": "V~(으)ㄹ 때",
+      "en": "When V / At the time of V",
+      "examples": ["심심할 때 영화를 봐요", "한국에 갈 때 뭘 사 올까요?"]
+    },
+    {
+      "id": "g009",
+      "pattern": "A/V~(으)ㄴ/는 것 같아요",
+      "en": "I think / It seems like (A/V)",
+      "examples": ["비가 올 것 같아요", "맛있는 것 같아요"]
+    },
+    {
+      "id": "g010",
+      "pattern": "V~거든요",
+      "en": "You see, it's because V (giving background reason)",
+      "examples": ["내일 시험이 있거든요", "한국 음식을 좋아하거든요"]
+    },
+    {
+      "id": "g011",
+      "pattern": "A/V~잖아요",
+      "en": "You know / As you know (shared information)",
+      "examples": ["어제 약속했잖아요", "거기 맛있잖아요"]
+    },
+    {
+      "id": "g012",
+      "pattern": "A/V~네요",
+      "en": "Oh, I see / I notice that (new realization)",
+      "examples": ["날씨가 좋네요", "한국어를 잘하시네요"]
+    },
+    {
+      "id": "g013",
+      "pattern": "V~(으)ㄹ까요?",
+      "en": "Shall we V? / Do you think V?",
+      "examples": ["같이 갈까요?", "뭐 먹을까요?"]
+    },
+    {
+      "id": "g014",
+      "pattern": "V~아/어 보다",
+      "en": "Try V-ing / Have the experience of V-ing",
+      "examples": ["한번 먹어 보세요", "해 본 적이 있어요"]
+    },
+    {
+      "id": "g015",
+      "pattern": "V~(으)ㄹ 수 있다/없다",
+      "en": "Can / Cannot V",
+      "examples": ["한국어로 말할 수 있어요", "혼자 갈 수 없어요"]
+    },
+    {
+      "id": "g016",
+      "pattern": "V~아/어야 하다",
+      "en": "Must / Have to V",
+      "examples": ["숙제를 해야 해요", "일찍 일어나야 해요"]
+    },
+    {
+      "id": "g017",
+      "pattern": "V~지 않다",
+      "en": "Not V (long-form negation)",
+      "examples": ["가지 않아요", "먹지 않았어요"]
+    },
+    {
+      "id": "g018",
+      "pattern": "N(이)나",
+      "en": "N or / About N (approximate)",
+      "examples": ["커피나 차 마실래요?", "두 개나 세 개 주세요"]
+    },
+    {
+      "id": "g019",
+      "pattern": "N(이)랑",
+      "en": "With N / And N (casual)",
+      "examples": ["친구랑 같이 갔어요", "밥이랑 김치를 먹었어요"]
+    },
+    {
+      "id": "g020",
+      "pattern": "V~(으)려고 하다",
+      "en": "Plan to V / Intend to V",
+      "examples": ["한국어를 배우려고 해요", "내일 일찍 일어나려고 해요"]
+    }
+  ]
+}

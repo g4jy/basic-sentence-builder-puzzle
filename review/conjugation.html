@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conjugation - Korean Review Hub</title>
+  <link rel="stylesheet" href="css/review.css">
+</head>
+<body>
+  <div class="container">
+    <div id="app-header" class="header"></div>
+
+    <!-- Controls -->
+    <div id="game-controls" class="mb-md">
+      <div class="stats-bar">
+        <div class="stat">
+          <div class="stat-value" id="conj-question">1/10</div>
+          <div class="stat-label">Verb</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="conj-streak">0</div>
+          <div class="stat-label">Streak</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="conj-accuracy">0%</div>
+          <div class="stat-label">Accuracy</div>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-bar-fill" id="progress-fill" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <!-- Game Area -->
+    <div id="game-area" class="game-area"></div>
+
+    <!-- Session Complete -->
+    <div id="session-complete" class="hidden"></div>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/conjugation.js"></script>
+</body>
+</html>

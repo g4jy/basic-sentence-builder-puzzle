@@ -1,0 +1,195 @@
+{
+  "verbTypes": [
+    {
+      "id": "eat",
+      "label": "eat (먹다)",
+      "objectType": "food",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "먹었어요",
+          "rom": "MOU-GOU-SSO-YO",
+          "en": "ate"
+        },
+        "present": {
+          "kr": "먹어요",
+          "rom": "MOU-GOU-YO",
+          "en": "eat"
+        },
+        "future": {
+          "kr": "먹을 거예요",
+          "rom": "MOU-GUL GOU-YE-YO",
+          "en": "will eat"
+        }
+      }
+    },
+    {
+      "id": "drink",
+      "label": "drink (마시다)",
+      "objectType": "drink",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "마셨어요",
+          "rom": "MA-SYOU-SSO-YO",
+          "en": "drank"
+        },
+        "present": {
+          "kr": "마셔요",
+          "rom": "MA-SYOU-YO",
+          "en": "drink"
+        },
+        "future": {
+          "kr": "마실 거예요",
+          "rom": "MA-SHIL GOU-YE-YO",
+          "en": "will drink"
+        }
+      }
+    },
+    {
+      "id": "meet",
+      "label": "meet (만나다)",
+      "objectType": "person",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "만났어요",
+          "rom": "MAN-NA-SSO-YO",
+          "en": "met"
+        },
+        "present": {
+          "kr": "만나요",
+          "rom": "MAN-NA-YO",
+          "en": "meet"
+        },
+        "future": {
+          "kr": "만날 거예요",
+          "rom": "MAN-NAL GOU-YE-YO",
+          "en": "will meet"
+        }
+      }
+    },
+    {
+      "id": "buy",
+      "label": "buy (사다)",
+      "objectType": "thing",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "샀어요",
+          "rom": "SA-SSO-YO",
+          "en": "bought"
+        },
+        "present": {
+          "kr": "사요",
+          "rom": "SA-YO",
+          "en": "buy"
+        },
+        "future": {
+          "kr": "살 거예요",
+          "rom": "SAL GOU-YE-YO",
+          "en": "will buy"
+        }
+      }
+    },
+    {
+      "id": "go",
+      "label": "go (가다)",
+      "objectType": "none",
+      "usesEseo": false,
+      "tenses": {
+        "past": {
+          "kr": "갔어요",
+          "rom": "GA-SSO-YO",
+          "en": "went"
+        },
+        "present": {
+          "kr": "가요",
+          "rom": "GA-YO",
+          "en": "go"
+        },
+        "future": {
+          "kr": "갈 거예요",
+          "rom": "GAL GOU-YE-YO",
+          "en": "will go"
+        }
+      }
+    }
+  ],
+  "tenses": [
+    {
+      "id": "past",
+      "label": "Past (했어요)",
+      "times": [
+        "yesterday",
+        "today"
+      ]
+    },
+    {
+      "id": "present",
+      "label": "Present (해요)",
+      "times": [
+        "today",
+        "now"
+      ]
+    },
+    {
+      "id": "future",
+      "label": "Future (할 거예요)",
+      "times": [
+        "today",
+        "tomorrow"
+      ]
+    }
+  ],
+  "times": {
+    "yesterday": {
+      "kr": "어제",
+      "rom": "OU-JE",
+      "en": "yesterday"
+    },
+    "today": {
+      "kr": "오늘",
+      "rom": "O-NUL",
+      "en": "today"
+    },
+    "tomorrow": {
+      "kr": "내일",
+      "rom": "NAE-IL",
+      "en": "tomorrow"
+    },
+    "now": {
+      "kr": "지금",
+      "rom": "JI-GUM",
+      "en": "now"
+    }
+  },
+  "places": [
+    {
+      "kr": "카페",
+      "rom": "KA-PE",
+      "en": "cafe"
+    },
+    {
+      "kr": "식당",
+      "rom": "SHIK-DANG",
+      "en": "restaurant"
+    },
+    {
+      "kr": "공원",
+      "rom": "GONG-WON",
+      "en": "park"
+    },
+    {
+      "kr": "백화점",
+      "rom": "BAEK-HWA-JOUM",
+      "en": "department store"
+    },
+    {
+      "kr": "학교",
+      "rom": "HAK-GYO",
+      "en": "school"
+    }
+  ],
+  "generated_at": "2026-01-27T21:02:08.379292"
+}

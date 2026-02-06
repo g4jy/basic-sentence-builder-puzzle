@@ -1,0 +1,351 @@
+{
+  "id": "8810422",
+  "name": "Alexi",
+  "settings": {
+    "romanization": true,
+    "level": 1
+  },
+  "assignedVocab": {
+    "food": [
+      {
+        "en": "Store / Shop",
+        "pos": "Noun",
+        "kr": "가게",
+        "example": "가게에서 과일을 샀어요.",
+        "rom": ""
+      },
+      {
+        "en": "Price",
+        "pos": "Noun",
+        "kr": "가격",
+        "example": "가격이 비싸요.",
+        "rom": ""
+      },
+      {
+        "en": "Ribs (Galbi)",
+        "pos": "Noun",
+        "kr": "갈비",
+        "example": "갈비를 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Beef rib soup",
+        "pos": "Noun",
+        "kr": "갈비탕",
+        "example": "갈비탕이 맛있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Persimmon",
+        "pos": "Noun",
+        "kr": "감",
+        "example": "감을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Meat",
+        "pos": "Noun",
+        "kr": "고기",
+        "example": "고기를 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Fruit",
+        "pos": "Noun",
+        "kr": "과일",
+        "example": "과일을 좋아해요.",
+        "rom": ""
+      },
+      {
+        "en": "Tangerine",
+        "pos": "Noun",
+        "kr": "귤",
+        "example": "귤을 먹어요.",
+        "rom": ""
+      },
+      {
+        "en": "Bowl / Dish",
+        "pos": "Noun",
+        "kr": "그릇",
+        "example": "그릇에 밥을 담아요.",
+        "rom": ""
+      },
+      {
+        "en": "Gimbap",
+        "pos": "Noun",
+        "kr": "김밥",
+        "example": "김밥을 싸요.",
+        "rom": ""
+      }
+    ],
+    "places": [
+      {
+        "en": "Middle / Center",
+        "pos": "Noun",
+        "kr": "가운데",
+        "example": "가운데에 앉았어요.",
+        "rom": ""
+      },
+      {
+        "en": "Living room",
+        "pos": "Noun",
+        "kr": "거실",
+        "example": "거실에서 쉬어요.",
+        "rom": ""
+      },
+      {
+        "en": "There",
+        "pos": "Pronoun",
+        "kr": "거기",
+        "example": "거기에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Opposite side",
+        "pos": "Noun",
+        "kr": "건너편",
+        "example": "건너편에 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Building",
+        "pos": "Noun",
+        "kr": "건물",
+        "example": "건물이 높아요.",
+        "rom": ""
+      },
+      {
+        "en": "Place / Location",
+        "pos": "Noun",
+        "kr": "곳",
+        "example": "좋은 곳이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Park",
+        "pos": "Noun",
+        "kr": "공원",
+        "example": "공원에서 산책해요.",
+        "rom": ""
+      },
+      {
+        "en": "Airport",
+        "pos": "Noun",
+        "kr": "공항",
+        "example": "공항에 갔어요.",
+        "rom": ""
+      },
+      {
+        "en": "Classroom",
+        "pos": "Noun",
+        "kr": "교실",
+        "example": "교실에서 공부해요.",
+        "rom": ""
+      },
+      {
+        "en": "Theater / Cinema",
+        "pos": "Noun",
+        "kr": "극장",
+        "example": "극장에서 영화를 봤어요.",
+        "rom": ""
+      }
+    ],
+    "people": [
+      {
+        "en": "Singer",
+        "pos": "Noun",
+        "kr": "가수",
+        "example": "가수가 노래해요.",
+        "rom": ""
+      },
+      {
+        "en": "Family",
+        "pos": "Noun",
+        "kr": "가족",
+        "example": "가족이 많아요.",
+        "rom": ""
+      },
+      {
+        "en": "I / Me",
+        "pos": "Pronoun",
+        "kr": "나",
+        "example": "나는 학생이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Younger brother",
+        "pos": "Noun",
+        "kr": "남동생",
+        "example": "남동생이 있어요.",
+        "rom": ""
+      },
+      {
+        "en": "Man / Male",
+        "pos": "Noun",
+        "kr": "남자",
+        "example": "남자가 키가 커요.",
+        "rom": ""
+      },
+      {
+        "en": "Husband",
+        "pos": "Noun",
+        "kr": "남편",
+        "example": "남편이 일해요.",
+        "rom": ""
+      },
+      {
+        "en": "My",
+        "pos": "Pronoun",
+        "kr": "내",
+        "example": "내 책이에요.",
+        "rom": ""
+      },
+      {
+        "en": "You (Casual)",
+        "pos": "Pronoun",
+        "kr": "너",
+        "example": "너는 학생이에요.",
+        "rom": ""
+      },
+      {
+        "en": "Who",
+        "pos": "Pronoun",
+        "kr": "누구",
+        "example": "누구예요?",
+        "rom": ""
+      },
+      {
+        "en": "Older sister (for male)",
+        "pos": "Noun",
+        "kr": "누나",
+        "example": "누나가 요리해요.",
+        "rom": ""
+      }
+    ]
+  },
+  "lessonVerbs": [
+    {
+      "id": "go",
+      "label": "가다 (go)",
+      "objectType": "none",
+      "usesEseo": false,
+      "tenses": {
+        "past": {
+          "kr": "갔어요",
+          "rom": "GA-SSO-YO",
+          "en": "went"
+        },
+        "present": {
+          "kr": "가요",
+          "rom": "GA-YO",
+          "en": "go"
+        },
+        "future": {
+          "kr": "갈 거예요",
+          "rom": "GAL GOU-YE-YO",
+          "en": "will go"
+        }
+      }
+    },
+    {
+      "id": "eat",
+      "label": "먹다 (eat)",
+      "objectType": "food",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "먹었어요",
+          "rom": "MOU-GOU-SSO-YO",
+          "en": "ate"
+        },
+        "present": {
+          "kr": "먹어요",
+          "rom": "MOU-GOU-YO",
+          "en": "eat"
+        },
+        "future": {
+          "kr": "먹을 거예요",
+          "rom": "MOU-GUL GOU-YE-YO",
+          "en": "will eat"
+        }
+      }
+    },
+    {
+      "id": "drink",
+      "label": "마시다 (drink)",
+      "objectType": "drink",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "마셨어요",
+          "rom": "MA-SYOU-SSO-YO",
+          "en": "drank"
+        },
+        "present": {
+          "kr": "마셔요",
+          "rom": "MA-SYOU-YO",
+          "en": "drink"
+        },
+        "future": {
+          "kr": "마실 거예요",
+          "rom": "MA-SHIL GOU-YE-YO",
+          "en": "will drink"
+        }
+      }
+    },
+    {
+      "id": "buy",
+      "label": "사다 (buy)",
+      "objectType": "thing",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "샀어요",
+          "rom": "SA-SSO-YO",
+          "en": "bought"
+        },
+        "present": {
+          "kr": "사요",
+          "rom": "SA-YO",
+          "en": "buy"
+        },
+        "future": {
+          "kr": "살 거예요",
+          "rom": "SAL GOU-YE-YO",
+          "en": "will buy"
+        }
+      }
+    },
+    {
+      "id": "meet",
+      "label": "만나다 (meet)",
+      "objectType": "people",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "만났어요",
+          "rom": "MAN-NA-SSO-YO",
+          "en": "met"
+        },
+        "present": {
+          "kr": "만나요",
+          "rom": "MAN-NA-YO",
+          "en": "meet"
+        },
+        "future": {
+          "kr": "만날 거예요",
+          "rom": "MAN-NAL GOU-YE-YO",
+          "en": "will meet"
+        }
+      }
+    }
+  ],
+  "customVocab": [],
+  "vocabularyWatchlist": [],
+  "lessonContext": {
+    "recentLessons": [],
+    "upcomingTopics": [],
+    "currentFocus": ""
+  },
+  "generated_at": "2026-01-30T19:14:56.469363"
+}

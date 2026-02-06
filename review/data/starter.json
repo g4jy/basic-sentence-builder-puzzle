@@ -1,0 +1,533 @@
+{
+  "meta": { "tier": "starter", "version": 1, "totalItems": 208 },
+  "vocabulary": [
+    { "id": "v001", "kr": "머리", "rom": "meori", "en": "head", "emoji": "🗣️", "cat": "body", "tags": ["body"] },
+    { "id": "v002", "kr": "눈", "rom": "nun", "en": "eye", "emoji": "👁️", "cat": "body", "tags": ["body"] },
+    { "id": "v003", "kr": "코", "rom": "ko", "en": "nose", "emoji": "👃", "cat": "body", "tags": ["body"] },
+    { "id": "v004", "kr": "입", "rom": "ip", "en": "mouth", "emoji": "👄", "cat": "body", "tags": ["body"] },
+    { "id": "v005", "kr": "귀", "rom": "gwi", "en": "ear", "emoji": "👂", "cat": "body", "tags": ["body"] },
+    { "id": "v006", "kr": "손", "rom": "son", "en": "hand", "emoji": "✋", "cat": "body", "tags": ["body"] },
+    { "id": "v007", "kr": "발", "rom": "bal", "en": "foot", "emoji": "🦶", "cat": "body", "tags": ["body"] },
+    { "id": "v008", "kr": "팔", "rom": "pal", "en": "arm", "emoji": "💪", "cat": "body", "tags": ["body"] },
+    { "id": "v009", "kr": "다리", "rom": "dari", "en": "leg", "emoji": "🦵", "cat": "body", "tags": ["body"] },
+    { "id": "v010", "kr": "배", "rom": "bae", "en": "stomach", "emoji": "🤰", "cat": "body", "tags": ["body"] },
+    { "id": "v011", "kr": "엄마", "rom": "eomma", "en": "mom", "emoji": "👩", "cat": "family", "tags": ["family"] },
+    { "id": "v012", "kr": "아빠", "rom": "appa", "en": "dad", "emoji": "👨", "cat": "family", "tags": ["family"] },
+    { "id": "v013", "kr": "언니", "rom": "eonni", "en": "older sister (f. speaker)", "emoji": "👩‍👧", "cat": "family", "tags": ["family"] },
+    { "id": "v014", "kr": "오빠", "rom": "oppa", "en": "older brother (f. speaker)", "emoji": "👦", "cat": "family", "tags": ["family"] },
+    { "id": "v015", "kr": "누나", "rom": "nuna", "en": "older sister (m. speaker)", "emoji": "👩‍👦", "cat": "family", "tags": ["family"] },
+    { "id": "v016", "kr": "형", "rom": "hyeong", "en": "older brother (m. speaker)", "emoji": "👬", "cat": "family", "tags": ["family"] },
+    { "id": "v017", "kr": "동생", "rom": "dongsaeng", "en": "younger sibling", "emoji": "👶", "cat": "family", "tags": ["family"] },
+    { "id": "v018", "kr": "할머니", "rom": "halmeoni", "en": "grandma", "emoji": "👵", "cat": "family", "tags": ["family"] },
+    { "id": "v019", "kr": "할아버지", "rom": "harabeoji", "en": "grandpa", "emoji": "👴", "cat": "family", "tags": ["family"] },
+    { "id": "v020", "kr": "가족", "rom": "gajok", "en": "family", "emoji": "👪", "cat": "family", "tags": ["family"] },
+    { "id": "v021", "kr": "고양이", "rom": "goyangi", "en": "cat", "emoji": "🐱", "cat": "animal", "tags": ["animal"] },
+    { "id": "v022", "kr": "강아지", "rom": "gangaji", "en": "puppy", "emoji": "🐶", "cat": "animal", "tags": ["animal"] },
+    { "id": "v023", "kr": "새", "rom": "sae", "en": "bird", "emoji": "🐦", "cat": "animal", "tags": ["animal"] },
+    { "id": "v024", "kr": "물고기", "rom": "mulgogi", "en": "fish", "emoji": "🐟", "cat": "animal", "tags": ["animal"] },
+    { "id": "v025", "kr": "토끼", "rom": "tokki", "en": "rabbit", "emoji": "🐰", "cat": "animal", "tags": ["animal"] },
+    { "id": "v026", "kr": "곰", "rom": "gom", "en": "bear", "emoji": "🐻", "cat": "animal", "tags": ["animal"] },
+    { "id": "v027", "kr": "호랑이", "rom": "horangi", "en": "tiger", "emoji": "🐯", "cat": "animal", "tags": ["animal"] },
+    { "id": "v028", "kr": "코끼리", "rom": "kokkiri", "en": "elephant", "emoji": "🐘", "cat": "animal", "tags": ["animal"] },
+    { "id": "v029", "kr": "빨간색", "rom": "ppalganssaek", "en": "red", "emoji": "🔴", "cat": "color", "tags": ["color"] },
+    { "id": "v030", "kr": "주황색", "rom": "juhwangsaek", "en": "orange", "emoji": "🟠", "cat": "color", "tags": ["color"] },
+    { "id": "v031", "kr": "노란색", "rom": "noransaek", "en": "yellow", "emoji": "🟡", "cat": "color", "tags": ["color"] },
+    { "id": "v032", "kr": "초록색", "rom": "choroksaek", "en": "green", "emoji": "🟢", "cat": "color", "tags": ["color"] },
+    { "id": "v033", "kr": "파란색", "rom": "paransaek", "en": "blue", "emoji": "🔵", "cat": "color", "tags": ["color"] },
+    { "id": "v034", "kr": "보라색", "rom": "borasaek", "en": "purple", "emoji": "🟣", "cat": "color", "tags": ["color"] },
+    { "id": "v035", "kr": "하얀색", "rom": "hayansaek", "en": "white", "emoji": "⚪", "cat": "color", "tags": ["color"] },
+    { "id": "v036", "kr": "검은색", "rom": "geomeunsaek", "en": "black", "emoji": "⚫", "cat": "color", "tags": ["color"] },
+    { "id": "v037", "kr": "밥", "rom": "bap", "en": "rice / meal", "emoji": "🍚", "cat": "food", "tags": ["food", "survival"] },
+    { "id": "v038", "kr": "물", "rom": "mul", "en": "water", "emoji": "💧", "cat": "food", "tags": ["food", "survival"] },
+    { "id": "v039", "kr": "김치", "rom": "gimchi", "en": "kimchi", "emoji": "🥬", "cat": "food", "tags": ["food", "culture"] },
+    { "id": "v040", "kr": "고기", "rom": "gogi", "en": "meat", "emoji": "🥩", "cat": "food", "tags": ["food"] },
+    { "id": "v041", "kr": "빵", "rom": "ppang", "en": "bread", "emoji": "🍞", "cat": "food", "tags": ["food"] },
+    { "id": "v042", "kr": "과일", "rom": "gwail", "en": "fruit", "emoji": "🍎", "cat": "food", "tags": ["food"] },
+    { "id": "v043", "kr": "우유", "rom": "uyu", "en": "milk", "emoji": "🥛", "cat": "food", "tags": ["food"] },
+    { "id": "v044", "kr": "주스", "rom": "juseu", "en": "juice", "emoji": "🧃", "cat": "food", "tags": ["food"] },
+    { "id": "v045", "kr": "커피", "rom": "keopi", "en": "coffee", "emoji": "☕", "cat": "food", "tags": ["food"] },
+    { "id": "v046", "kr": "차", "rom": "cha", "en": "tea", "emoji": "🍵", "cat": "food", "tags": ["food"] },
+    { "id": "v047", "kr": "집", "rom": "jip", "en": "home / house", "emoji": "🏠", "cat": "place", "tags": ["place"] },
+    { "id": "v048", "kr": "학교", "rom": "hakgyo", "en": "school", "emoji": "🏫", "cat": "place", "tags": ["place"] },
+    { "id": "v049", "kr": "가게", "rom": "gage", "en": "store / shop", "emoji": "🏪", "cat": "place", "tags": ["place"] },
+    { "id": "v050", "kr": "병원", "rom": "byeongwon", "en": "hospital", "emoji": "🏥", "cat": "place", "tags": ["place"] },
+    { "id": "v051", "kr": "공원", "rom": "gongwon", "en": "park", "emoji": "🌳", "cat": "place", "tags": ["place"] },
+    { "id": "v052", "kr": "식당", "rom": "sikdang", "en": "restaurant", "emoji": "🍽️", "cat": "place", "tags": ["place"] },
+    { "id": "v053", "kr": "카페", "rom": "kape", "en": "cafe", "emoji": "🏪", "cat": "place", "tags": ["place"] },
+    { "id": "v054", "kr": "하나", "rom": "hana", "en": "one (native)", "emoji": "1️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v055", "kr": "둘", "rom": "dul", "en": "two (native)", "emoji": "2️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v056", "kr": "셋", "rom": "set", "en": "three (native)", "emoji": "3️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v057", "kr": "넷", "rom": "net", "en": "four (native)", "emoji": "4️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v058", "kr": "다섯", "rom": "daseot", "en": "five (native)", "emoji": "5️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v059", "kr": "여섯", "rom": "yeoseot", "en": "six (native)", "emoji": "6️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v060", "kr": "일곱", "rom": "ilgop", "en": "seven (native)", "emoji": "7️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v061", "kr": "여덟", "rom": "yeodeol", "en": "eight (native)", "emoji": "8️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v062", "kr": "아홉", "rom": "ahop", "en": "nine (native)", "emoji": "9️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v063", "kr": "열", "rom": "yeol", "en": "ten (native)", "emoji": "🔟", "cat": "number-native", "tags": ["number"] },
+    { "id": "v064", "kr": "스물", "rom": "seumul", "en": "twenty (native)", "emoji": "2️⃣0️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v065", "kr": "서른", "rom": "seoreun", "en": "thirty (native)", "emoji": "3️⃣0️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v066", "kr": "마흔", "rom": "maheun", "en": "forty (native)", "emoji": "4️⃣0️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v067", "kr": "쉰", "rom": "swin", "en": "fifty (native)", "emoji": "5️⃣0️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v068", "kr": "예순", "rom": "yesun", "en": "sixty (native)", "emoji": "6️⃣0️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v069", "kr": "일흔", "rom": "ilheun", "en": "seventy (native)", "emoji": "7️⃣0️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v070", "kr": "여든", "rom": "yeodeun", "en": "eighty (native)", "emoji": "8️⃣0️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v071", "kr": "아흔", "rom": "aheun", "en": "ninety (native)", "emoji": "9️⃣0️⃣", "cat": "number-native", "tags": ["number"] },
+    { "id": "v072", "kr": "일", "rom": "il", "en": "one (sino)", "emoji": "1️⃣", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v073", "kr": "이", "rom": "i", "en": "two (sino)", "emoji": "2️⃣", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v074", "kr": "삼", "rom": "sam", "en": "three (sino)", "emoji": "3️⃣", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v075", "kr": "사", "rom": "sa", "en": "four (sino)", "emoji": "4️⃣", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v076", "kr": "오", "rom": "o", "en": "five (sino)", "emoji": "5️⃣", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v077", "kr": "육", "rom": "yuk", "en": "six (sino)", "emoji": "6️⃣", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v078", "kr": "칠", "rom": "chil", "en": "seven (sino)", "emoji": "7️⃣", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v079", "kr": "팔", "rom": "pal", "en": "eight (sino)", "emoji": "8️⃣", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v080", "kr": "구", "rom": "gu", "en": "nine (sino)", "emoji": "9️⃣", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v081", "kr": "십", "rom": "sip", "en": "ten (sino)", "emoji": "🔟", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v082", "kr": "백", "rom": "baek", "en": "hundred (sino)", "emoji": "💯", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v083", "kr": "천", "rom": "cheon", "en": "thousand (sino)", "emoji": "🔢", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v084", "kr": "만", "rom": "man", "en": "ten thousand (sino)", "emoji": "🔢", "cat": "number-sino", "tags": ["number"] },
+    { "id": "v085", "kr": "원", "rom": "won", "en": "won (currency)", "emoji": "💰", "cat": "number-sino", "tags": ["number", "survival"] },
+    { "id": "v086", "kr": "오늘", "rom": "oneul", "en": "today", "emoji": "📅", "cat": "time", "tags": ["time"] },
+    { "id": "v087", "kr": "내일", "rom": "naeil", "en": "tomorrow", "emoji": "📆", "cat": "time", "tags": ["time"] },
+    { "id": "v088", "kr": "어제", "rom": "eoje", "en": "yesterday", "emoji": "📆", "cat": "time", "tags": ["time"] },
+    { "id": "v089", "kr": "아침", "rom": "achim", "en": "morning", "emoji": "🌅", "cat": "time", "tags": ["time"] },
+    { "id": "v090", "kr": "점심", "rom": "jeomsim", "en": "lunch / noon", "emoji": "☀️", "cat": "time", "tags": ["time"] },
+    { "id": "v091", "kr": "저녁", "rom": "jeonyeok", "en": "evening / dinner", "emoji": "🌇", "cat": "time", "tags": ["time"] },
+    { "id": "v092", "kr": "지금", "rom": "jigeum", "en": "now", "emoji": "⏰", "cat": "time", "tags": ["time", "survival"] },
+    { "id": "v093", "kr": "사람", "rom": "saram", "en": "person / people", "emoji": "🧑", "cat": "people", "tags": ["people"] },
+    { "id": "v094", "kr": "친구", "rom": "chingu", "en": "friend", "emoji": "🤝", "cat": "people", "tags": ["people"] },
+    { "id": "v095", "kr": "선생님", "rom": "seonsaengnim", "en": "teacher", "emoji": "👩‍🏫", "cat": "people", "tags": ["people"] },
+    { "id": "v096", "kr": "학생", "rom": "haksaeng", "en": "student", "emoji": "🧑‍🎓", "cat": "people", "tags": ["people"] },
+    { "id": "v097", "kr": "나", "rom": "na", "en": "I / me (casual)", "emoji": "🙋", "cat": "pronoun", "tags": ["pronoun"] },
+    { "id": "v098", "kr": "저", "rom": "jeo", "en": "I / me (polite)", "emoji": "🙋", "cat": "pronoun", "tags": ["pronoun"] },
+    { "id": "v099", "kr": "이거", "rom": "igeo", "en": "this (thing)", "emoji": "👉", "cat": "pronoun", "tags": ["pronoun", "survival"] },
+    { "id": "v100", "kr": "저거", "rom": "jeogeo", "en": "that (thing, far)", "emoji": "👉", "cat": "pronoun", "tags": ["pronoun"] },
+    { "id": "v101", "kr": "여기", "rom": "yeogi", "en": "here", "emoji": "📍", "cat": "pronoun", "tags": ["pronoun", "survival"] },
+    { "id": "v102", "kr": "거기", "rom": "geogi", "en": "there", "emoji": "📍", "cat": "pronoun", "tags": ["pronoun"] },
+    { "id": "v103", "kr": "한국", "rom": "hanguk", "en": "Korea", "emoji": "🇰🇷", "cat": "place", "tags": ["place", "culture"] },
+    { "id": "v104", "kr": "한국어", "rom": "hangugeo", "en": "Korean language", "emoji": "🗣️", "cat": "language", "tags": ["language"] },
+    { "id": "v105", "kr": "영어", "rom": "yeongeo", "en": "English language", "emoji": "🗣️", "cat": "language", "tags": ["language"] }
+  ],
+  "verbs": [
+    {
+      "id": "vb001", "base": "가다", "baseRom": "gada", "en": "to go", "emoji": "🚶",
+      "polite": "가요", "politeRom": "gayo",
+      "past": "갔어요", "pastRom": "gasseoyo",
+      "future": "갈 거예요", "futureRom": "gal geoyeyo",
+      "negative": "안 가요", "negativeRom": "an gayo"
+    },
+    {
+      "id": "vb002", "base": "오다", "baseRom": "oda", "en": "to come", "emoji": "🙋",
+      "polite": "와요", "politeRom": "wayo",
+      "past": "왔어요", "pastRom": "wasseoyo",
+      "future": "올 거예요", "futureRom": "ol geoyeyo",
+      "negative": "안 와요", "negativeRom": "an wayo"
+    },
+    {
+      "id": "vb003", "base": "먹다", "baseRom": "meokda", "en": "to eat", "emoji": "🍽️",
+      "polite": "먹어요", "politeRom": "meogeoyo",
+      "past": "먹었어요", "pastRom": "meogeosseoyo",
+      "future": "먹을 거예요", "futureRom": "meogeul geoyeyo",
+      "negative": "안 먹어요", "negativeRom": "an meogeoyo"
+    },
+    {
+      "id": "vb004", "base": "마시다", "baseRom": "masida", "en": "to drink", "emoji": "🥤",
+      "polite": "마셔요", "politeRom": "masyeoyo",
+      "past": "마셨어요", "pastRom": "masyeosseoyo",
+      "future": "마실 거예요", "futureRom": "masil geoyeyo",
+      "negative": "안 마셔요", "negativeRom": "an masyeoyo"
+    },
+    {
+      "id": "vb005", "base": "보다", "baseRom": "boda", "en": "to see / watch", "emoji": "👀",
+      "polite": "봐요", "politeRom": "bwayo",
+      "past": "봤어요", "pastRom": "bwasseoyo",
+      "future": "볼 거예요", "futureRom": "bol geoyeyo",
+      "negative": "안 봐요", "negativeRom": "an bwayo"
+    },
+    {
+      "id": "vb006", "base": "듣다", "baseRom": "deutda", "en": "to hear / listen", "emoji": "👂",
+      "polite": "들어요", "politeRom": "deureoyo",
+      "past": "들었어요", "pastRom": "deureosseoyo",
+      "future": "들을 거예요", "futureRom": "deureul geoyeyo",
+      "negative": "안 들어요", "negativeRom": "an deureoyo"
+    },
+    {
+      "id": "vb007", "base": "읽다", "baseRom": "ikda", "en": "to read", "emoji": "📖",
+      "polite": "읽어요", "politeRom": "ilgeoyo",
+      "past": "읽었어요", "pastRom": "ilgeosseoyo",
+      "future": "읽을 거예요", "futureRom": "ilgeul geoyeyo",
+      "negative": "안 읽어요", "negativeRom": "an ilgeoyo"
+    },
+    {
+      "id": "vb008", "base": "쓰다", "baseRom": "sseuda", "en": "to write", "emoji": "✍️",
+      "polite": "써요", "politeRom": "sseoyo",
+      "past": "썼어요", "pastRom": "sseosseoyo",
+      "future": "쓸 거예요", "futureRom": "sseul geoyeyo",
+      "negative": "안 써요", "negativeRom": "an sseoyo"
+    },
+    {
+      "id": "vb009", "base": "자다", "baseRom": "jada", "en": "to sleep", "emoji": "😴",
+      "polite": "자요", "politeRom": "jayo",
+      "past": "잤어요", "pastRom": "jasseoyo",
+      "future": "잘 거예요", "futureRom": "jal geoyeyo",
+      "negative": "안 자요", "negativeRom": "an jayo"
+    },
+    {
+      "id": "vb010", "base": "일어나다", "baseRom": "ireonada", "en": "to wake up", "emoji": "⏰",
+      "polite": "일어나요", "politeRom": "ireonayo",
+      "past": "일어났어요", "pastRom": "ireonasseoyo",
+      "future": "일어날 거예요", "futureRom": "ireonal geoyeyo",
+      "negative": "안 일어나요", "negativeRom": "an ireonayo"
+    },
+    {
+      "id": "vb011", "base": "앉다", "baseRom": "anda", "en": "to sit", "emoji": "🪑",
+      "polite": "앉아요", "politeRom": "anjayo",
+      "past": "앉았어요", "pastRom": "anjasseoyo",
+      "future": "앉을 거예요", "futureRom": "anjeul geoyeyo",
+      "negative": "안 앉아요", "negativeRom": "an anjayo"
+    },
+    {
+      "id": "vb012", "base": "서다", "baseRom": "seoda", "en": "to stand", "emoji": "🧍",
+      "polite": "서요", "politeRom": "seoyo",
+      "past": "섰어요", "pastRom": "seosseoyo",
+      "future": "설 거예요", "futureRom": "seol geoyeyo",
+      "negative": "안 서요", "negativeRom": "an seoyo"
+    },
+    {
+      "id": "vb013", "base": "걷다", "baseRom": "geotda", "en": "to walk", "emoji": "🚶‍♂️",
+      "polite": "걸어요", "politeRom": "georeoyo",
+      "past": "걸었어요", "pastRom": "georeosseoyo",
+      "future": "걸을 거예요", "futureRom": "georeul geoyeyo",
+      "negative": "안 걸어요", "negativeRom": "an georeoyo"
+    },
+    {
+      "id": "vb014", "base": "뛰다", "baseRom": "ttwida", "en": "to run", "emoji": "🏃",
+      "polite": "뛰어요", "politeRom": "ttwieoyo",
+      "past": "뛰었어요", "pastRom": "ttwieosseoyo",
+      "future": "뛸 거예요", "futureRom": "ttwil geoyeyo",
+      "negative": "안 뛰어요", "negativeRom": "an ttwieoyo"
+    },
+    {
+      "id": "vb015", "base": "사다", "baseRom": "sada", "en": "to buy", "emoji": "🛒",
+      "polite": "사요", "politeRom": "sayo",
+      "past": "샀어요", "pastRom": "sasseoyo",
+      "future": "살 거예요", "futureRom": "sal geoyeyo",
+      "negative": "안 사요", "negativeRom": "an sayo"
+    },
+    {
+      "id": "vb016", "base": "주다", "baseRom": "juda", "en": "to give", "emoji": "🤲",
+      "polite": "줘요", "politeRom": "jweoyo",
+      "past": "줬어요", "pastRom": "jweosseoyo",
+      "future": "줄 거예요", "futureRom": "jul geoyeyo",
+      "negative": "안 줘요", "negativeRom": "an jweoyo"
+    },
+    {
+      "id": "vb017", "base": "하다", "baseRom": "hada", "en": "to do", "emoji": "💪",
+      "polite": "해요", "politeRom": "haeyo",
+      "past": "했어요", "pastRom": "haesseoyo",
+      "future": "할 거예요", "futureRom": "hal geoyeyo",
+      "negative": "안 해요", "negativeRom": "an haeyo"
+    },
+    {
+      "id": "vb018", "base": "좋아하다", "baseRom": "joahada", "en": "to like", "emoji": "❤️",
+      "polite": "좋아해요", "politeRom": "joahaeyo",
+      "past": "좋아했어요", "pastRom": "joahaesseoyo",
+      "future": "좋아할 거예요", "futureRom": "joahal geoyeyo",
+      "negative": "안 좋아해요", "negativeRom": "an joahaeyo"
+    },
+    {
+      "id": "vb019", "base": "싫어하다", "baseRom": "sireohada", "en": "to dislike", "emoji": "👎",
+      "polite": "싫어해요", "politeRom": "sireohaeyo",
+      "past": "싫어했어요", "pastRom": "sireohaesseoyo",
+      "future": "싫어할 거예요", "futureRom": "sireohal geoyeyo",
+      "negative": "안 싫어해요", "negativeRom": "an sireohaeyo"
+    },
+    {
+      "id": "vb020", "base": "있다", "baseRom": "itda", "en": "to exist / have", "emoji": "📍",
+      "polite": "있어요", "politeRom": "isseoyo",
+      "past": "있었어요", "pastRom": "isseosseoyo",
+      "future": "있을 거예요", "futureRom": "isseul geoyeyo",
+      "negative": "없어요", "negativeRom": "eopseoyo"
+    }
+  ],
+  "adjectives": [
+    { "id": "adj001", "kr": "맛있다", "rom": "masitda", "en": "delicious", "emoji": "😋", "polite": "맛있어요", "politeRom": "masisseoyo" },
+    { "id": "adj002", "kr": "맛없다", "rom": "madeopda", "en": "not delicious", "emoji": "😖", "polite": "맛없어요", "politeRom": "madeopseoyo" },
+    { "id": "adj003", "kr": "맵다", "rom": "maepda", "en": "spicy", "emoji": "🌶️", "polite": "매워요", "politeRom": "maewoyo" },
+    { "id": "adj004", "kr": "달다", "rom": "dalda", "en": "sweet", "emoji": "🍬", "polite": "달아요", "politeRom": "darayo" },
+    { "id": "adj005", "kr": "뜨겁다", "rom": "tteugeopda", "en": "hot (temperature)", "emoji": "🔥", "polite": "뜨거워요", "politeRom": "tteugeowoyo" },
+    { "id": "adj006", "kr": "차갑다", "rom": "chagapda", "en": "cold (temperature)", "emoji": "🧊", "polite": "차가워요", "politeRom": "chagawoyo" },
+    { "id": "adj007", "kr": "크다", "rom": "keuda", "en": "big", "emoji": "🐘", "polite": "커요", "politeRom": "keoyo" },
+    { "id": "adj008", "kr": "작다", "rom": "jakda", "en": "small", "emoji": "🐜", "polite": "작아요", "politeRom": "jagayo" },
+    { "id": "adj009", "kr": "좋다", "rom": "jota", "en": "good", "emoji": "👍", "polite": "좋아요", "politeRom": "joayo" },
+    { "id": "adj010", "kr": "나쁘다", "rom": "nappeuda", "en": "bad", "emoji": "👎", "polite": "나빠요", "politeRom": "nappayo" },
+    { "id": "adj011", "kr": "예쁘다", "rom": "yeppeuda", "en": "pretty", "emoji": "🌸", "polite": "예뻐요", "politeRom": "yeppeoyo" },
+    { "id": "adj012", "kr": "많다", "rom": "manta", "en": "many / a lot", "emoji": "📦", "polite": "많아요", "politeRom": "manayo" },
+    { "id": "adj013", "kr": "적다", "rom": "jeokda", "en": "few / little", "emoji": "🤏", "polite": "적어요", "politeRom": "jeogeoyo" },
+    { "id": "adj014", "kr": "비싸다", "rom": "bissada", "en": "expensive", "emoji": "💸", "polite": "비싸요", "politeRom": "bissayo" },
+    { "id": "adj015", "kr": "싸다", "rom": "ssada", "en": "cheap", "emoji": "🏷️", "polite": "싸요", "politeRom": "ssayo" }
+  ],
+  "phrases": [
+    { "id": "ph001", "kr": "안녕하세요", "rom": "annyeonghaseyo", "en": "Hello", "emoji": "👋", "cat": "greeting" },
+    { "id": "ph002", "kr": "감사합니다", "rom": "gamsahamnida", "en": "Thank you", "emoji": "🙏", "cat": "greeting" },
+    { "id": "ph003", "kr": "죄송합니다", "rom": "joesonghamnida", "en": "I'm sorry", "emoji": "🙇", "cat": "greeting" },
+    { "id": "ph004", "kr": "안녕히 가세요", "rom": "annyeonghi gaseyo", "en": "Goodbye (to person leaving)", "emoji": "👋", "cat": "greeting" },
+    { "id": "ph005", "kr": "안녕히 계세요", "rom": "annyeonghi gyeseyo", "en": "Goodbye (to person staying)", "emoji": "👋", "cat": "greeting" },
+    { "id": "ph006", "kr": "반갑습니다", "rom": "bangapseumnida", "en": "Nice to meet you", "emoji": "🤝", "cat": "greeting" },
+    { "id": "ph007", "kr": "잘 지내요?", "rom": "jal jinaeyo?", "en": "How are you?", "emoji": "😊", "cat": "greeting" },
+    { "id": "ph008", "kr": "주세요", "rom": "juseyo", "en": "Please give me", "emoji": "🙏", "cat": "survival" },
+    { "id": "ph009", "kr": "얼마예요?", "rom": "eolmayeyo?", "en": "How much is it?", "emoji": "💰", "cat": "survival" },
+    { "id": "ph010", "kr": "어디예요?", "rom": "eodiyeyo?", "en": "Where is it?", "emoji": "📍", "cat": "survival" },
+    { "id": "ph011", "kr": "화장실 어디예요?", "rom": "hwajangsil eodiyeyo?", "en": "Where is the bathroom?", "emoji": "🚻", "cat": "survival" },
+    { "id": "ph012", "kr": "이거 뭐예요?", "rom": "igeo mwoyeyo?", "en": "What is this?", "emoji": "❓", "cat": "survival" },
+    { "id": "ph013", "kr": "네", "rom": "ne", "en": "Yes", "emoji": "✅", "cat": "survival" },
+    { "id": "ph014", "kr": "아니요", "rom": "aniyo", "en": "No", "emoji": "❌", "cat": "survival" },
+    { "id": "ph015", "kr": "모르겠어요", "rom": "moreugesseoyo", "en": "I don't know", "emoji": "🤷", "cat": "survival" },
+    { "id": "ph016", "kr": "도와주세요", "rom": "dowajuseyo", "en": "Please help me", "emoji": "🆘", "cat": "survival" },
+    { "id": "ph017", "kr": "잠깐만요", "rom": "jamkkanmanyo", "en": "Just a moment", "emoji": "✋", "cat": "survival" },
+    { "id": "ph018", "kr": "괜찮아요", "rom": "gwaenchanayo", "en": "It's okay / I'm fine", "emoji": "👌", "cat": "survival" },
+    { "id": "ph019", "kr": "메뉴 주세요", "rom": "menyu juseyo", "en": "Menu please", "emoji": "📋", "cat": "dining" },
+    { "id": "ph020", "kr": "계산해 주세요", "rom": "gyesanhae juseyo", "en": "Check please", "emoji": "💳", "cat": "dining" },
+    { "id": "ph021", "kr": "맛있어요!", "rom": "masisseoyo!", "en": "It's delicious!", "emoji": "😋", "cat": "dining" },
+    { "id": "ph022", "kr": "물 주세요", "rom": "mul juseyo", "en": "Water please", "emoji": "💧", "cat": "dining" },
+    { "id": "ph023", "kr": "배불러요", "rom": "baebulleoyo", "en": "I'm full", "emoji": "😊", "cat": "dining" },
+    { "id": "ph024", "kr": "한국어 공부해요", "rom": "hangugeo gongbuhaeyo", "en": "I study Korean", "emoji": "📚", "cat": "misc" },
+    { "id": "ph025", "kr": "잘 먹겠습니다", "rom": "jal meokgesseumnida", "en": "I will eat well (before eating)", "emoji": "🍽️", "cat": "misc" },
+    { "id": "ph026", "kr": "잘 먹었습니다", "rom": "jal meogeosseumnida", "en": "I ate well (after eating)", "emoji": "🍽️", "cat": "misc" },
+    { "id": "ph027", "kr": "천천히 말해 주세요", "rom": "cheoncheonhi malhae juseyo", "en": "Please speak slowly", "emoji": "🐢", "cat": "survival" },
+    { "id": "ph028", "kr": "다시 한번 말해 주세요", "rom": "dasi hanbeon malhae juseyo", "en": "Please say it again", "emoji": "🔁", "cat": "survival" },
+    { "id": "ph029", "kr": "이름이 뭐예요?", "rom": "ireumi mwoyeyo?", "en": "What is your name?", "emoji": "🏷️", "cat": "greeting" },
+    { "id": "ph030", "kr": "저는 ___이에요/예요", "rom": "jeoneun ___ieyo/yeyo", "en": "I am ___", "emoji": "🙋", "cat": "greeting" }
+  ],
+  "sentences": [
+    {
+      "id": "s001", "kr": "물 주세요", "rom": "mul juseyo", "en": "Water please", "emoji": "💧🙏",
+      "blocks": ["물", "주세요"],
+      "distractors": ["밥을", "에서"],
+      "grammar": "N 주세요"
+    },
+    {
+      "id": "s002", "kr": "이거 얼마예요?", "rom": "igeo eolmayeyo?", "en": "How much is this?", "emoji": "💰❓",
+      "blocks": ["이거", "얼마예요?"],
+      "distractors": ["뭐예요", "에"],
+      "grammar": "N 얼마예요?"
+    },
+    {
+      "id": "s003", "kr": "학교에 가요", "rom": "hakgyoe gayo", "en": "I go to school", "emoji": "🏫🚶",
+      "blocks": ["학교에", "가요"],
+      "distractors": ["먹어요", "에서"],
+      "grammar": "N에 가요"
+    },
+    {
+      "id": "s004", "kr": "밥 먹어요", "rom": "bap meogeoyo", "en": "I eat rice", "emoji": "🍚🍽️",
+      "blocks": ["밥", "먹어요"],
+      "distractors": ["마셔요", "에"],
+      "grammar": "N 먹어요"
+    },
+    {
+      "id": "s005", "kr": "커피 마셔요", "rom": "keopi masyeoyo", "en": "I drink coffee", "emoji": "☕🥤",
+      "blocks": ["커피", "마셔요"],
+      "distractors": ["먹어요", "에서"],
+      "grammar": "N 마셔요"
+    },
+    {
+      "id": "s006", "kr": "집에 가요", "rom": "jibe gayo", "en": "I go home", "emoji": "🏠🚶",
+      "blocks": ["집에", "가요"],
+      "distractors": ["와요", "에서"],
+      "grammar": "N에 가요"
+    },
+    {
+      "id": "s007", "kr": "이거 뭐예요?", "rom": "igeo mwoyeyo?", "en": "What is this?", "emoji": "❓",
+      "blocks": ["이거", "뭐예요?"],
+      "distractors": ["얼마예요", "을"],
+      "grammar": "N 뭐예요?"
+    },
+    {
+      "id": "s008", "kr": "고양이 좋아해요", "rom": "goyangi joahaeyo", "en": "I like cats", "emoji": "🐱❤️",
+      "blocks": ["고양이", "좋아해요"],
+      "distractors": ["싫어해요", "에"],
+      "grammar": "N 좋아해요"
+    },
+    {
+      "id": "s009", "kr": "물 있어요?", "rom": "mul isseoyo?", "en": "Do you have water?", "emoji": "💧❓",
+      "blocks": ["물", "있어요?"],
+      "distractors": ["없어요", "에서"],
+      "grammar": "N 있어요"
+    },
+    {
+      "id": "s010", "kr": "안 먹어요", "rom": "an meogeoyo", "en": "I don't eat", "emoji": "🚫🍽️",
+      "blocks": ["안", "먹어요"],
+      "distractors": ["마셔요", "을"],
+      "grammar": "안 V"
+    },
+    {
+      "id": "s011", "kr": "빵 주세요", "rom": "ppang juseyo", "en": "Bread please", "emoji": "🍞🙏",
+      "blocks": ["빵", "주세요"],
+      "distractors": ["먹어요", "에서"],
+      "grammar": "N 주세요"
+    },
+    {
+      "id": "s012", "kr": "식당에 가요", "rom": "sikdange gayo", "en": "I go to the restaurant", "emoji": "🍽️🚶",
+      "blocks": ["식당에", "가요"],
+      "distractors": ["와요", "에서"],
+      "grammar": "N에 가요"
+    },
+    {
+      "id": "s013", "kr": "우유 마셔요", "rom": "uyu masyeoyo", "en": "I drink milk", "emoji": "🥛🥤",
+      "blocks": ["우유", "마셔요"],
+      "distractors": ["먹어요", "에"],
+      "grammar": "N 마셔요"
+    },
+    {
+      "id": "s014", "kr": "학생이에요", "rom": "haksaengieyo", "en": "I am a student", "emoji": "🧑‍🎓",
+      "blocks": ["학생", "이에요"],
+      "distractors": ["예요", "에서"],
+      "grammar": "N이에요/예요"
+    },
+    {
+      "id": "s015", "kr": "선생님이에요", "rom": "seonsaengnimieyo", "en": "I am a teacher", "emoji": "👩‍🏫",
+      "blocks": ["선생님", "이에요"],
+      "distractors": ["예요", "에"],
+      "grammar": "N이에요/예요"
+    },
+    {
+      "id": "s016", "kr": "김치 먹어요", "rom": "gimchi meogeoyo", "en": "I eat kimchi", "emoji": "🥬🍽️",
+      "blocks": ["김치", "먹어요"],
+      "distractors": ["마셔요", "에서"],
+      "grammar": "N 먹어요"
+    },
+    {
+      "id": "s017", "kr": "공원에 가요", "rom": "gongwone gayo", "en": "I go to the park", "emoji": "🌳🚶",
+      "blocks": ["공원에", "가요"],
+      "distractors": ["와요", "에서"],
+      "grammar": "N에 가요"
+    },
+    {
+      "id": "s018", "kr": "강아지 좋아해요", "rom": "gangaji joahaeyo", "en": "I like puppies", "emoji": "🐶❤️",
+      "blocks": ["강아지", "좋아해요"],
+      "distractors": ["싫어해요", "에서"],
+      "grammar": "N 좋아해요"
+    },
+    {
+      "id": "s019", "kr": "안 마셔요", "rom": "an masyeoyo", "en": "I don't drink", "emoji": "🚫🥤",
+      "blocks": ["안", "마셔요"],
+      "distractors": ["먹어요", "을"],
+      "grammar": "안 V"
+    },
+    {
+      "id": "s020", "kr": "고기 먹어요", "rom": "gogi meogeoyo", "en": "I eat meat", "emoji": "🥩🍽️",
+      "blocks": ["고기", "먹어요"],
+      "distractors": ["마셔요", "에"],
+      "grammar": "N 먹어요"
+    },
+    {
+      "id": "s021", "kr": "차 주세요", "rom": "cha juseyo", "en": "Tea please", "emoji": "🍵🙏",
+      "blocks": ["차", "주세요"],
+      "distractors": ["먹어요", "에서"],
+      "grammar": "N 주세요"
+    },
+    {
+      "id": "s022", "kr": "카페에 가요", "rom": "kapee gayo", "en": "I go to the cafe", "emoji": "☕🚶",
+      "blocks": ["카페에", "가요"],
+      "distractors": ["와요", "에서"],
+      "grammar": "N에 가요"
+    },
+    {
+      "id": "s023", "kr": "밥하고 김치", "rom": "baphago gimchi", "en": "Rice and kimchi", "emoji": "🍚🥬",
+      "blocks": ["밥", "하고", "김치"],
+      "distractors": ["에서", "을"],
+      "grammar": "N하고 N"
+    },
+    {
+      "id": "s024", "kr": "돈 없어요", "rom": "don eopseoyo", "en": "I don't have money", "emoji": "💸🚫",
+      "blocks": ["돈", "없어요"],
+      "distractors": ["있어요", "에"],
+      "grammar": "N 없어요"
+    },
+    {
+      "id": "s025", "kr": "시간 있어요?", "rom": "sigan isseoyo?", "en": "Do you have time?", "emoji": "⏰❓",
+      "blocks": ["시간", "있어요?"],
+      "distractors": ["없어요", "에서"],
+      "grammar": "N 있어요"
+    },
+    {
+      "id": "s026", "kr": "과일 좋아해요", "rom": "gwail joahaeyo", "en": "I like fruit", "emoji": "🍎❤️",
+      "blocks": ["과일", "좋아해요"],
+      "distractors": ["싫어해요", "에"],
+      "grammar": "N 좋아해요"
+    },
+    {
+      "id": "s027", "kr": "병원에 가요", "rom": "byeongwone gayo", "en": "I go to the hospital", "emoji": "🏥🚶",
+      "blocks": ["병원에", "가요"],
+      "distractors": ["와요", "에서"],
+      "grammar": "N에 가요"
+    },
+    {
+      "id": "s028", "kr": "주스 마셔요", "rom": "juseu masyeoyo", "en": "I drink juice", "emoji": "🧃🥤",
+      "blocks": ["주스", "마셔요"],
+      "distractors": ["먹어요", "에"],
+      "grammar": "N 마셔요"
+    },
+    {
+      "id": "s029", "kr": "커피하고 빵", "rom": "keopi hago ppang", "en": "Coffee and bread", "emoji": "☕🍞",
+      "blocks": ["커피", "하고", "빵"],
+      "distractors": ["에서", "을"],
+      "grammar": "N하고 N"
+    },
+    {
+      "id": "s030", "kr": "안 좋아해요", "rom": "an joahaeyo", "en": "I don't like it", "emoji": "🚫❤️",
+      "blocks": ["안", "좋아해요"],
+      "distractors": ["싫어해요", "에"],
+      "grammar": "안 V"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g001",
+      "pattern": "N 주세요",
+      "en": "Please give me N",
+      "examples": ["물 주세요", "메뉴 주세요", "빵 주세요", "차 주세요"]
+    },
+    {
+      "id": "g002",
+      "pattern": "N이에요/예요",
+      "en": "It is N (polite copula)",
+      "examples": ["학생이에요", "선생님이에요", "한국 사람이에요"]
+    },
+    {
+      "id": "g003",
+      "pattern": "N에 가요",
+      "en": "Go to N (destination particle + go)",
+      "examples": ["학교에 가요", "집에 가요", "식당에 가요", "공원에 가요"]
+    },
+    {
+      "id": "g004",
+      "pattern": "N 먹어요/마셔요",
+      "en": "Eat/Drink N",
+      "examples": ["밥 먹어요", "김치 먹어요", "커피 마셔요", "우유 마셔요"]
+    },
+    {
+      "id": "g005",
+      "pattern": "N 있어요/없어요",
+      "en": "Have / Don't have N (existence)",
+      "examples": ["물 있어요", "시간 있어요?", "돈 없어요"]
+    },
+    {
+      "id": "g006",
+      "pattern": "N 좋아해요",
+      "en": "Like N",
+      "examples": ["고양이 좋아해요", "강아지 좋아해요", "과일 좋아해요"]
+    },
+    {
+      "id": "g007",
+      "pattern": "안 V",
+      "en": "Negative — don't / doesn't V",
+      "examples": ["안 먹어요", "안 마셔요", "안 가요", "안 좋아해요"]
+    },
+    {
+      "id": "g008",
+      "pattern": "N하고 N",
+      "en": "N and N (listing particle)",
+      "examples": ["밥하고 김치", "커피하고 빵", "엄마하고 아빠"]
+    }
+  ]
+}

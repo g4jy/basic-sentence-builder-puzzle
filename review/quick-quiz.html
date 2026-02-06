@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quick Quiz - Korean Review Hub</title>
+  <link rel="stylesheet" href="css/review.css">
+</head>
+<body>
+  <div class="container">
+    <div id="app-header" class="header"></div>
+
+    <!-- Controls -->
+    <div id="game-controls" class="mb-md">
+      <div class="direction-toggle mb-sm" id="direction-toggle">
+        <button class="active" data-dir="ko-en" onclick="setDirection('ko-en')">Korean &rarr; English</button>
+        <button data-dir="en-ko" onclick="setDirection('en-ko')">English &rarr; Korean</button>
+      </div>
+      <div class="stats-bar">
+        <div class="stat">
+          <div class="stat-value" id="quiz-question">1/10</div>
+          <div class="stat-label">Question</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="quiz-streak">0</div>
+          <div class="stat-label">Streak</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="quiz-accuracy">0%</div>
+          <div class="stat-label">Accuracy</div>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-bar-fill" id="progress-fill" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <!-- Game Area -->
+    <div id="game-area" class="game-area"></div>
+
+    <!-- Session Complete -->
+    <div id="session-complete" class="hidden"></div>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/quick-quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Picture Quiz - Korean Playground</title>
+  <link rel="stylesheet" href="css/kids.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="page-header"></div>
+
+    <!-- Level Select -->
+    <div id="level-select" class="card text-center" style="animation:slideUp 0.4s ease;">
+      <h2 style="font-size:1.5rem;font-weight:900;margin-bottom:16px;">Choose Level</h2>
+      <div class="difficulty-selector" style="flex-direction:column;gap:12px;">
+        <!-- Filled by JS based on student data -->
+      </div>
+    </div>
+
+    <!-- Quiz Area -->
+    <div id="quiz-area" class="hidden">
+      <!-- Progress -->
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+        <span class="score-display" id="score-display">⭐ 0</span>
+        <span id="question-counter" style="font-size:0.9rem;color:var(--gray-600);"></span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+
+      <!-- Scene -->
+      <div class="card quiz-scene mt-16">
+        <div class="emoji-display-lg" id="quiz-emoji"></div>
+        <div class="quiz-sentence mt-8">
+          <span class="korean-text" id="quiz-korean"></span>
+          <button class="tts-btn" id="quiz-tts">🔊</button>
+        </div>
+        <div class="romanization" id="quiz-rom"></div>
+        <div class="english-text hidden" id="quiz-en"></div>
+      </div>
+
+      <!-- Options -->
+      <div class="quiz-options mt-16" id="quiz-options"></div>
+
+      <!-- Next -->
+      <div class="text-center mt-16 hidden" id="next-area">
+        <button class="btn btn-primary btn-big" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+
+    <!-- Game Complete -->
+    <div id="complete-area" class="hidden">
+      <div class="card game-complete">
+        <div class="complete-stars">⭐🌟⭐</div>
+        <h2 id="complete-title">Amazing!</h2>
+        <p class="score-text" id="complete-score"></p>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <button class="btn btn-primary btn-big" onclick="restart()">Play Again</button>
+          <a href="index.html" class="btn btn-outline btn-big">Back to Games</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/kids-common.js"></script>
+  <script src="js/picture-quiz.js"></script>
+</body>
+</html>

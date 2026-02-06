@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Learning Tools - Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Korean Learning Tools</h1>
+            <p class="subtitle">Practice Korean with interactive exercises</p>
+        </div>
+
+        <div class="login-card">
+            <div class="login-icon">
+                <span class="korean-char">한</span>
+            </div>
+
+            <form id="login-form" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="student-id">Student Code</label>
+                    <input
+                        type="text"
+                        id="student-id"
+                        placeholder="Enter your Preply ID (e.g., 8672805)"
+                        autocomplete="off"
+                        required
+                    >
+                    <small class="hint">Your Preply student ID from your profile URL</small>
+                </div>
+
+                <div id="error-message" class="error-message hidden">
+                    <span class="error-icon">!</span>
+                    <span class="error-text">Invalid student code. Please check and try again.</span>
+                </div>
+
+                <button type="submit" class="login-btn" id="login-btn">
+                    <span class="btn-text">Start Learning</span>
+                    <span class="btn-loader hidden"></span>
+                </button>
+            </form>
+
+            <div class="login-footer">
+                <p>Don't know your code? Ask your teacher!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check if already logged in
+        const savedStudent = localStorage.getItem('koreanLearning_student');
+        if (savedStudent) {
+            window.location.href = 'app.html';
+        }
+
+        async function handleLogin(event) {
+            event.preventDefault();
+
+            const studentId = document.getElementById('student-id').value.trim();
+            const errorMessage = document.getElementById('error-message');
+            const loginBtn = document.getElementById('login-btn');
+            const btnText = loginBtn.querySelector('.btn-text');
+            const btnLoader = loginBtn.querySelector('.btn-loader');
+
+            // Show loading state
+            btnText.classList.add('hidden');
+            btnLoader.classList.remove('hidden');
+            loginBtn.disabled = true;
+            errorMessage.classList.add('hidden');
+
+            try {
+                // Try to fetch student data
+                const response = await fetch(`data/students/${studentId}.json`);
+
+                if (!response.ok) {
+                    throw new Error('Student not found');
+                }
+
+                const studentData = await response.json();
+
+                // Save to localStorage
+                localStorage.setItem('koreanLearning_student', JSON.stringify(studentData));
+                localStorage.setItem('koreanLearning_studentId', studentId);
+
+                // Redirect to app
+                window.location.href = 'app.html';
+
+            } catch (error) {
+                // Show error
+                errorMessage.classList.remove('hidden');
+                errorMessage.querySelector('.error-text').textContent =
+                    'Invalid student code. Please check and try again.';
+
+                // Reset button
+                btnText.classList.remove('hidden');
+                btnLoader.classList.add('hidden');
+                loginBtn.disabled = false;
+
+                // Shake animation
+                document.getElementById('student-id').classList.add('shake');
+                setTimeout(() => {
+                    document.getElementById('student-id').classList.remove('shake');
+                }, 500);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Sentence Puzzle - Korean Playground</title>
+  <link rel="stylesheet" href="css/kids.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="page-header"></div>
+
+    <!-- Quiz Area -->
+    <div id="puzzle-area">
+      <!-- Progress -->
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+        <span class="score-display" id="score-display">⭐ 0</span>
+        <span id="question-counter" style="font-size:0.9rem;color:var(--gray-600);"></span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+
+      <!-- Scene -->
+      <div class="card puzzle-scene mt-16">
+        <div class="emoji-display" id="puzzle-emoji"></div>
+        <div class="puzzle-hint mt-8">
+          <span class="english-text" id="puzzle-en"></span>
+        </div>
+      </div>
+
+      <!-- Target area (where placed blocks go) -->
+      <div class="puzzle-target mt-16" id="puzzle-target">
+        <span style="color:var(--gray-400);font-size:1rem;">Tap blocks to build the sentence!</span>
+      </div>
+
+      <!-- Blocks to choose from -->
+      <div class="puzzle-blocks mt-16" id="puzzle-blocks"></div>
+
+      <!-- Result (shown after correct answer) -->
+      <div class="card text-center mt-16 hidden" id="puzzle-result">
+        <div style="display:flex;align-items:center;justify-content:center;gap:12px;">
+          <span class="korean-text" id="result-korean"></span>
+          <button class="tts-btn" id="result-tts">🔊</button>
+        </div>
+        <div class="romanization" id="result-rom"></div>
+        <button class="btn btn-primary btn-big mt-16" onclick="nextPuzzle()">Next →</button>
+      </div>
+    </div>
+
+    <!-- Game Complete -->
+    <div id="complete-area" class="hidden">
+      <div class="card game-complete">
+        <div class="complete-stars">⭐🌟⭐</div>
+        <h2 id="complete-title">Amazing!</h2>
+        <p class="score-text" id="complete-score"></p>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <button class="btn btn-primary btn-big" onclick="restart()">Play Again</button>
+          <a href="index.html" class="btn btn-outline btn-big">Back to Games</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/kids-common.js"></script>
+  <script src="js/sentence-puzzle.js"></script>
+</body>
+</html>
