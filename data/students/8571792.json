@@ -338,9 +338,84 @@
           "en": "will meet"
         }
       }
+    },
+    {
+      "id": "give",
+      "label": "주다 (give)",
+      "objectType": "thing",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "줬어요",
+          "rom": "JWOU-SSO-YO",
+          "en": "gave"
+        },
+        "present": {
+          "kr": "줘요",
+          "rom": "JWOU-YO",
+          "en": "give"
+        },
+        "future": {
+          "kr": "줄 거예요",
+          "rom": "JUL GOU-YE-YO",
+          "en": "will give"
+        }
+      }
+    },
+    {
+      "id": "receive",
+      "label": "받다 (receive)",
+      "objectType": "thing",
+      "usesEseo": true,
+      "tenses": {
+        "past": {
+          "kr": "받았어요",
+          "rom": "BA-DA-SSO-YO",
+          "en": "received"
+        },
+        "present": {
+          "kr": "받아요",
+          "rom": "BA-DA-YO",
+          "en": "receive"
+        },
+        "future": {
+          "kr": "받을 거예요",
+          "rom": "BA-DUL GOU-YE-YO",
+          "en": "will receive"
+        }
+      }
     }
   ],
-  "customVocab": [],
+  "customVocab": [
+    {
+      "en": "Gift",
+      "pos": "Noun",
+      "kr": "선물",
+      "example": "친구에게 선물을 줬어요.",
+      "rom": "SEON-MUL"
+    },
+    {
+      "en": "Watermelon",
+      "pos": "Noun",
+      "kr": "수박",
+      "example": "수박을 사고 싶어요.",
+      "rom": "SU-BAK"
+    },
+    {
+      "en": "Snacks",
+      "pos": "Noun",
+      "kr": "과자",
+      "example": "과자를 먹었어요.",
+      "rom": "GWA-JA"
+    },
+    {
+      "en": "To someone (particle)",
+      "pos": "Particle",
+      "kr": "에게",
+      "example": "친구에게 선물을 줬어요.",
+      "rom": "E-GE"
+    }
+  ],
   "vocabularyWatchlist": [
     {
       "kr": "Where",
@@ -365,12 +440,29 @@
       "error": "-",
       "correct": "빵 (Bbang)",
       "note": "\"Do you have bread?\" drill."
+    },
+    {
+      "kr": "Friend",
+      "error": "Keeps forgetting",
+      "correct": "친구 (Chin-gu)",
+      "note": "Came up again in Lesson 7 with 에게 particle."
     }
   ],
   "lessonContext": {
-    "recentLessons": [],
-    "upcomingTopics": [],
-    "currentFocus": ""
+    "recentLessons": [
+      {
+        "lesson": 7,
+        "date": "2026-02-06",
+        "topics": "사다/주다/받다 verb trio, -고 싶어요 pattern with new verbs, 에게 particle, new vocab: 선물/수박/과자",
+        "notes": "Vocabulary recall remains main bottleneck. Micro-homework approach — max 5 min/day."
+      }
+    ],
+    "upcomingTopics": [
+      "Review 사다/주다/받다 conjugations in all tenses",
+      "에게 particle practice in context",
+      "Vocabulary recall strategies"
+    ],
+    "currentFocus": "Vocabulary retention — student struggles to recall words between lessons. Using micro-homework (5 min/day) and verb recall games."
   },
-  "generated_at": "2026-01-30T19:13:45.593591"
+  "generated_at": "2026-02-07T10:00:00.000000"
 }

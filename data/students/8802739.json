@@ -340,7 +340,48 @@
       }
     }
   ],
-  "customVocab": [],
+  "customVocab": [
+    {
+      "kr": "더워요",
+      "rom": "deo-wo-yo",
+      "en": "hot"
+    },
+    {
+      "kr": "추워요",
+      "rom": "chu-wo-yo",
+      "en": "cold"
+    },
+    {
+      "kr": "좋아요",
+      "rom": "jo-a-yo",
+      "en": "good / like"
+    },
+    {
+      "kr": "재밌어요",
+      "rom": "jae-mi-sseo-yo",
+      "en": "fun"
+    },
+    {
+      "kr": "너무",
+      "rom": "neo-mu",
+      "en": "very / too much"
+    },
+    {
+      "kr": "물",
+      "rom": "mul",
+      "en": "water"
+    },
+    {
+      "kr": "주세요",
+      "rom": "ju-se-yo",
+      "en": "please give"
+    },
+    {
+      "kr": "주어요",
+      "rom": "ju-eo-yo",
+      "en": "give"
+    }
+  ],
   "vocabularyWatchlist": [],
   "lessonContext": {
     "recentLessons": [],

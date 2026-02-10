@@ -97,23 +97,54 @@ const KidsApp = (() => {
     });
   }
 
-  /* --- TTS (Text-to-Speech) --- */
+  /* --- TTS (Text-to-Speech) with Pre-generated Audio --- */
   const ttsAvailable = 'speechSynthesis' in window;
   let ttsReady = false;
+  let audioManifest = null;
+  let audioBasePath = '';
 
   function initTTS() {
+    // Load pre-generated audio manifest
+    const id = getStudent();
+    if (id) {
+      fetch(`audio/tts/${id}/manifest.json`)
+        .then(r => r.ok ? r.json() : null)
+        .then(data => {
+          if (data) {
+            audioManifest = data;
+            audioBasePath = `audio/tts/${id}/`;
+            console.log(`Loaded ${Object.keys(data).length} pre-generated audio files`);
+          }
+        })
+        .catch(() => {});
+    }
+
     if (!ttsAvailable) {
       document.querySelectorAll('.tts-btn').forEach(b => b.classList.add('tts-unavailable'));
       return;
     }
-    // Preload voices
+    // Preload voices for fallback
     speechSynthesis.getVoices();
     speechSynthesis.onvoiceschanged = () => { ttsReady = true; };
-    // Fallback
     setTimeout(() => { ttsReady = true; }, 500);
   }
 
   function speak(text, rate = 0.8) {
+    // Try pre-generated audio first
+    if (audioManifest && audioManifest[text]) {
+      const audio = new Audio(audioBasePath + audioManifest[text]);
+      const activeBtn = document.querySelector('.tts-btn.active-tts');
+      if (activeBtn) activeBtn.classList.add('speaking');
+      audio.onended = () => {
+        if (activeBtn) activeBtn.classList.remove('speaking');
+      };
+      audio.play().catch(() => speakWebAPI(text, rate));
+      return;
+    }
+    speakWebAPI(text, rate);
+  }
+
+  function speakWebAPI(text, rate = 0.8) {
     if (!ttsAvailable) return;
     speechSynthesis.cancel();
     const utter = new SpeechSynthesisUtterance(text);
@@ -124,7 +155,6 @@ const KidsApp = (() => {
     const koVoice = voices.find(v => v.lang.startsWith('ko'));
     if (koVoice) utter.voice = koVoice;
 
-    // Animate button if exists
     const activeBtn = document.querySelector('.tts-btn.active-tts');
     if (activeBtn) activeBtn.classList.add('speaking');
     utter.onend = () => {
