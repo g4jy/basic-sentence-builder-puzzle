@@ -4,13 +4,28 @@ const KidsApp = (() => {
   const STORAGE_PREFIX = 'kidsKorean_';
 
   /* --- Student Management --- */
+  function getUrlParam(name) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(name);
+  }
+
   function getStudent() {
+    // URL param takes priority (for direct links)
+    const urlStudent = getUrlParam('student');
+    if (urlStudent && ['asa', 'leah', 'inessa'].includes(urlStudent)) {
+      localStorage.setItem(STORAGE_PREFIX + 'student', urlStudent);
+      return urlStudent;
+    }
     return localStorage.getItem(STORAGE_PREFIX + 'student') || null;
   }
 
   function setStudent(id) {
     localStorage.setItem(STORAGE_PREFIX + 'student', id);
     applyTheme(id);
+  }
+
+  function isDirectLink() {
+    return !!getUrlParam('student');
   }
 
   function applyTheme(id) {
@@ -258,8 +273,9 @@ const KidsApp = (() => {
     const header = document.querySelector('.page-header');
     if (!header) return;
     const badges = { asa: '🧒 Asa', leah: '👧 Leah', inessa: '🎤 Inessa' };
+    const backUrl = isDirectLink() ? `index.html?student=${id}` : 'index.html';
     header.innerHTML = `
-      <a href="index.html" class="back-btn">← Back</a>
+      <a href="${backUrl}" class="back-btn">← Back</a>
       <span class="page-title">${title}</span>
       <span class="student-badge">${badges[id] || id}</span>
     `;
@@ -280,7 +296,7 @@ const KidsApp = (() => {
   }
 
   return {
-    getStudent, setStudent, requireStudent, applyTheme,
+    getStudent, setStudent, requireStudent, applyTheme, isDirectLink,
     loadStudentData,
     getProgress, saveProgress, getBestScore, saveBestScore,
     getSettings, saveSettings, applyRomanization,

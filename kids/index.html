@@ -94,25 +94,46 @@
 
   <script src="js/kids-common.js"></script>
   <script>
+    const isDirect = KidsApp.isDirectLink();
     const currentStudent = KidsApp.getStudent();
-    if (currentStudent) {
-      showGameMenu(currentStudent);
+
+    // Direct link mode: hide student selection, go straight to games
+    if (isDirect && currentStudent) {
+      document.getElementById('student-select').style.display = 'none';
+      document.querySelector('.hub-hero p').textContent =
+        { asa: '🧒 Asa', leah: '👧 Leah', inessa: '🎤 Inessa' }[currentStudent] || '';
+      showGameMenu(currentStudent, true);
+    } else if (currentStudent) {
+      showGameMenu(currentStudent, false);
     }
 
     function selectStudent(id) {
       KidsApp.setStudent(id);
-      showGameMenu(id);
-      // Highlight selected card
+      showGameMenu(id, false);
       document.querySelectorAll('.student-card').forEach(c => c.classList.remove('active'));
       document.querySelector(`[data-student="${id}"]`).classList.add('active');
     }
 
-    function showGameMenu(id) {
+    function showGameMenu(id, hideSwitch) {
       document.getElementById('game-menu').classList.remove('hidden');
       document.querySelectorAll('.student-card').forEach(c => c.classList.remove('active'));
       const card = document.querySelector(`[data-student="${id}"]`);
       if (card) card.classList.add('active');
-      // Load settings
+
+      // Hide switch button in direct link mode
+      const switchBtn = document.querySelector('#game-menu .btn-ghost');
+      if (switchBtn && hideSwitch) switchBtn.style.display = 'none';
+
+      // Propagate student param to game links
+      if (isDirect) {
+        document.querySelectorAll('.game-card').forEach(a => {
+          const href = a.getAttribute('href');
+          if (href && !href.includes('?')) {
+            a.setAttribute('href', href + '?student=' + id);
+          }
+        });
+      }
+
       const s = KidsApp.getSettings();
       document.getElementById('rom-toggle').checked = s.showRomanization;
     }
