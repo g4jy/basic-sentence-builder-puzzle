@@ -1,15 +1,20 @@
-/* === Kids Korean Playground - Design System v2.0 === */
+/* === Kids Korean Playground - Design System v3.0 === */
+/* Total visual overhaul — vibrant, playful, animated */
 
 @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Fredoka:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;700;900&display=swap');
 
 :root {
   /* Asa theme (default): Blue + Purple */
   --primary: #60A5FA;
+  --primary-dark: #3B82F6;
   --primary-light: #A78BFA;
   --primary-rgb: 96, 165, 250;
   --secondary-rgb: 167, 139, 250;
-  --bg-tint: #EFF6FF;
-  --shadow-glow: 0 0 24px rgba(96, 165, 250, 0.3);
+  --bg-start: #E0F0FF;
+  --bg-end: #F0E6FF;
+  --hero-gradient: linear-gradient(135deg, #60A5FA 0%, #A78BFA 50%, #C084FC 100%);
+  --shadow-glow: 0 0 30px rgba(96, 165, 250, 0.4);
+  --card-shine: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.6) 100%);
 
   /* Category Colors */
   --cat-food: #FB923C;
@@ -31,7 +36,7 @@
   --accent: #FFE66D;
   --star: #FFD700;
   --white: #FFFFFF;
-  --text: #2D3436;
+  --text: #1E293B;
   --text-light: #64748B;
   --gray-50: #FAFAFA;
   --gray-100: #F1F5F9;
@@ -42,16 +47,19 @@
 
   /* Shadows */
   --shadow: 0 4px 20px rgba(0,0,0,0.08);
-  --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+  --shadow-hover: 0 12px 40px rgba(0,0,0,0.15);
   --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.14);
+  --shadow-md: 0 6px 24px rgba(0,0,0,0.1);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.16);
+  --shadow-card: 0 8px 32px rgba(0,0,0,0.1), 0 2px 8px rgba(0,0,0,0.06);
 
   /* Spacing */
   --radius: 16px;
   --radius-lg: 24px;
+  --radius-xl: 32px;
   --radius-pill: 999px;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 /* === Reset & Base === */
@@ -59,63 +67,75 @@
 
 body {
   font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: var(--bg-tint);
+  background: linear-gradient(160deg, var(--bg-start) 0%, var(--bg-end) 100%);
+  background-attachment: fixed;
   color: var(--text);
   min-height: 100vh;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Ambient background blobs */
+/* Animated floating blobs */
 body::before {
   content: '';
   position: fixed;
-  top: -40%;
-  right: -15%;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(var(--primary-rgb), 0.1) 0%, transparent 70%);
+  top: -20%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(var(--primary-rgb), 0.15) 0%, transparent 70%);
   border-radius: 50%;
   z-index: 0;
   pointer-events: none;
+  animation: floatBlob 20s ease-in-out infinite;
 }
 body::after {
   content: '';
   position: fixed;
-  bottom: -25%;
+  bottom: -15%;
   left: -10%;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, rgba(var(--secondary-rgb), 0.08) 0%, transparent 70%);
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(var(--secondary-rgb), 0.12) 0%, transparent 70%);
   border-radius: 50%;
   z-index: 0;
   pointer-events: none;
+  animation: floatBlob 25s ease-in-out infinite reverse;
 }
 
 /* === Theme Classes === */
 body.theme-asa {
   --primary: #60A5FA;
+  --primary-dark: #3B82F6;
   --primary-light: #A78BFA;
   --primary-rgb: 96, 165, 250;
   --secondary-rgb: 167, 139, 250;
-  --bg-tint: #EFF6FF;
-  --shadow-glow: 0 0 24px rgba(96, 165, 250, 0.3);
+  --bg-start: #DBEAFE;
+  --bg-end: #EDE9FE;
+  --hero-gradient: linear-gradient(135deg, #60A5FA 0%, #818CF8 50%, #A78BFA 100%);
+  --shadow-glow: 0 0 30px rgba(96, 165, 250, 0.4);
 }
 body.theme-leah {
   --primary: #F472B6;
+  --primary-dark: #EC4899;
   --primary-light: #374151;
   --primary-rgb: 244, 114, 182;
   --secondary-rgb: 55, 65, 81;
-  --bg-tint: #FFF1F2;
-  --shadow-glow: 0 0 24px rgba(244, 114, 182, 0.3);
+  --bg-start: #FCE7F3;
+  --bg-end: #FFF1F2;
+  --hero-gradient: linear-gradient(135deg, #F472B6 0%, #FB7185 50%, #FDA4AF 100%);
+  --shadow-glow: 0 0 30px rgba(244, 114, 182, 0.4);
 }
 body.theme-inessa {
   --primary: #E040FB;
+  --primary-dark: #C026D3;
   --primary-light: #F0ABFC;
   --primary-rgb: 224, 64, 251;
   --secondary-rgb: 240, 171, 252;
-  --bg-tint: #FDF4FF;
-  --shadow-glow: 0 0 24px rgba(224, 64, 251, 0.3);
+  --bg-start: #FAE8FF;
+  --bg-end: #FDF4FF;
+  --hero-gradient: linear-gradient(135deg, #E040FB 0%, #C084FC 50%, #A78BFA 100%);
+  --shadow-glow: 0 0 30px rgba(224, 64, 251, 0.4);
 }
 
 /* === Typography === */
@@ -175,8 +195,9 @@ body.theme-inessa {
   display: flex;
   align-items: center;
   gap: 6px;
-  background: var(--white);
-  border: 2px solid var(--gray-200);
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.5);
   border-radius: var(--radius-pill);
   padding: 8px 16px;
   font-family: 'Fredoka', sans-serif;
@@ -188,17 +209,17 @@ body.theme-inessa {
   transition: var(--transition);
   text-decoration: none;
 }
-.back-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--primary); }
+.back-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--primary); color: var(--primary); }
 .page-title {
   font-family: 'Fredoka', sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--primary);
+  color: var(--primary-dark);
 }
 .student-badge {
-  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  background: var(--hero-gradient);
   color: white;
-  padding: 6px 14px;
+  padding: 6px 16px;
   border-radius: var(--radius-pill);
   font-family: 'Fredoka', sans-serif;
   font-size: 0.9rem;
@@ -206,14 +227,15 @@ body.theme-inessa {
   box-shadow: var(--shadow-sm);
 }
 
-/* === Cards === */
+/* === Glass Cards === */
 .card {
-  background: var(--white);
-  border-radius: var(--radius-lg);
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-xl);
   padding: 24px;
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-card);
   transition: var(--transition);
-  border: 2px solid transparent;
+  border: 1.5px solid rgba(255,255,255,0.6);
 }
 .card:hover { box-shadow: var(--shadow-lg); }
 .card-glow {
@@ -228,22 +250,24 @@ body.theme-inessa {
   justify-content: center;
   gap: 8px;
   border: none;
-  border-radius: var(--radius);
+  border-radius: var(--radius-lg);
   padding: 14px 24px;
   font-family: 'Fredoka', sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: var(--transition);
+  transition: var(--transition-bounce);
   -webkit-user-select: none;
   user-select: none;
   min-height: 52px;
   min-width: 52px;
+  position: relative;
+  overflow: hidden;
 }
-.btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
-.btn:active { transform: scale(0.96); }
+.btn:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.btn:active { transform: scale(0.95); }
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  background: var(--hero-gradient);
   color: var(--white);
 }
 .btn-primary:hover { box-shadow: var(--shadow-glow); }
@@ -252,8 +276,9 @@ body.theme-inessa {
   color: var(--white);
 }
 .btn-outline {
-  background: var(--white);
-  color: var(--primary);
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  color: var(--primary-dark);
   border: 2.5px solid var(--primary);
 }
 .btn-outline:hover { background: var(--primary); color: white; }
@@ -266,7 +291,7 @@ body.theme-inessa {
 .btn-big {
   padding: 18px 32px;
   font-size: 1.3rem;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-xl);
   min-height: 64px;
 }
 .btn-round {
@@ -283,37 +308,54 @@ body.theme-inessa {
 
 /* === TTS Speaker Button === */
 .tts-btn {
-  background: var(--gray-100);
-  border: 2px solid var(--gray-200);
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(var(--primary-rgb), 0.3);
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   font-size: 1.3rem;
   cursor: pointer;
-  transition: var(--transition);
+  transition: var(--transition-bounce);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
-.tts-btn:hover { background: var(--primary); border-color: var(--primary); transform: scale(1.1); }
+.tts-btn:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  transform: scale(1.15);
+  box-shadow: var(--shadow-glow);
+}
 .tts-btn.speaking { animation: pulse 0.8s ease infinite; }
 .tts-btn.tts-unavailable { display: none; }
 
 /* === Progress Bar === */
 .progress-bar {
   width: 100%;
-  height: 12px;
-  background: var(--gray-200);
+  height: 14px;
+  background: rgba(0,0,0,0.06);
   border-radius: var(--radius-pill);
   overflow: hidden;
   margin: 8px 0;
 }
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, var(--primary), var(--primary-light));
+  background: var(--hero-gradient);
   border-radius: var(--radius-pill);
   transition: width 0.5s ease;
+  position: relative;
+}
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
+  animation: shimmer 2s infinite;
 }
 
 /* === Score Display === */
@@ -368,29 +410,77 @@ body.theme-inessa {
 .toggle-switch input:checked + .toggle-slider { background: var(--primary); }
 .toggle-switch input:checked + .toggle-slider::before { transform: translateX(24px); }
 
-/* === Hub Page === */
+/* ================================================================
+   HUB PAGE — Complete redesign
+   ================================================================ */
+
 .hub-hero {
   text-align: center;
-  padding: 28px 16px 8px;
+  padding: 32px 16px 16px;
   animation: fadeDown 0.6s ease;
+  position: relative;
 }
 .hub-hero h1 {
   font-family: 'Gaegu', cursive;
-  font-size: 2.6rem;
+  font-size: 3.2rem;
   font-weight: 700;
-  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  background: var(--hero-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+  letter-spacing: -1px;
 }
 .hub-hero p {
   font-family: 'Fredoka', sans-serif;
-  color: var(--text-light);
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 1.15rem;
+  font-weight: 600;
   margin-top: 4px;
 }
+/* Decorative floating elements around hero */
+.hub-hero .deco {
+  position: absolute;
+  font-size: 1.8rem;
+  opacity: 0.6;
+  pointer-events: none;
+  animation: floatDeco 4s ease-in-out infinite;
+}
+.hub-hero .deco-1 { top: 10px; left: 8%; animation-delay: 0s; }
+.hub-hero .deco-2 { top: 20px; right: 8%; animation-delay: 1s; }
+.hub-hero .deco-3 { bottom: 5px; left: 15%; animation-delay: 2s; }
+.hub-hero .deco-4 { bottom: 10px; right: 15%; animation-delay: 0.5s; }
 
+/* Welcome banner for direct link mode */
+.welcome-banner {
+  background: var(--hero-gradient);
+  color: white;
+  border-radius: var(--radius-xl);
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: var(--shadow-md);
+  animation: fadeUp 0.5s ease 0.1s both;
+}
+.welcome-emoji {
+  font-size: 3rem;
+  animation: bounce 2s ease infinite;
+  flex-shrink: 0;
+}
+.welcome-text h2 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.welcome-text p {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-top: 2px;
+}
+
+/* Student Selection Cards */
 .student-select {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -399,81 +489,147 @@ body.theme-inessa {
   animation: fadeUp 0.5s ease 0.1s both;
 }
 .student-card {
-  background: var(--white);
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(12px);
   border: 3px solid transparent;
-  border-radius: var(--radius-lg);
-  padding: 20px 12px;
+  border-radius: var(--radius-xl);
+  padding: 24px 12px;
   text-align: center;
   cursor: pointer;
-  transition: var(--transition);
-  box-shadow: var(--shadow-md);
+  transition: var(--transition-bounce);
+  box-shadow: var(--shadow-card);
+  position: relative;
+  overflow: hidden;
 }
+.student-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.student-card[data-student="asa"]::before { background: linear-gradient(90deg, #60A5FA, #A78BFA); }
+.student-card[data-student="leah"]::before { background: linear-gradient(90deg, #F472B6, #FB7185); }
+.student-card[data-student="inessa"]::before { background: linear-gradient(90deg, #E040FB, #C084FC); }
 .student-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px) scale(1.02);
   box-shadow: var(--shadow-lg);
 }
+.student-card:hover::before { opacity: 1; }
 .student-card.active {
   border-color: var(--primary);
   box-shadow: var(--shadow-glow);
 }
-.student-card .student-emoji { font-size: 3rem; display: block; margin-bottom: 6px; }
+.student-card.active::before { opacity: 1; height: 5px; }
+.student-card .student-emoji {
+  font-size: 3.5rem;
+  display: block;
+  margin-bottom: 8px;
+  transition: transform 0.3s ease;
+}
+.student-card:hover .student-emoji { transform: scale(1.15); }
 .student-card .student-name {
   font-family: 'Fredoka', sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
+  color: var(--text);
 }
 .student-card .student-name-kr {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 0.9rem;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.1rem;
   color: var(--text-light);
   font-weight: 700;
+  margin-top: 2px;
 }
+
+/* ================================================================
+   GAME GRID — Dramatic card design
+   ================================================================ */
 
 .game-grid {
   display: grid;
-  gap: 12px;
-  margin: 12px 0;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 16px 0;
 }
 .game-card {
-  background: var(--white);
-  border: 2px solid var(--gray-200);
-  border-radius: var(--radius-lg);
-  padding: 18px;
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: var(--radius-xl);
+  padding: 24px 16px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 14px;
+  text-align: center;
+  gap: 12px;
   cursor: pointer;
-  transition: var(--transition);
-  box-shadow: var(--shadow-sm);
+  transition: var(--transition-bounce);
+  box-shadow: var(--shadow-card);
   text-decoration: none;
   color: inherit;
+  position: relative;
+  overflow: hidden;
+  min-height: 170px;
 }
+/* Gradient accent stripe at top */
+.game-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  opacity: 0.8;
+}
+.game-card:nth-child(1)::before { background: linear-gradient(90deg, #34D399, #6EE7B7); }
+.game-card:nth-child(2)::before { background: linear-gradient(90deg, #FB923C, #FDBA74); }
+.game-card:nth-child(3)::before { background: linear-gradient(90deg, #818CF8, #A78BFA); }
+.game-card:nth-child(4)::before { background: linear-gradient(90deg, #F472B6, #FDA4AF); }
+
 .game-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--primary);
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(var(--primary-rgb), 0.3);
 }
+.game-card:active { transform: scale(0.97); }
+
 .game-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: var(--radius);
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   flex-shrink: 0;
+  transition: transform 0.3s ease;
 }
+.game-card:hover .game-icon { transform: scale(1.15) rotate(-5deg); }
+
 .game-info h3 {
   font-family: 'Fredoka', sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
+  color: var(--text);
 }
 .game-info p {
   font-family: 'Fredoka', sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   color: var(--text-light);
   margin-top: 2px;
+  line-height: 1.3;
 }
+
+/* Staggered entry animations */
+.game-card:nth-child(1) { animation: cardPop 0.5s ease 0.15s both; }
+.game-card:nth-child(2) { animation: cardPop 0.5s ease 0.25s both; }
+.game-card:nth-child(3) { animation: cardPop 0.5s ease 0.35s both; }
+.game-card:nth-child(4) { animation: cardPop 0.5s ease 0.45s both; }
 
 /* === Picture Quiz === */
 .quiz-scene {
@@ -495,13 +651,14 @@ body.theme-inessa {
   margin: 20px 0;
 }
 .quiz-option {
-  background: var(--white);
-  border: 3px solid var(--gray-200);
-  border-radius: var(--radius-lg);
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  border: 3px solid rgba(var(--primary-rgb), 0.15);
+  border-radius: var(--radius-xl);
   padding: 18px 12px;
   text-align: center;
   cursor: pointer;
-  transition: var(--transition);
+  transition: var(--transition-bounce);
   font-size: 2.8rem;
   min-height: 100px;
   display: flex;
@@ -510,8 +667,8 @@ body.theme-inessa {
 }
 .quiz-option:hover {
   border-color: var(--primary);
-  transform: scale(1.05);
-  box-shadow: var(--shadow);
+  transform: scale(1.08);
+  box-shadow: var(--shadow-glow);
 }
 .quiz-option.correct {
   border-color: var(--success);
@@ -538,8 +695,8 @@ body.theme-inessa {
 }
 .puzzle-target {
   min-height: 80px;
-  border: 3px dashed var(--gray-400);
-  border-radius: var(--radius-lg);
+  border: 3px dashed rgba(var(--primary-rgb), 0.4);
+  border-radius: var(--radius-xl);
   padding: 16px;
   margin: 16px 0;
   display: flex;
@@ -548,10 +705,11 @@ body.theme-inessa {
   gap: 8px;
   flex-wrap: wrap;
   transition: var(--transition);
+  background: rgba(255,255,255,0.4);
 }
 .puzzle-target.has-blocks {
   border-color: var(--primary);
-  background: rgba(var(--primary-rgb), 0.04);
+  background: rgba(var(--primary-rgb), 0.06);
 }
 .puzzle-target.complete {
   border-color: var(--success);
@@ -566,20 +724,21 @@ body.theme-inessa {
   margin: 20px 0;
 }
 .puzzle-block {
-  background: var(--white);
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(8px);
   border: 3px solid var(--primary);
-  border-radius: var(--radius);
+  border-radius: var(--radius-lg);
   padding: 14px 20px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   cursor: pointer;
-  transition: var(--transition);
+  transition: var(--transition-bounce);
   box-shadow: var(--shadow-sm);
   user-select: none;
 }
 .puzzle-block:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px) scale(1.05);
   box-shadow: var(--shadow-md);
   background: var(--primary);
   color: white;
@@ -591,9 +750,9 @@ body.theme-inessa {
   transform: scale(0.9);
 }
 .placed-block {
-  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  background: var(--hero-gradient);
   color: white;
-  border-radius: var(--radius);
+  border-radius: var(--radius-lg);
   padding: 12px 18px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.4rem;
@@ -638,7 +797,7 @@ body.theme-inessa {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  border-radius: var(--radius);
+  border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -647,15 +806,16 @@ body.theme-inessa {
   overflow: hidden;
 }
 .memory-card-back {
-  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  background: var(--hero-gradient);
   color: white;
   font-size: 2rem;
   box-shadow: var(--shadow-sm);
 }
 .memory-card-front {
   transform: rotateY(180deg);
-  background: var(--white);
-  border: 3px solid var(--gray-200);
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(8px);
+  border: 3px solid rgba(var(--primary-rgb), 0.15);
   box-shadow: var(--shadow-sm);
 }
 .memory-card-front.card-emoji {
@@ -686,8 +846,9 @@ body.theme-inessa {
   -webkit-overflow-scrolling: touch;
 }
 .category-tab {
-  background: var(--white);
-  border: 2px solid var(--gray-200);
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255,255,255,0.5);
   border-radius: var(--radius-pill);
   padding: 8px 16px;
   font-family: 'Fredoka', sans-serif;
@@ -695,13 +856,15 @@ body.theme-inessa {
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
-  transition: var(--transition);
+  transition: var(--transition-bounce);
+  box-shadow: var(--shadow-sm);
 }
-.category-tab:hover { border-color: var(--primary); }
+.category-tab:hover { border-color: var(--primary); transform: translateY(-2px); }
 .category-tab.active {
-  background: var(--primary);
+  background: var(--hero-gradient);
   color: white;
-  border-color: var(--primary);
+  border-color: transparent;
+  box-shadow: var(--shadow-glow);
 }
 
 /* === Celebration Overlay === */
@@ -712,8 +875,8 @@ body.theme-inessa {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0,0,0,0.3);
-  backdrop-filter: blur(4px);
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(8px);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
@@ -723,9 +886,10 @@ body.theme-inessa {
   pointer-events: auto;
 }
 .celebration-content {
-  background: var(--white);
-  border-radius: var(--radius-lg);
-  padding: 40px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-xl);
+  padding: 48px 40px;
   text-align: center;
   box-shadow: var(--shadow-lg);
   animation: popIn 0.5s ease;
@@ -733,22 +897,26 @@ body.theme-inessa {
   border: 3px solid var(--primary);
 }
 .celebration-content .celebration-emoji {
-  font-size: 4.5rem;
+  font-size: 5rem;
   display: block;
   margin-bottom: 16px;
   animation: bounce 1s ease infinite;
 }
 .celebration-content h2 {
   font-family: 'Gaegu', cursive;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  color: var(--primary);
+  background: var(--hero-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin-bottom: 8px;
 }
 .celebration-content p {
   font-family: 'Fredoka', sans-serif;
   color: var(--text-light);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  font-size: 1.05rem;
 }
 
 /* Star particles */
@@ -768,21 +936,23 @@ body.theme-inessa {
   margin: 12px 0;
 }
 .difficulty-btn {
-  background: var(--white);
-  border: 2px solid var(--gray-200);
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255,255,255,0.5);
   border-radius: var(--radius-pill);
   padding: 8px 20px;
   font-family: 'Fredoka', sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   cursor: pointer;
-  transition: var(--transition);
+  transition: var(--transition-bounce);
+  box-shadow: var(--shadow-sm);
 }
-.difficulty-btn:hover { border-color: var(--primary); }
+.difficulty-btn:hover { border-color: var(--primary); transform: translateY(-2px); }
 .difficulty-btn.active {
-  background: var(--primary);
+  background: var(--hero-gradient);
   color: white;
-  border-color: var(--primary);
+  border-color: transparent;
 }
 
 /* === Game Complete Screen === */
@@ -791,15 +961,18 @@ body.theme-inessa {
   padding: 40px 20px;
 }
 .game-complete .complete-stars {
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin-bottom: 16px;
   animation: bounce 2s ease infinite;
 }
 .game-complete h2 {
   font-family: 'Gaegu', cursive;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  color: var(--primary);
+  background: var(--hero-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .game-complete .score-text {
   font-family: 'Fredoka', sans-serif;
@@ -809,22 +982,42 @@ body.theme-inessa {
 }
 
 /* === Word Explorer specific === */
+.explorer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 16px 0;
+}
 .explorer-card {
-  background: var(--white);
-  border: 2px solid var(--gray-200);
-  border-radius: var(--radius-lg);
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: var(--radius-xl);
   padding: 24px 16px;
   text-align: center;
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition);
+  box-shadow: var(--shadow-card);
+  transition: var(--transition-bounce);
   cursor: pointer;
-  animation: slideUp 0.4s ease;
+  animation: cardPop 0.5s ease backwards;
+  position: relative;
+  overflow: hidden;
+}
+.explorer-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--hero-gradient);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 .explorer-card:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-3px);
-  border-color: var(--primary);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-5px) scale(1.02);
 }
+.explorer-card:hover::before { opacity: 1; }
 .explorer-card h3 {
   font-family: 'Fredoka', sans-serif;
 }
@@ -838,22 +1031,23 @@ body.theme-inessa {
   margin: 16px 0;
 }
 .word-item {
-  background: var(--white);
-  border: 2px solid var(--gray-200);
-  border-radius: var(--radius);
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: var(--radius-lg);
   padding: 14px;
   display: flex;
   align-items: center;
   gap: 12px;
   box-shadow: var(--shadow-sm);
   cursor: pointer;
-  transition: var(--transition);
+  transition: var(--transition-bounce);
   animation: slideUp 0.3s ease backwards;
 }
 .word-item:hover {
   box-shadow: var(--shadow-md);
-  transform: translateY(-1px);
-  border-color: var(--primary);
+  transform: translateY(-2px);
+  border-color: rgba(var(--primary-rgb), 0.3);
 }
 .word-item .word-emoji { font-size: 2rem; flex-shrink: 0; width: 44px; text-align: center; }
 .word-item .word-kr {
@@ -878,11 +1072,11 @@ body.theme-inessa {
   perspective: 1000px;
   max-width: 420px;
   margin: 0 auto;
-  min-height: 300px;
+  min-height: 320px;
 }
 .flash-inner {
   width: 100%;
-  min-height: 300px;
+  min-height: 320px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
@@ -892,22 +1086,23 @@ body.theme-inessa {
 .flash-face {
   position: absolute;
   width: 100%;
-  min-height: 300px;
+  min-height: 320px;
   backface-visibility: hidden;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-xl);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 24px;
-  box-shadow: var(--shadow-md);
+  padding: 28px;
+  box-shadow: var(--shadow-card);
 }
 .flash-front {
-  background: var(--white);
-  border: 3px solid var(--gray-200);
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(12px);
+  border: 3px solid rgba(var(--primary-rgb), 0.15);
 }
 .flash-back {
-  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  background: var(--hero-gradient);
   color: white;
   transform: rotateY(180deg);
 }
@@ -921,18 +1116,19 @@ body.theme-inessa {
 
 /* Combo/sentence cards in word explorer */
 .combo-card {
-  background: var(--white);
-  border: 2px solid var(--gray-200);
-  border-radius: var(--radius-lg);
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: var(--radius-xl);
   padding: 18px;
   margin: 10px 0;
   box-shadow: var(--shadow-sm);
   text-align: center;
-  transition: var(--transition);
+  transition: var(--transition-bounce);
   cursor: pointer;
   animation: slideUp 0.3s ease backwards;
 }
-.combo-card:hover { box-shadow: var(--shadow-md); border-color: var(--primary); }
+.combo-card:hover { box-shadow: var(--shadow-md); border-color: rgba(var(--primary-rgb), 0.3); }
 .combo-parts {
   display: flex;
   align-items: center;
@@ -942,19 +1138,31 @@ body.theme-inessa {
   flex-wrap: wrap;
 }
 .combo-part {
-  background: rgba(var(--primary-rgb), 0.08);
+  background: rgba(var(--primary-rgb), 0.1);
   border: 2px solid var(--primary);
   border-radius: var(--radius);
   padding: 4px 10px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--primary);
+  color: var(--primary-dark);
 }
 .combo-arrow {
   color: var(--primary);
   font-family: 'Fredoka', sans-serif;
   font-weight: 600;
+}
+
+/* === Settings card on hub === */
+.settings-card {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-xl);
+  padding: 16px 20px;
+  margin-top: 16px;
+  border: 1.5px solid rgba(255,255,255,0.5);
+  box-shadow: var(--shadow-sm);
+  animation: fadeUp 0.5s ease 0.6s both;
 }
 
 /* === Utility === */
@@ -982,6 +1190,11 @@ body.theme-inessa {
   70% { transform: scale(1.08); }
   100% { transform: scale(1); opacity: 1; }
 }
+@keyframes cardPop {
+  0% { transform: scale(0.8) translateY(20px); opacity: 0; }
+  60% { transform: scale(1.04) translateY(-4px); }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
   20% { transform: translateX(-8px); }
@@ -1000,7 +1213,7 @@ body.theme-inessa {
 }
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
+  50% { transform: translateY(-10px); }
 }
 @keyframes starFall {
   0% { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); }
@@ -1014,10 +1227,31 @@ body.theme-inessa {
   0%, 100% { opacity: 0.3; transform: scale(0.8); }
   50% { opacity: 1; transform: scale(1.2); }
 }
+@keyframes floatBlob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(30px, -20px) scale(1.05); }
+  50% { transform: translate(-10px, 20px) scale(0.95); }
+  75% { transform: translate(-20px, -10px) scale(1.03); }
+}
+@keyframes floatDeco {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-10px) rotate(5deg); }
+  50% { transform: translateY(-5px) rotate(-3deg); }
+  75% { transform: translateY(-12px) rotate(3deg); }
+}
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
 
 /* === Responsive === */
 @media (max-width: 480px) {
-  .hub-hero h1 { font-size: 2rem; }
+  .hub-hero h1 { font-size: 2.4rem; }
+  .game-grid { gap: 10px; }
+  .game-card { padding: 18px 12px; min-height: 150px; }
+  .game-icon { width: 56px; height: 56px; font-size: 2rem; }
+  .game-info h3 { font-size: 0.95rem; }
+  .game-info p { font-size: 0.72rem; }
   .korean-text { font-size: 2rem; }
   .korean-text-lg { font-size: 2.4rem; }
   .emoji-display { font-size: 3rem; }
@@ -1026,8 +1260,8 @@ body.theme-inessa {
   .quiz-option { padding: 14px 8px; font-size: 2.2rem; min-height: 80px; }
   .puzzle-block { padding: 10px 14px; font-size: 1.2rem; }
   .placed-block { padding: 8px 12px; font-size: 1.1rem; }
-  .student-card { padding: 14px 8px; }
-  .student-card .student-emoji { font-size: 2.4rem; }
+  .student-card { padding: 16px 8px; }
+  .student-card .student-emoji { font-size: 2.8rem; }
   .student-card .student-name { font-size: 1rem; }
   .btn-big { padding: 14px 22px; font-size: 1.1rem; }
   .page-wrapper { padding: 12px; }
@@ -1035,10 +1269,15 @@ body.theme-inessa {
   .back-btn { padding: 6px 12px; font-size: 0.85rem; }
   .page-title { font-size: 1.1rem; }
   .memory-card-front.card-text { font-size: 0.85rem; }
-  .flash-container { min-height: 260px; }
-  .flash-face { min-height: 260px; padding: 16px; }
-  body::before { width: 400px; height: 400px; }
-  body::after { width: 350px; height: 350px; }
+  .flash-container { min-height: 280px; }
+  .flash-face { min-height: 280px; padding: 16px; }
+  body::before { width: 350px; height: 350px; }
+  body::after { width: 300px; height: 300px; }
+  .explorer-grid { gap: 10px; }
+  .explorer-card { padding: 18px 12px; }
+  .welcome-banner { padding: 16px; gap: 12px; }
+  .welcome-emoji { font-size: 2.4rem; }
+  .welcome-text h2 { font-size: 1.1rem; }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {

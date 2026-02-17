@@ -14,39 +14,52 @@
 
     <!-- Hero -->
     <div class="hub-hero">
+      <span class="deco deco-1">&#11088;</span>
+      <span class="deco deco-2">&#10024;</span>
+      <span class="deco deco-3">&#127752;</span>
+      <span class="deco deco-4">&#127775;</span>
       <h1>Korean Playground</h1>
-      <p>Choose your name to start!</p>
+      <p id="hero-subtitle">Choose your name to start!</p>
+    </div>
+
+    <!-- Welcome Banner (shown in direct link mode) -->
+    <div id="welcome-banner" class="welcome-banner hidden">
+      <span class="welcome-emoji" id="welcome-emoji"></span>
+      <div class="welcome-text">
+        <h2 id="welcome-name"></h2>
+        <p>Let's learn Korean today!</p>
+      </div>
     </div>
 
     <!-- Student Selection -->
     <div class="student-select" id="student-select">
       <div class="student-card" data-student="asa" onclick="selectStudent('asa')">
-        <span class="student-emoji">🧒</span>
+        <span class="student-emoji">&#129490;</span>
         <div class="student-name">Asa</div>
-        <div class="student-name-kr">에이사</div>
+        <div class="student-name-kr">&#50640;&#51060;&#49324;</div>
       </div>
       <div class="student-card" data-student="leah" onclick="selectStudent('leah')">
-        <span class="student-emoji">👧</span>
+        <span class="student-emoji">&#128103;</span>
         <div class="student-name">Leah</div>
-        <div class="student-name-kr">리아</div>
+        <div class="student-name-kr">&#47532;&#50500;</div>
       </div>
       <div class="student-card" data-student="inessa" onclick="selectStudent('inessa')">
-        <span class="student-emoji">🎤</span>
+        <span class="student-emoji">&#127908;</span>
         <div class="student-name">Inessa</div>
-        <div class="student-name-kr">이네사</div>
+        <div class="student-name-kr">&#51060;&#45348;&#49324;</div>
       </div>
     </div>
 
     <!-- Game Menu (shown after student selection) -->
     <div id="game-menu" class="hidden">
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
-        <h2 style="font-size:1.3rem;font-weight:900;">Pick a Game!</h2>
-        <button class="btn btn-ghost" onclick="changeStudent()" style="font-size:0.9rem;">Switch</button>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;">
+        <h2 style="font-family:'Fredoka',sans-serif;font-size:1.4rem;font-weight:700;color:var(--text);">Pick a Game!</h2>
+        <button class="btn btn-ghost" id="switch-btn" onclick="changeStudent()" style="font-size:0.9rem;">Switch</button>
       </div>
 
       <div class="game-grid">
         <a href="picture-quiz.html" class="game-card">
-          <div class="game-icon" style="background:#DFFFF8;">🖼️</div>
+          <div class="game-icon" style="background:linear-gradient(135deg,#D1FAE5,#A7F3D0);">&#128444;&#65039;</div>
           <div class="game-info">
             <h3>Picture Quiz</h3>
             <p>Match sentences with pictures!</p>
@@ -54,7 +67,7 @@
         </a>
 
         <a href="sentence-puzzle.html" class="game-card">
-          <div class="game-icon" style="background:#FFF3E0;">🧩</div>
+          <div class="game-icon" style="background:linear-gradient(135deg,#FFF3E0,#FED7AA);">&#129513;</div>
           <div class="game-info">
             <h3>Sentence Puzzle</h3>
             <p>Build Korean sentences!</p>
@@ -62,7 +75,7 @@
         </a>
 
         <a href="memory-match.html" class="game-card">
-          <div class="game-icon" style="background:#E8EAF6;">🃏</div>
+          <div class="game-icon" style="background:linear-gradient(135deg,#EDE9FE,#C4B5FD);">&#127183;</div>
           <div class="game-info">
             <h3>Memory Match</h3>
             <p>Find the matching pairs!</p>
@@ -70,7 +83,7 @@
         </a>
 
         <a href="word-explorer.html" class="game-card">
-          <div class="game-icon" style="background:#FCE4EC;">📚</div>
+          <div class="game-icon" style="background:linear-gradient(135deg,#FCE7F3,#FBCFE8);">&#128218;</div>
           <div class="game-info">
             <h3>Word Explorer</h3>
             <p>Learn new words & pictures!</p>
@@ -79,7 +92,7 @@
       </div>
 
       <!-- Settings -->
-      <div class="card mt-24" style="padding:16px 20px;">
+      <div class="settings-card">
         <div class="toggle-row">
           <span class="toggle-label">Show Romanization (abc)</span>
           <label class="toggle-switch">
@@ -96,12 +109,21 @@
   <script>
     const isDirect = KidsApp.isDirectLink();
     const currentStudent = KidsApp.getStudent();
+    const studentMeta = {
+      asa:    { emoji: '\u{1F9D2}', name: 'Asa',    nameKr: '\uC5D0\uC774\uC0AC' },
+      leah:   { emoji: '\u{1F467}', name: 'Leah',   nameKr: '\uB9AC\uC544' },
+      inessa: { emoji: '\u{1F3A4}', name: 'Inessa', nameKr: '\uC774\uB124\uC0AC' }
+    };
 
-    // Direct link mode: hide student selection, go straight to games
+    // Direct link mode: show welcome banner, hide student selection
     if (isDirect && currentStudent) {
+      const meta = studentMeta[currentStudent];
       document.getElementById('student-select').style.display = 'none';
-      document.querySelector('.hub-hero p').textContent =
-        { asa: '🧒 Asa', leah: '👧 Leah', inessa: '🎤 Inessa' }[currentStudent] || '';
+      document.getElementById('hero-subtitle').style.display = 'none';
+      const banner = document.getElementById('welcome-banner');
+      banner.classList.remove('hidden');
+      document.getElementById('welcome-emoji').textContent = meta.emoji;
+      document.getElementById('welcome-name').textContent = meta.name + "'s Korean Playground";
       showGameMenu(currentStudent, true);
     } else if (currentStudent) {
       showGameMenu(currentStudent, false);
@@ -111,17 +133,17 @@
       KidsApp.setStudent(id);
       showGameMenu(id, false);
       document.querySelectorAll('.student-card').forEach(c => c.classList.remove('active'));
-      document.querySelector(`[data-student="${id}"]`).classList.add('active');
+      document.querySelector('[data-student="' + id + '"]').classList.add('active');
     }
 
     function showGameMenu(id, hideSwitch) {
       document.getElementById('game-menu').classList.remove('hidden');
       document.querySelectorAll('.student-card').forEach(c => c.classList.remove('active'));
-      const card = document.querySelector(`[data-student="${id}"]`);
+      const card = document.querySelector('[data-student="' + id + '"]');
       if (card) card.classList.add('active');
 
       // Hide switch button in direct link mode
-      const switchBtn = document.querySelector('#game-menu .btn-ghost');
+      const switchBtn = document.getElementById('switch-btn');
       if (switchBtn && hideSwitch) switchBtn.style.display = 'none';
 
       // Propagate student param to game links
