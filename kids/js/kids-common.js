@@ -14,9 +14,10 @@ const KidsApp = (() => {
   }
 
   function applyTheme(id) {
-    document.body.classList.remove('theme-asa', 'theme-leah');
+    document.body.classList.remove('theme-asa', 'theme-leah', 'theme-inessa');
     if (id === 'asa') document.body.classList.add('theme-asa');
     else if (id === 'leah') document.body.classList.add('theme-leah');
+    else if (id === 'inessa') document.body.classList.add('theme-inessa');
   }
 
   function requireStudent() {
@@ -256,10 +257,11 @@ const KidsApp = (() => {
     const id = getStudent();
     const header = document.querySelector('.page-header');
     if (!header) return;
+    const badges = { asa: '🧒 Asa', leah: '👧 Leah', inessa: '🎤 Inessa' };
     header.innerHTML = `
       <a href="index.html" class="back-btn">← Back</a>
       <span class="page-title">${title}</span>
-      <span class="student-badge">${id === 'asa' ? '🧒 Asa' : '👧 Leah'}</span>
+      <span class="student-badge">${badges[id] || id}</span>
     `;
   }
 

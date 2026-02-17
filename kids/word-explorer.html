@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Word Explorer - Korean Playground</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Gaegu:wght@400;700&family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/kids.css">
   <style>
     .explorer-card {
@@ -135,6 +138,12 @@
           <p style="color:var(--gray-600);font-size:0.9rem;">Thing words!</p>
           <span id="noun-count" style="font-size:0.85rem;color:var(--primary);font-weight:700;"></span>
         </div>
+        <div class="explorer-card" onclick="showCategory('adjectives')" id="adj-card" style="display:none;">
+          <div style="font-size:3rem;">🌈</div>
+          <h3 style="font-size:1.3rem;font-weight:900;margin-top:8px;">Adjectives</h3>
+          <p style="color:var(--gray-600);font-size:0.9rem;">Describing words!</p>
+          <span id="adj-count" style="font-size:0.85rem;color:var(--primary);font-weight:700;"></span>
+        </div>
         <div class="explorer-card" onclick="showCategory('sentences')">
           <div style="font-size:3rem;">💬</div>
           <h3 style="font-size:1.3rem;font-weight:900;margin-top:8px;">Sentences</h3>
@@ -209,6 +218,12 @@
       document.getElementById('verb-count').textContent = `${data.verbs.length} words`;
       document.getElementById('noun-count').textContent = `${data.nouns.length} words`;
       document.getElementById('sentence-count').textContent = `${data.sentences.length} sentences`;
+
+      // Show adjectives card if data has adjectives
+      if (data.adjectives && data.adjectives.length > 0) {
+        document.getElementById('adj-card').style.display = '';
+        document.getElementById('adj-count').textContent = `${data.adjectives.length} words`;
+      }
     })();
 
     function showCategory(cat) {
@@ -234,6 +249,12 @@
         document.getElementById('list-title').textContent = '📦 Nouns';
         data.nouns.forEach((n, i) => {
           const item = createWordItem(n.emoji, n.kr, n.rom, n.en, n.kr, i);
+          wordList.appendChild(item);
+        });
+      } else if (cat === 'adjectives') {
+        document.getElementById('list-title').textContent = '🌈 Adjectives';
+        (data.adjectives || []).forEach((a, i) => {
+          const item = createWordItem(a.emoji, a.polite, a.politeRom, a.en, a.polite, i);
           wordList.appendChild(item);
         });
       } else if (cat === 'sentences') {
@@ -293,6 +314,9 @@
       if (source === 'all' || source === 'nouns') {
         data.nouns.forEach(n => flashCards.push({ emoji: n.emoji, kr: n.kr, rom: n.rom, en: n.en }));
       }
+      if ((source === 'all' || source === 'adjectives') && data.adjectives) {
+        data.adjectives.forEach(a => flashCards.push({ emoji: a.emoji, kr: a.polite, rom: a.politeRom, en: a.en }));
+      }
       if (source === 'all' || source === 'sentences') {
         data.sentences.forEach(s => flashCards.push({ emoji: s.emoji, kr: s.kr, rom: s.rom, en: s.en }));
       }
@@ -307,7 +331,10 @@
       // Source tabs
       const tabs = document.getElementById('flash-source-tabs');
       tabs.innerHTML = '';
-      ['all', 'verbs', 'nouns', 'sentences'].forEach(s => {
+      const sources = ['all', 'verbs', 'nouns'];
+      if (data.adjectives && data.adjectives.length > 0) sources.push('adjectives');
+      sources.push('sentences');
+      sources.forEach(s => {
         const btn = document.createElement('button');
         btn.className = 'category-tab' + (s === source ? ' active' : '');
         btn.textContent = s === 'all' ? 'All' : s.charAt(0).toUpperCase() + s.slice(1);

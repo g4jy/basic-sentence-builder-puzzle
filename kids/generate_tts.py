@@ -46,6 +46,13 @@ def extract_texts(data):
         if item.get('polite'):
             texts.add(item['polite'])
 
+    # Adjectives — base form and polite form
+    for item in data.get('adjectives', []):
+        if item.get('kr'):
+            texts.add(item['kr'])
+        if item.get('polite'):
+            texts.add(item['polite'])
+
     # Nouns
     for item in data.get('nouns', []):
         if item.get('kr'):

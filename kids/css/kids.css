@@ -1,45 +1,57 @@
-/* === Kids Korean Playground - Design System === */
+/* === Kids Korean Playground - Design System v2.0 === */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Fredoka:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;700;900&display=swap');
 
 :root {
-  /* Asa theme */
-  --asa-primary: #6C5CE7;
-  --asa-secondary: #A29BFE;
-  --asa-bg: #F0EDFF;
+  /* Asa theme (default): Blue + Purple */
+  --primary: #60A5FA;
+  --primary-light: #A78BFA;
+  --primary-rgb: 96, 165, 250;
+  --secondary-rgb: 167, 139, 250;
+  --bg-tint: #EFF6FF;
+  --shadow-glow: 0 0 24px rgba(96, 165, 250, 0.3);
 
-  /* Leah theme */
-  --leah-primary: #FF6B9D;
-  --leah-secondary: #FFA3C4;
-  --leah-bg: #FFF0F5;
-
-  /* Active theme (set by JS) */
-  --primary: #6C5CE7;
-  --primary-light: #A29BFE;
-  --bg-tint: #F0EDFF;
+  /* Category Colors */
+  --cat-food: #FB923C;
+  --cat-drink: #60A5FA;
+  --cat-verb: #FF6B6B;
+  --cat-adj: #A78BFA;
+  --cat-place: #34D399;
+  --cat-thing: #F59E0B;
+  --cat-color: #F472B6;
+  --cat-animal: #8B5CF6;
+  --cat-mod: #EC4899;
+  --cat-other: #94A3B8;
 
   /* Shared Colors */
-  --success: #00B894;
-  --success-light: #DFFFF8;
+  --success: #34D399;
+  --success-light: #D1FAE5;
   --error: #FF6B6B;
-  --error-light: #FFE8E8;
-  --warning: #FDCB6E;
+  --error-light: #FFE4E6;
+  --accent: #FFE66D;
   --star: #FFD700;
   --white: #FFFFFF;
+  --text: #2D3436;
+  --text-light: #64748B;
   --gray-50: #FAFAFA;
-  --gray-100: #F5F5F5;
-  --gray-200: #EEEEEE;
-  --gray-400: #BDBDBD;
-  --gray-600: #757575;
-  --gray-800: #424242;
-  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.16);
-  --shadow-glow: 0 0 20px rgba(108,92,231,0.3);
+  --gray-100: #F1F5F9;
+  --gray-200: #E2E8F0;
+  --gray-400: #94A3B8;
+  --gray-600: #64748B;
+  --gray-800: #1E293B;
+
+  /* Shadows */
+  --shadow: 0 4px 20px rgba(0,0,0,0.08);
+  --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.14);
+
+  /* Spacing */
   --radius: 16px;
   --radius-lg: 24px;
   --radius-pill: 999px;
-  --transition: all 0.3s ease;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* === Reset & Base === */
@@ -48,47 +60,88 @@
 body {
   font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--bg-tint);
-  color: var(--gray-800);
+  color: var(--text);
   min-height: 100vh;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
 }
 
+/* Ambient background blobs */
+body::before {
+  content: '';
+  position: fixed;
+  top: -40%;
+  right: -15%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(var(--primary-rgb), 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+body::after {
+  content: '';
+  position: fixed;
+  bottom: -25%;
+  left: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(var(--secondary-rgb), 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
 /* === Theme Classes === */
 body.theme-asa {
-  --primary: var(--asa-primary);
-  --primary-light: var(--asa-secondary);
-  --bg-tint: var(--asa-bg);
-  --shadow-glow: 0 0 20px rgba(108,92,231,0.3);
+  --primary: #60A5FA;
+  --primary-light: #A78BFA;
+  --primary-rgb: 96, 165, 250;
+  --secondary-rgb: 167, 139, 250;
+  --bg-tint: #EFF6FF;
+  --shadow-glow: 0 0 24px rgba(96, 165, 250, 0.3);
 }
 body.theme-leah {
-  --primary: var(--leah-primary);
-  --primary-light: var(--leah-secondary);
-  --bg-tint: var(--leah-bg);
-  --shadow-glow: 0 0 20px rgba(255,107,157,0.3);
+  --primary: #F472B6;
+  --primary-light: #374151;
+  --primary-rgb: 244, 114, 182;
+  --secondary-rgb: 55, 65, 81;
+  --bg-tint: #FFF1F2;
+  --shadow-glow: 0 0 24px rgba(244, 114, 182, 0.3);
+}
+body.theme-inessa {
+  --primary: #E040FB;
+  --primary-light: #F0ABFC;
+  --primary-rgb: 224, 64, 251;
+  --secondary-rgb: 240, 171, 252;
+  --bg-tint: #FDF4FF;
+  --shadow-glow: 0 0 24px rgba(224, 64, 251, 0.3);
 }
 
 /* === Typography === */
 .korean-text {
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
   line-height: 1.4;
-  color: var(--gray-800);
+  color: var(--text);
 }
 .korean-text-lg {
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 3rem;
   font-weight: 900;
 }
 .romanization {
-  font-size: 1.1rem;
-  color: var(--gray-600);
-  font-style: italic;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1rem;
+  color: var(--text-light);
   margin-top: 4px;
 }
 .romanization.hidden { display: none; }
 .english-text {
-  font-size: 1.2rem;
-  color: var(--gray-600);
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.15rem;
+  color: var(--text-light);
   margin-top: 4px;
 }
 .emoji-display {
@@ -97,10 +150,13 @@ body.theme-leah {
 }
 .emoji-display-lg {
   font-size: 5rem;
+  animation: bounce 2.5s ease infinite;
 }
 
 /* === Layout === */
 .page-wrapper {
+  position: relative;
+  z-index: 1;
   max-width: 600px;
   margin: 0 auto;
   padding: 16px;
@@ -120,29 +176,34 @@ body.theme-leah {
   align-items: center;
   gap: 6px;
   background: var(--white);
-  border: none;
+  border: 2px solid var(--gray-200);
   border-radius: var(--radius-pill);
   padding: 8px 16px;
-  font-size: 1rem;
-  color: var(--gray-600);
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-light);
   cursor: pointer;
   box-shadow: var(--shadow-sm);
   transition: var(--transition);
   text-decoration: none;
 }
-.back-btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.back-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--primary); }
 .page-title {
+  font-family: 'Fredoka', sans-serif;
   font-size: 1.3rem;
-  font-weight: 900;
+  font-weight: 700;
   color: var(--primary);
 }
 .student-badge {
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
   color: white;
   padding: 6px 14px;
   border-radius: var(--radius-pill);
+  font-family: 'Fredoka', sans-serif;
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 600;
+  box-shadow: var(--shadow-sm);
 }
 
 /* === Cards === */
@@ -152,10 +213,12 @@ body.theme-leah {
   padding: 24px;
   box-shadow: var(--shadow-md);
   transition: var(--transition);
+  border: 2px solid transparent;
 }
 .card:hover { box-shadow: var(--shadow-lg); }
 .card-glow {
   box-shadow: var(--shadow-glow);
+  border-color: var(--primary);
 }
 
 /* === Buttons === */
@@ -166,50 +229,52 @@ body.theme-leah {
   gap: 8px;
   border: none;
   border-radius: var(--radius);
-  padding: 16px 28px;
-  font-size: 1.2rem;
-  font-weight: 700;
+  padding: 14px 24px;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
-  font-family: inherit;
   -webkit-user-select: none;
   user-select: none;
-  min-height: 56px;
-  min-width: 56px;
+  min-height: 52px;
+  min-width: 52px;
 }
 .btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
 .btn:active { transform: scale(0.96); }
-
 .btn-primary {
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
   color: var(--white);
 }
 .btn-primary:hover { box-shadow: var(--shadow-glow); }
 .btn-success {
-  background: var(--success);
+  background: linear-gradient(135deg, var(--success), #10B981);
   color: var(--white);
 }
 .btn-outline {
   background: var(--white);
   color: var(--primary);
-  border: 3px solid var(--primary);
+  border: 2.5px solid var(--primary);
 }
+.btn-outline:hover { background: var(--primary); color: white; }
 .btn-ghost {
   background: transparent;
-  color: var(--gray-600);
+  color: var(--text-light);
+  font-family: 'Fredoka', sans-serif;
 }
+.btn-ghost:hover { color: var(--primary); }
 .btn-big {
-  padding: 20px 36px;
-  font-size: 1.4rem;
+  padding: 18px 32px;
+  font-size: 1.3rem;
   border-radius: var(--radius-lg);
-  min-height: 70px;
+  min-height: 64px;
 }
 .btn-round {
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .btn-disabled {
   opacity: 0.5;
@@ -219,7 +284,7 @@ body.theme-leah {
 /* === TTS Speaker Button === */
 .tts-btn {
   background: var(--gray-100);
-  border: none;
+  border: 2px solid var(--gray-200);
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -231,7 +296,7 @@ body.theme-leah {
   justify-content: center;
   flex-shrink: 0;
 }
-.tts-btn:hover { background: var(--primary-light); }
+.tts-btn:hover { background: var(--primary); border-color: var(--primary); transform: scale(1.1); }
 .tts-btn.speaking { animation: pulse 0.8s ease infinite; }
 .tts-btn.tts-unavailable { display: none; }
 
@@ -256,6 +321,7 @@ body.theme-leah {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-family: 'Fredoka', sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--star);
@@ -268,7 +334,11 @@ body.theme-leah {
   justify-content: space-between;
   padding: 8px 0;
 }
-.toggle-label { font-size: 0.95rem; color: var(--gray-600); }
+.toggle-label {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
 .toggle-switch {
   position: relative;
   width: 52px;
@@ -293,6 +363,7 @@ body.theme-leah {
   background: white;
   border-radius: 50%;
   transition: var(--transition);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .toggle-switch input:checked + .toggle-slider { background: var(--primary); }
 .toggle-switch input:checked + .toggle-slider::before { transform: translateX(24px); }
@@ -300,33 +371,38 @@ body.theme-leah {
 /* === Hub Page === */
 .hub-hero {
   text-align: center;
-  padding: 32px 16px;
+  padding: 28px 16px 8px;
+  animation: fadeDown 0.6s ease;
 }
 .hub-hero h1 {
-  font-size: 2rem;
-  font-weight: 900;
-  background: linear-gradient(135deg, var(--asa-primary), var(--leah-primary));
+  font-family: 'Gaegu', cursive;
+  font-size: 2.6rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 .hub-hero p {
-  color: var(--gray-600);
+  font-family: 'Fredoka', sans-serif;
+  color: var(--text-light);
   font-size: 1.1rem;
-  margin-top: 8px;
+  font-weight: 500;
+  margin-top: 4px;
 }
 
 .student-select {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  margin: 24px 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin: 20px 0;
+  animation: fadeUp 0.5s ease 0.1s both;
 }
 .student-card {
   background: var(--white);
-  border: 4px solid transparent;
+  border: 3px solid transparent;
   border-radius: var(--radius-lg);
-  padding: 24px 16px;
+  padding: 20px 12px;
   text-align: center;
   cursor: pointer;
   transition: var(--transition);
@@ -340,22 +416,32 @@ body.theme-leah {
   border-color: var(--primary);
   box-shadow: var(--shadow-glow);
 }
-.student-card .student-emoji { font-size: 3.5rem; display: block; margin-bottom: 8px; }
-.student-card .student-name { font-size: 1.3rem; font-weight: 900; }
-.student-card .student-name-kr { font-size: 1rem; color: var(--gray-600); }
+.student-card .student-emoji { font-size: 3rem; display: block; margin-bottom: 6px; }
+.student-card .student-name {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.student-card .student-name-kr {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  font-weight: 700;
+}
 
 .game-grid {
   display: grid;
-  gap: 16px;
-  margin: 16px 0;
+  gap: 12px;
+  margin: 12px 0;
 }
 .game-card {
   background: var(--white);
+  border: 2px solid var(--gray-200);
   border-radius: var(--radius-lg);
-  padding: 20px;
+  padding: 18px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
   cursor: pointer;
   transition: var(--transition);
   box-shadow: var(--shadow-sm);
@@ -365,19 +451,29 @@ body.theme-leah {
 .game-card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+  border-color: var(--primary);
 }
 .game-icon {
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
   border-radius: var(--radius);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   flex-shrink: 0;
 }
-.game-info h3 { font-size: 1.1rem; font-weight: 700; }
-.game-info p { font-size: 0.85rem; color: var(--gray-600); margin-top: 2px; }
+.game-info h3 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+.game-info p {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.82rem;
+  color: var(--text-light);
+  margin-top: 2px;
+}
 
 /* === Picture Quiz === */
 .quiz-scene {
@@ -400,21 +496,22 @@ body.theme-leah {
 }
 .quiz-option {
   background: var(--white);
-  border: 4px solid var(--gray-200);
+  border: 3px solid var(--gray-200);
   border-radius: var(--radius-lg);
-  padding: 20px 12px;
+  padding: 18px 12px;
   text-align: center;
   cursor: pointer;
   transition: var(--transition);
-  font-size: 3rem;
+  font-size: 2.8rem;
   min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .quiz-option:hover {
-  border-color: var(--primary-light);
+  border-color: var(--primary);
   transform: scale(1.05);
+  box-shadow: var(--shadow);
 }
 .quiz-option.correct {
   border-color: var(--success);
@@ -453,8 +550,8 @@ body.theme-leah {
   transition: var(--transition);
 }
 .puzzle-target.has-blocks {
-  border-color: var(--primary-light);
-  background: rgba(108,92,231,0.03);
+  border-color: var(--primary);
+  background: rgba(var(--primary-rgb), 0.04);
 }
 .puzzle-target.complete {
   border-color: var(--success);
@@ -473,6 +570,7 @@ body.theme-leah {
   border: 3px solid var(--primary);
   border-radius: var(--radius);
   padding: 14px 20px;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   cursor: pointer;
@@ -483,6 +581,8 @@ body.theme-leah {
 .puzzle-block:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
+  background: var(--primary);
+  color: white;
 }
 .puzzle-block:active { transform: scale(0.95); }
 .puzzle-block.placed {
@@ -491,17 +591,19 @@ body.theme-leah {
   transform: scale(0.9);
 }
 .placed-block {
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
   color: white;
   border-radius: var(--radius);
   padding: 12px 18px;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   cursor: pointer;
   transition: var(--transition);
   animation: popIn 0.3s ease;
+  box-shadow: var(--shadow-sm);
 }
-.placed-block:hover { opacity: 0.8; }
+.placed-block:hover { opacity: 0.8; transform: scale(0.95); }
 
 /* === Memory Match === */
 .memory-grid {
@@ -525,7 +627,7 @@ body.theme-leah {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .memory-card.flipped .memory-card-inner,
 .memory-card.matched .memory-card-inner {
@@ -548,16 +650,19 @@ body.theme-leah {
   background: linear-gradient(135deg, var(--primary), var(--primary-light));
   color: white;
   font-size: 2rem;
+  box-shadow: var(--shadow-sm);
 }
 .memory-card-front {
   transform: rotateY(180deg);
   background: var(--white);
   border: 3px solid var(--gray-200);
+  box-shadow: var(--shadow-sm);
 }
 .memory-card-front.card-emoji {
   font-size: 2.2rem;
 }
 .memory-card-front.card-text {
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.3;
@@ -571,7 +676,7 @@ body.theme-leah {
   animation: shake 0.5s ease;
 }
 
-/* === Category Tabs (for game modes) === */
+/* === Category Tabs === */
 .category-tabs {
   display: flex;
   gap: 8px;
@@ -585,12 +690,14 @@ body.theme-leah {
   border: 2px solid var(--gray-200);
   border-radius: var(--radius-pill);
   padding: 8px 16px;
-  font-size: 0.9rem;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.88rem;
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
   transition: var(--transition);
 }
+.category-tab:hover { border-color: var(--primary); }
 .category-tab.active {
   background: var(--primary);
   color: white;
@@ -606,6 +713,7 @@ body.theme-leah {
   align-items: center;
   justify-content: center;
   background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(4px);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
@@ -622,20 +730,24 @@ body.theme-leah {
   box-shadow: var(--shadow-lg);
   animation: popIn 0.5s ease;
   max-width: 90vw;
+  border: 3px solid var(--primary);
 }
 .celebration-content .celebration-emoji {
-  font-size: 4rem;
+  font-size: 4.5rem;
   display: block;
   margin-bottom: 16px;
+  animation: bounce 1s ease infinite;
 }
 .celebration-content h2 {
-  font-size: 1.8rem;
-  font-weight: 900;
+  font-family: 'Gaegu', cursive;
+  font-size: 2rem;
+  font-weight: 700;
   color: var(--primary);
   margin-bottom: 8px;
 }
 .celebration-content p {
-  color: var(--gray-600);
+  font-family: 'Fredoka', sans-serif;
+  color: var(--text-light);
   margin-bottom: 20px;
 }
 
@@ -645,7 +757,7 @@ body.theme-leah {
   font-size: 1.5rem;
   pointer-events: none;
   z-index: 1001;
-  animation: starFall 1s ease forwards;
+  animation: starFall 1.2s ease forwards;
 }
 
 /* === Difficulty Selector === */
@@ -660,11 +772,13 @@ body.theme-leah {
   border: 2px solid var(--gray-200);
   border-radius: var(--radius-pill);
   padding: 8px 20px;
+  font-family: 'Fredoka', sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
 }
+.difficulty-btn:hover { border-color: var(--primary); }
 .difficulty-btn.active {
   background: var(--primary);
   color: white;
@@ -677,18 +791,170 @@ body.theme-leah {
   padding: 40px 20px;
 }
 .game-complete .complete-stars {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 16px;
+  animation: bounce 2s ease infinite;
 }
 .game-complete h2 {
-  font-size: 1.8rem;
-  font-weight: 900;
+  font-family: 'Gaegu', cursive;
+  font-size: 2rem;
+  font-weight: 700;
   color: var(--primary);
 }
 .game-complete .score-text {
-  font-size: 1.2rem;
-  color: var(--gray-600);
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.15rem;
+  color: var(--text-light);
   margin: 8px 0 24px;
+}
+
+/* === Word Explorer specific === */
+.explorer-card {
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 24px 16px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  cursor: pointer;
+  animation: slideUp 0.4s ease;
+}
+.explorer-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+  border-color: var(--primary);
+}
+.explorer-card h3 {
+  font-family: 'Fredoka', sans-serif;
+}
+.explorer-card p {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.word-list {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0;
+}
+.word-item {
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: var(--transition);
+  animation: slideUp 0.3s ease backwards;
+}
+.word-item:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+  border-color: var(--primary);
+}
+.word-item .word-emoji { font-size: 2rem; flex-shrink: 0; width: 44px; text-align: center; }
+.word-item .word-kr {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.word-item .word-rom {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.82rem;
+  color: var(--text-light);
+}
+.word-item .word-en {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.88rem;
+  color: var(--text-light);
+}
+.word-item .word-info { flex: 1; text-align: left; }
+
+/* Flashcard in word explorer */
+.flash-container {
+  perspective: 1000px;
+  max-width: 420px;
+  margin: 0 auto;
+  min-height: 300px;
+}
+.flash-inner {
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.flash-inner.flipped { transform: rotateY(180deg); }
+.flash-face {
+  position: absolute;
+  width: 100%;
+  min-height: 300px;
+  backface-visibility: hidden;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+}
+.flash-front {
+  background: var(--white);
+  border: 3px solid var(--gray-200);
+}
+.flash-back {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  color: white;
+  transform: rotateY(180deg);
+}
+.flash-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Combo/sentence cards in word explorer */
+.combo-card {
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+  margin: 10px 0;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+  transition: var(--transition);
+  cursor: pointer;
+  animation: slideUp 0.3s ease backwards;
+}
+.combo-card:hover { box-shadow: var(--shadow-md); border-color: var(--primary); }
+.combo-parts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 8px 0;
+  flex-wrap: wrap;
+}
+.combo-part {
+  background: rgba(var(--primary-rgb), 0.08);
+  border: 2px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 4px 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.combo-arrow {
+  color: var(--primary);
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
 }
 
 /* === Utility === */
@@ -703,9 +969,17 @@ body.theme-leah {
 .flex-center { display: flex; align-items: center; justify-content: center; }
 
 /* === Animations === */
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 @keyframes popIn {
   0% { transform: scale(0.5); opacity: 0; }
-  70% { transform: scale(1.1); }
+  70% { transform: scale(1.08); }
   100% { transform: scale(1); opacity: 1; }
 }
 @keyframes shake {
@@ -722,27 +996,28 @@ body.theme-leah {
 }
 @keyframes pulse {
   0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-}
-@keyframes starFall {
-  0% { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); }
-  100% { opacity: 0; transform: translateY(120px) rotate(360deg) scale(0.3); }
+  50% { transform: scale(1.15); }
 }
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes starFall {
+  0% { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); }
+  100% { opacity: 0; transform: translateY(140px) rotate(360deg) scale(0.2); }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 @keyframes sparkle {
   0%, 100% { opacity: 0.3; transform: scale(0.8); }
   50% { opacity: 1; transform: scale(1.2); }
 }
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
 
 /* === Responsive === */
 @media (max-width: 480px) {
+  .hub-hero h1 { font-size: 2rem; }
   .korean-text { font-size: 2rem; }
   .korean-text-lg { font-size: 2.4rem; }
   .emoji-display { font-size: 3rem; }
@@ -751,16 +1026,23 @@ body.theme-leah {
   .quiz-option { padding: 14px 8px; font-size: 2.2rem; min-height: 80px; }
   .puzzle-block { padding: 10px 14px; font-size: 1.2rem; }
   .placed-block { padding: 8px 12px; font-size: 1.1rem; }
-  .student-card { padding: 16px 12px; }
-  .btn-big { padding: 16px 24px; font-size: 1.2rem; }
+  .student-card { padding: 14px 8px; }
+  .student-card .student-emoji { font-size: 2.4rem; }
+  .student-card .student-name { font-size: 1rem; }
+  .btn-big { padding: 14px 22px; font-size: 1.1rem; }
   .page-wrapper { padding: 12px; }
   .card { padding: 16px; }
-  .hub-hero h1 { font-size: 1.6rem; }
+  .back-btn { padding: 6px 12px; font-size: 0.85rem; }
+  .page-title { font-size: 1.1rem; }
   .memory-card-front.card-text { font-size: 0.85rem; }
+  .flash-container { min-height: 260px; }
+  .flash-face { min-height: 260px; padding: 16px; }
+  body::before { width: 400px; height: 400px; }
+  body::after { width: 350px; height: 350px; }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .quiz-option { font-size: 2.8rem; }
+  .quiz-option { font-size: 2.6rem; }
 }
 
 /* === Print Hidden === */
