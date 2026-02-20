@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Korean Learning Tools</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body class="app-page">
     <!-- Header -->
@@ -24,6 +27,7 @@
     <nav class="nav-tabs">
         <div class="tabs-container">
             <button class="tab-btn active" data-tab="sentence-builder">Sentence Builder</button>
+            <button class="tab-btn" data-tab="cafe-game">Cafe Practice</button>
             <button class="tab-btn" data-tab="flashcards">Flashcards</button>
             <button class="tab-btn" data-tab="settings">Settings</button>
         </div>
@@ -66,13 +70,13 @@
                             <div class="english" id="subject-en">I</div>
                         </div>
 
-                        <div class="block" onclick="cycleTime()">
+                        <div class="block" id="time-block" onclick="cycleTime()">
                             <div class="korean" id="time-kr">어제</div>
                             <div class="romanization" id="time-rom">OU-JE</div>
                             <div class="english" id="time-en">yesterday</div>
                         </div>
 
-                        <div class="block" onclick="cyclePlace()">
+                        <div class="block" id="place-block" onclick="cyclePlace()">
                             <div class="korean" id="place-kr">카페에서</div>
                             <div class="romanization" id="place-rom">KA-PE-E-SOU</div>
                             <div class="english" id="place-en">at the cafe</div>
@@ -84,7 +88,7 @@
                             <div class="english" id="object-en">pizza</div>
                         </div>
 
-                        <div class="block">
+                        <div class="block" id="verb-block">
                             <div class="korean" id="verb-kr">먹었어요</div>
                             <div class="romanization" id="verb-rom">MOU-GOU-SSO-YO</div>
                             <div class="english" id="verb-en">ate</div>
@@ -100,6 +104,77 @@
                         <div class="result-korean" id="full-korean">저는 어제 카페에서 피자 먹었어요</div>
                         <div class="result-romanization" id="full-rom">JOU-NUN OU-JE KA-PE-E-SOU PI-JA MOU-GOU-SSO-YO</div>
                         <div class="result-english" id="full-english">"Yesterday, I ate pizza at the cafe"</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cafe Practice Tab -->
+            <div id="cafe-game" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Cafe Practice</h2>
+                        <p>Order at a Korean cafe! Choose the best response.</p>
+                    </div>
+
+                    <div id="cafe-game-area" class="cafe-game-container">
+                        <!-- Scene description -->
+                        <div class="cafe-scene-desc" id="cafe-scene-desc">
+                            You walk into a Korean cafe. The barista greets you warmly.
+                        </div>
+
+                        <!-- NPC Speech Bubble -->
+                        <div class="npc-bubble">
+                            <div class="npc-avatar">&#9749;</div>
+                            <div class="npc-speech">
+                                <div class="npc-name-tag">
+                                    <span id="npc-name">직원</span>
+                                    <span class="romanization" id="npc-name-rom">JIK-WON</span>
+                                </div>
+                                <div class="npc-korean" id="npc-korean">안녕하세요! 어서 오세요!</div>
+                                <div class="npc-rom romanization" id="npc-rom">AN-NYEONG-HA-SE-YO! EO-SEO O-SE-YO!</div>
+                                <div class="npc-english english" id="npc-english">Hello! Welcome!</div>
+                            </div>
+                        </div>
+
+                        <!-- Player Responses -->
+                        <div class="player-section">
+                            <div class="player-label">Choose your response:</div>
+                            <div class="cafe-responses" id="cafe-responses">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+
+                        <!-- Feedback -->
+                        <div class="cafe-feedback hidden" id="cafe-feedback">
+                            <div class="feedback-icon" id="cafe-feedback-icon">&#9733;</div>
+                            <div class="feedback-kr" id="cafe-feedback-kr">완벽해요!</div>
+                            <div class="feedback-text" id="cafe-feedback-text">Great choice!</div>
+                            <button class="cafe-next-btn" onclick="nextCafeScene()">Next Round &rarr;</button>
+                        </div>
+
+                        <!-- Score Bar -->
+                        <div class="cafe-progress">
+                            <span>Round <span id="cafe-round">1 / 5</span></span>
+                            <span>Score: <span id="cafe-score">0</span></span>
+                        </div>
+                    </div>
+
+                    <!-- End Screen -->
+                    <div id="cafe-end-screen" class="cafe-end-screen hidden">
+                        <div class="cafe-end-rating" id="cafe-rating-kr">완벽해요!</div>
+                        <div class="cafe-end-subtitle" id="cafe-rating">Perfect!</div>
+                        <div class="cafe-end-score">
+                            <span id="cafe-final-score">10 / 10</span>
+                        </div>
+                        <div class="cafe-score-bar">
+                            <div class="cafe-score-bar-fill" id="cafe-score-bar-fill" style="width:0%"></div>
+                        </div>
+                        <div class="cafe-review" id="cafe-review-list">
+                            <!-- Populated by JS -->
+                        </div>
+                        <button class="action-btn primary" onclick="replayCafeGame()" style="margin-top:20px;">
+                            Play Again
+                        </button>
                     </div>
                 </div>
             </div>
@@ -193,6 +268,17 @@
 
                         <div class="setting-item">
                             <div class="setting-info">
+                                <h4>Show English Meaning</h4>
+                                <p>Display English translations below Korean text</p>
+                            </div>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="english-toggle" checked onchange="toggleEnglish()">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+
+                        <div class="setting-item">
+                            <div class="setting-info">
                                 <h4>Auto-Flip Cards</h4>
                                 <p>Automatically reveal flashcard after 3 seconds</p>
                             </div>
@@ -253,5 +339,6 @@
     <script src="js/app.js"></script>
     <script src="js/sentence-builder.js"></script>
     <script src="js/flashcard.js"></script>
+    <script src="js/cafe-game.js"></script>
 </body>
 </html>

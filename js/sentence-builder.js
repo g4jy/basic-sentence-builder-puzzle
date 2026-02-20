@@ -117,20 +117,39 @@ const defaultObjects = {
 };
 
 // ============================================
+// Subjects (with semantic types for validation)
+// ============================================
+
+const defaultSubjects = [
+    { kr: '저는', rom: 'JOU-NUN', en: 'I', type: 'person' },
+    { kr: '스티브는', rom: 'SEU-TI-BEU-NUN', en: 'Steve', type: 'person' },
+    { kr: '알레산드라는', rom: 'AL-LE-SAN-DEU-RA-NUN', en: 'Alessandra', type: 'person' },
+    { kr: '친구는', rom: 'CHIN-GU-NUN', en: 'My friend', type: 'person' },
+    { kr: '선생님은', rom: 'SEON-SAENG-NIM-EUN', en: 'The teacher', type: 'person' },
+    { kr: '이거는', rom: 'I-GEO-NUN', en: 'This', type: 'demonstrative' },
+    { kr: '저거는', rom: 'JEO-GEO-NUN', en: 'That', type: 'demonstrative' },
+    { kr: '여기는', rom: 'YEO-GI-NUN', en: 'Here', type: 'location' },
+    { kr: '저기는', rom: 'JEO-GI-NUN', en: 'There', type: 'location' },
+];
+
+// ============================================
 // State Variables
 // ============================================
 
+let subjects = defaultSubjects;
 let verbTypes = defaultVerbTypes;
 let tenses = defaultTenses;
 let times = defaultTimes;
 let places = defaultPlaces;
 let objects = defaultObjects;
 
+let currentSubjectIndex = 0;
 let currentVerbTypeIndex = 0;
 let currentTenseIndex = 0;
 let currentTimeIndex = 0;
 let currentPlaceIndex = 0;
 let currentObjectIndex = 0;
+let currentCopulaItemIndex = 0;
 
 // ============================================
 // Initialization
@@ -314,8 +333,32 @@ function cycleTense() {
 }
 
 function cycleSubject() {
-    // Only one subject for now (저는)
-    // Can be extended to cycle between 저는, 우리는, etc.
+    currentSubjectIndex = (currentSubjectIndex + 1) % subjects.length;
+    currentCopulaItemIndex = 0;
+    updateSentenceBuilder();
+}
+
+function getCopula(kr) {
+    const lastChar = kr.charCodeAt(kr.length - 1);
+    if (lastChar >= 0xAC00 && lastChar <= 0xD7A3) {
+        return (lastChar - 0xAC00) % 28 !== 0
+            ? { kr: '이에요', rom: 'I-E-YO', en: 'is' }
+            : { kr: '예요', rom: 'YE-YO', en: 'is' };
+    }
+    return { kr: '예요', rom: 'YE-YO', en: 'is' };
+}
+
+function getAllNouns() {
+    const all = [];
+    (objects.food || []).forEach(i => all.push({ ...i, category: 'food' }));
+    (objects.drink || []).forEach(i => all.push({ ...i, category: 'drink' }));
+    (objects.person || []).forEach(i => all.push({ ...i, category: 'person' }));
+    (objects.thing || []).forEach(i => all.push({ ...i, category: 'thing' }));
+    return all;
+}
+
+function getCurrentSubject() {
+    return subjects[currentSubjectIndex];
 }
 
 function cycleTime() {
@@ -330,10 +373,19 @@ function cyclePlace() {
 }
 
 function cycleObject() {
-    const availableObjects = getAvailableObjects();
-    if (availableObjects.length > 0) {
-        currentObjectIndex = (currentObjectIndex + 1) % availableObjects.length;
-        updateSentenceBuilder();
+    const subject = getCurrentSubject();
+    if (subject.type === 'demonstrative') {
+        const allNouns = getAllNouns();
+        if (allNouns.length > 0) {
+            currentCopulaItemIndex = (currentCopulaItemIndex + 1) % allNouns.length;
+            updateSentenceBuilder();
+        }
+    } else {
+        const availableObjects = getAvailableObjects();
+        if (availableObjects.length > 0) {
+            currentObjectIndex = (currentObjectIndex + 1) % availableObjects.length;
+            updateSentenceBuilder();
+        }
     }
 }
 
@@ -342,58 +394,115 @@ function cycleObject() {
 // ============================================
 
 function updateSentenceBuilder() {
-    const verbType = getCurrentVerbType();
-    const tense = getCurrentTense();
-    const availableTimes = getAvailableTimes();
-    const availableObjects = getAvailableObjects();
-    const place = places[currentPlaceIndex];
-    const time = availableTimes[currentTimeIndex % availableTimes.length];
-    const verb = verbType.tenses[tense.id];
+    const subject = getCurrentSubject();
+    const mode = subject.type; // 'person', 'demonstrative', 'location'
 
-    // Update control buttons
-    document.getElementById('verb-type-btn').textContent = verbType.label;
-    document.getElementById('tense-btn').textContent = tense.label;
+    // Update subject block
+    document.getElementById('subject-kr').textContent = subject.kr;
+    document.getElementById('subject-rom').textContent = subject.rom;
+    document.getElementById('subject-en').textContent = subject.en;
 
-    // Update time block
-    document.getElementById('time-kr').textContent = time.kr;
-    document.getElementById('time-rom').textContent = time.rom;
-    document.getElementById('time-en').textContent = time.en;
-
-    // Update place block with correct particle
-    const particle = verbType.usesEseo ? '에서' : '에';
-    const particleRom = verbType.usesEseo ? 'E-SOU' : 'E';
-    const particleEn = verbType.usesEseo ? 'at the' : 'to the';
-
-    document.getElementById('place-kr').textContent = place.kr + particle;
-    document.getElementById('place-rom').textContent = place.rom + '-' + particleRom;
-    document.getElementById('place-en').textContent = particleEn + ' ' + place.en;
-
-    // Update particle note
-    const particleNote = document.getElementById('particle-note');
-    if (verbType.usesEseo) {
-        particleNote.textContent = '에서 = "at" (doing action at a place)';
-    } else {
-        particleNote.textContent = '에 = "to" (going to a place)';
-    }
-
-    // Update object block
+    // Get block references
+    const timeBlock = document.getElementById('time-block');
+    const placeBlock = document.getElementById('place-block');
     const objectBlock = document.getElementById('object-block');
-    if (verbType.objectType === 'none') {
-        objectBlock.classList.add('hidden');
-    } else {
-        objectBlock.classList.remove('hidden');
-        const obj = availableObjects[currentObjectIndex % availableObjects.length];
-        if (obj) {
-            document.getElementById('object-kr').textContent = obj.kr;
-            document.getElementById('object-rom').textContent = obj.rom;
-            document.getElementById('object-en').textContent = obj.en;
-        }
-    }
+    const verbBlock = document.getElementById('verb-block');
+    const controlPanel = document.querySelector('.sentence-controls');
+    const particleNote = document.getElementById('particle-note');
 
-    // Update verb block
-    document.getElementById('verb-kr').textContent = verb.kr;
-    document.getElementById('verb-rom').textContent = verb.rom;
-    document.getElementById('verb-en').textContent = verb.en;
+    if (mode === 'demonstrative') {
+        // A is B mode: subject + noun + copula
+        if (timeBlock) timeBlock.classList.add('hidden');
+        if (placeBlock) placeBlock.classList.add('hidden');
+        if (verbBlock) verbBlock.classList.add('hidden');
+        if (controlPanel) controlPanel.classList.add('hidden');
+
+        const allNouns = getAllNouns();
+        if (allNouns.length > 0) {
+            objectBlock.classList.remove('hidden');
+            const noun = allNouns[currentCopulaItemIndex % allNouns.length];
+            document.getElementById('object-kr').textContent = noun.kr;
+            document.getElementById('object-rom').textContent = noun.rom;
+            document.getElementById('object-en').textContent = noun.en;
+        }
+        if (particleNote) {
+            particleNote.textContent = '이거 = this thing / 저거 = that thing + 는 (topic marker)';
+        }
+    } else if (mode === 'location') {
+        // Location mode: subject + place + copula
+        if (timeBlock) timeBlock.classList.add('hidden');
+        if (verbBlock) verbBlock.classList.add('hidden');
+        if (objectBlock) objectBlock.classList.add('hidden');
+        if (controlPanel) controlPanel.classList.add('hidden');
+
+        if (placeBlock) {
+            placeBlock.classList.remove('hidden');
+            const place = places[currentPlaceIndex % places.length];
+            document.getElementById('place-kr').textContent = place.kr;
+            document.getElementById('place-rom').textContent = place.rom;
+            document.getElementById('place-en').textContent = place.en;
+        }
+        if (particleNote) {
+            particleNote.textContent = '여기 = here / 저기 = there + 는 (topic marker)';
+        }
+    } else {
+        // Normal action mode: subject + time + place + object + verb
+        if (timeBlock) timeBlock.classList.remove('hidden');
+        if (placeBlock) placeBlock.classList.remove('hidden');
+        if (verbBlock) verbBlock.classList.remove('hidden');
+        if (controlPanel) controlPanel.classList.remove('hidden');
+
+        const verbType = getCurrentVerbType();
+        const tense = getCurrentTense();
+        const availableTimes = getAvailableTimes();
+        const availableObjects = getAvailableObjects();
+        const place = places[currentPlaceIndex];
+        const time = availableTimes[currentTimeIndex % availableTimes.length];
+        const verb = verbType.tenses[tense.id];
+
+        // Update control buttons
+        document.getElementById('verb-type-btn').textContent = verbType.label;
+        document.getElementById('tense-btn').textContent = tense.label;
+
+        // Update time block
+        document.getElementById('time-kr').textContent = time.kr;
+        document.getElementById('time-rom').textContent = time.rom;
+        document.getElementById('time-en').textContent = time.en;
+
+        // Update place block with correct particle
+        const particle = verbType.usesEseo ? '에서' : '에';
+        const particleRom = verbType.usesEseo ? 'E-SOU' : 'E';
+        const particleEn = verbType.usesEseo ? 'at the' : 'to the';
+
+        document.getElementById('place-kr').textContent = place.kr + particle;
+        document.getElementById('place-rom').textContent = place.rom + '-' + particleRom;
+        document.getElementById('place-en').textContent = particleEn + ' ' + place.en;
+
+        // Update particle note
+        if (verbType.usesEseo) {
+            particleNote.textContent = '에서 = "at" (doing action at a place)';
+        } else {
+            particleNote.textContent = '에 = "to" (going to a place)';
+        }
+
+        // Update object block
+        if (verbType.objectType === 'none') {
+            objectBlock.classList.add('hidden');
+        } else {
+            objectBlock.classList.remove('hidden');
+            const obj = availableObjects[currentObjectIndex % availableObjects.length];
+            if (obj) {
+                document.getElementById('object-kr').textContent = obj.kr;
+                document.getElementById('object-rom').textContent = obj.rom;
+                document.getElementById('object-en').textContent = obj.en;
+            }
+        }
+
+        // Update verb block
+        document.getElementById('verb-kr').textContent = verb.kr;
+        document.getElementById('verb-rom').textContent = verb.rom;
+        document.getElementById('verb-en').textContent = verb.en;
+    }
 
     // Build full sentence
     buildFullSentence();
@@ -403,45 +512,76 @@ function updateSentenceBuilder() {
 }
 
 function buildFullSentence() {
-    const verbType = getCurrentVerbType();
-    const tense = getCurrentTense();
-    const availableTimes = getAvailableTimes();
-    const availableObjects = getAvailableObjects();
-    const place = places[currentPlaceIndex];
-    const time = availableTimes[currentTimeIndex % availableTimes.length];
-    const verb = verbType.tenses[tense.id];
-    const particle = verbType.usesEseo ? '에서' : '에';
-    const particleRom = verbType.usesEseo ? 'E-SOU' : 'E';
+    const subject = getCurrentSubject();
+    const mode = subject.type;
 
-    let koreanParts = ['저는', time.kr, place.kr + particle];
-    let romParts = ['JOU-NUN', time.rom, place.rom + '-' + particleRom];
-    let englishParts = [];
+    if (mode === 'demonstrative') {
+        const allNouns = getAllNouns();
+        if (allNouns.length === 0) return;
+        const noun = allNouns[currentCopulaItemIndex % allNouns.length];
+        const copula = getCopula(noun.kr);
 
-    if (verbType.objectType !== 'none' && availableObjects.length > 0) {
-        const obj = availableObjects[currentObjectIndex % availableObjects.length];
-        if (obj) {
-            koreanParts.push(obj.kr);
-            romParts.push(obj.rom);
+        document.getElementById('full-korean').textContent =
+            subject.kr + ' ' + noun.kr + copula.kr;
+        document.getElementById('full-rom').textContent =
+            subject.rom + ' ' + noun.rom + ' ' + copula.rom;
+        document.getElementById('full-english').textContent =
+            '"' + subject.en + ' is ' + noun.en + '"';
+
+    } else if (mode === 'location') {
+        const place = places[currentPlaceIndex % places.length];
+        const copula = getCopula(place.kr);
+
+        document.getElementById('full-korean').textContent =
+            subject.kr + ' ' + place.kr + copula.kr;
+        document.getElementById('full-rom').textContent =
+            subject.rom + ' ' + place.rom + ' ' + copula.rom;
+        document.getElementById('full-english').textContent =
+            '"' + subject.en + ' is ' + (subject.en === 'Here' ? '' : 'the ') + place.en + '"';
+
+    } else {
+        // Normal action sentence
+        const verbType = getCurrentVerbType();
+        const tense = getCurrentTense();
+        const availableTimes = getAvailableTimes();
+        const availableObjects = getAvailableObjects();
+        const place = places[currentPlaceIndex];
+        const time = availableTimes[currentTimeIndex % availableTimes.length];
+        const verb = verbType.tenses[tense.id];
+        const particle = verbType.usesEseo ? '에서' : '에';
+        const particleRom = verbType.usesEseo ? 'E-SOU' : 'E';
+
+        let koreanParts = [subject.kr, time.kr, place.kr + particle];
+        let romParts = [subject.rom, time.rom, place.rom + '-' + particleRom];
+        let englishParts = [];
+
+        if (verbType.objectType !== 'none' && availableObjects.length > 0) {
+            const obj = availableObjects[currentObjectIndex % availableObjects.length];
+            if (obj) {
+                koreanParts.push(obj.kr);
+                romParts.push(obj.rom);
+            }
         }
-    }
 
-    koreanParts.push(verb.kr);
-    romParts.push(verb.rom);
+        koreanParts.push(verb.kr);
+        romParts.push(verb.rom);
 
-    // Build English sentence
-    let timeEn = time.en === 'now' ? '' : (time.en.charAt(0).toUpperCase() + time.en.slice(1) + ',');
-    let placeEn = verbType.usesEseo ? 'at the ' + place.en : 'to the ' + place.en;
+        // Build English sentence
+        let timeEn = time.en === 'now' ? '' : (time.en.charAt(0).toUpperCase() + time.en.slice(1) + ',');
+        let placeEn = verbType.usesEseo ? 'at the ' + place.en : 'to the ' + place.en;
+        let subjectEn = subject.en;
 
-    if (verbType.objectType === 'none') {
-        englishParts = [timeEn, 'I', verb.en, placeEn].filter(x => x);
-    } else if (availableObjects.length > 0) {
-        const obj = availableObjects[currentObjectIndex % availableObjects.length];
-        if (obj) {
-            englishParts = [timeEn, 'I', verb.en, obj.en, placeEn].filter(x => x);
+        if (verbType.objectType === 'none') {
+            englishParts = [timeEn, subjectEn, verb.en, placeEn].filter(x => x);
+        } else if (availableObjects.length > 0) {
+            const obj = availableObjects[currentObjectIndex % availableObjects.length];
+            if (obj) {
+                englishParts = [timeEn, subjectEn, verb.en, obj.en, placeEn].filter(x => x);
+            }
         }
-    }
 
-    document.getElementById('full-korean').textContent = koreanParts.join(' ');
-    document.getElementById('full-rom').textContent = romParts.join(' ');
-    document.getElementById('full-english').textContent = '"' + englishParts.join(' ') + '"';
+        document.getElementById('full-korean').textContent = koreanParts.join(' ');
+        document.getElementById('full-rom').textContent = romParts.join(' ');
+        document.getElementById('full-english').textContent = '"' + englishParts.join(' ') + '"';
+    }
 }

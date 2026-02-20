@@ -7,6 +7,7 @@
 let studentData = null;
 let settings = {
     showRomanization: true,
+    showEnglish: true,
     autoFlip: false
 };
 
@@ -46,6 +47,7 @@ function initializeApp() {
     // Initialize components
     initializeSentenceBuilder();
     initializeFlashcards();
+    if (typeof initializeCafeGame === 'function') initializeCafeGame();
 
     // Apply settings
     applySettings();
@@ -99,6 +101,8 @@ function loadSettings() {
 
     // Apply to UI
     document.getElementById('romanization-toggle').checked = settings.showRomanization;
+    const engToggle = document.getElementById('english-toggle');
+    if (engToggle) engToggle.checked = settings.showEnglish;
     document.getElementById('autoflip-toggle').checked = settings.autoFlip;
 }
 
@@ -111,6 +115,7 @@ function applySettings() {
     const blocksContainer = document.getElementById('sentence-blocks');
     if (blocksContainer) {
         blocksContainer.classList.toggle('romanization-hidden', !settings.showRomanization);
+        blocksContainer.classList.toggle('english-hidden', !settings.showEnglish);
     }
 
     // Apply to result section
@@ -119,15 +124,33 @@ function applySettings() {
         resultRom.style.display = settings.showRomanization ? 'block' : 'none';
     }
 
+    const resultEnglish = document.getElementById('full-english');
+    if (resultEnglish) {
+        resultEnglish.style.display = settings.showEnglish ? 'block' : 'none';
+    }
+
     // Apply to flashcard
     const cardRom = document.getElementById('card-back-rom');
     if (cardRom) {
         cardRom.style.display = settings.showRomanization ? 'block' : 'none';
     }
+
+    // Apply to cafe game
+    const cafeContainer = document.getElementById('cafe-game-area');
+    if (cafeContainer) {
+        cafeContainer.classList.toggle('romanization-hidden', !settings.showRomanization);
+        cafeContainer.classList.toggle('english-hidden', !settings.showEnglish);
+    }
 }
 
 function toggleRomanization() {
     settings.showRomanization = document.getElementById('romanization-toggle').checked;
+    saveSettings();
+    applySettings();
+}
+
+function toggleEnglish() {
+    settings.showEnglish = document.getElementById('english-toggle').checked;
     saveSettings();
     applySettings();
 }

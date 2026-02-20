@@ -1,0 +1,86 @@
+{
+  "id": "8979644",
+  "name": "Alessandra & Steve",
+  "settings": {
+    "romanization": true,
+    "level": 1
+  },
+  "assignedVocab": {
+    "food": [
+      { "kr": "밥", "rom": "BAP", "en": "rice / meal", "example": "밥 먹어요." },
+      { "kr": "피자", "rom": "PI-JA", "en": "pizza", "example": "피자 먹어요." },
+      { "kr": "치킨", "rom": "CHI-KIN", "en": "chicken", "example": "치킨 먹어요." },
+      { "kr": "김치", "rom": "KIM-CHI", "en": "kimchi", "example": "김치 먹어요." },
+      { "kr": "비빔밥", "rom": "BI-BIM-BAP", "en": "bibimbap", "example": "비빔밥 먹어요." },
+      { "kr": "삼겹살", "rom": "SAM-GYEOP-SAL", "en": "pork belly", "example": "삼겹살 먹어요." },
+      { "kr": "불고기", "rom": "BUL-GO-GI", "en": "bulgogi", "example": "불고기 먹어요." },
+      { "kr": "케이크", "rom": "KE-I-KEU", "en": "cake", "example": "케이크 먹어요." },
+      { "kr": "빵", "rom": "PPANG", "en": "bread", "example": "빵 먹어요." },
+      { "kr": "라면", "rom": "RA-MYEON", "en": "ramen", "example": "라면 먹어요." }
+    ],
+    "drink": [
+      { "kr": "물", "rom": "MUL", "en": "water", "example": "물 마셔요." },
+      { "kr": "커피", "rom": "KO-PI", "en": "coffee", "example": "커피 마셔요." },
+      { "kr": "차", "rom": "CHA", "en": "tea", "example": "차 마셔요." },
+      { "kr": "주스", "rom": "JU-SEU", "en": "juice", "example": "주스 마셔요." },
+      { "kr": "라떼", "rom": "RA-TTE", "en": "latte", "example": "라떼 마셔요." },
+      { "kr": "아메리카노", "rom": "A-ME-RI-KA-NO", "en": "americano", "example": "아메리카노 마셔요." }
+    ],
+    "places": [
+      { "kr": "카페", "rom": "KA-PE", "en": "cafe", "example": "카페에 가요." },
+      { "kr": "식당", "rom": "SHIK-DANG", "en": "restaurant", "example": "식당에 가요." },
+      { "kr": "학교", "rom": "HAK-GYO", "en": "school", "example": "학교에 가요." },
+      { "kr": "집", "rom": "JIP", "en": "home", "example": "집에 가요." },
+      { "kr": "편의점", "rom": "PYEON-UI-JEOM", "en": "convenience store", "example": "편의점에 가요." },
+      { "kr": "화장실", "rom": "HWA-JANG-SHIL", "en": "bathroom", "example": "화장실에 가요." },
+      { "kr": "공원", "rom": "GONG-WON", "en": "park", "example": "공원에 가요." }
+    ],
+    "people": [
+      { "kr": "친구", "rom": "CHIN-GU", "en": "friend", "example": "친구 만나요." },
+      { "kr": "선생님", "rom": "SEON-SAENG-NIM", "en": "teacher", "example": "선생님 만나요." }
+    ]
+  },
+  "lessonVerbs": [
+    {
+      "id": "go",
+      "label": "가다 (go)",
+      "objectType": "none",
+      "usesEseo": false,
+      "tenses": {
+        "past": { "kr": "갔어요", "rom": "GA-SSO-YO", "en": "went" },
+        "present": { "kr": "가요", "rom": "GA-YO", "en": "go" },
+        "future": { "kr": "갈 거예요", "rom": "GAL GEO-YE-YO", "en": "will go" }
+      }
+    },
+    {
+      "id": "eat",
+      "label": "먹다 (eat)",
+      "objectType": "food",
+      "usesEseo": true,
+      "tenses": {
+        "past": { "kr": "먹었어요", "rom": "MEO-GEO-SSO-YO", "en": "ate" },
+        "present": { "kr": "먹어요", "rom": "MEO-GEO-YO", "en": "eat" },
+        "future": { "kr": "먹을 거예요", "rom": "MEO-GEU-L GEO-YE-YO", "en": "will eat" }
+      }
+    },
+    {
+      "id": "drink",
+      "label": "마시다 (drink)",
+      "objectType": "drink",
+      "usesEseo": true,
+      "tenses": {
+        "past": { "kr": "마셨어요", "rom": "MA-SHYEO-SSO-YO", "en": "drank" },
+        "present": { "kr": "마셔요", "rom": "MA-SHYEO-YO", "en": "drink" },
+        "future": { "kr": "마실 거예요", "rom": "MA-SHIL GEO-YE-YO", "en": "will drink" }
+      }
+    }
+  ],
+  "customVocab": [],
+  "vocabularyWatchlist": [],
+  "lessonContext": {
+    "recentLessons": [],
+    "upcomingTopics": [],
+    "currentFocus": "Lesson #1 basics: greetings, ordering, self-introduction"
+  },
+  "generated_at": "2026-02-20T21:00:00.000000"
+}
