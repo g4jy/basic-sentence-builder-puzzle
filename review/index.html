@@ -81,6 +81,12 @@
         title: 'Conjugation',
         desc: 'Practice verb conjugation across tenses',
         countLabel: 'verbs'
+      },
+      'cafe-ordering': {
+        icon: '☕',
+        title: 'Cafe Ordering',
+        desc: 'Practice ordering at a Korean cafe (RPG style)',
+        countLabel: 'scenes'
       }
     };
 
@@ -195,6 +201,8 @@
           count = items.sentences.length;
         } else if (gameKey === 'conjugation') {
           count = items.verbs.length;
+        } else if (gameKey === 'cafe-ordering') {
+          count = 5;
         }
 
         html += '<div class="game-card slide-up" onclick="Nav.goToGame(\'' + gameKey + '\')">';

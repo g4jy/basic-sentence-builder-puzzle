@@ -1050,3 +1050,198 @@ body {
   color: var(--text-muted);
   font-size: 0.9rem;
 }
+
+/* ============================================
+   Cafe Ordering Game
+   Warm beige/violet design inspired by modern mobile UI
+   ============================================ */
+
+/* Scene narrative */
+.cafe-narrative {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--border-light);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-md);
+  line-height: 1.5;
+}
+
+/* NPC dialogue bubble — warm beige/cream palette */
+.cafe-npc-bubble {
+  background: linear-gradient(135deg, #FFF8F0, #FFF3E6);
+  border: 1px solid #F0DCC8;
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.cafe-npc-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.cafe-npc-avatar {
+  width: 48px;
+  height: 48px;
+  background: #FFE4C9;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.cafe-npc-name {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.cafe-npc-text {
+  padding-left: 56px;
+}
+
+/* Response cards */
+.cafe-responses {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.cafe-response-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: var(--space-md) var(--space-lg);
+  background: var(--card-bg);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+  font-family: var(--font);
+  text-align: left;
+  width: 100%;
+}
+
+.cafe-response-card:hover:not(:disabled) {
+  border-color: var(--tier-color);
+  background: var(--tier-bg-subtle);
+  transform: translateY(-1px);
+}
+
+.cafe-response-card:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+/* Tier reveal colors */
+.cafe-tier-best {
+  border-color: var(--correct) !important;
+  background: var(--correct-bg) !important;
+}
+
+.cafe-tier-ok {
+  border-color: #F59E0B !important;
+  background: #FFFBEB !important;
+}
+
+.cafe-tier-wrong {
+  border-color: var(--incorrect) !important;
+  background: var(--incorrect-bg) !important;
+}
+
+/* Tier badges */
+.cafe-tier-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-best { background: var(--correct); color: #fff; }
+.badge-ok { background: #F59E0B; color: #fff; }
+.badge-wrong { background: var(--incorrect); color: #fff; }
+
+/* Feedback panels */
+.cafe-feedback-best {
+  padding: var(--space-md);
+  background: var(--correct-bg);
+  border: 1px solid var(--correct);
+  border-radius: var(--radius-md);
+}
+
+.cafe-feedback-ok {
+  padding: var(--space-md);
+  background: #FFFBEB;
+  border: 1px solid #F59E0B;
+  border-radius: var(--radius-md);
+}
+
+.cafe-feedback-wrong {
+  padding: var(--space-md);
+  background: var(--incorrect-bg);
+  border: 1px solid var(--incorrect);
+  border-radius: var(--radius-md);
+}
+
+.cafe-feedback-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.cafe-feedback-icon {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.cafe-feedback-text {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Toggle buttons */
+.cafe-toggles {
+  display: flex;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-sm);
+}
+
+.toggle-btn {
+  padding: 6px 14px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-full);
+  background: transparent;
+  font-family: var(--font);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.05em;
+}
+
+.toggle-btn.active {
+  border-color: var(--tier-color);
+  color: var(--tier-color);
+  background: var(--tier-bg);
+}
+
+/* Review tier colors for end screen */
+.cafe-review-best { color: var(--correct); }
+.cafe-review-ok { color: #F59E0B; }
+.cafe-review-wrong { color: var(--incorrect); }
