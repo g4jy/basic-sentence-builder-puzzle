@@ -177,18 +177,43 @@ const SRS = {
   }
 };
 
-// === TTS ===
+// === TTS (pre-recorded MP3 with Web Speech fallback) ===
 const TTS = {
+  _manifest: null,
+  _audioBase: 'audio/tts/',
+  _currentAudio: null,
+
   speak(text, lang) {
+    // Stop any currently playing audio
+    if (this._currentAudio) {
+      this._currentAudio.pause();
+      this._currentAudio = null;
+    }
+
+    // Try pre-recorded MP3 first
+    if (this._manifest && this._manifest[text]) {
+      var audio = new Audio(this._audioBase + this._manifest[text]);
+      this._currentAudio = audio;
+      audio.play().catch(function() {});
+      return;
+    }
+
+    // Fallback to Web Speech API
     if (!lang) lang = 'ko-KR';
     if (typeof speechSynthesis === 'undefined') return;
     speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
+    var u = new SpeechSynthesisUtterance(text);
     u.lang = lang;
     u.rate = 0.85;
     speechSynthesis.speak(u);
   }
 };
+
+// Eagerly load TTS manifest in background
+fetch('data/tts-manifest.json')
+  .then(function(r) { return r.ok ? r.json() : null; })
+  .then(function(data) { if (data) TTS._manifest = data; })
+  .catch(function() {});
 
 // === Theme Manager ===
 const Theme = {

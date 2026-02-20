@@ -1245,3 +1245,352 @@ body {
 .cafe-review-best { color: var(--correct); }
 .cafe-review-ok { color: #F59E0B; }
 .cafe-review-wrong { color: var(--incorrect); }
+
+/* ============================================
+   Sentence Practice — Tap-to-cycle blocks
+   ============================================ */
+
+/* Blocks container */
+.sp-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: var(--space-md) 0;
+}
+
+/* Individual block */
+.sp-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 72px;
+  padding: 12px 16px 8px;
+  background: var(--card-bg);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+
+.sp-block:hover {
+  border-color: var(--tier-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.sp-block:active {
+  transform: scale(0.94);
+}
+
+/* Block inner — animates on cycle */
+.sp-block-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  transition: opacity 0.08s;
+}
+
+.sp-block-kr {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.sp-block-rom {
+  font-size: 0.72rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.sp-block-en {
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+/* Tap hint */
+.sp-block-tap-hint {
+  position: absolute;
+  bottom: 2px;
+  right: 6px;
+  font-size: 0.55rem;
+  color: var(--text-muted);
+  opacity: 0.4;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+/* Verb block (non-tappable) */
+#verb-block {
+  cursor: default;
+  background: var(--tier-bg-subtle);
+  border-style: dashed;
+}
+
+#verb-block:hover {
+  border-color: var(--border);
+  box-shadow: none;
+}
+
+#verb-block:active {
+  transform: none;
+}
+
+#verb-block .sp-block-tap-hint {
+  display: none;
+}
+
+/* Controls bar (verb type + tense) */
+.sp-controls {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  margin-top: var(--space-sm);
+}
+
+.sp-control-btn {
+  padding: 8px 16px;
+  border: 2px solid var(--tier-color);
+  border-radius: var(--radius-full);
+  background: var(--tier-bg);
+  color: var(--tier-color);
+  font-family: var(--font);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sp-control-btn:hover {
+  background: var(--tier-color);
+  color: #FFFFFF;
+}
+
+.sp-control-btn:active {
+  transform: scale(0.95);
+}
+
+/* Instruction text */
+.sp-instruction {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-sm);
+}
+
+/* Particle/grammar note */
+.sp-note {
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  background: var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm) var(--space-md);
+  margin-top: var(--space-md);
+  min-height: 32px;
+  transition: opacity 0.2s;
+}
+
+/* Full sentence result area */
+.sp-result {
+  text-align: center;
+  padding: var(--space-lg);
+  margin-top: var(--space-lg);
+  background: linear-gradient(135deg, var(--tier-bg-subtle), var(--tier-bg));
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-light);
+  position: relative;
+}
+
+.sp-result-korean {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+.sp-result-rom {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.sp-result-english {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.sp-tts-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  background: var(--card-bg);
+  color: var(--tier-color);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, transform 0.1s;
+  box-shadow: var(--shadow-sm);
+}
+
+.sp-tts-btn:hover {
+  background: var(--tier-color);
+  color: #FFFFFF;
+}
+
+.sp-tts-btn:active {
+  transform: scale(0.9);
+}
+
+/* ============================================
+   Dynamic Animations
+   ============================================ */
+
+/* Block cycling — text fade out/in on tap */
+@keyframes spCycleText {
+  0% { opacity: 1; transform: translateY(0); }
+  30% { opacity: 0; transform: translateY(-6px); }
+  50% { opacity: 0; transform: translateY(6px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.sp-cycling {
+  animation: spCycleText 0.25s ease;
+}
+
+/* Result pulse — subtle highlight when sentence updates */
+@keyframes spResultPulse {
+  0% { box-shadow: 0 0 0 0 rgba(var(--tier-color-rgb, 59, 130, 246), 0.3); }
+  50% { box-shadow: 0 0 0 6px rgba(var(--tier-color-rgb, 59, 130, 246), 0); }
+  100% { box-shadow: 0 0 0 0 rgba(var(--tier-color-rgb, 59, 130, 246), 0); }
+}
+
+.sp-result-pulse {
+  animation: spResultPulse 0.4s ease-out;
+}
+
+/* Block tap bounce — spring effect */
+@keyframes blockBounce {
+  0% { transform: scale(1); }
+  40% { transform: scale(0.92); }
+  70% { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
+/* Card stagger entrance */
+@keyframes staggerIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stagger-in { animation: staggerIn 0.35s ease forwards; }
+.stagger-in:nth-child(1) { animation-delay: 0s; }
+.stagger-in:nth-child(2) { animation-delay: 0.05s; }
+.stagger-in:nth-child(3) { animation-delay: 0.1s; }
+.stagger-in:nth-child(4) { animation-delay: 0.15s; }
+.stagger-in:nth-child(5) { animation-delay: 0.2s; }
+.stagger-in:nth-child(6) { animation-delay: 0.25s; }
+
+/* Smooth block show/hide transitions */
+.sp-block.hidden {
+  display: none !important;
+}
+
+/* Game card hover lift + glow */
+.game-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Student card spring on hover */
+.student-card {
+  transition: border-color 0.2s, transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s;
+}
+
+.student-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.student-card:active {
+  transform: translateY(0) scale(0.97);
+}
+
+/* Quiz option slide-in */
+.quiz-option {
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+}
+
+/* Cafe response card spring tap */
+.cafe-response-card:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+/* Button press — universal spring */
+.btn:active:not(:disabled) {
+  transform: scale(0.96);
+  transition: transform 0.08s ease;
+}
+
+/* Progress bar smooth fill with glow */
+.progress-bar-fill {
+  transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 0 4px rgba(var(--tier-color-rgb, 59, 130, 246), 0.3);
+}
+
+/* Responsive overrides for sentence practice */
+@media (max-width: 480px) {
+  .sp-block {
+    min-width: 60px;
+    padding: 10px 12px 6px;
+  }
+
+  .sp-block-kr {
+    font-size: 1rem;
+  }
+
+  .sp-result-korean {
+    font-size: 1.25rem;
+  }
+
+  .sp-tts-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 0.9rem;
+    top: 8px;
+    right: 8px;
+  }
+}

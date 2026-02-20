@@ -1,8 +1,8 @@
 {
   "tiers": {
-    "starter": { "file": "starter.json", "name": "Korean Starter", "nameKr": "한국어 첫걸음", "emoji": "🌱", "color": "#10B981", "games": ["flashcards", "quick-quiz", "sentence-builder", "cafe-ordering"] },
-    "builder": { "file": "builder.json", "name": "Korean Builder", "nameKr": "한국어 기초 다지기", "emoji": "🏗️", "color": "#3B82F6", "games": ["flashcards", "quick-quiz", "sentence-builder", "conjugation", "cafe-ordering"] },
-    "conversation": { "file": "conversation.json", "name": "Korean Conversation", "nameKr": "한국어 회화 준비", "emoji": "💬", "color": "#8B5CF6", "games": ["flashcards", "quick-quiz", "sentence-builder", "conjugation"] }
+    "starter": { "file": "starter.json", "name": "Korean Starter", "nameKr": "한국어 첫걸음", "emoji": "🌱", "color": "#10B981", "games": ["flashcards", "quick-quiz", "sentence-builder", "sentence-practice", "cafe-ordering"] },
+    "builder": { "file": "builder.json", "name": "Korean Builder", "nameKr": "한국어 기초 다지기", "emoji": "🏗️", "color": "#3B82F6", "games": ["flashcards", "quick-quiz", "sentence-builder", "sentence-practice", "conjugation", "cafe-ordering"] },
+    "conversation": { "file": "conversation.json", "name": "Korean Conversation", "nameKr": "한국어 회화 준비", "emoji": "💬", "color": "#8B5CF6", "games": ["flashcards", "quick-quiz", "sentence-builder", "sentence-practice", "conjugation"] }
   },
   "students": [
     { "id": "inna", "name": "Inna B.", "tier": "starter", "emoji": "🌸" },

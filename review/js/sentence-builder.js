@@ -14,6 +14,8 @@
   var shuffledBlocks = []; // { text, isDistractor, originalIndex }
   var correctBlocks = [];  // correct answer block array
   var checked = false;
+  var showRom = true;
+  var showEng = true;
 
   async function init() {
     var ok = await StudentManager.init();
@@ -73,9 +75,15 @@
 
     var english = DataHelper.getEnglish(sent);
     var emoji = DataHelper.getEmoji(sent);
+    var rom = DataHelper.getRomanization(sent);
 
     // Create distractors (1-2 random blocks from other sentences)
-    var distractors = generateDistractors(sent, 2);
+    var distractors = [];
+    if (sent.distractors && sent.distractors.length > 0) {
+      distractors = sent.distractors.slice();
+    } else {
+      distractors = generateDistractors(sent, 2);
+    }
 
     // Build shuffled blocks array
     var allBlocks = correctBlocks.map(function(text, i) {
@@ -88,7 +96,7 @@
     shuffledBlocks = Utils.shuffle(allBlocks);
 
     updateStats();
-    renderSentence(english, emoji);
+    renderSentence(english, emoji, rom);
   }
 
   function generateDistractors(currentSent, count) {
@@ -117,11 +125,12 @@
     return distractors;
   }
 
-  function renderSentence(english, emoji) {
+  function renderSentence(english, emoji, rom) {
     var html =
       '<div class="game-prompt fade-in">' +
       (emoji ? '<div style="font-size: 1.8rem; margin-bottom: 8px;">' + emoji + '</div>' : '') +
-      '<div class="english-text" style="font-size: 1.2rem; font-weight: 500; color: var(--text-primary);">' + Utils.escapeHtml(english) + '</div>' +
+      '<div class="sb-eng english-text" style="font-size: 1.2rem; font-weight: 500; color: var(--text-primary);">' + Utils.escapeHtml(english) + '</div>' +
+      (rom ? '<div class="sb-rom romanization mt-sm">' + Utils.escapeHtml(rom) + '</div>' : '') +
       '<div class="text-muted mt-sm" style="font-size: 0.8rem;">Arrange the blocks to form the Korean sentence</div>' +
       '</div>';
 
@@ -152,6 +161,7 @@
     html += '<div id="feedback-area" class="mt-md"></div>';
 
     document.getElementById('game-area').innerHTML = html;
+    applyToggles();
   }
 
   function tapBlock(index) {
@@ -244,14 +254,19 @@
     // Feedback
     var feedbackArea = document.getElementById('feedback-area');
     var koreanText = correctBlocks.join(' ');
+    var rom = DataHelper.getRomanization(sent);
 
     if (isCorrect) {
       feedbackArea.innerHTML = '<div class="correct-feedback fade-in">Correct! ' +
-        '<span class="korean-text-sm">' + Utils.escapeHtml(koreanText) + '</span></div>';
+        '<span class="korean-text-sm">' + Utils.escapeHtml(koreanText) + '</span>' +
+        (rom ? '<div class="sb-rom romanization mt-sm">' + Utils.escapeHtml(rom) + '</div>' : '') +
+        '</div>';
       TTS.speak(koreanText);
     } else {
       feedbackArea.innerHTML = '<div class="incorrect-feedback fade-in">Correct answer: ' +
-        '<span class="korean-text-sm">' + Utils.escapeHtml(koreanText) + '</span></div>';
+        '<span class="korean-text-sm">' + Utils.escapeHtml(koreanText) + '</span>' +
+        (rom ? '<div class="sb-rom romanization mt-sm">' + Utils.escapeHtml(rom) + '</div>' : '') +
+        '</div>';
     }
 
     // Replace check button with next button
@@ -267,6 +282,7 @@
     }
 
     updateStats();
+    applyToggles();
   }
 
   function updateStats() {
@@ -319,12 +335,39 @@
       '</div>';
   }
 
+  // ============================================
+  // Toggle Settings
+  // ============================================
+
+  function toggleRom() {
+    showRom = !showRom;
+    var btn = document.getElementById('toggle-rom');
+    btn.classList.toggle('active', showRom);
+    applyToggles();
+  }
+
+  function toggleEng() {
+    showEng = !showEng;
+    var btn = document.getElementById('toggle-eng');
+    btn.classList.toggle('active', showEng);
+    applyToggles();
+  }
+
+  function applyToggles() {
+    var romEls = document.querySelectorAll('.sb-rom');
+    var engEls = document.querySelectorAll('.sb-eng');
+    romEls.forEach(function(el) { el.style.display = showRom ? '' : 'none'; });
+    engEls.forEach(function(el) { el.style.display = showEng ? '' : 'none'; });
+  }
+
   // Expose
   window._tapBlock = tapBlock;
   window._removeFromAnswer = removeFromAnswer;
   window._clearBlocks = clearBlocks;
   window._checkAnswer = checkAnswer;
   window._restart = loadSession;
+  window._toggleRom = toggleRom;
+  window._toggleEng = toggleEng;
 
   init();
 })();

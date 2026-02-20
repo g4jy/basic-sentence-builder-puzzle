@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sentence Builder - Korean Review Hub</title>
-  <link rel="stylesheet" href="css/review.css">
+  <link rel="stylesheet" href="css/review.css?v=4">
 </head>
 <body>
   <div class="container">
@@ -12,6 +12,10 @@
 
     <!-- Controls -->
     <div id="game-controls" class="mb-md">
+      <div class="cafe-toggles">
+        <button class="toggle-btn active" id="toggle-rom" onclick="window._toggleRom()">ROM</button>
+        <button class="toggle-btn active" id="toggle-eng" onclick="window._toggleEng()">ENG</button>
+      </div>
       <div class="stats-bar">
         <div class="stat">
           <div class="stat-value" id="sb-question">1/10</div>

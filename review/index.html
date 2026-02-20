@@ -87,6 +87,12 @@
         title: 'Cafe Ordering',
         desc: 'Practice ordering at a Korean cafe (RPG style)',
         countLabel: 'scenes'
+      },
+      'sentence-practice': {
+        icon: '🔄',
+        title: 'Sentence Practice',
+        desc: 'Tap blocks to cycle words and build Korean sentences',
+        countLabel: 'patterns'
       }
     };
 
@@ -203,6 +209,8 @@
           count = items.verbs.length;
         } else if (gameKey === 'cafe-ordering') {
           count = 5;
+        } else if (gameKey === 'sentence-practice') {
+          count = 3;
         }
 
         html += '<div class="game-card slide-up" onclick="Nav.goToGame(\'' + gameKey + '\')">';

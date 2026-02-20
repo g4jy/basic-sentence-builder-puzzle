@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sentence Practice - Korean Review Hub</title>
+  <link rel="stylesheet" href="css/review.css?v=4">
+</head>
+<body>
+  <div class="container">
+    <div id="app-header" class="header"></div>
+
+    <!-- Controls -->
+    <div id="game-controls" class="mb-md">
+      <div class="cafe-toggles">
+        <button class="toggle-btn active" id="toggle-rom" onclick="window._toggleRom()">ROM</button>
+        <button class="toggle-btn active" id="toggle-eng" onclick="window._toggleEng()">ENG</button>
+      </div>
+
+      <!-- Verb/Tense controls (person mode only) -->
+      <div class="sp-controls" id="sp-controls">
+        <button class="sp-control-btn" id="verb-type-btn" onclick="window._cycleVerbType()">eat</button>
+        <button class="sp-control-btn" id="tense-btn" onclick="window._cycleTense()">Past</button>
+      </div>
+    </div>
+
+    <!-- Instruction -->
+    <div class="sp-instruction fade-in">
+      Tap blocks to change words and build Korean sentences
+    </div>
+
+    <!-- Sentence Blocks Area -->
+    <div class="sp-blocks" id="sp-blocks">
+      <!-- Dynamically generated -->
+    </div>
+
+    <!-- Particle Note -->
+    <div class="sp-note" id="sp-note"></div>
+
+    <!-- Full Sentence Result -->
+    <div class="sp-result" id="sp-result">
+      <div class="sp-result-korean" id="full-korean"></div>
+      <div class="sp-result-rom sp-rom" id="full-rom"></div>
+      <div class="sp-result-english sp-eng" id="full-english"></div>
+      <button class="tts-btn sp-tts-btn" id="sp-tts-btn" onclick="window._speakSentence()" aria-label="Listen">&#128266;</button>
+    </div>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/sentence-practice.js"></script>
+</body>
+</html>
